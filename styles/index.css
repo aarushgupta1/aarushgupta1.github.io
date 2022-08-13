@@ -18,13 +18,13 @@ body {
 .instagram, .facebook {
   margin-right: 30px;
 }
-.instagram, .facebook, .youtube {
+.instagram, .facebook, .youtube, .tiktok {
   transition: hover 0.15s, opacity 0.15s;
 }
-.instagram:hover, .facebook:hover, .youtube:hover {
+.instagram:hover, .facebook:hover, .youtube:hover, .tiktok:hover {
   box-shadow: 5px 5px 9px black;
 }
-.instagram:active, .facebook:active, .youtube:active {
+.instagram:active, .facebook:active, .youtube:active, .tiktok:hover {
   opacity: 0.2;
 }
 .signature {
