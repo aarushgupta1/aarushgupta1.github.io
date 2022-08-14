@@ -49,8 +49,6 @@ p {
   }
   button {
     display: inline-block;
-  }
-  button {
     padding-left: 50px;
     padding-right: 50px;
     padding-bottom: 10px;
@@ -69,9 +67,6 @@ p {
   }
   button:active {
     opacity: 0.8; 
-  }
-  .ball {
-    float: right;
   }
   img {
     width: 100px;
