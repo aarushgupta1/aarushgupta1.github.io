@@ -24,7 +24,7 @@ body {
 .instagram:hover, .facebook:hover, .youtube:hover, .tiktok:hover {
   box-shadow: 5px 5px 9px black;
 }
-.instagram:active, .facebook:active, .youtube:active, .tiktok:hover {
+.instagram:active, .facebook:active, .youtube:active, .tiktok:active {
   opacity: 0.2;
 }
 .signature {
