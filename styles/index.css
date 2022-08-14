@@ -6,7 +6,7 @@ body {
 .facebook {
   border-radius: 20px;
 }
-.youtube {
+.youtube, .tiktok {
   border-radius: 30px;
   height: 100px;
   width : auto;
