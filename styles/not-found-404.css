@@ -1,0 +1,81 @@
+body {
+  background-image: url(../images/second.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.facebook {
+  border-radius: 20px;
+}
+.youtube {
+  border-radius: 30px;
+  height: 100px;
+  width : auto;
+}
+.social-images {
+  margin-left:1400px;
+  display: inline-block;
+}
+.instagram, .facebook {
+  margin-right: 30px;
+}
+.instagram, .facebook, .youtube, .tiktok {
+  transition: hover 0.15s, opacity 0.15s;
+}
+.instagram:hover, .facebook:hover, .youtube:hover, .tiktok:hover {
+  box-shadow: 5px 5px 9px black;
+}
+.instagram:active, .facebook:active, .youtube:active, .tiktok:active {
+  opacity: 0.2;
+}
+h1 {
+    font-size: 50px;
+    font-family: Roboto;
+    color: green;
+    display: inline-block;
+    vertical-align: top;
+    margin-left: 700px;
+    margin-right: 500px;
+}
+.socialdescription {
+  font-size: 35px;
+  color: red;
+}
+p {
+  color: white;
+  font-size: 20px;
+}
+  h1, p {
+    text-align: center;
+  }
+  button {
+    display: inline-block;
+  }
+  button {
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-bottom: 10px;
+    padding-top: 10px;
+    font-size: 20px;
+    color: white;
+    background-color: blue;
+    border-radius: 30px;
+    cursor: pointer;
+    border: none;
+    transition: opacity 0.15s, box-shadow 0.15s;
+    margin-left: 1650px;
+  }
+  button:hover {
+    box-shadow: 5px 5px 9px black; 
+  }
+  button:active {
+    opacity: 0.8; 
+  }
+  .ball {
+    float: right;
+  }
+  img {
+    width: 100px;
+    border-radius: 50px;
+    margin-right: 10px;
+    float: bottom;
+  }
