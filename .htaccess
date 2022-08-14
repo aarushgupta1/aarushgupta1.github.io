@@ -1,8 +1,5 @@
 ErrorDocument 404 /not-found-404.html
 
-
-
-
 # mod_rewrite starts here
 
 RewriteEngine on
