@@ -26,8 +26,8 @@ h1 {
 }
 .instagram, .facebook, .youtube, .tiktok {
   transition: hover 0.15s, opacity 0.15s;
-  width: 100px;
-  height: auto;
+  height: 100px;
+  width: auto;
 }
 .instagram:hover, .facebook:hover, .youtube:hover, tiktok:hover {
   box-shadow: 5px 5px 9px black;
