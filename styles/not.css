@@ -3,30 +3,6 @@ body {
   background-repeat: no-repeat;
   background-size: cover;
 }
-.facebook {
-  border-radius: 20px;
-}
-.youtube {
-  border-radius: 30px;
-  height: 100px;
-  width : auto;
-}
-.social-images {
-  margin-left:1400px;
-  display: inline-block;
-}
-.instagram, .facebook {
-  margin-right: 30px;
-}
-.instagram, .facebook, .youtube, .tiktok {
-  transition: hover 0.15s, opacity 0.15s;
-}
-.instagram:hover, .facebook:hover, .youtube:hover, .tiktok:hover {
-  box-shadow: 5px 5px 9px black;
-}
-.instagram:active, .facebook:active, .youtube:active, .tiktok:active {
-  opacity: 0.2;
-}
 h1 {
     font-size: 50px;
     font-family: Roboto;
