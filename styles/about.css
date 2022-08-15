@@ -11,15 +11,17 @@ h1 {
     margin-left: 500px;
     margin-right: 583px;
 }
-.social-images {
-  margin-left: 1400px;
-  vertical-align: top;
-}
 .facebook {
   border-radius: 20px;
 }
 .youtube {
   border-radius: 30px;
+  height: 100px;
+  width: auto;
+}
+.social-images {
+  margin-left: 1400px;
+  display: inline-block;
 }
 .instagram, .facebook {
   margin-right: 30px;
