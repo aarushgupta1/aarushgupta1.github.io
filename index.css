@@ -9,13 +9,11 @@ h1 {
     color: green;
     display: inline-block;
     vertical-align: top;
-    margin-right: 500px;
-    text-align: center;
+    margin-right: 300px;
 }
 h2 {
     font-size: 25px;
     color: yellow;
-  margin-right: 500px;
 }
 p {
   color: white;
@@ -39,7 +37,7 @@ p {
     cursor: pointer;
     border: none;
     transition: opacity 0.15s, box-shadow 0.15s;
-    margin-right: 600px;
+    margin-right: 400px;
   }
   button:hover {
     box-shadow: 5px 5px 9px black; 
@@ -48,12 +46,12 @@ p {
     opacity: 0.8; 
   }
 .lessons {
-  margin-right: 500px;
+  margin-right: 300px;
   margin-bottom: 20px;
 }
 .how {
   margin-right: 500px;
-  width: 1000px;
+  width: 400px;
   margin-top: 100px;
   margin-bottom: 40px;
 }
@@ -75,20 +73,18 @@ p {
 .socialdescription {
   font-size: 35px;
   color: red;
-  margin-right: 1800px;
+  margin-right: 1500px;
 }
 .facebook {
   border-radius: 20px;
 }
 .youtube {
   border-radius: 30px;
-  height: 100px;
-  width : auto;
 }
 .social-images {
   margin-right:1400px;
   display: inline;
-  width: 20px;
+  height: 50px;
 }
 .instagram, .facebook {
   margin-right: 30px;
