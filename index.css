@@ -9,14 +9,14 @@ h1 {
     color: green;
     display: inline-block;
     vertical-align: top;
-    margin-left: 70px;
+    margin-left: 60px;
 }
 h2 {
     font-size: 25px;
     color: yellow;
 }
 p {
-  color: pink;
+  color: green;
   font-size: 20px;
   text-align: center;
   }
@@ -35,7 +35,7 @@ p {
     cursor: pointer;
     border: none;
     transition: opacity 0.15s, box-shadow 0.15s;
-    margin-left: 100px;
+    margin-left: 150px;
   }
   button:hover {
     box-shadow: 5px 5px 9px black; 
@@ -44,7 +44,7 @@ p {
     opacity: 0.8; 
   }
 .lessons {
-  margin-left: 75px;
+  margin-left: 100px;
   margin-bottom: 20px;
 }
 .how {
@@ -59,12 +59,13 @@ p {
   img {
     width: 100px;
     border-radius: 50px;
-    margin-right: 10px;
+    margin-left: 100px;
     float: bottom;
   }
 .videos {
+  margin-top: 20px;
   display: block;
-  width: 500px;
+  width: 400px;
   margin-left: 1px;
 }
 .socialdescription {
