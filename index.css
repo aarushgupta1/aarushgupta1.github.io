@@ -14,6 +14,8 @@ body {
 .social-images {
   margin-right:1400px;
   display: inline-block;
+  width: 50px;
+  height: auto;
 }
 .instagram, .facebook {
   margin-right: 30px;
@@ -33,7 +35,7 @@ body {
   display: inline-block;
 }
 h1 {
-    font-size: 100px;
+    font-size: 75px;
     font-family: Roboto;
     color: green;
     display: inline-block;
@@ -51,20 +53,20 @@ h2 {
   margin-bottom: 20px;
 }
 .how {
-  margin-right: 1000px;
+  margin-right: 800px;
   margin-top: 100px;
   margin-bottom: 40px;
 }
 .videos {
   display: block;
-  width: 1500px;
+  width: 500px;
   margin-right: 1000px;
   text-align: center;
 }
 .socialdescription {
-  font-size: 35px;
+  font-size: 25px;
   color: red;
-  margin-right: 2000px;
+  margin-right: 1800px;
 }
 p {
   color: white;
@@ -88,7 +90,7 @@ p {
     cursor: pointer;
     border: none;
     transition: opacity 0.15s, box-shadow 0.15s;
-    margin-right: 1450px;
+    margin-right: 1250px;
   }
   button:hover {
     box-shadow: 5px 5px 9px black; 
