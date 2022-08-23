@@ -9,17 +9,17 @@ h1 {
     color: green;
     display: inline-block;
     vertical-align: top;
-    margin-right: 300px;
+    margin-left: 100px;
 }
 h2 {
     font-size: 25px;
     color: yellow;
 }
 p {
-  color: white;
+  color: orange;
   font-size: 20px;
 }
-  h1, h2, p {
+  p {
     text-align: center;
   }
   h2, button {
@@ -37,7 +37,7 @@ p {
     cursor: pointer;
     border: none;
     transition: opacity 0.15s, box-shadow 0.15s;
-    margin-right: 400px;
+    margin-right: 250px;
   }
   button:hover {
     box-shadow: 5px 5px 9px black; 
@@ -46,7 +46,7 @@ p {
     opacity: 0.8; 
   }
 .lessons {
-  margin-right: 300px;
+  margin-left: 50px;
   margin-bottom: 20px;
 }
 .how {
@@ -73,13 +73,14 @@ p {
 .socialdescription {
   font-size: 35px;
   color: red;
-  margin-right: 1500px;
+  margin-left: 50px;
 }
 .facebook {
   border-radius: 20px;
 }
 .youtube {
   border-radius: 30px;
+  height: 80px;
 }
 .social-images {
   margin-right:1400px;
