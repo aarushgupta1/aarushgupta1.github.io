@@ -9,19 +9,17 @@ h1 {
     color: green;
     display: inline-block;
     vertical-align: top;
-    margin-left: 700px;
-    margin-right: 500px;
+    margin-left: 70px;
 }
 .socialdescription {
   font-size: 35px;
   color: red;
+  margin-left: 40px;
 }
 p {
   color: white;
   font-size: 20px;
-}
-  h1, p {
-    text-align: center;
+  text-align: center;
   }
   button {
     display: inline-block;
@@ -36,7 +34,7 @@ p {
     cursor: pointer;
     border: none;
     transition: opacity 0.15s, box-shadow 0.15s;
-    margin-left: 1650px;
+    margin-left: 100px;
   }
   button:hover {
     box-shadow: 5px 5px 9px black; 
