@@ -16,7 +16,7 @@ h2 {
     color: yellow;
 }
 p {
-  color: green;
+  color: pink;
   font-size: 20px;
   text-align: center;
   }
@@ -44,11 +44,11 @@ p {
     opacity: 0.8; 
   }
 .lessons {
-  margin-left: 100px;
+  margin-left: 120px;
   margin-bottom: 20px;
 }
 .how {
-  margin-right: 500px;
+  margin-right: 470px;
   width: 400px;
   margin-top: 100px;
   margin-bottom: 40px;
@@ -59,19 +59,19 @@ p {
   img {
     width: 100px;
     border-radius: 50px;
-    margin-left: 100px;
+    margin-left: 130px;
     float: bottom;
   }
 .videos {
-  margin-top: 20px;
+  margin-bottom: 30px;
   display: block;
-  width: 400px;
+  width: 300px;
   margin-left: 1px;
 }
 .socialdescription {
   font-size: 35px;
   color: red;
-  margin-left: 40px;
+  margin-left: 35px;
 }
 .facebook {
   border-radius: 20px;
