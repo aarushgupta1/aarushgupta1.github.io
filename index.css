@@ -38,7 +38,9 @@ h1 {
     color: green;
     display: inline-block;
     vertical-align: top;
-    margin-right: 100px;
+    margin-left: 500px;
+    margin-right: 583px;
+    text-align: center;
 }
 h2 {
     font-size: 25px;
