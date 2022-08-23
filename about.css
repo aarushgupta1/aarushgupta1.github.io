@@ -8,8 +8,7 @@ h1 {
     color: red;
     display: inline-block;
     vertical-align: top;
-    margin-left: 500px;
-    margin-right: 583px;
+    margin-left: 70px;
 }
 .facebook {
   border-radius: 20px;
@@ -38,18 +37,16 @@ border-radius: 60px;
 .instagram:active, .facebook:active, .youtube:active, tiktok:active {
   opacity: 0.2;
 }
-.signature {
-  font-size:12px;
-  font-style: italic;
-  display: inline-block;
-}
 .fun {
   display: block;
   margin-top: 100px;
+  width: 500px;
+  margin-left: 1px;
 }
 .socialdescription {
   font-size: 35px;
   color: pink;
+  margin-left: 40px;
 }
 h2 {
     font-size: 25px;
@@ -57,7 +54,7 @@ h2 {
     margin-bottom: 40px;
 }
 
-  h1, h2, p, .fun {
+p {
     text-align: center;
   }
   button {
@@ -71,6 +68,7 @@ h2 {
     margin-top: 120px;
     border: none;
     transition: opacity 0.15s, box-shadow 0.15s;
+    margin-left: 100px;
   }
   button:hover {
     box-shadow: 5px 5px 9px black; 
