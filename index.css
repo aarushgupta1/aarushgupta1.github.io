@@ -3,39 +3,8 @@ body {
   background-repeat: no-repeat;
   background-size: cover;
 }
-.facebook {
-  border-radius: 20px;
-}
-.youtube {
-  border-radius: 30px;
-  height: 100px;
-  width : auto;
-}
-.social-images {
-  margin-right:1400px;
-  display: inline-block;
-  width: 50px;
-  height: auto;
-}
-.instagram, .facebook {
-  margin-right: 30px;
-}
-.instagram, .facebook, .youtube, .tiktok {
-  transition: hover 0.15s, opacity 0.15s;
-}
-.instagram:hover, .facebook:hover, .youtube:hover, .tiktok:hover {
-  box-shadow: 5px 5px 9px black;
-}
-.instagram:active, .facebook:active, .youtube:active, .tiktok:active {
-  opacity: 0.2;
-}
-.signature {
-  font-size:12px;
-  font-style: italic;
-  display: inline-block;
-}
 h1 {
-    font-size: 75px;
+    font-size: 50px;
     font-family: Roboto;
     color: green;
     display: inline-block;
@@ -47,26 +16,6 @@ h2 {
     font-size: 25px;
     color: yellow;
   margin-right: 500px;
-}
-.lessons {
-  margin-left: 900px;
-  margin-bottom: 20px;
-}
-.how {
-  margin-right: 800px;
-  margin-top: 100px;
-  margin-bottom: 40px;
-}
-.videos {
-  display: block;
-  width: 500px;
-  margin-right: 1000px;
-  text-align: center;
-}
-.socialdescription {
-  font-size: 25px;
-  color: red;
-  margin-right: 1800px;
 }
 p {
   color: white;
@@ -90,7 +39,7 @@ p {
     cursor: pointer;
     border: none;
     transition: opacity 0.15s, box-shadow 0.15s;
-    margin-right: 1250px;
+    margin-right: 1000px;
   }
   button:hover {
     box-shadow: 5px 5px 9px black; 
@@ -98,6 +47,15 @@ p {
   button:active {
     opacity: 0.8; 
   }
+.lessons {
+  margin-left: 900px;
+  margin-bottom: 20px;
+}
+.how {
+  margin-right: 800px;
+  margin-top: 100px;
+  margin-bottom: 40px;
+}
   .ball {
     float: right;
   }
@@ -107,3 +65,39 @@ p {
     margin-right: 10px;
     float: bottom;
   }
+.videos {
+  display: block;
+  width: 500px;
+  margin-right: 1250px;
+  text-align: center;
+}
+.socialdescription {
+  font-size: 15px;
+  color: red;
+  margin-right: 1800px;
+}
+.facebook {
+  border-radius: 20px;
+}
+.youtube {
+  border-radius: 30px;
+  height: 100px;
+  width : auto;
+}
+.social-images {
+  margin-right:1400px;
+  display: inline-block;
+  width: 30px;
+}
+.instagram, .facebook {
+  margin-right: 30px;
+}
+.instagram, .facebook, .youtube, .tiktok {
+  transition: hover 0.15s, opacity 0.15s;
+}
+.instagram:hover, .facebook:hover, .youtube:hover, .tiktok:hover {
+  box-shadow: 5px 5px 9px black;
+}
+.instagram:active, .facebook:active, .youtube:active, .tiktok:active {
+  opacity: 0.2;
+}
