@@ -73,7 +73,7 @@ p {
 .socialdescription {
   font-size: 35px;
   color: red;
-  margin-left: 35px;
+  margin-left: 100px;
 }
 .facebook {
   border-radius: 20px;
@@ -83,8 +83,8 @@ p {
   height: 80px;
 }
 .social-images {
-  margin-left: 1px;
-  display: inline;
+  margin-right: 1400px;
+  display: inline-block;
   height: 50px;
 }
 .instagram, .facebook {
