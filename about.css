@@ -99,8 +99,6 @@ h1 {
     color: red;
     display: inline-block;
     vertical-align: top;
-    margin-left: 500px;
-    margin-right: 583px;
 }
 h2 {
     font-size: 25px;
@@ -118,7 +116,7 @@ button {
     background-color: blue;
     border-radius: 30px;
     cursor: pointer;
-    margin-top: 120px;
+    margin-top: 20px;
     border: none;
     transition: opacity 0.15s, box-shadow 0.15s;
   }
@@ -159,9 +157,10 @@ border-radius: 60px;
 .socials {
   font-size: 35px;
   color: pink;
+  margin-right: 25px;
 }
 .social-images {
-  margin-left: 1400px;
+  margin-right: 25px;
   display: inline-block;
 }
 .funvideo {
