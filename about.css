@@ -156,7 +156,7 @@ border-radius: 60px;
 .instagram:active, .facebook:active, .youtube:active, tiktok:active {
   opacity: 0.2;
 }
-.socialdescription {
+.socials {
   font-size: 35px;
   color: pink;
 }
@@ -164,7 +164,7 @@ border-radius: 60px;
   margin-left: 1400px;
   display: inline-block;
 }
-.fun {
+.funvideo {
   display: block;
   margin-top: 100px;
 }
