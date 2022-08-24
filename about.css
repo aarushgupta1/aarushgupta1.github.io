@@ -8,7 +8,7 @@ h1 {
     color: red;
     display: inline-block;
     margin-top: 0px;
-    margin-left: 90px;
+    margin-left: 60px;
 }
 h2 {
     font-size: 25px;
@@ -32,7 +32,7 @@ p {
     margin-top: 140px;
     border: none;
     transition: opacity 0.15s, box-shadow 0.15s;
-    margin-left: 60px;
+    margin-left: 0px;
   }
   button:hover {
     box-shadow: 5px 5px 9px black; 
@@ -44,6 +44,7 @@ p {
     width: 100px;
     border-radius: 50px;
     margin-bottom: 60px;
+    margin-left: 75px;
   }
 .facebook {
   border-radius: 20px;
