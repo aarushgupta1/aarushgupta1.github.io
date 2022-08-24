@@ -3,6 +3,9 @@ body {
   background-repeat: no-repeat;
   background-size: cover;
 }
+h2, button {
+    display: inline-block;
+  }
 h1 {
     font-size: 70px;
     font-family: Roboto;
@@ -20,10 +23,30 @@ p {
   font-size: 20px;
   text-align: center;
   }
-  h2, button {
-    display: inline-block;
+.lessons {
+  margin-left: 120px;
+  margin-bottom: 20px;
+}
+.workingwithstudents {
+  margin-right: 470px;
+  width: 400px;
+  margin-top: 100px;
+  margin-bottom: 40px;
+  text-align: center;
+}
+.logo {
+    width: 100px;
+    border-radius: 50px;
+    margin-left: 180px;
+    float: bottom;
   }
-  button {
+.tennisvideos {
+  margin-bottom: 30px;
+  display: block;
+  width: 300px;
+  margin-left: 1px;
+}
+button {
     padding-left: 70px;
     padding-right: 70px;
     padding-bottom: 10px;
@@ -44,37 +67,6 @@ p {
   button:active {
     opacity: 0.8; 
   }
-.lessons {
-  margin-left: 120px;
-  margin-bottom: 20px;
-}
-.how {
-  margin-right: 470px;
-  width: 400px;
-  margin-top: 100px;
-  margin-bottom: 40px;
-  text-align: center;
-}
-  .ball {
-    float: right;
-  }
-  img {
-    width: 100px;
-    border-radius: 50px;
-    margin-left: 180px;
-    float: bottom;
-  }
-.videos {
-  margin-bottom: 30px;
-  display: block;
-  width: 300px;
-  margin-left: 1px;
-}
-.socialdescription {
-  font-size: 35px;
-  color: red;
-  margin-left: 100px;
-}
 .facebook {
   border-radius: 20px;
 }
@@ -82,11 +74,6 @@ p {
   border-radius: 30px;
   height: 80px;
 }
-.social-images {
-  margin-right: 1400px;
-  display: inline-block;
-  height: 50px;
-}
 .instagram, .facebook {
   margin-right: 30px;
 }
@@ -98,6 +85,16 @@ p {
 }
 .instagram:active, .facebook:active, .youtube:active, .tiktok:active {
   opacity: 0.2;
+}
+.socials {
+  font-size: 35px;
+  color: red;
+  margin-left: 100px;
+}
+.social-images {
+  margin-right: 1400px;
+  display: inline-block;
+  height: 50px;
 }
 
 @media only screen and (min-width: 900px) {
@@ -105,69 +102,7 @@ body {
   background-image: url(../images/second.jpg);
   background-repeat: no-repeat;
   background-size: cover;
-}
-.facebook {
-  border-radius: 20px;
-}
-.youtube {
-  border-radius: 30px;
-  height: 100px;
-  width : auto;
-}
-.social-images {
-  margin-left:1400px;
-  display: inline-block;
-}
-.instagram, .facebook {
-  margin-right: 30px;
-}
-.instagram, .facebook, .youtube, .tiktok {
-  transition: hover 0.15s, opacity 0.15s;
-}
-.instagram:hover, .facebook:hover, .youtube:hover, .tiktok:hover {
-  box-shadow: 5px 5px 9px black;
-}
-.instagram:active, .facebook:active, .youtube:active, .tiktok:active {
-  opacity: 0.2;
-}
-.signature {
-  font-size:12px;
-  font-style: italic;
-  display: inline-block;
-}
-h1 {
-    font-size: 50px;
-    font-family: Roboto;
-    color: green;
-    display: inline-block;
-    vertical-align: top;
-    margin-left: 700px;
-    margin-right: 500px;
-    text-align: center;
-}
-h2 {
-    font-size: 25px;
-    color: yellow;
-}
-.lessons {
-  margin-left: 900px;
-  margin-bottom: 20px;
-}
-.how {
-  margin-left: 750px;
-  margin-top: 100px;
-  margin-bottom: 40px;
-}
-.videos {
-  display: block;
-  width: 1500px;
-  margin-left: 200px;
-  text-align: center;
-}
-.socialdescription {
-  font-size: 35px;
-  color: red;
-}
+  }
 p {
   color: white;
   font-size: 20px;
@@ -178,7 +113,41 @@ p {
   h2, button {
     display: inline-block;
   }
-  button {
+h1 {
+    font-size: 50px;
+    font-family: Roboto;
+    color: green;
+    display: inline-block;
+    vertical-align: top;
+    margin-left: 700px;
+    margin-right: 500px;
+}
+h2 {
+    font-size: 25px;
+    color: yellow;
+}
+.lessons {
+  margin-left: 900px;
+  margin-bottom: 20px;
+}
+.workingwithstudents {
+  margin-left: 750px;
+  margin-top: 100px;
+  margin-bottom: 40px;
+}
+.tennisvideos {
+  display: block;
+  width: 1500px;
+  margin-left: 200px;
+  text-align: center;
+}
+.logo {
+    width: 100px;
+    border-radius: 50px;
+    margin-right: 10px;
+    float: bottom;
+  }
+button {
     padding-left: 50px;
     padding-right: 50px;
     padding-bottom: 10px;
@@ -198,15 +167,34 @@ p {
   button:active {
     opacity: 0.8; 
   }
-  .ball {
-    float: right;
-  }
-  img {
-    width: 100px;
-    border-radius: 50px;
-    margin-right: 10px;
-    float: bottom;
-  }
+.facebook {
+  border-radius: 20px;
+}
+.youtube {
+  border-radius: 30px;
+  height: 100px;
+  width : auto;
+}
+.instagram, .facebook {
+  margin-right: 30px;
+}
+.instagram, .facebook, .youtube, .tiktok {
+  transition: hover 0.15s, opacity 0.15s;
+}
+.instagram:hover, .facebook:hover, .youtube:hover, .tiktok:hover {
+  box-shadow: 5px 5px 9px black;
+}
+.instagram:active, .facebook:active, .youtube:active, .tiktok:active {
+  opacity: 0.2;
+}
+.socials {
+  font-size: 35px;
+  color: red;
+}
+.social-images {
+  margin-left:1400px;
+  display: inline-block;
+}
 }
 
 
