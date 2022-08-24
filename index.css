@@ -19,7 +19,7 @@ h2 {
     color: yellow;
 }
 p {
-  color: pink;
+  color: white;
   font-size: 20px;
   text-align: center;
   }
@@ -28,7 +28,7 @@ p {
   margin-bottom: 20px;
 }
 .workingwithstudents {
-  margin-right: 480px;
+  margin-right: 500px;
   width: 400px;
   margin-top: 100px;
   margin-bottom: 40px;
@@ -43,7 +43,7 @@ p {
 .tennisvideos {
   margin-bottom: 30px;
   display: block;
-  width: 300px;
+  width: 250px;
   margin-left: 0px;
 }
 button {
@@ -72,7 +72,6 @@ button {
 }
 .youtube {
   border-radius: 30px;
-  height: 80px;
 }
 .instagram, .facebook {
   margin-right: 30px;
@@ -89,7 +88,7 @@ button {
 .socials {
   font-size: 35px;
   color: red;
-  margin-left: 100px;
+  margin-left: 50px;
 }
 .social-images {
   margin-right: 1400px;
