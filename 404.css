@@ -11,15 +11,16 @@ h1 {
     vertical-align: top;
     margin-left: 80px;
 }
-.socialdescription {
-  font-size: 35px;
-  color: red;
-  margin-left: 40px;
-}
 p {
   color: white;
   font-size: 20px;
   text-align: center;
+  }
+.logo {
+    width: 100px;
+    border-radius: 50px;
+    margin-right: 10px;
+    float: bottom;
   }
   button {
     display: inline-block;
@@ -42,12 +43,6 @@ p {
   button:active {
     opacity: 0.8; 
   }
-  img {
-    width: 100px;
-    border-radius: 50px;
-    margin-right: 10px;
-    float: bottom;
-  }
 
 @media only screen and (min-width: 900px) {
 body {
@@ -64,16 +59,18 @@ h1 {
     margin-left: 700px;
     margin-right: 500px;
 }
-.socialdescription {
-  font-size: 35px;
-  color: red;
-}
 p {
   color: white;
   font-size: 20px;
 }
-  h1, p {
+h1, p {
     text-align: center;
+  }
+.logo {
+    width: 100px;
+    border-radius: 50px;
+    margin-right: 10px;
+    float: bottom;
   }
   button {
     display: inline-block;
@@ -95,11 +92,5 @@ p {
   }
   button:active {
     opacity: 0.8; 
-  }
-  img {
-    width: 100px;
-    border-radius: 50px;
-    margin-right: 10px;
-    float: bottom;
   }
 }
