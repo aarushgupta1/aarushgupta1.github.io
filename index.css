@@ -47,8 +47,8 @@ p {
   margin-left: 0px;
 }
 button {
-    padding-left: 30px;
-    padding-right: 30px;
+    padding-left: 70px;
+    padding-right: 70px;
     padding-bottom: 10px;
     padding-top: 10px;
     font-size: 20px;
@@ -147,8 +147,8 @@ h2 {
     float: bottom;
   }
 button {
-    padding-left: 50px;
-    padding-right: 50px;
+    padding-left: 30px;
+    padding-right: 30px;
     padding-bottom: 10px;
     padding-top: 10px;
     font-size: 20px;
@@ -171,14 +171,17 @@ button {
 }
 .youtube {
   border-radius: 30px;
-  height: 100px;
-  width : auto;
 }
+ .tiktok {
+   border-radius: 60px;
+  }
 .instagram, .facebook {
   margin-right: 30px;
 }
 .instagram, .facebook, .youtube, .tiktok {
   transition: hover 0.15s, opacity 0.15s;
+  height: 100px;
+  width : auto;
 }
 .instagram:hover, .facebook:hover, .youtube:hover, .tiktok:hover {
   box-shadow: 5px 5px 9px black;
@@ -191,7 +194,7 @@ button {
   color: red;
 }
 .social-images {
-  margin-left:1400px;
+  margin-left:25px;
   display: inline-block;
 }
 }
