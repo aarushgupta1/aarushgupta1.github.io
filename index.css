@@ -147,7 +147,7 @@ h2 {
     float: bottom;
   }
 button {
-    padding-left: 30px;
+    padding-left: 50px;
     padding-right: 30px;
     padding-bottom: 10px;
     padding-top: 10px;
@@ -159,6 +159,8 @@ button {
     border: none;
     transition: opacity 0.15s, box-shadow 0.15s;
     margin-left: 1650px;
+    width: 210px;
+    height: auto;
   }
   button:hover {
     box-shadow: 5px 5px 9px black; 
