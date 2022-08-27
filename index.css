@@ -73,11 +73,16 @@ button {
 .youtube {
   border-radius: 30px;
 }
+.tiktok {
+border-radius: 60px;
+}
 .instagram, .facebook {
   margin-right: 30px;
 }
 .instagram, .facebook, .youtube, .tiktok {
   transition: hover 0.15s, opacity 0.15s;
+  height: 100px;
+  width: auto;
 }
 .instagram:hover, .facebook:hover, .youtube:hover, .tiktok:hover {
   box-shadow: 5px 5px 9px black;
