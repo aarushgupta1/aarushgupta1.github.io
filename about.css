@@ -92,7 +92,7 @@ body {
   background-repeat: no-repeat;
   background-size: cover;
 }
-h1, h2, p, .fun {
+h1, h2, p, .funvideo {
     text-align: center;
   }
 h1 {
@@ -118,6 +118,7 @@ button {
     border-radius: 30px;
     cursor: pointer;
     margin-top: 20px;
+    margin-left: 10px;
     border: none;
     transition: opacity 0.15s, box-shadow 0.15s;
   }
@@ -161,12 +162,11 @@ border-radius: 60px;
   margin-right: 25px;
 }
 .social-images {
-  margin-right: 25px;
+  margin-left: 25px;
   display: inline-block;
 }
 .funvideo {
   display: block;
   margin-top: 100px;
-  text-align: center;
 }
 }
