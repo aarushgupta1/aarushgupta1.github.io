@@ -100,7 +100,7 @@ border-radius: 60px;
   display: inline-block;
 }
 
-@media only screen and (min-width: 400px) {
+@media only screen and (min-width: 1000px) {
 body {
   background-image: url(../images/second.jpg);
   background-repeat: no-repeat;
