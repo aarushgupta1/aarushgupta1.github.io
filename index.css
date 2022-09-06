@@ -100,14 +100,14 @@ border-radius: 60px;
   display: inline-block;
 }
 
-@media only screen and (min-width: 500px) {
+@media only screen and (min-width: 1424px) {
 body {
   background-image: url(../images/second.jpg);
   background-repeat: no-repeat;
   background-size: cover;
   }
 p {
-  color: ;
+  color: pink;
   font-size: 20px;
 }
   h1, h2, p {
