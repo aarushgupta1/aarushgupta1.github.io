@@ -100,7 +100,7 @@ border-radius: 60px;
   display: inline-block;
 }
 
-@media only screen and (min-width: 500px) {
+@media only screen and (min-width: 600px) {
 body {
   background-image: url(../images/second.jpg);
   background-repeat: no-repeat;
@@ -110,16 +110,13 @@ p {
   color: pink;
   font-size: 20px;
 }
-  h1, h2, p {
-    text-align: center;
-  }
   h2, button {
     display: inline-block;
   }
 h1 {
     font-size: 50px;
     font-family: Roboto;
-    color: blue;
+    color: green;
     display: inline-block;
     vertical-align: top;
 }
@@ -127,6 +124,9 @@ h2 {
     font-size: 25px;
     color: yellow;
 }
+h1, h2, p {
+    text-align: center;
+  }
 .lessons {
   margin-bottom: 20px;
 }
