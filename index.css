@@ -109,26 +109,25 @@ body {
 p {
   color: pink;
   font-size: 20px;
+  text-align: center;
 }
-  h2, button {
-    display: inline-block;
-  }
 h1 {
     font-size: 50px;
     font-family: Roboto;
-    color: green;
+    color: blue;
     display: inline-block;
     vertical-align: top;
+    text-align: center;
 }
 h2 {
     font-size: 25px;
     color: yellow;
-}
-h1, h2, p {
+    display: inline-block
     text-align: center;
-  }
+}
 .lessons {
   margin-bottom: 20px;
+  text-align: center;
 }
 .workingwithstudents {
   margin-top: 100px;
