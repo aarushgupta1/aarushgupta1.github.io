@@ -100,7 +100,7 @@ border-radius: 60px;
   display: inline-block;
 }
 
-@media only screen and (min-width: 1424px) {
+@media only screen and (min-width: 500px) {
 body {
   background-image: url(../images/second.jpg);
   background-repeat: no-repeat;
@@ -119,7 +119,7 @@ p {
 h1 {
     font-size: 50px;
     font-family: Roboto;
-    color: green;
+    color: blue;
     display: inline-block;
     vertical-align: top;
 }
