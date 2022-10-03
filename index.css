@@ -19,9 +19,6 @@ h2 {
     color: yellow;
     text-align: center;
 }
-.lessons {
-    margin-bottom: 20px;
-}
 .workingwithstudents {
     margin-top: 100px;
     margin-bottom: 40px;
@@ -32,6 +29,7 @@ h2 {
 }
 .first, .second, .third, .fourth, .fifth {
     display: block;
+    margin-bottom: 20px;
 }
 .logo {
     width: 100px;
@@ -124,7 +122,8 @@ button:active {
   }
 .first, .second, .third, .fourth, .fifth {
     display: inline;
-    margin-right: 20px;
+    margin-right: 60px;
+    margin-bottom: 20px;
 }
 .tennisvideos {
     width: 1500px;
