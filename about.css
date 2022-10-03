@@ -3,101 +3,12 @@ body {
   background-repeat: no-repeat;
   background-size: cover;
 }
-h1 {
-    font-size: 50px;
-    color: red;
-    display: inline-block;
-    margin-top: 0px;
-    margin-left: 60px;
-}
-h2 {
-    font-size: 25px;
-    color: orange;
-    margin-bottom: 40px;
-    margin-left: 75px;
-}
-p {
-    text-align: center;
-    color: white;
-    font-size: 20px;
-  }
-  button {
-    width: 200px;
-    height: 50px;
-    font-size: 20px;
-    color: white;
-    background-color: blue;
-    border-radius: 30px;
-    cursor: pointer;
-    margin-top: 140px;
-    border: none;
-    transition: opacity 0.15s, box-shadow 0.15s;
-    margin-left: 0px;
-  }
-  button:hover {
-    box-shadow: 5px 5px 9px black; 
-  }
-  button:active {
-    opacity: 0.8; 
-  }
-  .logo {
-    width: 100px;
-    border-radius: 50px;
-    margin-bottom: 60px;
-    margin-left: 75px;
-  }
-.facebook {
-  border-radius: 20px;
-}
-.youtube {
-  border-radius: 30px;
-}
-.tiktok {
-border-radius: 60px;
-}
-.instagram, .facebook {
-  margin-right: 30px;
-}
-.instagram, .facebook, .youtube, .tiktok {
-  transition: hover 0.15s, opacity 0.15s;
-  height: 100px;
-  width: auto;
-}
-.instagram:hover, .facebook:hover, .youtube:hover, tiktok:hover {
-  box-shadow: 5px 5px 9px black;
-}
-.instagram:active, .facebook:active, .youtube:active, tiktok:active {
-  opacity: 0.2;
-}
-.socials {
-  font-size: 35px;
-  color: pink;
-  margin-left: 60px;
-}
-.social-images {
-  margin-right: 1400px;
-  display: inline-block;
-}
-.funvideo {
-  display: block;
-  margin-top: 100px;
-  width: 300px;
-  margin-left: 0px;
-}
-
-
-@media only screen and (min-width: 1000px) {
-body {
-  background-image: url(../images/second.jpg);
-  background-repeat: no-repeat;
-  background-size: cover;
-}
 h1, h2, p, .funvideo {
     text-align: center;
   }
 h1 {
     font-size: 50px;
-    color: red;
+    color: blue;
     display: inline-block;
     vertical-align: top;
 }
@@ -168,5 +79,4 @@ border-radius: 60px;
 .funvideo {
   display: block;
   margin-top: 100px;
-}
 }
