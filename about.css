@@ -3,36 +3,41 @@ body {
   background-repeat: no-repeat;
   background-size: cover;
 }
-h1, h2, p, .funvideo {
+p {
+    color: white;
+    font-size: 20px;
     text-align: center;
-  }
+}
 h1 {
     font-size: 50px;
+    font-family: Roboto;
     color: blue;
-    display: inline-block;
-    vertical-align: top;
+    text-align: center;
+
 }
 h2 {
     font-size: 25px;
     color: orange;
+    text-center;
     margin-bottom: 40px;
 }
-p {
-    color: white;
-    font-size: 20px;
 button {
-    width: 200px;
-    height: 50px;
-    font-size: 20px;
-    color: white;
-    background-color: blue;
-    border-radius: 30px;
-    cursor: pointer;
-    margin-top: 20px;
-    margin-left: 10px;
-    border: none;
-    transition: opacity 0.15s, box-shadow 0.15s;
+    width: 210px; 
+    height: auto; 
+    font-size: 20px; 
+    color: white; 
+    background-color: blue; 
+    border-radius: 30px; 
+    cursor: pointer; 
+    padding-left: 50px;
+    padding-right: 30px;
+    padding-bottom: 10px;
+    padding-top: 10px;
+    margin-right: 1650px; 
+    border: none; 
+    transition: opacity 0.15s, box-shadow 0.15s; 
   }
+
   button:hover {
     box-shadow: 5px 5px 9px black; 
   }
@@ -42,7 +47,8 @@ button {
   .logo {
     width: 100px;
     border-radius: 50px;
-    margin-bottom: 60px;
+    margin-left: 10px;
+    float: bottom;
   }
 .facebook {
   border-radius: 20px;
@@ -70,10 +76,9 @@ border-radius: 60px;
 .socials {
   font-size: 35px;
   color: pink;
-  margin-right: 25px;
 }
 .social-images {
-  margin-left: 25px;
+  margin-right: 25px;
   display: inline-block;
 }
 .funvideo {
