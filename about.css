@@ -168,9 +168,10 @@ border-radius: 60px;
   .socials {
     font-size: 35px;
     color: pink;
+    text-align: center;
   }
   .social-images {
-    margin-right: 25px;
+    text-align: center;
     display: inline-block;
   }
   .funvideo {
