@@ -86,3 +86,94 @@ border-radius: 60px;
   margin-top: 100px;
   text-align: center;
 }
+
+@media only screen and (min-width: 1000px) {
+  body {
+    background-image: url(../images/second.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  p {
+      color: orange;
+      font-size: 20px;
+      text-align: center;
+  }
+  h1 {
+      font-size: 50px;
+      font-family: Roboto;
+      color: blue;
+      text-align: center;
+
+  }
+  h2 {
+      font-size: 25px;
+      color: orange;
+      text-align: center;
+      margin-bottom: 40px;
+  }
+  button {
+      width: 210px; 
+      height: auto; 
+      font-size: 20px; 
+      color: white; 
+      background-color: blue; 
+      border-radius: 30px; 
+      cursor: pointer; 
+      padding-left: 50px;
+      padding-right: 30px;
+      padding-bottom: 10px;
+      padding-top: 10px;
+      margin-right: 1650px; 
+      border: none; 
+      transition: opacity 0.15s, box-shadow 0.15s; 
+    }
+
+    button:hover {
+      box-shadow: 5px 5px 9px black; 
+    }
+    button:active {
+      opacity: 0.8; 
+    }
+    .logo {
+      width: 100px;
+      border-radius: 50px;
+      margin-left: 10px;
+      float: bottom;
+    }
+  .facebook {
+    border-radius: 20px;
+  }
+  .youtube {
+    border-radius: 30px;
+  }
+  .tiktok {
+  border-radius: 60px;
+  }
+  .instagram, .facebook {
+    margin-right: 30px;
+  }
+  .instagram, .facebook, .youtube, .tiktok {
+    transition: hover 0.15s, opacity 0.15s;
+    height: 100px;
+    width: auto;
+  }
+  .instagram:hover, .facebook:hover, .youtube:hover, tiktok:hover {
+    box-shadow: 5px 5px 9px black;
+  }
+  .instagram:active, .facebook:active, .youtube:active, tiktok:active {
+    opacity: 0.2;
+  }
+  .socials {
+    font-size: 35px;
+    color: pink;
+  }
+  .social-images {
+    margin-right: 25px;
+    display: inline-block;
+  }
+  .funvideo {
+    display: block;
+    margin-top: 100px;
+    text-align: center;
+  }
+}
