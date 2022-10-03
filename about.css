@@ -18,7 +18,7 @@ h1 {
 h2 {
     font-size: 25px;
     color: orange;
-    text-center;
+    text-align: center;
     margin-bottom: 40px;
 }
 button {
@@ -84,4 +84,5 @@ border-radius: 60px;
 .funvideo {
   display: block;
   margin-top: 100px;
+  text-align: center;
 }
