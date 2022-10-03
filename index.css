@@ -12,27 +12,21 @@ h1 {
     font-size: 50px;
     font-family: Roboto;
     color: green;
-    display: inline-block;
-    vertical-align: top;
     text-align: center;
 }
 h2 {
     font-size: 25px;
     color: yellow;
-    display: inline-block
     text-align: center;
 }
 .lessons {
   margin-bottom: 20px;
-  text-align: center;
 }
 .workingwithstudents {
   margin-top: 100px;
   margin-bottom: 40px;
-  text-align: center;
 }
 .tennisvideos {
-  display: block;
   width: 1500px;
   text-align: center;
 }
@@ -92,8 +86,6 @@ button {
   color: red;
 }
 .social-images {
-  margin-left:25px;
+  margin-right:25px;
   display: inline-block;
 }
-
-
