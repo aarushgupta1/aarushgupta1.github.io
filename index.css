@@ -124,6 +124,7 @@ button:active {
   }
 .first, .second, .third, .fourth, .fifth {
     display: inline;
+    margin-right: 20px;
 }
 .tennisvideos {
     width: 1500px;
