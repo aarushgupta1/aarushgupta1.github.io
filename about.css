@@ -60,7 +60,7 @@ button {
 .tiktok {
 border-radius: 60px;
 }
-.instagram, .facebook {
+.instagram, .facebook, .youtube {
   margin-right: 30px;
 }
 .instagram, .facebook, .youtube, .tiktok {
@@ -95,7 +95,7 @@ border-radius: 60px;
     background-size: cover;
   }
   p {
-      color: orange;
+      color: white;
       font-size: 20px;
       text-align: center;
   }
@@ -151,7 +151,7 @@ border-radius: 60px;
   .tiktok {
   border-radius: 60px;
   }
-  .instagram, .facebook {
+  .instagram, .facebook, .youtube {
     margin-right: 30px;
   }
   .instagram, .facebook, .youtube, .tiktok {
