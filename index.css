@@ -85,9 +85,10 @@ button:active {
 .socials {
     font-size: 35px;
     color: red;
+    text-align: center;
 }
 .social-images {
-    margin-right:25px;
+    text-align: center;
     display: inline-block;
 }
 
@@ -183,9 +184,10 @@ button {
   .socials {
     font-size: 35px;
     color: red;
+    text-align: center;
   }
   .social-images {
-    margin-right:25px;
+    text-align: center;
     display: inline-block;
   }
 }
