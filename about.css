@@ -2,7 +2,6 @@ body {
   background-image: url(../images/second.jpg);
   background-repeat: no-repeat;
   background-size: cover;
-  overflow: hidden;
 }
 p {
     color: white;
