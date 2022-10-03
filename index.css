@@ -33,7 +33,7 @@ h2 {
 .first, .second, .third, .fourth, .fifth {
     display: block;
 }
-.logo 
+.logo {
     width: 100px;
     border-radius: 50px;
     margin-left: 10px;
