@@ -2,110 +2,6 @@ body {
   background-image: url(../images/second.jpg);
   background-repeat: no-repeat;
   background-size: cover;
-  overflow: hidden;
-}
-h2, button {
-    display: inline-block;
-  }
-h1 {
-    font-size: 70px;
-    font-family: Roboto;
-    color: green;
-    display: inline-block;
-    vertical-align: top;
-    margin-left: 60px;
-}
-h2 {
-    font-size: 25px;
-    color: yellow;
-}
-p {
-  color: white;
-  font-size: 20px;
-  text-align: center;
-  }
-.lessons {
-  margin-left: 120px;
-  margin-bottom: 20px;
-}
-.workingwithstudents {
-  margin-right: 500px;
-  width: 400px;
-  margin-top: 100px;
-  margin-bottom: 40px;
-  text-align: center;
-}
-.logo {
-    width: 100px;
-    border-radius: 50px;
-    margin-left: 180px;
-    float: bottom;
-  }
-.tennisvideos {
-  margin-bottom: 30px;
-  display: block;
-  width: 250px;
-  margin-left: 0px;
-}
-button {
-    padding-left: 35px;
-    padding-right: 35px;
-    padding-bottom: 10px;
-    padding-top: 10px;
-    font-size: 20px;
-    color: white;
-    background-color: blue;
-    border-radius: 30px;
-    cursor: pointer;
-    border: none;
-    transition: opacity 0.15s, box-shadow 0.15s;
-    margin-left: 150px;
-    margin-top: 30px;
-  }
-  button:hover {
-    box-shadow: 5px 5px 9px black; 
-  }
-  button:active {
-    opacity: 0.8; 
-  }
-.facebook {
-  border-radius: 20px;
-}
-.youtube {
-  border-radius: 30px;
-}
-.tiktok {
-border-radius: 60px;
-}
-.instagram, .facebook {
-  margin-right: 30px;
-}
-.instagram, .facebook, .youtube, .tiktok {
-  transition: hover 0.15s, opacity 0.15s;
-  height: 100px;
-  width: auto;
-}
-.instagram:hover, .facebook:hover, .youtube:hover, .tiktok:hover {
-  box-shadow: 5px 5px 9px black;
-}
-.instagram:active, .facebook:active, .youtube:active, .tiktok:active {
-  opacity: 0.2;
-}
-.socials {
-  font-size: 35px;
-  color: red;
-  margin-left: 50px;
-}
-.social-images {
-  margin-right: 1400px;
-  display: inline-block;
-}
-
-@media only screen and (min-width: 500px) {
-body {
-  background-image: url(../images/second.jpg);
-  background-repeat: no-repeat;
-  background-size: cover;
   }
 p {
   color: pink;
@@ -115,7 +11,7 @@ p {
 h1 {
     font-size: 50px;
     font-family: Roboto;
-    color: blue;
+    color: green;
     display: inline-block;
     vertical-align: top;
     text-align: center;
@@ -198,7 +94,6 @@ button {
 .social-images {
   margin-left:25px;
   display: inline-block;
-}
 }
 
 
