@@ -68,7 +68,7 @@ button:active {
 .tiktok {
     border-radius: 60px;
 }
-.instagram, .facebook {
+.instagram, .facebook, .youtube {
     margin-right: 30px;
 }
 .instagram, .facebook, .youtube, .tiktok {
@@ -166,7 +166,7 @@ button {
    .tiktok {
      border-radius: 60px;
     }
-  .instagram, .facebook {
+  .instagram, .facebook, .youtube {
     margin-right: 30px;
   }
   .instagram, .facebook, .youtube, .tiktok {
