@@ -115,24 +115,27 @@ button:active {
       color: yellow;
       text-align: center;
   }
-  .lessons {
+.lessons {
     margin-bottom: 20px;
   }
-  .workingwithstudents {
+.workingwithstudents {
     margin-top: 100px;
     margin-bottom: 40px;
   }
-  .tennisvideos {
+.first, .second, .third, .fourth, .fifth {
+    display: inline;
+}
+.tennisvideos {
     width: 1500px;
     text-align: center;
   }
-  .logo {
+.logo {
       width: 100px;
       border-radius: 50px;
       margin-left: 10px;
       float: bottom;
     }
-  button {
+button {
       padding-left: 50px;
       padding-right: 30px;
       padding-bottom: 10px;
