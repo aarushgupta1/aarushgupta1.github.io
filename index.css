@@ -30,6 +30,9 @@ h2 {
     width: 1500px;
     text-align: center;
 }
+.first, .second, .third, .fourth, .fifth {
+    display: block;
+}
 .logo 
     width: 100px;
     border-radius: 50px;
