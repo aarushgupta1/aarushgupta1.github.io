@@ -45,7 +45,7 @@ button {
   button:active {
     opacity: 0.8; 
   }
-  .firstlogo, .secondlogo, .thirdlogo {
+  .logo, .secondlogo, .thirdlogo {
     width: 100px;
     border-radius: 50px;
     float: bottom;
@@ -137,7 +137,7 @@ border-radius: 60px;
     button:active {
       opacity: 0.8; 
     }
-.firstlogo, .secondlogo, .thirdlogo {
+.logo, .secondlogo, .thirdlogo {
     width: 100px;
     border-radius: 50px;
     float: bottom;
