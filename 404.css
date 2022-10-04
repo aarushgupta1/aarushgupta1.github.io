@@ -19,7 +19,9 @@ p {
     border-radius: 50px;
   }
   button {
-    padding-left: 10px;
+    width: 210px;
+    height: auto;
+    padding-left: 30px;
     padding-right: 30px;
     padding-bottom: 10px;
     padding-top: 10px;
@@ -52,7 +54,7 @@ p {
       text-align: center;
   }
   p {
-    color: white;
+    color: red;
     font-size: 20px;
     text-align: center;
   }
@@ -61,7 +63,9 @@ p {
       border-radius: 50px;
     }
     button {
-      padding-left: 10px;
+      width: 210px;
+      height: auto;
+      padding-left: 30px;
       padding-right: 30px;
       padding-bottom: 10px;
       padding-top: 10px;
