@@ -14,10 +14,13 @@ p {
   font-size: 20px;
   text-align: center;
   }
-.logo {
+.firstlogo, .secondlogo, .thirdlogo {
     width: 100px;
     border-radius: 50px;
-    text-align: center;
+    float: bottom;
+}
+.logos {
+  text-align: center;
   }
   button {
     width: 210px;
@@ -60,11 +63,14 @@ p {
     font-size: 20px;
     text-align: center;
   }
-  .logo {
-      width: 100px;
-      border-radius: 50px;
-      text-align: center;
-    }
+.firstlogo, .secondlogo, .thirdlogo {
+    width: 100px;
+    border-radius: 50px;
+    float: bottom;
+  }
+.logos {
+  text-align: center;
+  }
     button {
       width: 210px;
       height: auto;
