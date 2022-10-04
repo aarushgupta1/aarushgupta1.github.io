@@ -14,7 +14,7 @@ p {
   font-size: 20px;
   text-align: center;
   }
-.firstlogo, .secondlogo, .thirdlogo {
+.logo, .secondlogo, .thirdlogo {
     width: 100px;
     border-radius: 50px;
     float: bottom;
@@ -63,7 +63,7 @@ p {
     font-size: 20px;
     text-align: center;
   }
-.firstlogo, .secondlogo, .thirdlogo {
+.logo, .secondlogo, .thirdlogo {
     width: 100px;
     border-radius: 50px;
     float: bottom;
