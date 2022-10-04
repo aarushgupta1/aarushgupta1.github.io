@@ -30,7 +30,7 @@ button {
     background-color: blue; 
     border-radius: 30px; 
     cursor: pointer; 
-    padding-left: 10px;
+    padding-left: 30px;
     padding-right: 30px;
     padding-bottom: 10px;
     padding-top: 10px;
@@ -121,7 +121,7 @@ border-radius: 60px;
       background-color: blue; 
       border-radius: 30px; 
       cursor: pointer; 
-      padding-left: 10px;
+      padding-left: 30px;
       padding-right: 30px;
       padding-bottom: 10px;
       padding-top: 10px;
