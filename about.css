@@ -45,11 +45,12 @@ button {
   button:active {
     opacity: 0.8; 
   }
-  .logo {
+  .firstlogo, .secondlogo, .thirdlogo {
     width: 100px;
     border-radius: 50px;
-    text-align: center;
     float: bottom;
+.logos {
+  text-align: center;
   }
 .facebook {
   border-radius: 20px;
@@ -136,12 +137,13 @@ border-radius: 60px;
     button:active {
       opacity: 0.8; 
     }
-    .logo {
-      width: 100px;
-      border-radius: 50px;
-      text-align: center;
-      float: bottom;
-    }
+.firstlogo, .secondlogo, .thirdlogo {
+    width: 100px;
+    border-radius: 50px;
+    float: bottom;
+.logos {
+  text-align: center;
+  }
   .facebook {
     border-radius: 20px;
   }
