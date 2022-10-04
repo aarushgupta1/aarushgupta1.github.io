@@ -34,7 +34,7 @@ h2 {
 .logo {
     width: 100px;
     border-radius: 50px;
-    margin-left: 10px;
+    text-align: center;
     float: bottom;
 }
 button {
@@ -133,7 +133,7 @@ button:active {
 .logo {
       width: 100px;
       border-radius: 50px;
-      margin-left: 10px;
+      text-align: center;
       float: bottom;
     }
 button {
