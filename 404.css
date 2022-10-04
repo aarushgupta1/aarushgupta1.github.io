@@ -33,6 +33,7 @@ p {
     border: none;
     transition: opacity 0.15s, box-shadow 0.15s;
     margin-right: 1650px;
+    margin-top: 20px;
   }
   button:hover {
     box-shadow: 5px 5px 9px black; 
@@ -54,7 +55,7 @@ p {
       text-align: center;
   }
   p {
-    color: red;
+    color: white;
     font-size: 20px;
     text-align: center;
   }
@@ -77,6 +78,7 @@ p {
       border: none;
       transition: opacity 0.15s, box-shadow 0.15s;
       margin-right: 1650px;
+      margin-top: 20px;
     }
     button:hover {
       box-shadow: 5px 5px 9px black; 
