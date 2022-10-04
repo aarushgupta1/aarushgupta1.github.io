@@ -30,7 +30,7 @@ p {
     cursor: pointer;
     border: none;
     transition: opacity 0.15s, box-shadow 0.15s;
-    margin-left: 100px;
+    margin-right: 1650px;
   }
   button:hover {
     box-shadow: 5px 5px 9px black; 
