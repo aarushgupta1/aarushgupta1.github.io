@@ -17,6 +17,7 @@ p {
 .logo {
     width: 100px;
     border-radius: 50px;
+    text-align: center;
   }
   button {
     width: 210px;
@@ -62,6 +63,7 @@ p {
   .logo {
       width: 100px;
       border-radius: 50px;
+      text-align: center;
     }
     button {
       width: 210px;
