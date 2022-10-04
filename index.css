@@ -32,9 +32,10 @@ h2 {
     margin-bottom: 20px;
 }
 .logo, .secondlogo, .thirdlogo {
-    width: 100px;
+    width: 80px;
     border-radius: 50px;
     float: bottom;
+    margin-right: 20px;
 .logos {
   text-align: center;
   }
@@ -132,9 +133,10 @@ button:active {
     text-align: center;
   }
 .logo, .secondlogo, .thirdlogo {
-    width: 100px;
+    width: 80px;
     border-radius: 50px;
     float: bottom;
+    margin-right: 20px;
 .logos {
   text-align: center;
   }
