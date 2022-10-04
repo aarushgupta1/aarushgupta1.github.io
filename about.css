@@ -48,7 +48,7 @@ button {
   .logo {
     width: 100px;
     border-radius: 50px;
-    margin-left: 10px;
+    text-align: center;
     float: bottom;
   }
 .facebook {
@@ -139,7 +139,7 @@ border-radius: 60px;
     .logo {
       width: 100px;
       border-radius: 50px;
-      margin-left: 10px;
+      text-align: center;
       float: bottom;
     }
   .facebook {
