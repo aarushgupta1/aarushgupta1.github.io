@@ -31,12 +31,13 @@ h2 {
     display: block;
     margin-bottom: 20px;
 }
-.logo {
+.logo, .secondlogo, .thirdlogo {
     width: 100px;
     border-radius: 50px;
-    text-align: center;
     float: bottom;
-}
+.logos {
+  text-align: center;
+  }
 button {
     padding-left: 50px;
     padding-right: 30px;
@@ -130,12 +131,13 @@ button:active {
     width: 1500px;
     text-align: center;
   }
-.logo {
-      width: 100px;
-      border-radius: 50px;
-      text-align: center;
-      float: bottom;
-    }
+.logo, .secondlogo, .thirdlogo {
+    width: 100px;
+    border-radius: 50px;
+    float: bottom;
+.logos {
+  text-align: center;
+  }
 button {
       padding-left: 50px;
       padding-right: 30px;
