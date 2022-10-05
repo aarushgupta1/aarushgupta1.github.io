@@ -23,16 +23,14 @@ h1 {
 }
 h2 {
   font-size: 35px;
+  color: white;
 }
 .coach {
-    color: orange;
     margin-bottom: 40px;
 }
-.testimonials {
-     color: red;  
+.testimonials {  
      margin-top: 70px;
      margin-bottom: 30px;
-
 }
 button {
     margin-top: 20px;
