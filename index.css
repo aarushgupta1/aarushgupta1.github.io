@@ -24,7 +24,6 @@ h2 {
     margin-bottom: 40px;
 }
 .tennisvideos {
-    width: 1500px;
     text-align: center;
 }
 .first, .second, .third, .fourth, .fifth {
@@ -130,7 +129,6 @@ button:active {
     margin-bottom: 40px;
 }
 .tennisvideos {
-    width: 1500px;
     text-align: center;
   }
 .logo, .secondlogo, .thirdlogo {
