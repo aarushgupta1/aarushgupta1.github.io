@@ -52,7 +52,7 @@ button {
     border: none;
     transition: opacity 0.15s, box-shadow 0.15s;
     margin-left: 1650px;
-    width: 210px;
+    width: 240px;
     height: auto;
 }
 button:hover {
@@ -90,7 +90,7 @@ button:active {
     text-align: center;
 }
 .social-images {
-    margin-right: 20px;
+    margin-left: 1650px;
 }
 
 @media only screen and (min-width: 1000px) {
@@ -152,7 +152,7 @@ button {
       border: none;
       transition: opacity 0.15s, box-shadow 0.15s;
       margin-left: 1650px;
-      width: 210px;
+      width: 240px;
       height: auto;
     }
     button:hover {
@@ -190,6 +190,6 @@ button {
     text-align: center;
   }
   .social-images {
-    margin-right: 20px;
+    margin-left: 1650px;
   }
 }
