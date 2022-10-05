@@ -3,7 +3,7 @@ body {
   background-repeat: no-repeat;
   background-size: cover;
 }
-h1, p, .logos, button {
+h1, p, .logos {
   text-align: center;
 }
 h1 {
@@ -32,6 +32,7 @@ p {
     color: white;
     background-color: blue;
     border-radius: 30px;
+    text-align: center;
     cursor: pointer;
     border: none;
     transition: opacity 0.15s, box-shadow 0.15s;
@@ -50,7 +51,7 @@ p {
     background-repeat: no-repeat;
     background-size: cover;
   }
-  h1, p, .logos, button {
+  h1, p, .logos {
     text-align: center;
   }
   h1 {
@@ -79,6 +80,7 @@ p {
       color: white;
       background-color: blue;
       border-radius: 30px;
+      text-align: center;
       cursor: pointer;
       border: none;
       transition: opacity 0.15s, box-shadow 0.15s;
