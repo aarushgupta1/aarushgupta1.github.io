@@ -1,8 +1,13 @@
-body {
-  background-image: url(../images/second.jpg);
-  background-repeat: no-repeat;
-  background-size: cover;
-}
+.firstsection {
+    background-image: url(../images/second.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+.secondsection {
+    background-image: url(../images/court.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}    
 p, h1, h2, .logos, .social-images, .funvideo {
   text-align: center;
 }
@@ -92,11 +97,16 @@ border-radius: 60px;
 }
 
 @media only screen and (min-width: 1000px) {
-  body {
+.firstsection {
     background-image: url(../images/second.jpg);
     background-repeat: no-repeat;
     background-size: cover;
   }
+.secondsection {
+    background-image: url(../images/court.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}    
   p, h1, h2, .logos, .socials, .social-images, .funvideo {
     text-align: center;
   }
