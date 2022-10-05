@@ -30,7 +30,7 @@ h2 {
 }
 .first, .second, .third, .fourth, .fifth {
     display: block;
-    margin-bottom: 20px;
+    margin-bottom: 50px;
 }
 .logo, .secondlogo, .thirdlogo {
     width: 80px;
@@ -74,7 +74,7 @@ button:active {
 }
 .instagram, .facebook, .youtube, .tiktok {
     transition: hover 0.15s, opacity 0.15s;
-    height: 100px;
+    height: 50px;
     width : auto;
 }
 .tiktok:hover {
