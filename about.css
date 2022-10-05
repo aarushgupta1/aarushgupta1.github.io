@@ -81,11 +81,20 @@ border-radius: 60px;
   height: 100px;
   width: auto;
 }
-.instagram:hover, .facebook:hover, .youtube:hover, tiktok:hover {
-  box-shadow: 5px 5px 9px black;
+.tiktok:hover {
+    box-shadow: 5px 5px 9px black;
 }
-.instagram:active, .facebook:active, .youtube:active, tiktok:active {
-  opacity: 0.2;
+.facebook:hover {
+    box-shadow: 5px 5px 9px blue;
+}
+ .youtube:hover {
+     box-shadow 5px 5px 9px white;
+    }
+ .instagram:hover {
+     box-shadow 5px 5px 9px white;
+     }
+.instagram:active, .facebook:active, .youtube:active, .tiktok:active {
+    opacity: 0.6;
 }
 .socials {
   font-size: 40px;
@@ -178,12 +187,21 @@ border-radius: 60px;
     height: 100px;
     width: auto;
   }
-  .instagram:hover, .facebook:hover, .youtube:hover, tiktok:hover {
+.tiktok:hover {
     box-shadow: 5px 5px 9px black;
-  }
-  .instagram:active, .facebook:active, .youtube:active, tiktok:active {
-    opacity: 0.2;
-  }
+}
+.facebook:hover {
+    box-shadow: 5px 5px 9px blue;
+}
+ .youtube:hover {
+     box-shadow 5px 5px 9px white;
+    }
+ .instagram:hover {
+     box-shadow 5px 5px 9px white;
+     }
+.instagram:active, .facebook:active, .youtube:active, .tiktok:active {
+    opacity: 0.6;
+    }
   .socials {
     font-size: 40px;
     color: pink;
