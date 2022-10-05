@@ -1,5 +1,6 @@
 body {
     background-image: url(../images/second.jpg);
+    background-image: url(../images/court.jpg);
     background-repeat: no-repeat;
     background-size: cover;
   }
@@ -86,6 +87,7 @@ button:active {
 @media only screen and (min-width: 1000px) {
   body {
     background-image: url(../images/second.jpg);
+    background-image: url(../images/court.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     }
