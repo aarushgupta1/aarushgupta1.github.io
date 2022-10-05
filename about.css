@@ -3,28 +3,28 @@ body {
   background-repeat: no-repeat;
   background-size: cover;
 }
+p, h1, h2, .logos, .social-images, .funvideo {
+  text-align: center;
+}
 p {
     color: white;
     font-size: 25px;
-    text-align: center;
 }
 h1 {
     font-size: 55px;
     font-family: Roboto;
     color: blue;
-    text-align: center;
 
 }
+h2 {
+  font-size: 35px;
+}
 .coach {
-    font-size: 35px;
     color: orange;
-    text-align: center;
     margin-bottom: 40px;
 }
 .testimonials {
-     font-size: 35px;
-     color: green;
-     text-align: center;  
+     color: green;  
      margin-top: 70px;
      margin-bottom: 30px;
 
@@ -57,11 +57,8 @@ button {
     width: 80px;
     border-radius: 50px;
     float: bottom;
-    margin-right; 20px;
+    margin-right: 20px;
 }
-.logos {
-  text-align: center;
-  }
 .facebook {
   border-radius: 20px;
 }
@@ -89,13 +86,9 @@ border-radius: 60px;
   font-size: 40px;
   color: pink;
 }
-.social-images {
-  text-align: center;
-}
 .funvideo {
   display: block;
   margin-top: 100px;
-  text-align: center;
 }
 
 @media only screen and (min-width: 1000px) {
@@ -104,31 +97,29 @@ border-radius: 60px;
     background-repeat: no-repeat;
     background-size: cover;
   }
+  p, h1, h2, .logos, .socials, .social-images, .funvideo {
+    text-align: center;
+  }
   p {
       color: white;
       font-size: 25px;
-      text-align: center;
   }
   h1 {
       font-size: 55px;
       font-family: Roboto;
       color: blue;
-      text-align: center;
-
+  }
+  h2 {
+    font-size: 35px;
   }
 .coach {
-    font-size: 35px;
     color: orange;
-    text-align: center;
     margin-bottom: 40px;
 }
 .testimonials {
-     font-size: 35px;
-     color: green;
-     text-align: center;  
+     color: green;  
      margin-top: 30px;
      margin-bottom: 30px;
-
 }
   button {
       margin-top: 20px;
@@ -160,9 +151,6 @@ border-radius: 60px;
     float: bottom;
     margin-right: 20px;
   }
-.logos {
-  text-align: center;
-  }
   .facebook {
     border-radius: 20px;
   }
@@ -189,14 +177,9 @@ border-radius: 60px;
   .socials {
     font-size: 40px;
     color: pink;
-    text-align: center;
-  }
-  .social-images {
-    text-align: center;
   }
   .funvideo {
     display: block;
     margin-top: 100px;
-    text-align: center;
   }
 }
