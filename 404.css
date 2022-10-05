@@ -3,7 +3,7 @@ body {
   background-repeat: no-repeat;
   background-size: cover;
 }
-h1, p, .logos {
+h1, p, .logos, button {
   text-align: center;
 }
 h1 {
@@ -35,7 +35,6 @@ p {
     cursor: pointer;
     border: none;
     transition: opacity 0.15s, box-shadow 0.15s;
-    margin-right: 1650px;
     margin-top: 20px;
   }
   button:hover {
@@ -51,7 +50,7 @@ p {
     background-repeat: no-repeat;
     background-size: cover;
   }
-  h1, p, .logos {
+  h1, p, .logos, button {
     text-align: center;
   }
   h1 {
@@ -83,7 +82,6 @@ p {
       cursor: pointer;
       border: none;
       transition: opacity 0.15s, box-shadow 0.15s;
-      margin-right: 1650px;
       margin-top: 20px;
     }
     button:hover {
