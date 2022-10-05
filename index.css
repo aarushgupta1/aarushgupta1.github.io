@@ -90,7 +90,7 @@ button:active {
     text-align: center;
 }
 .social-images {
-    text-align: center;
+    margin-right: 20px;
 }
 
 @media only screen and (min-width: 1000px) {
@@ -190,6 +190,6 @@ button {
     text-align: center;
   }
   .social-images {
-    text-align: center;
+    margin-right: 20px;
   }
 }
