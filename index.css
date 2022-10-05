@@ -18,10 +18,14 @@ p {
     color: pink;
     font-size: 25px;
 }
+.last {
+    margin-bottom; 30px;
+}
 h1 {
     font-size: 55px;
     font-family: Roboto;
     color: blue;
+    margin-top: 30px;
 }
 h2 {
     font-size: 35px;
@@ -30,6 +34,7 @@ h2 {
 .workingwithstudents {
     margin-top: 100px;
     margin-bottom: 40px;
+    margin-top: 30px;
 }
 .first, .second, .third, .fourth, .fifth {
     display: block;
@@ -124,10 +129,14 @@ body {
     color: white;
     font-size: 25px;
   }
+  .last {
+      margin-bottom: 30px;
+    }
   h1 {
       font-size: 55px;
       font-family: Roboto;
       color: blue;
+      margin-top: 30px;
   }
   h2 {
       font-size: 35px;
@@ -139,6 +148,7 @@ body {
 .workingwithstudents {
     margin-top: 100px;
     margin-bottom: 40px;
+    margin-top: 30px;
   }
 .first, .second, .third, .fourth, .fifth {
     display: inline;
