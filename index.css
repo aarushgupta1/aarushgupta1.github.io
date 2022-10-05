@@ -5,17 +5,17 @@ body {
   }
 p {
     color: pink;
-    font-size: 20px;
+    font-size: 25px;
     text-align: center;
 }
 h1 {
-    font-size: 50px;
+    font-size: 60px;
     font-family: Roboto;
     color: blue;
     text-align: center;
 }
 h2 {
-    font-size: 25px;
+    font-size: 40px;
     color: yellow;
     text-align: center;
 }
@@ -101,17 +101,17 @@ button:active {
     }
   p {
     color: white;
-    font-size: 20px;
+    font-size: 25px;
     text-align: center;
   }
   h1 {
-      font-size: 50px;
+      font-size: 60px;
       font-family: Roboto;
       color: blue;
       text-align: center;
   }
   h2 {
-      font-size: 25px;
+      font-size: 40px;
       color: yellow;
       text-align: center;
   }
