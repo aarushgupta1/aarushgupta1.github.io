@@ -5,24 +5,24 @@ body {
 }
 p {
     color: white;
-    font-size: 20px;
+    font-size: 25px;
     text-align: center;
 }
 h1 {
-    font-size: 50px;
+    font-size: 60px;
     font-family: Roboto;
     color: blue;
     text-align: center;
 
 }
 .coach {
-    font-size: 25px;
+    font-size: 40px;
     color: orange;
     text-align: center;
     margin-bottom: 40px;
 }
 .testimonials {
-     font-size: 25px;
+     font-size: 40px;
      color: green;
      text-align: center;  
      margin-top: 70px;
@@ -86,7 +86,7 @@ border-radius: 60px;
   opacity: 0.2;
 }
 .socials {
-  font-size: 35px;
+  font-size: 40px;
   color: pink;
 }
 .social-images {
@@ -106,24 +106,24 @@ border-radius: 60px;
   }
   p {
       color: white;
-      font-size: 20px;
+      font-size: 25px;
       text-align: center;
   }
   h1 {
-      font-size: 50px;
+      font-size: 60px;
       font-family: Roboto;
       color: blue;
       text-align: center;
 
   }
 .coach {
-    font-size: 25px;
+    font-size: 40px;
     color: orange;
     text-align: center;
     margin-bottom: 40px;
 }
 .testimonials {
-     font-size: 25px;
+     font-size: 40px;
      color: green;
      text-align: center;  
      margin-top: 30px;
@@ -187,7 +187,7 @@ border-radius: 60px;
     opacity: 0.2;
   }
   .socials {
-    font-size: 35px;
+    font-size: 40px;
     color: pink;
     text-align: center;
   }
