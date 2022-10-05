@@ -12,7 +12,7 @@ p, h1, h2, .logos, .social-images, .funvideo {
   text-align: center;
 }
 p {
-    color: white;
+    color: yellow;
     font-size: 25px;
 }
 h1 {
@@ -29,7 +29,7 @@ h2 {
     margin-bottom: 40px;
 }
 .testimonials {
-     color: green;  
+     color: red;  
      margin-top: 70px;
      margin-bottom: 30px;
 
@@ -120,7 +120,7 @@ border-radius: 60px;
     text-align: center;
   }
   p {
-      color: white;
+      color: yellow;
       font-size: 25px;
   }
   h1 {
@@ -136,7 +136,7 @@ border-radius: 60px;
     margin-bottom: 40px;
 }
 .testimonials {
-     color: green;  
+     color: red;  
      margin-top: 30px;
      margin-bottom: 30px;
 }
