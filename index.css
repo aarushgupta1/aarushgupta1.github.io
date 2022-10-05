@@ -4,7 +4,7 @@
     background-size: cover;
   }
 .secondsection {
-    background-image: url(../images/court.jpg);
+    background-image: url(../images/courts.jpg);
     background-repeat: no-repeat;
     background-size: cover;
 }    
@@ -99,12 +99,12 @@ button:active {
 
 @media only screen and (min-width: 1000px) {
 .firstsection {
-    background-image: url(../images/court.jpg);
+    background-image: url(../images/second.jpg);
     background-repeat: no-repeat;
     background-size: cover;
   }
 .secondsection {
-    background-image: url(../images/court.jpg);
+    background-image: url(../images/courts.jpg);
     background-repeat: no-repeat;
     background-size: cover;
 }    
