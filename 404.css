@@ -3,16 +3,17 @@ body {
   background-repeat: no-repeat;
   background-size: cover;
 }
+h1, p, .logos {
+  text-align: center;
+}
 h1 {
     font-size: 55px;
     font-family: Roboto;
     color: green;
-    text-align: center;
 }
 p {
   color: red;
   font-size: 35px;
-  text-align: center;
   }
 .logo, .secondlogo, .thirdlogo {
     width: 80px;
@@ -20,9 +21,6 @@ p {
     float: bottom;
     margin-right: 20px;
 }
-.logos {
-  text-align: center;
-  }
   button {
     width: 210px;
     height: auto;
@@ -53,25 +51,23 @@ p {
     background-repeat: no-repeat;
     background-size: cover;
   }
+  h1, p, .logos {
+    text-align: center;
+  }
   h1 {
       font-size: 55px;
       font-family: Roboto;
       color: green;
-      text-align: center;
   }
   p {
     color: white;
     font-size: 35px;
-    text-align: center;
   }
 .logo, .secondlogo, .thirdlogo {
     width: 80px;
     border-radius: 50px;
     float: bottom;
     margin-right: 20px;
-  }
-.logos {
-  text-align: center;
   }
     button {
       width: 210px;
