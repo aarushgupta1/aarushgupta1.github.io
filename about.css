@@ -90,8 +90,7 @@ border-radius: 60px;
   color: pink;
 }
 .social-images {
-  margin-right: 25px;
-  display: inline-block;
+  text-align: center;
 }
 .funvideo {
   display: block;
@@ -194,7 +193,6 @@ border-radius: 60px;
   }
   .social-images {
     text-align: center;
-    display: inline-block;
   }
   .funvideo {
     display: block;
