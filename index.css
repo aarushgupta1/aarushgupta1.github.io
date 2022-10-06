@@ -11,6 +11,9 @@
     background-size: cover;
     margin-top: -25px;
 }   
+body {
+    background-color: green;
+}
 p, h1, h2, .tennisvideos, .logos, .socials, .social-images {
     text-align: center;
 }
