@@ -15,7 +15,7 @@ p, h1, h2, .logos, .social-images, .funvideo {
   text-align: center;
 }
 p {
-    color: red;
+    color: lime;
     font-size: 25px;
 }
 .last {
@@ -124,7 +124,7 @@ border-radius: 60px;
     text-align: center;
   }
   p {
-      color: red;
+      color: lime;
       font-size: 25px;
   }
   .last {
@@ -138,13 +138,12 @@ border-radius: 60px;
   }
   h2 {
     font-size: 35px;
+    color: red;
   }
 .coach {
-    color: white;
     margin-bottom: 40px;
 }
-.testimonials {
-     color: white;  
+.testimonials { 
      margin-top: 30px;
      margin-bottom: 30px;
 }
