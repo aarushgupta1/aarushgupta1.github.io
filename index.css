@@ -100,10 +100,6 @@ button:active {
 .instagram:active, .facebook:active, .youtube:active, .tiktok:active {
     opacity: 0.6;
 }
-.socials {
-    font-size: 35px;
-    color: red;
-}
 
 @media only screen and (min-width: 1000px) {
 .firstsection {
@@ -215,8 +211,4 @@ button {
 .instagram:active, .facebook:active, .youtube:active, .tiktok:active {
     opacity: 0.6;
     }
-  .socials {
-    font-size: 35px;
-    color: red;
-  }
 }
