@@ -101,10 +101,6 @@ border-radius: 60px;
 .instagram:active, .facebook:active, .youtube:active, .tiktok:active {
     opacity: 0.6;
 }
-.socials {
-  font-size: 40px;
-  color: pink;
-}
 .funvideo {
   display: block;
   margin-top: 100px;
@@ -214,10 +210,6 @@ border-radius: 60px;
 .instagram:active, .facebook:active, .youtube:active, .tiktok:active {
     opacity: 0.6;
     }
-  .socials {
-    font-size: 40px;
-    color: pink;
-  }
   .funvideo {
     display: block;
     margin-top: 100px;
