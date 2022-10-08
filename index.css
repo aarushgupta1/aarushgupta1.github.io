@@ -2,14 +2,14 @@
     background-image: url(../images/second.jpg);
     background-repeat: no-repeat;
     background-size: cover;
-    margin-bottom: -20px;
-    margin-top: -20px;
+    margin-bottom: -30px;
+    margin-top: -30px;
   }
 .secondsection {
     background-image: url(../images/bluecourt.jpg);
     background-repeat: no-repeat;
     background-size: cover;
-    margin-top: -20px;
+    margin-top: -30px;
 }   
 body {
     background-color: green;
@@ -109,14 +109,14 @@ button:active {
     background-image: url(../images/second.jpg);
     background-repeat: no-repeat;
     background-size: cover;
-    margin-bottom: -20px;
-    margin-top: -20px;
+    margin-bottom: -30px;
+    margin-top: -30px;
   }
 .secondsection {
     background-image: url(../images/bluecourt.jpg);
     background-repeat: no-repeat;
     background-size: cover;
-    margin-top: -20px;
+    margin-top: -30px;
 }    
 body {
     background-color: green;
