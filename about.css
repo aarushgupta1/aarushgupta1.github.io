@@ -14,7 +14,7 @@
 body {
     background-color: green;
 }
-p, h1, h2, .logos, .social-images, .funvideo {
+p, h1, h2, .logos, .social-images, .funvideo, .tricks {
   text-align: center;
 }
 p {
@@ -72,6 +72,10 @@ button {
     float: bottom;
     margin-right: 20px;
 }
+.tricks {
+    color: pink;
+    margin-top: 10px;
+}
 .facebook {
   border-radius: 20px;
 }
@@ -127,7 +131,7 @@ border-radius: 60px;
 body {
     background-color: green;
  }
-  p, h1, h2, .logos, .socials, .social-images, .funvideo {
+  p, h1, h2, .logos, .socials, .social-images, .funvideo, .tricks {
     text-align: center;
   }
   p {
@@ -184,6 +188,10 @@ body {
     float: bottom;
     margin-right: 20px;
   }
+ .tricks {
+    color: pink;
+    margin-top: 10px;
+}
   .facebook {
     border-radius: 20px;
   }
