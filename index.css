@@ -18,7 +18,7 @@ p, h1, h2, .logos, .socials, .social-images, .description, .allvideos {
     text-align: center;
 }
 p {
-    color: pink;
+    color: white;
     font-size: 25px;
 }
 .last {
@@ -35,17 +35,16 @@ h2 {
     color: yellow;
 }
 .workingwithstudents {
-    margin-top: 100px;
     margin-bottom: 40px;
     margin-top: 30px;
 }
-.tennisvideo1, .tennisvideo2, .tennisvideo3, .tennisvideo4, .tennisvideo5 {
-    display: block;
-    margin-bottom: 20px;
+.videocontainer {
+    margin-bottom: 50px;
 }
 .description {
+    margin-top: 10px;
     font-size: 20px;
-    color: green;
+    color: pink;
 }
 .logo, .secondlogo, .thirdlogo {
     width: 80px;
@@ -154,18 +153,18 @@ body {
     margin-bottom: 40px;
     margin-top: 30px;
   }
-.tennisvideo1, .tennisvideo2, .tennisvideo3, .tennisvideo4, .tennisvideo5 {
+.videocontainer {
     display: inline;
     margin-right: 60px;
     margin-bottom: 40px;
 }
-.tennisvideos {
+.video {
     display: block;
-    margin-bottom: 20px;
+    margin-bottom: 10px;
     }
 .description {
     font-size: 20px;
-    color: green;
+    color: pink;
 }
 .logo, .secondlogo, .thirdlogo {
     width: 80px;
