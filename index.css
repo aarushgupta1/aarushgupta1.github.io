@@ -154,12 +154,11 @@ body {
     margin-top: 30px;
   }
 .videocontainer {
-    display: inline;
+    display: inline-block;
     margin-right: 60px;
     margin-bottom: 40px;
 }
 .video {
-    display: block;
     margin-bottom: 10px;
     }
 .description {
