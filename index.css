@@ -125,7 +125,7 @@ button:active {
 body {
     background-color: green;
 }
-  p, h1, h2, .logos, .socials, .social-images, .description, .allvideos {
+  p, h1, h2, .logos, .socials, .social-images, .description, .allvideos, .videocontainer {
       text-align: center;
 }
   p {
@@ -149,7 +149,6 @@ body {
     margin-bottom: 20px;
   }
 .workingwithstudents {
-    margin-top: 100px;
     margin-bottom: 40px;
     margin-top: 30px;
   }
