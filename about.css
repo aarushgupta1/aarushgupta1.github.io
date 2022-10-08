@@ -88,6 +88,7 @@ border-radius: 60px;
   transition: hover 0.15s, opacity 0.15s;
   height: 50px;
   width: auto;
+  margin-bottom: 10px;
 }
 .tiktok:hover {
     box-shadow: 5px 5px 9px black;
@@ -199,6 +200,7 @@ body {
     transition: hover 0.15s, opacity 0.15s;
     height: 100px;
     width: auto;
+    margin-bottom: 10px;
   }
 .tiktok:hover {
     box-shadow: 5px 5px 9px black;
