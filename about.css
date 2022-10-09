@@ -44,14 +44,12 @@ h2 {
 .contact {
     margin-left: 175px;
 }
-.where, .location {
-    color: green;
-}
 .where {
     display: inline-block;
     }
 .where, .location {
     font-size: 25px;
+    color: green;
 }
 .location {
     display: block;
@@ -177,7 +175,7 @@ html, body {
     margin-left: 1200px;
 }
 .where, .location {
-    color: white;
+    color: green;
     font-size: 25px;
 }
 .where {
