@@ -18,7 +18,7 @@ html, body {
     background-size: cover;
     margin-top: -30px;
 }   
-p, h1, h2, .logos, .socials, .social-images, .description, .allvideos {
+p, h1, h2, .logos, .explore, .description, .allvideos {
     text-align: center;
 }
 p {
@@ -151,7 +151,7 @@ html, body {
     background-size: cover;
     margin-top: -30px;
 }    
-  p, h1, h2, .logos, .socials, .social-images, .description, .allvideos, .videocontainer {
+  p, h1, h2, .logos, .explore, .description, .allvideos, .videocontainer {
       text-align: center;
 }
   p {
