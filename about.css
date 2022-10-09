@@ -196,6 +196,7 @@ html, body {
 }
 .social-images {
     margin-bottom: -5px;
+    margin-top: 40px;
     }
 .where, .location {
     color: white;
@@ -204,6 +205,7 @@ html, body {
 }
 .phone {
     display: block;
+    margin-top: 30px;
 }
 .email {
     margin-bottom: 40px;
