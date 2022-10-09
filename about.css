@@ -195,7 +195,13 @@ html, body {
     }
 .gnitou {
     display: block;
+    height: 400px;
+    width: auto;
     } 
+.children {
+    height: 400px;
+    width: auto;
+    }
 .social-images, .contact {
     display: inline-block;
 }
