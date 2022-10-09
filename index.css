@@ -38,6 +38,9 @@ h2 {
     font-size: 35px;
     color: yellow;
 }
+.contact {
+    color: pink;
+}
 .workingwithstudents {
     margin-bottom: 40px;
     margin-top: 30px;
@@ -153,6 +156,9 @@ html, body {
       font-size: 35px;
       color: yellow;
   }
+.contact {
+    color: pink;
+}
 .lessons {
     margin-bottom: 20px;
   }
