@@ -47,15 +47,10 @@ h2 {
 .contact {
     margin-left: 150px;
 }
-.where {
-    display: inline;
-    }
 .where, .location {
     font-size: 20px;
     color: lime;
-}
-.location {
-    display: block;
+    display: inline;
 }
 .testimonials {  
      margin-top: 70px;
@@ -186,12 +181,7 @@ html, body {
 .where, .location {
     color: lime;
     font-size: 25px;
-}
-.where {
     display: inline;
-    }
-.location {
-    display: block;
 }
 .coach {
     margin-bottom: 40px;
