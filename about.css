@@ -55,6 +55,9 @@ h2 {
 .phone {
     display: block;
 }
+.email {
+    margin-bottom: 20px;
+}
 .testimonials {  
      margin-top: 70px;
      margin-bottom: 30px;
@@ -188,6 +191,9 @@ html, body {
 }
 .phone {
     display: block;
+}
+.email {
+    margin-bottom: 20px;
 }
 .coach {
     margin-bottom: 40px;
