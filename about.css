@@ -58,7 +58,7 @@ h2 {
      margin-top: 70px;
      margin-bottom: 30px;
 }
-videocontainer {
+.social-images {
     display: inline-block;
 }
 button {
@@ -194,7 +194,7 @@ html, body {
      margin-top: 30px;
      margin-bottom: 30px;
 }
-videocontainer {
+.social-images {
     display: inline-block;
  }
   button {
