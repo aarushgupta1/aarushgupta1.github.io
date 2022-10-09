@@ -42,9 +42,12 @@ h2 {
 .coach {
     margin-bottom: 40px;
 }
-.contact {
+.where, .location {
     color: green;
 }
+.where {
+    display: inline-block;
+    }
 .testimonials {  
      margin-top: 70px;
      margin-bottom: 30px;
@@ -162,9 +165,12 @@ html, body {
     font-size: 35px;
     color: white;
   }
-.contact {
-    color: green;
+.where, .location {
+    color: white;
 }
+.where {
+    display: inline-block;
+    }
 .coach {
     margin-bottom: 40px;
 }
