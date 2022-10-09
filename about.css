@@ -38,6 +38,9 @@ h2 {
   font-size: 35px;
   color: white;
 }
+.social-images {
+    display: inline-block;
+}
 .coach {
     margin-bottom: 40px;
 }
@@ -174,6 +177,9 @@ html, body {
     font-size: 35px;
     color: white;
   }
+.social-images {
+    display: inline-block;
+}
 .contact {
     margin-left: 900px;
 }
