@@ -46,7 +46,7 @@ h2 {
     font-size: 20px;
 }
 .where {
-    display: inline-block;
+    display: inline;
  }
 .location {
     display: block;
@@ -176,7 +176,7 @@ html, body {
     font-size: 25px;
 }
 .where {
-    display: inline-block;
+    display: inline;
     }
 .location {
     display: block;
