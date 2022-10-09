@@ -38,6 +38,9 @@ h2 {
     font-size: 35px;
     color: yellow;
 }
+.contact {
+    margin-left: 175px;
+}
 .where, .location {
     color: white;
     font-size: 25px;
@@ -164,6 +167,9 @@ html, body {
       font-size: 35px;
       color: yellow;
   }
+.contact {
+    margin-left: 1200px;
+}
 .where, .location {
     color: white;
     font-size: 25px;
