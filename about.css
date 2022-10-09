@@ -33,7 +33,6 @@ h1 {
     font-family: Roboto;
     color: blue;
     margin-top: 30px;
-
 }
 h2 {
   font-size: 35px;
@@ -48,6 +47,9 @@ h2 {
 .where {
     display: inline-block;
     }
+.where, .location {
+    font-size: 25px;
+}
 .location {
     display: block;
 }
@@ -170,6 +172,7 @@ html, body {
   }
 .where, .location {
     color: white;
+    font-size: 25px;
 }
 .where {
     display: inline-block;
