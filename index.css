@@ -175,12 +175,9 @@ html, body {
       font-size: 35px;
       color: yellow;
   }
-.social-images {
+.social-images, .contact {
     display: inline-block;
-}
-.contact {
-    margin-left: 1050px;
-}
+    }
 .where, .location {
     color: white;
     font-size: 25px;
@@ -189,12 +186,9 @@ html, body {
 .phone {
     display: block;
 }
-.email {
+.email, .lessons {
     margin-bottom: 20px;
 }
-.lessons {
-    margin-bottom: 20px;
-  }
 .workingwithstudents {
     margin-bottom: 40px;
     margin-top: 30px;
@@ -204,9 +198,6 @@ html, body {
     margin-right: 60px;
     margin-bottom: 40px;
 }
-.social-images {
-    display: inline-block;
-    }
 .video {
     margin-bottom: 10px;
     }
