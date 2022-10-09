@@ -5,7 +5,7 @@ html, body {
     padding: 0;
     overflow-x: hidden;
 }   
-    .firstsection {
+ .firstsection {
     background-image: url(../images/second.jpg);
     background-repeat: no-repeat;
     background-size: cover;
@@ -40,6 +40,9 @@ h2 {
 }
 .coach {
     margin-bottom: 40px;
+}
+.contact {
+    margin-left: 175px;
 }
 .where, .location {
     color: green;
@@ -170,6 +173,9 @@ html, body {
     font-size: 35px;
     color: white;
   }
+.contact {
+    margin-left: 1200px;
+}
 .where, .location {
     color: white;
     font-size: 25px;
