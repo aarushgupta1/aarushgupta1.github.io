@@ -18,9 +18,6 @@ html, body {
     background-size: cover;
     margin-top: -30px;
 }   
-body {
-    background-color: green;
-}
 p, h1, h2, .logos, .socials, .social-images, .description, .allvideos {
     text-align: center;
 }
@@ -136,9 +133,6 @@ html, body {
     background-size: cover;
     margin-top: -30px;
 }    
-body {
-    background-color: green;
-}
   p, h1, h2, .logos, .socials, .social-images, .description, .allvideos, .videocontainer {
       text-align: center;
 }
