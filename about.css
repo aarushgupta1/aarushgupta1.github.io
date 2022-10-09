@@ -42,6 +42,9 @@ h2 {
 .coach {
     margin-bottom: 40px;
 }
+.contact {
+    color: pink;
+}
 .testimonials {  
      margin-top: 70px;
      margin-bottom: 30px;
@@ -159,6 +162,9 @@ html, body {
     font-size: 35px;
     color: white;
   }
+.contact {
+    color: pink;
+}
 .coach {
     margin-bottom: 40px;
 }
