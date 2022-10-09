@@ -52,6 +52,9 @@ h2 {
     color: lime;
     display: inline;
 }
+.phone {
+    display: block;
+}
 .testimonials {  
      margin-top: 70px;
      margin-bottom: 30px;
@@ -182,6 +185,9 @@ html, body {
     color: lime;
     font-size: 25px;
     display: inline;
+}
+.phone {
+    display: block;
 }
 .coach {
     margin-bottom: 40px;
