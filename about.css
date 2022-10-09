@@ -181,6 +181,9 @@ html, body {
 .social-images, .contact {
     display: inline-block;
 }
+.social-images {
+    margin-bottom: -5px;
+    }
 .where, .location {
     color: white;
     font-size: 25px;
