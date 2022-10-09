@@ -38,6 +38,15 @@ h2 {
   font-size: 35px;
   color: white;
 }
+.qualifications {
+    display: inline-block;
+    }
+ .self {
+     display: inline-block;
+    }
+.gnitou {
+    display: block;
+    } 
 .social-images {
     display: inline-block;
 }
@@ -178,6 +187,15 @@ html, body {
     font-size: 35px;
     color: white;
   }
+.qualifications {
+    display: inline-block;
+    }
+ .self {
+     display: inline-block;
+    }
+.gnitou {
+    display: block;
+    } 
 .social-images, .contact {
     display: inline-block;
 }
