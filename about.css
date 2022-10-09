@@ -167,7 +167,7 @@ html, body {
     background-size: cover;
     margin-top: -30px;
 }    
-  p, h1, h2, .logos, .socials, .explore, .funvideo, .tricks, .qualifications {
+  p, h1, h2, .logos, .socials, .explore, .funvideo, .tricks, .bio {
     text-align: center;
   }
   p {
@@ -186,7 +186,7 @@ html, body {
   h2 {
     font-size: 35px;
     color: white;
-  }
+    }
 .qualifications {
     display: inline-block;
     }
