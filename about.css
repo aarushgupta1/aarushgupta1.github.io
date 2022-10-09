@@ -178,11 +178,8 @@ html, body {
     font-size: 35px;
     color: white;
   }
-.social-images {
+.social-images, .contact {
     display: inline-block;
-}
-.contact {
-    margin-left: 900px;
 }
 .where, .location {
     color: lime;
