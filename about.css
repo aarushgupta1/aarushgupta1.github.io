@@ -48,6 +48,9 @@ h2 {
 .where {
     display: inline-block;
     }
+.location {
+    display: block;
+}
 .testimonials {  
      margin-top: 70px;
      margin-bottom: 30px;
@@ -171,6 +174,9 @@ html, body {
 .where {
     display: inline-block;
     }
+.location {
+    display: block;
+}
 .coach {
     margin-bottom: 40px;
 }
