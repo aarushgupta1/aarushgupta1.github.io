@@ -42,7 +42,7 @@ h2 {
     margin-bottom: 40px;
 }
 .contact {
-    margin-left: 175px;
+    margin-left: 150px;
 }
 .where {
     display: inline-block;
@@ -172,7 +172,7 @@ html, body {
     color: white;
   }
 .contact {
-    margin-left: 1200px;
+    margin-left: 1100px;
 }
 .where, .location {
     color: green;
