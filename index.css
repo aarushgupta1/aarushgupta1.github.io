@@ -41,6 +41,9 @@ h2 {
 .where, .location {
     color: white;
 }
+.where {
+    display: inline-block;
+ }
 .workingwithstudents {
     margin-bottom: 40px;
     margin-top: 30px;
@@ -160,6 +163,9 @@ html, body {
 .where, .location {
     color: white;
 }
+.where {
+    display: inline-block;
+    }
 .lessons {
     margin-bottom: 20px;
   }
