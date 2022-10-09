@@ -68,7 +68,7 @@ button {
     cursor: pointer;
     border: none;
     transition: opacity 0.15s, box-shadow 0.15s;
-    margin-left: 400px;
+    margin-left: 300px;
     width: 240px;
     height: auto;
 }
@@ -190,7 +190,7 @@ button {
       cursor: pointer;
       border: none;
       transition: opacity 0.15s, box-shadow 0.15s;
-      margin-left: 400px;
+      margin-left: 1000px;
       width: 240px;
       height: auto;
     }
