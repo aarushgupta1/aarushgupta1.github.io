@@ -57,6 +57,7 @@ h2 {
 }
 .videocontainer {
     margin-bottom: 50px;
+    display: inline-block;
 }
 .description {
     margin-top: 10px;
