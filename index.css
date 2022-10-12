@@ -18,7 +18,7 @@ html, body {
     background-size: cover;
     margin-top: -30px;
 }   
-p, h1, h2, .logos, .explore, .description, .allvideos {
+p, h1, h2, .logos, .explore, .description, .allvideos, .phone, .email, .contact {
     text-align: center;
 }
 p {
@@ -42,16 +42,15 @@ h2 {
     display: inline-block;
     margin-top: 40px;
 }
-.contact {
-    margin-left: 100px;
-}
 .where, .location {
     color: white;
     font-size: 20px;
     display: inline;
  }
-.phone {
+.phone, .email {
     display: block;
+}
+.phone {
     margin-top: 20px;
 }
 .email {
