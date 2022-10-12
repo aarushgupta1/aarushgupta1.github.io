@@ -43,6 +43,8 @@ h2 {
     }
 .gnitou {
     display: block;
+    height: 500px;
+    width: auto;
     } 
 .social-images {
     display: inline-block;
