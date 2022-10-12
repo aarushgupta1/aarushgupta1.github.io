@@ -41,9 +41,6 @@ h2 {
 .qualifications {
     display: inline-block;
     }
- .self {
-     display: inline-block;
-    }
 .gnitou {
     display: block;
     } 
@@ -171,7 +168,7 @@ html, body {
     background-size: cover;
     margin-top: -30px;
 }    
-  p, h1, h2, .logos, .socials, .explore, .funvideo, .tricks, .self {
+  p, h1, h2, .logos, .socials, .explore, .funvideo, .tricks {
     text-align: center;
   }
   p {
@@ -191,7 +188,7 @@ html, body {
     font-size: 35px;
     color: white;
     }
-.gnitou, .children {
+.gnitou {
     height: 300px;
     width: auto;
     } 
