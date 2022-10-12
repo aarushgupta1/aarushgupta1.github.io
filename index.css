@@ -186,6 +186,7 @@ html, body {
     }
 .phone {
     display: block;
+    margin-top: 20px;
 }
 .email {
     margin-bottom: 40px;
