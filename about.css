@@ -71,7 +71,7 @@ h2 {
     margin-bottom: 20px;
 }
 .testimonials {  
-     margin-top: 70px;
+     margin-top: 30px;
      margin-bottom: 30px;
 }
 .social-images {
@@ -147,7 +147,7 @@ border-radius: 60px;
 }
 .funvideo {
   display: block;
-  margin-top: 100px;
+  margin-top: 40px;
 }
 
 @media only screen and (min-width: 1000px) {
