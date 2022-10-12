@@ -38,11 +38,14 @@ h2 {
   font-size: 35px;
   color: white;
 }
+.gnitou {
+    display: inline-block;
+}
 .qualifications {
     display: inline-block;
     }
 .gnitou {
-    display: block;
+    display: inline-block;
     height: 500px;
     width: auto;
     } 
