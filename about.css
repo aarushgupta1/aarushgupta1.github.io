@@ -26,7 +26,7 @@ p {
     font-size: 25px;
 }
 .last {
- margin-bottom; 30px;   
+ margin-bottom: 30px;   
 }
 h1 {
     font-size: 55px;
@@ -48,6 +48,7 @@ h2 {
     } 
 .social-images {
     display: inline-block;
+    margin-top: 40px;
 }
 .coach {
     margin-bottom: 40px;
