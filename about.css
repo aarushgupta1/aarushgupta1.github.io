@@ -197,6 +197,7 @@ html, body {
 .gnitou {
     height: 500px;
     width: auto;
+    display: inline-block;
     } 
 .social-images, .contact {
     display: inline-block;
