@@ -25,6 +25,12 @@ p {
     color: white;
     font-size: 25px;
 }
+input, submit {
+    margin: 10px;
+    padding: 10px;
+    font-size: 24px;
+    font-family: 'Roboto Mono', Monospace;
+}
 .last {
     margin-bottom: 30px;
 }
@@ -158,6 +164,12 @@ html, body {
 }    
   p, h1, h2, .logos, .explore, .description, .allvideos, .videocontainer {
       text-align: center;
+}
+input, submit {
+    margin: 10px;
+    padding: 10px;
+    font-size: 24px;
+    font-family: 'Roboto Mono', Monospace;
 }
   p {
     color: white;
