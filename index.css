@@ -5,7 +5,7 @@ html, body {
     padding: 0;
     overflow-x: hidden;
 }   
-.firstsection {
+.firstsection, .thirdsection {
     background-image: url(../images/second.jpg);
     background-repeat: no-repeat;
     background-size: cover;
