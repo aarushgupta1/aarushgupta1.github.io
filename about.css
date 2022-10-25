@@ -43,14 +43,11 @@ iframe {
    border-color: black; 
    border-width: medium;
 }
-.gnitou {
-    display: inline-block;
-}
 .qualifications {
     display: inline-block;
     }
 .gnitou {
-    display: inline-block;
+    display: block;
     height: 500px;
     width: auto;
     } 
@@ -207,7 +204,7 @@ iframe {
 .gnitou {
     height: 500px;
     width: auto;
-    display: inline-block;
+    display: block;
     } 
 .social-images, .contact {
     display: inline-block;
