@@ -21,9 +21,11 @@ html, body {
 p, h1, h2, .logos, .explore, .description, .allvideos, .phone, .email, .contact, form {
     text-align: center;
 }
+p, h4 {
+    font-size: 25px;
+}
 p {
     color: white;
-    font-size: 25px;
 }
 h4 {
     color: red;
@@ -31,6 +33,7 @@ h4 {
 input {
     margin:5px;
     padding:10px;
+    height: 75px;
     width:220px;
     border-radius: 15px;
 }
@@ -176,16 +179,19 @@ html, body {
 input {
     margin:5px;
     padding:10px;
+    height: 75px;
     width:220px;
     border-radius: 15px;
 }
-  p {
-    color: white;
+p, h4 {
     font-size: 25px;
-  }
- h4 {
-        color: red;
-    }
+}
+p {
+    color: white;
+}
+h4 {
+    color: red;
+}
   .last {
       margin-bottom: 30px;
     }
