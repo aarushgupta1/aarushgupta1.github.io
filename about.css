@@ -41,6 +41,7 @@ h2 {
 iframe {
    border-style: solid;
    border-color: black; 
+   border-width: medium;
 }
 .gnitou {
     display: inline-block;
@@ -201,6 +202,7 @@ html, body {
 iframe {
    border-style: solid;
    border-color: black; 
+   border-width: medium;
 }
 .gnitou {
     height: 500px;
