@@ -25,13 +25,13 @@ p {
     color: white;
     font-size: 25px;
 }
+h4 {
+    color: red;
+}
 input {
     margin:5px;
     padding:10px;
-    width:280px;
-}
-form {
-    width:300px;
+    width:220px;
 }
 .last {
     margin-bottom: 30px;
@@ -170,15 +170,15 @@ html, body {
 input {
     margin:5px;
     padding:10px;
-    width:280px;
-}
-form {
-    width:300px;
+    width:220px;
 }
   p {
     color: white;
     font-size: 25px;
   }
+ h4 {
+        color: red;
+    }
   .last {
       margin-bottom: 30px;
     }
