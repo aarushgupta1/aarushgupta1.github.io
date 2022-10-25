@@ -39,7 +39,7 @@ input {
 }
 .submit {
  margin-top: 30px;      
-}
+} 
 .last {
     margin-bottom: 30px;
 }
@@ -207,6 +207,59 @@ p {
 h4 {
     color: red;
 }
+.slider {
+    width:800px;
+    height: 500px;
+    border-radius:10px;
+    overflow:hidden;
+    }
+ .slides {
+     width: 500%;
+     height: 500px;
+     display: flex;
+    }
+.slides input {
+    display: none;
+    }
+ .slide {
+     width: 20%;
+     transition: 2s;
+    }   
+.navigation-manual {
+    position: absolute;
+    width: 800px;
+    margin-top: -40px;
+    display: flex;
+    justify-content: center;
+    }
+.manual-btn {
+    border: 2px solid white;
+    padding: 5px;
+    border-radius:10px;
+    cursor: pointer;
+    transition 1s;
+    }
+.manual-btn:not(:last-child){
+    margin-right: 40px;
+    }
+.manual-btn:hover {
+    background: white;
+    }
+#radio1.checked ~ .first{
+    margin-left: 0;
+    }
+#radio2.checked ~ .first{
+    margin-left: -20%;
+    }
+ #radio3.checked ~ .first{
+    margin-left: -40%;
+    }
+ #radio4.checked ~ .first{
+    margin-left: -60%;
+    }
+#radio5.checked ~ .first{
+    margin-left: -80%;
+    }
   .last {
       margin-bottom: 30px;
     }
