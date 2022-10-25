@@ -37,6 +37,9 @@ input {
     border-radius: 15px;
     display: block;
 }
+.submit {
+ margin-top: 30px;      
+}
 .last {
     margin-bottom: 30px;
 }
@@ -182,6 +185,9 @@ input {
     width:220px;
     border-radius: 15px;
     display: block;
+}
+.submit {
+ margin-top: 30px;      
 }
 p, h4 {
     font-size: 25px;
