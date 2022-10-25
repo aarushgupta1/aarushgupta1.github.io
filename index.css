@@ -33,7 +33,6 @@ h4 {
 input {
     margin:5px;
     padding:10px;
-    height: 75px;
     width:220px;
     border-radius: 15px;
 }
@@ -179,7 +178,6 @@ html, body {
 input {
     margin:5px;
     padding:10px;
-    height: 75px;
     width:220px;
     border-radius: 15px;
 }
