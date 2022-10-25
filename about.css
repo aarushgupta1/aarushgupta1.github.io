@@ -38,6 +38,10 @@ h2 {
   font-size: 35px;
   color: white;
 }
+iframe {
+   border-style: solid;
+   border-color: black; 
+}
 .gnitou {
     display: inline-block;
 }
@@ -194,6 +198,10 @@ html, body {
     font-size: 35px;
     color: white;
     }
+iframe {
+   border-style: solid;
+   border-color: black; 
+}
 .gnitou {
     height: 500px;
     width: auto;
