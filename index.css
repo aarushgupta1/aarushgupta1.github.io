@@ -18,7 +18,7 @@ html, body {
     background-size: cover;
     margin-top: -30px;
 }   
-p, h1, h2, .logos, .explore, .description, .allvideos, .phone, .email, .contact, form {
+p, h1, h2, .logos, .explore, .description, .allvideos, .phone, .email, .contact, form, input {
     text-align: center;
 }
 p, h4 {
@@ -173,7 +173,7 @@ html, body {
     background-size: cover;
     margin-top: -30px;
 }    
-  p, h1, h2, .logos, .explore, .description, .allvideos, .videocontainer, form {
+  p, h1, h2, .logos, .explore, .description, .allvideos, .videocontainer, form, input {
       text-align: center;
 }
 input {
