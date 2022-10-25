@@ -110,7 +110,15 @@ button {
     width: 80px;
     border-radius: 50px;
     float: bottom;
-    margin-right: 20px;
+    animation: rotation 8s infinite linear;
+}
+@keyframes rotation {
+    from {
+        transform: rotate(0deg);
+    }
+    to {
+        transform: rotate(359deg);
+    }
 }
 .tricks {
     color: pink;
@@ -264,7 +272,16 @@ iframe {
     border-radius: 50px;
     float: bottom;
     margin-right: 20px;
-  }
+    animation: rotation 8s infinite linear;
+}
+@keyframes rotation {
+    from {
+        transform: rotate(0deg);
+    }
+    to {
+        transform: rotate(359deg);
+    }
+}
  .tricks {
     color: pink;
     margin-top: 10px;
