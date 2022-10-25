@@ -101,22 +101,18 @@
     <input type = "email" id = "senderEmail" placeholder = "Enter your email address" required minlength = "3" maxlength = "100">
     <h4>Phone Number:</h4>
     <input type = "text" id = "phone-number" placeholder = "Enter your phone number" required minlength = "8" maxlength = "20">
-    <h4>Experience</h4>
+    <h4>Experience:</h4>
     <input type = "text" id = "experience" placeholder = "# of years you've played tennis for">
     <h4>Available days:</h4>
     <input type = "text" id = "available-days" placeholder = "List days that work for you" required minlength = "3" maxlength = "120">
     <input type = "submit" id = "submit" value = "Submit">
     </form>
     <script>
-      function welcome (event) {
+      function welcome(event){
         event.preventDefault();
         var name = $("#name").val();
-        $("#name").text("Hey " + name + "!" + "Sit tight! Coach Gnitou will shortly contact you.");
-        var email  = $("#senderEmail").val();
-        var phone = $("#phone-number").val();
-        var experience = $("#experience").val();
-        var availability = $("#available-days").val();
-        $(".form").hide();
+        $("#name").text("Hey " + name + "!" + " Sit tight! Coach Gnitou will shortly contact you.");
+        $("form").hide();
       }
       $("form").on("event-name", welcome);
     </script>
