@@ -72,6 +72,10 @@ h2 {
     margin-bottom: 50px;
     display: inline-block;
 }
+.video {
+    border-style: solid;
+    border-color: black;
+}
 .social-images {
     display: inline-block;
 }
@@ -221,7 +225,10 @@ input {
 }
 .video {
     margin-bottom: 10px;
+    border-style: solid;
+    border-color: black;
     }
+    
 .description {
     font-size: 20px;
     color: pink;
