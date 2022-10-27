@@ -42,15 +42,13 @@
  <div class = "secondsection">
   <body style = "margin:0;"> 
     <h2 class = "workingwithstudents">Coach Gnitou Working With Students</h2>
-    <div class = "slider">
-      <div class = "slides">
-        <input type = "radio" name = "radio-btn" id = "radio1">
-        <input type = "radio" name = "radio-btn" id = "radio2">
-        <input type = "radio" name = "radio-btn" id = "radio3">
-        <input type = "radio" name = "radio-btn" id = "radio4">
-        <input type = "radio" name = "radio-btn" id = "radio5">
-        
-        <div class = "slide first">
+    
+    <div class = "wrapper">
+        <h1 class = "wrapper_title">swiper.js</h1>
+      <div class = "item swiper-container">
+        <div class = "item_wrapper swiper-wrapper">
+       <div class = "item_slide swiper-slide">
+       <div class = "first video">
          <iframe class = "video"
             width="420"
             height="315"
@@ -58,49 +56,64 @@
       >
           </iframe>
           <p class = "description"> Forehand - Backhand Drill </p>
-     <div class = "slide">
-      <iframe class = "video"
-        width="420"
-        height="315"
-        src="https://www.youtube.com/embed/4xLd03M05WA"
-      >
-      </iframe>
-      <p class = "description"> Using a Soccer Ball to Improve the Forehand </p>
+         </div>
       </div>
-        <div class = "slide">
-      <iframe class = "video"
-        width="420"
-        height="315"
-        src="https://www.youtube.com/embed/_AXnNVhY2yo"
+          
+       <div class = "item_slide swiper-slide">
+       <div class = "second video">
+         <iframe class = "video"
+            width="420"
+            height="315"
+            src="https://www.youtube.com/embed/4xLd03M05WA"
       >
-      </iframe>
-        <p class = "description"> Correcting the Forehand Takeback </p>
-        </div>
-        <div class = "slide">
-      <iframe class = "video"
-        width="420"
-        height="315"
-        src="https://www.youtube.com/embed/G4Ta4qtrTMs"
+          </iframe>
+          <p class = "description"> Using a Soccer Ball to Improve the Forehand  </p>
+         </div>
+          </div>
+               
+         <div class = "item_slide swiper-slide">
+        <div class = "third video">
+         <iframe class = "video"
+            width="420"
+            height="315"
+            src="https://www.youtube.com/embed/_AXnNVhY2yo"
       >
-      </iframe>
+          </iframe>
+          <p class = "description"> Correcting the Forehand Takeback </p>
+           </div>
+          </div>
+          
+       <div class = "item_slide swiper-slide">
+       <div class = "fourth video">
+         <iframe class = "video"
+            width="420"
+            height="315"
+            src="https://www.youtube.com/embed/G4Ta4qtrTMs"
+      >
+          </iframe>
           <p class = "description"> Learning to Jump Higher on the Serve </p>
-        </div>
-    <div class = "slide">
-      <iframe class = "video"
-        width="420"
-        height="315"
-        src="https://www.youtube.com/embed/jCSvr2ccF4g"
+         </div>
+          </div>
+          
+       <div class = "item_slide swiper-slide">
+       <div class = "fifth video">
+         <iframe class = "video"
+            width="420"
+            height="315"
+            src="https://www.youtube.com/embed/jCSvr2ccF4g"
       >
-      </iframe>
-      <p class = "description"> Rallying Forehand to Forehand </p>
+          </iframe>
+          <p class = "description"> Rallying Forehand to Forehand </p>
+          </div>              
         </div>
-        <div class = "navigation-manual">
-          <label for="radio1" class = "manual-btn"></label>
-          <label for="radio2" class = "manual-btn"></label>
-          <label for="radio3" class = "manual-btn"></label>
-          <label for="radio4" class = "manual-btn"></label>
-          <label for="radio5" class = "manual-btn"></label>
-        </div>
+          
+      </div>
+        <div class = "item_pagination swiper-pagination"></div>
+          <div class = "item_prev swiper-button-prev"></div>
+          <div class = "item_next swiper-button-next"></div>
+        
+      </div>
+    </div>
   </body>
   </div>
   <div class = "thirdsection">
@@ -119,7 +132,25 @@
     <input type = "text" id = "available-days" placeholder = "List days that work for you" required minlength = "3" maxlength = "120">
     <input type = "submit" id = "submit" value = "Submit">
     </form>
-    <script>      
+      <script src = "https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+      <script src = "js/script.js"></script>
+    <script>  
+      var mySwiper = new Swiper('.swiper-container', {
+        loop: true,
+        
+        pagination: {
+          el: '.swiper-pagination',
+          clickable: true,
+          dynamicBullets: true,
+        },
+        navigation: {
+          nextEl: '.swiper-button-next',
+          prevEl: '.swiper-button-prev',
+        },      
+          
+        })
+        
+        
       function welcome(event){
         event.preventDefault();
         var name = $("#name").val();
