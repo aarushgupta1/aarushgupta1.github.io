@@ -185,7 +185,7 @@ html, body {
     background-size: cover;
     margin-top: -30px;
 }    
-  p, h1, h2, .logos, .explore, .description, .allvideos, .videocontainer, form, input {
+  p, h1, h2, .logos, .explore, .description, .allvideos, .videocontainer, form, input, .video {
       text-align: center;
 }
 input {
