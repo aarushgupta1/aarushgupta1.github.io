@@ -6,6 +6,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>More Information</title>
     <link rel = "stylesheet" href = "about.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css'>
+    <link rel = "stylesheet" href = "css/swiper-bundle.min.css.webarchive">
   </head>
   <div class = "firstsection">
     <body style = "margin:0;">
@@ -32,16 +34,39 @@
       <body style = "margin:0;">
         
         <h2 class = "testimonials">Testimonials from Students</h2>
-        <div class = "reviews">
-          <div class = "testi-content">
-            <div class = "slide">
-        <p>"Coach has a great eye for your technique and has a lot of tennis intelligence and experience. Thumbs up!" ⭐⭐⭐⭐⭐ - Edward Tang</p>
-        <p>"Excellent coach and service, would recommend tenfold!" ⭐⭐⭐⭐⭐ - Jack Mercer</p>
-        <p>"The best coach!!" ⭐⭐⭐⭐⭐ - Kayla Ruggiero</p>
+        <div class = "reviews mySwiper">
+          <div class = "testi-content swiper-wrapper">
+            <div class = "slide swiper-slide">
+        <p>"Coach has a great eye for your technique and has a lot of tennis intelligence and experience. Thumbs up!" ⭐⭐⭐⭐⭐</p>
+              <i class="bx bxs-quote-alt-left quote-icon"></i>
+              <div class = "names">
+                <p>Edward Tang</p>
+              </div>
             </div>
+            
+            <div class = "slide swiper-slide">
+        <p>"Excellent coach and service, would recommend tenfold!" ⭐⭐⭐⭐⭐</p>
+              <i class="bx bxs-quote-alt-left quote-icon"></i>
+              <div class = "names">
+                <p>Jack Mercer</p>
+              </div>
+            </div>
+            
+            <div class = "slide swiper-slide">
+        <p>"The best coach!!" ⭐⭐⭐⭐⭐</p>
+              <i class="bx bxs-quote-alt-left quote-icon"></i>
+              <div class = "names">
+                <p>Kayla Ruggiero</p>
+              </div>
+            </div>
+            
           </div>
+          <div class="swiper-button-next nav-btn"></div>
+          <div class="swiper-button-prev nav-btn"></div>
+          <div class="swiper-pagination"></div>
           </div>
-          
+        <script src = "js/swiper-bundle.min.js.webarchive"></script>
+        <script src = "js/script.js"></script>
         <div class = "funvideo">
         <iframe
         width = "420"
