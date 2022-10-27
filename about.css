@@ -210,12 +210,12 @@ iframe {
    border-width: medium;
 }
 .reviews {
+    text-align: center;
     height: 170px;
     width: 170px;
     position: relative;
     max-width: 900px;
     width: 100%;
-    background-color: red;
     overflow: hidden;
     }
 .slide {
