@@ -209,6 +209,40 @@ iframe {
    border-color: black; 
    border-width: medium;
 }
+.reviews {
+    height: 170px;
+    width: 170px;
+    position: relative;
+    max-width: 900px;
+    width: 100%;
+    background-color: red;
+    overflow: hidden;
+    }
+.slide {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    }
+.quote-icon {
+    font-size: 30px;
+    }
+.names {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    }
+.nav-btn {
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+    transform: translateY(30px);
+    transition: 0.2s;
+    }
+.nav-btn::after,
+.nav-btn::before {
+    font-size: 20px;
+    }
 .gnitou {
     height: 500px;
     width: auto;
