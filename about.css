@@ -184,7 +184,7 @@ html, body {
     background-size: cover;
     margin-top: -30px;
 }    
-  p, h1, h2, .logos, .socials, .explore, .funvideo, .tricks, .contact, .email, .phone, .gnitou, .bio {
+  p, h1, h2, .logos, .socials, .explore, .funvideo, .tricks, .contact, .email, .phone, .gnitou, .bio, .reviews {
     text-align: center;
   }
   p {
@@ -210,11 +210,10 @@ iframe {
    border-width: medium;
 }
 .reviews {
-    text-align: center;
+    display: inline-block;
     height: 170px;
     width: 170px;
     position: relative;
-    max-width: 900px;
     width: 100%;
     overflow: hidden;
     }
@@ -231,6 +230,7 @@ iframe {
     display: flex;
     flex-direction: column;
     align-items: center;
+    color: pink;
     }
 .nav-btn {
     height: 40px;
@@ -238,6 +238,7 @@ iframe {
     border-radius: 50%;
     transform: translateY(30px);
     transition: 0.2s;
+    color: black;
     }
 .nav-btn::after,
 .nav-btn::before {
