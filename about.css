@@ -83,6 +83,7 @@ iframe {
     display: block;
     height: 500px;
     width: auto;
+    padding-bottom: 20px;
     } 
 .social-images {
     display: inline-block;
@@ -279,6 +280,7 @@ iframe {
     height: 500px;
     width: auto;
     display: block;
+    padding-bottom: 20px;
     } 
 .social-images, .contact {
     display: inline-block;
