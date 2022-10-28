@@ -187,7 +187,40 @@ html, body {
 }    
   p, h1, h2, .logos, .explore, .description, .allvideos, .videocontainer, form, input, .video {
       text-align: center;
-}
+}    
+.videos {
+    display: inline-block;
+    height: 170px;
+    width: 170px;
+    position: relative;
+    width: 100%;
+    overflow: hidden;
+    }
+.slide {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    }
+.description {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: pink;
+    }
+.nav-btn {
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+    transform: translateY(30px);
+    transition: 0.2s;
+    color: black;
+    }
+.nav-btn::after,
+.nav-btn::before {
+    font-size: 20px;
+    }    
+    
 input {
     margin:5px;
     padding:10px;
