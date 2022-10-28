@@ -18,7 +18,7 @@ html, body {
     background-size: cover;
     margin-top: -30px;
 }    
-p, h1, h2, .logos, .explore, .funvideo, .tricks, .contact, .email, .phone, .gnitou {
+p, h1, h2, .logos, .explore, .funvideo, .tricks, .contact, .email, .phone, .gnitou, .reviews {
   text-align: center;
 }
 p {
@@ -43,6 +43,39 @@ iframe {
    border-color: black; 
    border-width: medium;
 }
+.reviews {
+    display: inline-block;
+    height: 170px;
+    width: 170px;
+    position: relative;
+    width: 100%;
+    overflow: hidden;
+    }
+.slide {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    color: red;
+    }
+.names {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: pink;
+    }
+.nav-btn {
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+    transform: translateY(30px);
+    transition: 1s;
+    color: black;
+    }
+.nav-btn::after,
+.nav-btn::before {
+    font-size: 20px;
+    }
 .qualifications {
     display: inline-block;
     }
