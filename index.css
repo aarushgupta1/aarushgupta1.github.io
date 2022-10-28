@@ -190,8 +190,6 @@ html, body {
 }    
 .videos {
     display: inline-block;
-    height: 170px;
-    width: 170px;
     position: relative;
     width: 100%;
     overflow: hidden;
