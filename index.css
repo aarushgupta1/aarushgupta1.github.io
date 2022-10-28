@@ -37,6 +37,36 @@ input {
     border-radius: 15px;
     display: block;
 }
+.videos {
+    display: inline-block;
+    position: relative;
+    width: 100%;
+    overflow: hidden;
+    }
+.slide {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    }
+.description {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: pink;
+    }
+.nav-btn {
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+    transform: translateY(30px);
+    transition: 1s;
+    color: black;
+    }
+.nav-btn::after,
+.nav-btn::before {
+    font-size: 20px;
+    }    
 .submit {
  margin-top: 30px;      
 } 
