@@ -1,3 +1,19 @@
+<?php
+
+
+if($_POST["message"]) {
+
+
+mail("your@email.address", "Here is the subject line",
+
+
+$_POST["insert your message here"]. "From: an@email.address");
+
+
+}
+
+
+?>
 <!DOCTYPE html>
 <html lang="en">
   <head>
@@ -109,7 +125,7 @@
     <body style = "margin:0;">
     <h2 class = "form">Interest Form</h2>
     
-     <form action="https://formsubmit.co/aarushgupta424@gmail.com" method="POST">
+     <form action="index.php" method="POST">
      <input type = "hidden" name = "_subject" value = "Interest Form">
      <h4>Name:</h4>
     <input type = "text" id = "name" placeholder = "Enter your name" required minlength = "2" maxlength = "100">
