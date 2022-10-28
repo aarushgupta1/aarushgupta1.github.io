@@ -1,13 +1,25 @@
 <?php
 
 
-if($_POST["message"]) {
 
-
-mail("aarushgupta424@gmail.com", "Interest Form",
+if(!empty($_POST["submit"])){
+  $name = $_POST["name"];
+  $email = $_POST["email"];
+  $phonenumber = $_POST["phonenumber"];
+  $experience = $_POST["experience"];
+  $availability = $_POST["availability"];
+  $toEmail = $_POST["aarushgupta424@gmail.com"];
+  
+  $mailHeaders = "Name: " . $userName .
+    "\r\n Name: " . $name .
+    "\r\n Email: " . $email .
+    "\r\n PhoneNumber: " . $phonenumber .
+    "\r\n Experience: " . $experience .
+    "\r\n Availability: " . $availability . "\r\n";
+  if(mail($toEmail)) {
+    $message = "Hi" . $name . ", your information has been received";
+    }
 }
-
-
 ?>
 <!DOCTYPE html>
 <html lang="en">
@@ -119,21 +131,38 @@ mail("aarushgupta424@gmail.com", "Interest Form",
   <div class = "thirdsection">
     <body style = "margin:0;">
     <h2 class = "form">Interest Form</h2>
-    
-     <form action="index.php" method="POST">
-     <input type = "hidden" name = "_subject" value = "Interest Form">
+    <div class = "form-container">
+     <form name = "emailContact" method="post">
+     <div class = "input-row">
      <h4>Name:</h4>
-    <input name = "message" type = "text" id = "name" placeholder = "Enter your name" required minlength = "2" maxlength = "100">
+    <input name = "name" type = "text" id = "name" placeholder = "Enter your name" required minlength = "2" maxlength = "100">
+       </div>
+       <div class = "input-row">
     <h4>Email:</h4>
-    <input name = "message" type = "email" id = "senderEmail" placeholder = "Enter your email address" required minlength = "3" maxlength = "100">
-    <h4>Phone Number:</h4>
-    <input name = "message" type = "text" id = "phone-number" placeholder = "Enter your phone number" required minlength = "8" maxlength = "20">
-    <h4>Experience:</h4>
-    <input name = "message" type = "text" id = "experience" placeholder = "# of years you've played tennis for">
-    <h4>Available days:</h4>
-    <input name = "message" type = "text" id = "available-days" placeholder = "List days that work for you" required minlength = "3" maxlength = "120">
-    <input type = "submit" id = "submit" value = "Submit">
+    <input name = "email" type = "email" id = "senderEmail" placeholder = "Enter your email address" required minlength = "3" maxlength = "100">
+      </div>
+    <div class = "input-row">
+      <h4>Phone Number:</h4>
+    <input name = "phonenumber" type = "text" id = "phonenumber" placeholder = "Enter your phone number" required minlength = "8" maxlength = "20">
+  </div>
+  <div class = "input-row"
+  <h4>Experience:</h4>
+    <input name = "experience" type = "text" id = "experience" placeholder = "# of years you've played tennis for">
+</div>
+    <div class = "input-row">
+     <h4>Available days:</h4>
+    <input name = "availability" type = "text" id = "available-days" placeholder = "List days that work for you" required minlength = "3" maxlength = "120">
+    </div>
+    <div class = "input-row">
+    <input name = "submit" type = "submit" id = "submit" value = "Submit">
+      <?php if (!empty($message)) { ?>
+      <div class = "success">
+        <strong><?php echo $message; ?></strong>
+        <div>
+          <?php } ?>
+      </div>
     </form>
+</div>
     <script>
       function welcome(event){
         event.preventDefault();
