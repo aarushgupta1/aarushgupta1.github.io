@@ -22,7 +22,7 @@ p, h1, h2, .logos, .explore, .funvideo, .tricks, .contact, .email, .phone, .gnit
   text-align: center;
 }
 p {
-    color: lime;
+    color: red;
     font-size: 25px;
 }
 .last {
@@ -188,7 +188,7 @@ html, body {
     text-align: center;
   }
   p {
-      color: lime;
+      color: red;
       font-size: 25px;
   }
   .last {
@@ -222,9 +222,7 @@ iframe {
     align-items: center;
     justify-content: center;
     flex-direction: column;
-    }
-.quote-icon {
-    font-size: 30px;
+    color: red;
     }
 .names {
     display: flex;
