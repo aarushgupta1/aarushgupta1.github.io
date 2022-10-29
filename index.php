@@ -1,5 +1,25 @@
+<?php
+    if(!empty($_POST["submit"])){
+      $name = $_POST["name"];
+      $email = $_POST["email"];
+      $phonenumber = $_POST["phonenumber"];
+      $experience = $_POST["experience"];
+      $availability = $_POST["availability"];
+      $toEmail = $_POST["aarushgupta424@gmail.com"];
+
+      $mailHeaders = "Name: " . $userName .
+        "\r\n Name: " . $name .
+        "\r\n Email: " . $email .
+        "\r\n PhoneNumber: " . $phonenumber .
+        "\r\n Experience: " . $experience .
+        "\r\n Availability: " . $availability . "\r\n";
+      if(mail($toEmail)) {
+        $message = "Hi" . $name . ", your information has been received";
+        }
+    }
+?>
 <!DOCTYPE html>
-<html lang="en">
+<html>
   <head>
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
@@ -20,26 +40,6 @@
   </head>
 <div class = "firstsection">
   <body style = "margin:0;">
-    <?php
-    if(!empty($_POST["submit"])){
-      $name = $_POST["name"];
-      $email = $_POST["email"];
-      $phonenumber = $_POST["phonenumber"];
-      $experience = $_POST["experience"];
-      $availability = $_POST["availability"];
-      $toEmail = $_POST["aarushgupta424@gmail.com"];
-
-      $mailHeaders = "Name: " . $userName .
-        "\r\n Name: " . $name .
-        "\r\n Email: " . $email .
-        "\r\n PhoneNumber: " . $phonenumber .
-        "\r\n Experience: " . $experience .
-        "\r\n Availability: " . $availability . "\r\n";
-      if(mail($toEmail)) {
-        $message = "Hi" . $name . ", your information has been received";
-        }
-    }
-?>
       <h1>Gnitou Tennis Academy</h1>
       <div class = "logos">
         <img class="logo" src="images/ball.jpg" />
