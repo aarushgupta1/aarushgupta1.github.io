@@ -261,7 +261,7 @@ input {
  margin-top: 30px;      
 }
 .form {
-    padding: 20px;
+    padding-top: 20px;
     }
 p, h4 {
     font-size: 25px;
@@ -273,7 +273,7 @@ h4 {
     color: red;
 }
   .last {
-      margin-bottom: 30px;
+      padding-bottom: 20px;
     }
   h1 {
       font-size: 55px;
@@ -306,6 +306,7 @@ h4 {
 .workingwithstudents {
     margin-bottom: 40px;
     margin-top: 30px;
+    padding-top: 20px;
   }
 .videocontainer {
     display: inline-block;
