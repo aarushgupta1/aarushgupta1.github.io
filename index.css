@@ -219,6 +219,9 @@ html, body {
   p, h1, h2, .logos, .explore, .description, .videocontainer, form, input, .video, .videos {
       text-align: center;
 }    
+h1 {
+    padding-top: 15px;
+    }
 .videos {
     display: inline-block;
     position: relative;
