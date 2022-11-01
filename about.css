@@ -243,6 +243,9 @@ iframe {
    border-color: black; 
    border-width: medium;
 }
+.testimonials {
+    padding-top: 20px;
+    }
 .reviews {
     display: inline-block;
     height: 170px;
