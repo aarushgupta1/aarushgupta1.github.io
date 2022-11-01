@@ -225,9 +225,6 @@ html, body {
       color: red;
       font-size: 25px;
   }
-  .last {
-      margin-bottom: 30px;
-    }
   h1 {
       font-size: 55px;
       font-family: Roboto;
@@ -244,7 +241,7 @@ iframe {
    border-width: medium;
 }
 .testimonials {
-    padding-top: 20px;
+    padding-top: 15px;
     }
 .reviews {
     display: inline-block;
@@ -283,7 +280,7 @@ iframe {
     height: 500px;
     width: auto;
     display: block;
-    padding-bottom: 20px;
+    padding-bottom: 30px;
     } 
 .social-images, .contact {
     display: inline-block;
