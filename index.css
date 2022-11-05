@@ -18,7 +18,7 @@ html, body {
     background-size: cover;
     margin-top: -30px;
 }   
-p, h1, h2, .logos, .explore, .description, .allvideos, .phone, .email, .contact, form, input {
+p, h1, h2, .logos, .explore, .description, .allvideos, .phone, .email, .contact, form, input, .testi-content swiper-wrapper {
     text-align: center;
 }
 p, h4 {
@@ -54,7 +54,7 @@ input {
     flex-direction: column;
     align-items: center;
     color: red;
-    }
+}
 .nav-btn {
     height: 40px;
     width: 40px;
