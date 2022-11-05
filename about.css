@@ -129,8 +129,6 @@ button {
     margin-left: 0px; 
     border: none; 
     transition: opacity 0.15s, box-shadow 0.15s; 
-    width: 239.8px;
-    height: 17.6px;
   }
 
   button:hover {
@@ -324,8 +322,6 @@ iframe {
       margin-left: 0px;
       border: none; 
       transition: opacity 0.15s, box-shadow 0.15s; 
-      width: 239.8px;
-      height: 17.6px;
     }
 
     button:hover {
