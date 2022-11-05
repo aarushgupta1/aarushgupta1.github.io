@@ -366,6 +366,7 @@ button {
       cursor: pointer;
       border: none;
       transition: opacity 0.15s, box-shadow 0.15s;
+      position: relative;
       float: right;
       display: inline-block;
     }
