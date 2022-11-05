@@ -91,9 +91,6 @@ iframe {
 .coach {
     margin-bottom: 40px;
 }
-.contact {
-    margin-left: 150px;
-}
 .where, .location {
     font-size: 20px;
     color: white;
@@ -302,6 +299,9 @@ iframe {
 }
 .coach {
     margin-bottom: 40px;
+}
+.contact {
+    margin-left: 150px;
 }
 .testimonials { 
      margin-top: 30px;
