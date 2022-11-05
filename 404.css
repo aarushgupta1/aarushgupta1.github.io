@@ -19,7 +19,7 @@ h1 {
     color: blue;
 }
 p {
-  margin-top: 30px;
+  padding-top: 40px;
   color: white;
   font-size: 35px;
   }
@@ -76,7 +76,7 @@ body {
   p {
     color: white;
     font-size: 35px;
-    margin-top: 30px;
+    padding-top: 40px;
   }
 .logo, .secondlogo, .thirdlogo {
     width: 80px;
