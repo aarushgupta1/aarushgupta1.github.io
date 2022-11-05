@@ -44,8 +44,8 @@ iframe {
 }
 .reviews {
     display: inline-block;
-    height: 85px;
-    width: 85px;
+    height: 300px;
+    width: 170px;
     position: relative;
     width: 100%;
     overflow: hidden;
@@ -64,8 +64,8 @@ iframe {
     color: pink;
     }
 .nav-btn {
-    height: 20px;
-    width: 20px;
+    height: 40px;
+    width: 40px;
     border-radius: 50%;
     transform: translateY(30px);
     transition: 1s;
