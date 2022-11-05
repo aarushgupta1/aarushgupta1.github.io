@@ -310,13 +310,6 @@ h4 {
     font-size: 25px;
     display: inline;
     }
-.phone {
-    display: block;
-    margin-top: 20px;
-}
-.email {
-    margin-bottom: 40px;
-}
 .lessons {
     padding-top: 30px;
     margin-bottom: 15px;
@@ -360,9 +353,6 @@ h4 {
         transform: rotate(359deg);
     }
 }
-a {
-    
-    }
 button {
       padding-left: 50px;
       padding-right: 30px;
@@ -405,8 +395,17 @@ button {
     transition: hover 0.15s, opacity 0.15s;
     height: 100px;
     width : auto;
-    margin-bottom: 10px;
+    margin-bottom: 20px;
   }
+.email {
+    margin-bottom: 20px;
+}
+.contact {
+    float: bottom;
+    }
+.phone {
+    display: block;
+}
 .tiktok:hover {
     box-shadow: 5px 5px 9px black;
 }
