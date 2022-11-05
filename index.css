@@ -102,6 +102,9 @@ h2 {
 .phone, .email {
     display: block;
 }
+.lessons {
+ padding-top: 20px;
+}
 .phone {
     margin-top: 20px;
 }
@@ -313,6 +316,7 @@ h4 {
     margin-bottom: 40px;
 }
 .lessons {
+    padding-top: 20px;
     margin-bottom: 20px;
     }
 .workingwithstudents {
