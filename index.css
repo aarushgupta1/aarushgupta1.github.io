@@ -235,9 +235,10 @@ h1 {
     padding-top: 15px;
     }
 .videos {
-    display: inline-block;
+    display: inline;
     width: 70%;
     overflow: hidden;
+    position: relative;
     }
 .slide {
     display: flex;
