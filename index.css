@@ -18,7 +18,7 @@ html, body {
     background-size: cover;
     margin-top: -30px;
 }   
-p, h1, h2, .logos, .explore, .description, .allvideos, .phone, .email, .contact, form, input, .testi-content swiper-wrapper, .videos mySwiper {
+p, h1, h2, .logos, .explore, .description, .allvideos, .phone, .email, .contact, form, input, .testi-content, .videos {
     text-align: center;
 }
 p, h4 {
@@ -35,8 +35,12 @@ input {
     padding:10px;
     width:220px;
     border-radius: 15px;
-    display: block;
+    display: inline-block;
 }
+.name, .senderEmail, .phonenumber, .experience, .available-days, .submit {
+    display: inline-block;
+    text-align: center;
+    }
 .videos {
     display: inline-block;
     position: relative;
