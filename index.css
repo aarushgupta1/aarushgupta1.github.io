@@ -154,6 +154,7 @@ button {
     border: none;
     transition: opacity 0.15s, box-shadow 0.15s;
     margin-top: 20px;
+    margin-right: 0px;
 }
 button:hover {
     box-shadow: 5px 5px 9px black; 
