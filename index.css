@@ -87,9 +87,6 @@ h2 {
     color: yellow;
     padding-top: 15px;
 }
-.lessons {
-    display: inline-block;
-}
 .form {
  padding-top: 15px;   
 }
@@ -384,9 +381,6 @@ button {
     button:active {
       opacity: 0.8; 
     }
-    .lessons {
-    display: inline-block;
-}
   .facebook {
     border-radius: 20px;
   }
