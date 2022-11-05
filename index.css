@@ -228,7 +228,7 @@ html, body {
     margin-top: -30px;
     height: 600px;
 }    
-  p, h1, h2, .logos, .explore, .description, .videocontainer, form, input, .video, .videos, .testi-content {
+  p, h1, h2, .logos, .explore, .description, .videocontainer, form, input, .video, .videos, .testi-content, .slide {
       text-align: center;
 }    
 h1 {
