@@ -117,6 +117,8 @@ iframe {
 }
 button {
     margin-top: 20px;
+    width: 210px;
+    height: auto;
     font-size: 25px; 
     color: white; 
     background-color: blue; 
@@ -310,6 +312,8 @@ iframe {
  }
   button {
       margin-top: 20px; 
+      width: 210px;
+      height: auto;
       font-size: 25px; 
       color: white; 
       background-color: blue; 
