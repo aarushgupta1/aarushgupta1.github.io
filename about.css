@@ -139,6 +139,7 @@ button {
   .logo, .secondlogo, .thirdlogo {
     width: 80px;
     border-radius: 50px;
+    margin-right: 20px;
     float: bottom;
     animation: rotation 8s infinite linear;
 }
