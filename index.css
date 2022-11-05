@@ -18,7 +18,7 @@ html, body {
     background-size: cover;
     margin-top: -30px;
 }   
-p, h1, h2, .logos, .explore, .description, .allvideos, .phone, .email, .contact, form, input, .testi-content swiper-wrapper {
+p, h1, h2, .logos, .explore, .description, .allvideos, .phone, .email, .contact, form, input, .testi-content swiper-wrapper, .videos mySwiper {
     text-align: center;
 }
 p, h4 {
@@ -216,7 +216,7 @@ html, body {
     margin-top: -30px;
     height: 600px;
 }    
-  p, h1, h2, .logos, .explore, .description, .videocontainer, form, input, .video, .videos, .testi-content swiper-wrapper {
+  p, h1, h2, .logos, .explore, .description, .videocontainer, form, input, .video, .videos, .testi-content swiper-wrapper, .videos mySwiper {
       text-align: center;
 }    
 h1 {
