@@ -300,9 +300,6 @@ iframe {
 .coach {
     margin-bottom: 40px;
 }
-.contact {
-    margin-left: 150px;
-}
 .testimonials { 
      margin-top: 30px;
      margin-bottom: 30px;
@@ -361,6 +358,7 @@ iframe {
   }
   .tiktok {
   border-radius: 60px;
+  margin-right: 15px;
   }
   .instagram, .facebook, .youtube {
     margin-right: 30px;
