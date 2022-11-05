@@ -345,6 +345,9 @@ h4 {
         transform: rotate(359deg);
     }
 }
+a {
+    
+    }
 button {
       padding-left: 50px;
       padding-right: 30px;
@@ -358,8 +361,6 @@ button {
       border: none;
       transition: opacity 0.15s, box-shadow 0.15s;
       margin-left: 1200px;
-      width: 240px;
-      height: auto;
     }
     button:hover {
       box-shadow: 5px 5px 9px black; 
