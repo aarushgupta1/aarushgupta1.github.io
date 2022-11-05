@@ -318,7 +318,7 @@ h4 {
 .lessons {
     padding-top: 30px;
     margin-bottom: 20px;
-    display: inline;
+    display: inline-block;
     }
 .workingwithstudents {
     margin-bottom: 40px;
