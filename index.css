@@ -149,10 +149,7 @@ button {
     cursor: pointer;
     border: none;
     transition: opacity 0.15s, box-shadow 0.15s;
-    margin-left: 175px;
     margin-top: 20px;
-    width: 240px;
-    height: auto;
 }
 button:hover {
     box-shadow: 5px 5px 9px black; 
@@ -360,7 +357,6 @@ button {
       cursor: pointer;
       border: none;
       transition: opacity 0.15s, box-shadow 0.15s;
-      margin-left: 1200px;
     }
     button:hover {
       box-shadow: 5px 5px 9px black; 
