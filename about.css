@@ -272,6 +272,9 @@ iframe {
 .nav-btn::before {
     font-size: 20px;
     }
+.contact {
+    padding-left: 30px;
+    }
 .gnitou {
     height: 500px;
     width: auto;
@@ -358,7 +361,6 @@ iframe {
   }
   .tiktok {
   border-radius: 60px;
-  padding-right: 45px;
   }
   .instagram, .facebook, .youtube {
     margin-right: 30px;
