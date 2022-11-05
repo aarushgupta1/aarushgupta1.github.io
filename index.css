@@ -74,17 +74,21 @@ input {
  margin-top: 30px;      
 } 
 .last {
-    margin-bottom: 30px;
+    padding-bottom: 20px;
 }
 h1 {
     font-size: 55px;
     font-family: Roboto;
     color: blue;
-    margin-top: 30px;
+    padding-top: 15px;
 }
 h2 {
     font-size: 35px;
     color: yellow;
+    padding-top: 15px;
+}
+.form {
+ padding-top: 15px;   
 }
 .social-images {
     display: inline-block;
@@ -105,8 +109,7 @@ h2 {
     margin-bottom: 20px;
 }
 .workingwithstudents {
-    margin-bottom: 40px;
-    margin-top: 30px;
+    padding-top: 15px;
 }
 .videocontainer {
     margin-bottom: 50px;
@@ -313,7 +316,6 @@ h4 {
     }
 .workingwithstudents {
     margin-bottom: 40px;
-    margin-top: 30px;
     padding-top: 15px;
   }
 .videocontainer {
@@ -332,9 +334,6 @@ h4 {
     font-size: 20px;
     color: pink;
 }
-.workingwithstudents {
-    padding: 20px;
-    }
 .logo, .secondlogo, .thirdlogo {
     width: 80px;
     border-radius: 50px;
