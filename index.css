@@ -365,7 +365,7 @@ button {
       border: none;
       transition: opacity 0.15s, box-shadow 0.15s;
       right: 0;
-      display: inline-block;
+      display: inline;
     }
 .name, .senderEmail, .phonenumber, .experience, .available-days, .submit {
     display: inline-block;
