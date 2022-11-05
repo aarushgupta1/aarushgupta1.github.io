@@ -194,6 +194,204 @@ border-radius: 60px;
   margin-top: 40px;
 }
 
+@media only screen and (min-width: 768px) {
+html, body {
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+}   
+.firstsection {
+    background-image: url(../images/second.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-bottom: -30px;
+    margin-top: -30px;
+  }
+.secondsection {
+    background-image: url(../images/bluecourt.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-top: -30px;
+}    
+  p, h1, h2, .logos, .socials, .explore, .funvideo, .tricks, .contact, .email, .phone, .gnitou, .bio, .reviews {
+    text-align: center;
+  }
+  p {
+      color: red;
+      font-size: 25px;
+  }
+  h1 {
+      font-size: 55px;
+      font-family: Roboto;
+      color: blue;
+      padding-top: 15px;
+  }
+  h2 {
+    font-size: 35px;
+    color: white;
+    }
+iframe {
+   border-style: solid;
+   border-color: black; 
+   border-width: medium;
+}
+.testimonials {
+    padding-top: 15px;
+    }
+.reviews {
+    display: inline-block;
+    height: 170px;
+    width: 170px;
+    position: relative;
+    width: 100%;
+    overflow: hidden;
+    }
+.slide {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    color: red;
+    }
+.names {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: pink;
+    }
+.nav-btn {
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+    transform: translateY(30px);
+    transition: 1s;
+    color: black;
+    }
+.nav-btn::after,
+.nav-btn::before {
+    font-size: 20px;
+    }
+.contact {
+    padding-left: 30px;
+    }
+.gnitou {
+    height: 500px;
+    width: auto;
+    display: block;
+    padding-bottom: 30px;
+    } 
+.social-images, .contact {
+    display: inline-block;
+}
+.social-images {
+    margin-bottom: -5px;
+    margin-top: 40px;
+    }
+.where, .location {
+    color: white;
+    font-size: 25px;
+    display: inline;
+}
+.phone {
+    display: block;
+    margin-top: 20px;
+}
+.email {
+    margin-bottom: 40px;
+}
+.coach {
+    margin-bottom: 40px;
+}
+.testimonials { 
+     margin-top: 30px;
+     margin-bottom: 30px;
+}
+.social-images {
+    display: inline-block;
+ }
+  button {
+      margin-top: 20px; 
+      width: 210px;
+      height: auto;
+      font-size: 25px; 
+      color: white; 
+      background-color: blue; 
+      border-radius: 30px; 
+      cursor: pointer; 
+      padding-left: 50px;
+      padding-right: 30px;
+      padding-bottom: 10px;
+      padding-top: 10px;
+      margin-left: 0px;
+      border: none; 
+      transition: opacity 0.15s, box-shadow 0.15s; 
+    }
+
+    button:hover {
+      box-shadow: 5px 5px 9px black; 
+    }
+    button:active {
+      opacity: 0.8; 
+    }
+.logo, .secondlogo, .thirdlogo {
+    width: 80px;
+    border-radius: 50px;
+    float: bottom;
+    margin-right: 20px;
+    animation: rotation 8s infinite linear;
+}
+@keyframes rotation {
+    from {
+        transform: rotate(0deg);
+    }
+    to {
+        transform: rotate(359deg);
+    }
+}
+ .tricks {
+    color: pink;
+    margin-top: 10px;
+}
+  .facebook {
+    border-radius: 20px;
+  }
+  .youtube {
+    border-radius: 30px;
+  }
+  .tiktok {
+  border-radius: 60px;
+  }
+  .instagram, .facebook, .youtube {
+    margin-right: 30px;
+  }
+  .instagram, .facebook, .youtube, .tiktok {
+    transition: hover 0.15s, opacity 0.15s;
+    height: 100px;
+    width: auto;
+    margin-bottom: 10px;
+  }
+.tiktok:hover {
+    box-shadow: 5px 5px 9px black;
+}
+.facebook:hover {
+    box-shadow: 5px 5px 9px blue;
+}
+ .youtube:hover {
+     box-shadow 5px 5px 9px white;
+    }
+ .instagram:hover {
+     box-shadow 5px 5px 9px white;
+     }
+.instagram:active, .facebook:active, .youtube:active, .tiktok:active {
+    opacity: 0.6;
+    }
+  .funvideo {
+    display: block;
+    margin-top: 40px;
+  }
+}
 @media only screen and (min-width: 1000px) {
 html, body {
     width: 100%;
