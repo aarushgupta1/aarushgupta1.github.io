@@ -117,8 +117,6 @@ iframe {
 }
 button {
     margin-top: 20px;
-    width: 210px; 
-    height: auto; 
     font-size: 25px; 
     color: white; 
     background-color: blue; 
@@ -128,7 +126,7 @@ button {
     padding-right: 30px;
     padding-bottom: 10px;
     padding-top: 10px;
-    margin-right: 1650px; 
+    margin-left: 0px; 
     border: none; 
     transition: opacity 0.15s, box-shadow 0.15s; 
   }
