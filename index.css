@@ -42,9 +42,10 @@ input {
     text-align: center;
     }
 .videos {
-    display: inline-block;
+    display: inline;
     width: 70%;
     overflow: hidden;
+    position: relative;
     }
 .slide {
     display: flex;
