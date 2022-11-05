@@ -311,9 +311,7 @@ iframe {
     display: inline-block;
  }
   button {
-      margin-top: 20px;
-      width: 210px; 
-      height: auto; 
+      margin-top: 20px; 
       font-size: 25px; 
       color: white; 
       background-color: blue; 
@@ -323,7 +321,7 @@ iframe {
       padding-right: 30px;
       padding-bottom: 10px;
       padding-top: 10px;
-      margin-right: 1650px; 
+      margin-left: 0px;
       border: none; 
       transition: opacity 0.15s, box-shadow 0.15s; 
     }
