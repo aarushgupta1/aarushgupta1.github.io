@@ -160,6 +160,7 @@ button {
     transition: opacity 0.15s, box-shadow 0.15s;
     margin-top: 20px;
     right: 0;
+    position: absolute;
     display: inline-block;
 }
 button:hover {
@@ -365,7 +366,8 @@ button {
       border: none;
       transition: opacity 0.15s, box-shadow 0.15s;
       right: 0;
-      display: inline;
+      display: inline-block;
+      position: absolute;
     }
 .name, .senderEmail, .phonenumber, .experience, .available-days, .submit {
     display: inline-block;
