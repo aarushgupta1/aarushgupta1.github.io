@@ -108,8 +108,7 @@
   <div class = "thirdsection">
     <body style = "margin:0;">
     <h2 class = "form">Interest Form</h2>
-    <div class = "form-container">
-     <form name = "emailContact" method="post">
+    <form class = "contact-form" action = "contactform.php" method = "post">
      <div class = "input-row">
      <h4>Name:</h4>
     <input name = "name" type = "text" id = "name" placeholder = "Enter your name" required minlength = "2" maxlength = "100">
