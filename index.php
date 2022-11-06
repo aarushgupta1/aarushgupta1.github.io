@@ -133,7 +133,6 @@
     <input name = "submit" id = "submit" type = "submit">
       </div>
     </form>
-</div>
     <div class="explore">
       <div class = "social-images">
       <a href="https://www.instagram.com/gnitou_tennis_academy/" target="_blank"
