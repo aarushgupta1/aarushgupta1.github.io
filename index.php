@@ -111,26 +111,26 @@
     <form class = "contact-form" action = "contactform.php" method = "post">
      <div class = "input-row">
      <h4>Name:</h4>
-    <input name = "name" type = "text" id = "name" placeholder = "Enter your name" required minlength = "2" maxlength = "100">
+    <input name = "name" type = "text" placeholder = "Enter your name" required minlength = "2" maxlength = "100">
        </div>
        <div class = "input-row">
     <h4>Email:</h4>
-    <input name = "email" type = "email" id = "senderEmail" placeholder = "Enter your email address" required minlength = "3" maxlength = "100">
+    <input name = "email" type = "email" placeholder = "Enter your email address" required minlength = "3" maxlength = "100">
       </div>
     <div class = "input-row">
       <h4>Phone Number:</h4>
-    <input name = "phonenumber" type = "text" id = "phonenumber" placeholder = "Enter your phone number" required minlength = "8" maxlength = "20">
+    <input name = "phonenumber" type = "text" placeholder = "Enter your phone number" required minlength = "8" maxlength = "20">
   </div>
   <div class = "input-row">
   <h4>Experience:</h4>
-    <input name = "experience" type = "text" id = "experience" placeholder = "# of years you've played tennis for">
+    <input name = "experience" type = "text" placeholder = "# of years you've played tennis for">
 </div>
     <div class = "input-row">
      <h4>Available days:</h4>
-    <input name = "availability" type = "text" id = "available-days" placeholder = "List days that work for you" required minlength = "3" maxlength = "120">
+    <input name = "availability" type = "text" placeholder = "List days that work for you" required minlength = "3" maxlength = "120">
     </div>
     <div class = "input-row">
-    <input name = "submit" type = "submit" id = "submit" value = "Submit">
+    <input name = "submit" type = "submit">
       </div>
     </form>
 </div>
