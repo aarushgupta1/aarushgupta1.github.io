@@ -30,6 +30,29 @@ p {
 h4 {
     color: red;
 }
+.navigate {
+    padding-left: 50px;
+    padding-right: 30px;
+    padding-bottom: 10px;
+    padding-top: 10px;
+    font-size: 25px;
+    color: white;
+    background-color: blue;
+    border-radius: 30px;
+    cursor: pointer;
+    border: none;
+    transition: opacity 0.15s, box-shadow 0.15s;
+    margin-top: 20px;
+    position: relative;
+    float: right;
+    display: inline-block;
+}
+.navigate:hover {
+    box-shadow: 5px 5px 9px black; 
+}
+.navigate:active {
+    opacity: 0.8; 
+  }
 .submit {
     display: inline-block;
     }
@@ -149,29 +172,6 @@ h2 {
         transform: rotate(359deg);
     }
 }
-.navigate {
-    padding-left: 50px;
-    padding-right: 30px;
-    padding-bottom: 10px;
-    padding-top: 10px;
-    font-size: 25px;
-    color: white;
-    background-color: blue;
-    border-radius: 30px;
-    cursor: pointer;
-    border: none;
-    transition: opacity 0.15s, box-shadow 0.15s;
-    margin-top: 20px;
-    position: relative;
-    float: right;
-    display: inline-block;
-}
-.navigate:hover {
-    box-shadow: 5px 5px 9px black; 
-}
-.navigate:active {
-    opacity: 0.8; 
-  }
 .facebook {
     border-radius: 20px;
 }
@@ -230,7 +230,29 @@ html, body {
 }    
   p, h1, h2, .logos, .explore, .description, .videocontainer, form, input, .video, .videos, .testi-content, .slide, .lessons, .submit {
       text-align: center;
-}    
+} 
+.navigate {
+      padding-left: 50px;
+      padding-right: 30px;
+      padding-bottom: 10px;
+      padding-top: 10px;
+      font-size: 25px;
+      color: white;
+      background-color: blue;
+      border-radius: 30px;
+      cursor: pointer;
+      border: none;
+      transition: opacity 0.15s, box-shadow 0.15s;
+      position: relative;
+      float: right;
+      display: inline-block;
+    }
+.navigate:hover {
+   box-shadow: 5px 5px 9px black; 
+    }
+.navigate:active {
+      opacity: 0.8; 
+    }
 .submit {
     display: inline-block;
     }
@@ -352,31 +374,9 @@ h4 {
         transform: rotate(359deg);
     }
 }
-.navigate {
-      padding-left: 50px;
-      padding-right: 30px;
-      padding-bottom: 10px;
-      padding-top: 10px;
-      font-size: 25px;
-      color: white;
-      background-color: blue;
-      border-radius: 30px;
-      cursor: pointer;
-      border: none;
-      transition: opacity 0.15s, box-shadow 0.15s;
-      position: relative;
-      float: right;
-      display: inline-block;
-    }
 input {
     display: inline-block;
     text-align: center;
-    }
-    .navigate:hover {
-      box-shadow: 5px 5px 9px black; 
-    }
-    .navigate:active {
-      opacity: 0.8; 
     }
   .facebook {
     border-radius: 20px;
