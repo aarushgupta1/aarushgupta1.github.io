@@ -149,7 +149,7 @@ h2 {
         transform: rotate(359deg);
     }
 }
-button {
+.navigate {
     padding-left: 50px;
     padding-right: 30px;
     padding-bottom: 10px;
@@ -166,10 +166,10 @@ button {
     float: right;
     display: inline-block;
 }
-button:hover {
+.navigate:hover {
     box-shadow: 5px 5px 9px black; 
 }
-button:active {
+.navigate:active {
     opacity: 0.8; 
   }
 .facebook {
@@ -352,7 +352,7 @@ h4 {
         transform: rotate(359deg);
     }
 }
-button {
+.navigate {
       padding-left: 50px;
       padding-right: 30px;
       padding-bottom: 10px;
@@ -372,10 +372,10 @@ input {
     display: inline-block;
     text-align: center;
     }
-    button:hover {
+    .navigate:hover {
       box-shadow: 5px 5px 9px black; 
     }
-    button:active {
+    .navigate:active {
       opacity: 0.8; 
     }
   .facebook {
