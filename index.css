@@ -369,7 +369,7 @@ button {
       float: right;
       display: inline-block;
     }
-.name, .senderEmail, .phonenumber, .experience, .available-days, .submit {
+input {
     display: inline-block;
     text-align: center;
     }
