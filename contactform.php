@@ -12,5 +12,5 @@
    $txt = "You have received an e-mail from ".$name;
     
    mail($mailTo, $txt, $headers);
-   header("Location: index.php?mailsend");
+   header("Location: index.html?mailsend");
   }
