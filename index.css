@@ -18,7 +18,7 @@ html, body {
     background-size: cover;
     margin-top: -30px;
 }   
-p, h1, h2, .logos, .explore, .description, .phone, .email, .contact, form, input, .testi-content, .videos {
+p, h1, h2, .logos, .explore, .description, .phone, .email, .contact, form, input, .testi-content, .videos, .submit {
     text-align: center;
 }
 p, h4 {
@@ -30,6 +30,9 @@ p {
 h4 {
     color: red;
 }
+.submit {
+    display: inline-block;
+    }
 input {
     margin:5px;
     padding:10px;
@@ -225,9 +228,12 @@ html, body {
     margin-top: -30px;
     height: 600px;
 }    
-  p, h1, h2, .logos, .explore, .description, .videocontainer, form, input, .video, .videos, .testi-content, .slide, .lessons {
+  p, h1, h2, .logos, .explore, .description, .videocontainer, form, input, .video, .videos, .testi-content, .slide, .lessons, .submit {
       text-align: center;
 }    
+.submit {
+    display: inline-block;
+    }
 h1 {
     padding-top: 15px;
     }
