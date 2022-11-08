@@ -9,7 +9,7 @@
     
    $mailTo = "kavitagupta101@yahoo.com";
    $headers = "From: ".$mailFrom;
-   $txt = "You have received an email from ".$name.".\n\n".$phonenumber.", ".$experience.", ".$availability;
+   $txt = "You have received an e-mail from ".$name;
     
    mail($mailTo, $txt, $headers);
    header("Location: index.html?mailsend");
