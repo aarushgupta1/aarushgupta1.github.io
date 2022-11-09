@@ -30,7 +30,7 @@ p {
 h4 {
     color: red;
 }
-.button {
+button {
     padding-left: 50px;
     padding-right: 30px;
     padding-bottom: 10px;
@@ -47,15 +47,16 @@ h4 {
     float: right;
     display: inline-block;
 }
-.button:hover {
+button:hover {
     box-shadow: 5px 5px 9px black; 
 }
-.button:active {
+button:active {
     opacity: 0.8; 
   }
 .submit {
     background-color: yellow;
     color: green;
+    display: block;
     }
 input {
     margin:5px;
@@ -254,6 +255,7 @@ button:active {
 .submit {
     background-color: yellow;
     color: green;
+    display: block;
     }
 h1 {
     padding-top: 15px;
