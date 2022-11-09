@@ -30,7 +30,7 @@ p {
 h4 {
     color: red;
 }
-.navigate {
+.transfer {
     padding-left: 50px;
     padding-right: 30px;
     padding-bottom: 10px;
@@ -47,14 +47,17 @@ h4 {
     float: right;
     display: inline-block;
 }
-.navigate:hover {
+.transfer:hover {
     box-shadow: 5px 5px 9px black; 
 }
-.navigate:active {
+.transfer:active {
     opacity: 0.8; 
   }
 .submit {
     display: inline-block;
+    padding-top: 20px;
+    background-color: yellow;
+    color: green;
     }
 input {
     margin:5px;
@@ -161,9 +164,6 @@ h2 {
     margin-right: 20px;
     animation: rotation 8s infinite linear;
 }
-.submit {
-    padding-top: 20px;
-}
 @keyframes rotation {
     from {
         transform: rotate(0deg);
@@ -231,7 +231,7 @@ html, body {
   p, h1, h2, .logos, .explore, .description, .videocontainer, form, input, .video, .videos, .testi-content, .slide, .lessons, .submit {
       text-align: center;
 } 
-.navigate {
+.transfer {
       padding-left: 50px;
       padding-right: 30px;
       padding-bottom: 10px;
@@ -247,14 +247,17 @@ html, body {
       float: right;
       display: inline-block;
     }
-.navigate:hover {
+.transfer:hover {
    box-shadow: 5px 5px 9px black; 
     }
-.navigate:active {
+.transfer:active {
       opacity: 0.8; 
     }
 .submit {
     display: inline-block;
+    padding-top: 20px;
+    background-color: yellow;
+    color: green;
     }
 h1 {
     padding-top: 15px;
