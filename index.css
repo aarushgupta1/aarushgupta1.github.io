@@ -253,7 +253,7 @@ input {
     padding:10px;
     width:220px;
     border-radius: 15px;
-    display: block;
+    display: inline;
     }
 h1 {
     padding-top: 15px;
