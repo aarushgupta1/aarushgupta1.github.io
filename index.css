@@ -43,7 +43,6 @@ button {
     cursor: pointer;
     border: none;
     transition: opacity 0.15s, box-shadow 0.15s;
-    ma/rgin-top: 20px;
     position: relative;
     float: right;
     display: inline-block;
@@ -255,6 +254,9 @@ input {
     border-radius: 15px;
     display: inline;
     }
+ .lastinput {
+     display: inline-block;
+     text-align: center;
 h1 {
     padding-top: 15px;
     }
