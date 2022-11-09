@@ -54,16 +54,12 @@ button:hover {
 button:active {
     opacity: 0.8; 
   }
-.submit {
-    background-color: yellow;
-    color: green;
-    }
 input {
     margin:5px;
     padding:10px;
     width:220px;
     border-radius: 15px;
-    display: inline-block;
+    display: block;
 }
 .videos {
     display: inline;
@@ -227,7 +223,7 @@ html, body {
     margin-top: -30px;
     height: 600px;
 }    
-  p, h1, h2, .logos, .explore, .description, .videocontainer, form, input, .video, .videos, .testi-content, .slide, .lessons, .submit, h4 {
+  p, h1, h2, .logos, .explore, .description, .videocontainer, form, input, .video, .videos, .testi-content, .slide, .lessons, h4 {
       text-align: center;
 } 
 button {
@@ -257,11 +253,7 @@ input {
     padding:10px;
     width:220px;
     border-radius: 15px;
-    display: inline-block;
-    }
-.submit {
-    background-color: yellow;
-    color: green;
+    display: block;
     }
 h1 {
     padding-top: 15px;
