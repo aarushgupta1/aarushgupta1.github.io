@@ -61,7 +61,7 @@ input {
     display: inline-block;
 }
 .submit {
-    padding-top: 20px;
+    margin-top: 20px;
 }
 .videos {
     display: inline;
@@ -229,7 +229,7 @@ html, body {
       text-align: center;
 }
 .submit {
-    padding-top: 20px;
+    margin-top: 20px;
     }
 button {
       padding-left: 50px;
