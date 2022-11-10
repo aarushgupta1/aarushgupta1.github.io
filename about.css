@@ -469,7 +469,7 @@ iframe {
     color: yellow;
     }
 .contact {
-    padding-left: 30px;
+    padding-left: 40px;
     }
 .gnitou {
     height: 500px;
@@ -480,10 +480,6 @@ iframe {
 .social-images, .contact {
     display: inline-block;
 }
-.social-images {
-    margin-bottom: -5px;
-    margin-top: 40px;
-    }
 .where, .location {
     color: white;
     font-size: 25px;
@@ -491,7 +487,6 @@ iframe {
 }
 .phone {
     display: block;
-    margin-top: 20px;
 }
 .email {
     margin-bottom: 40px;
@@ -505,6 +500,8 @@ iframe {
 }
 .social-images {
     display: inline-block;
+    margin-top: 40px;
+    margin-bottom: 40px;
  }
   button {
       margin-top: 20px; 
@@ -565,7 +562,6 @@ iframe {
     transition: hover 0.15s, opacity 0.15s;
     height: 100px;
     width: auto;
-    margin-bottom: 10px;
   }
 .tiktok:hover {
     box-shadow: 5px 5px 9px black;
