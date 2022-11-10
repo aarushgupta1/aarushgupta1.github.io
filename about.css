@@ -61,7 +61,6 @@ iframe {
     display: flex;
     flex-direction: column;
     align-items: center;
-    color: pink;
     }
 .nav-btn {
     height: 40px;
@@ -456,7 +455,6 @@ iframe {
     display: flex;
     flex-direction: column;
     align-items: center;
-    color: pink;
     }
 .nav-btn {
     height: 40px;
