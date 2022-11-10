@@ -285,8 +285,8 @@ h1 {
     align-items: center;
     justify-content: center;
     flex-direction: column;
-    color: black;
-    padding-left: 40px;
+    position: relative;
+    left: 40px;
     }
 .description {
     display: flex;
