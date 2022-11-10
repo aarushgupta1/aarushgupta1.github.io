@@ -396,8 +396,7 @@ h4 {
     transition: hover 0.15s, opacity 0.15s;
     height: 100px;
     width : auto;
-    margin-bottom: 20px;
-  }
+    }
 .email {
     margin-bottom: 40px;
 }
