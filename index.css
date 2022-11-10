@@ -18,7 +18,7 @@ html, body {
     background-size: cover;
     margin-top: -30px;
 }   
-p, h1, h2, .logos, .explore, .description, .phone, .email, .contact, form, input, .testi-content, .videos, h4, .lastinput {
+p, h1, h2, .logos, .explore, .description, .phone, .email, .contact, form, input, .testi-content, .videos, h4, .availability, .submit {
     text-align: center;
 }
 p, h4 {
@@ -58,10 +58,7 @@ input {
     padding:10px;
     width:220px;
     border-radius: 15px;
-    display: inline;
-}
- .lastinput {
-     display: inline-block;
+    display: inline-block;
 }
 .videos {
     display: inline;
@@ -225,7 +222,7 @@ html, body {
     margin-top: -30px;
     height: 600px;
 }    
-  p, h1, h2, .logos, .explore, .description, .videocontainer, form, input, .video, .videos, .testi-content, .slide, .lessons, h4 {
+  p, h1, h2, .logos, .explore, .description, .videocontainer, form, input, .video, .videos, .testi-content, .slide, .lessons, h4, .availability, .submit {
       text-align: center;
 } 
 button {
@@ -255,11 +252,8 @@ input {
     padding:10px;
     width:220px;
     border-radius: 15px;
-    display: inline;
+    display: inline-block;
     }
- .lastinput {
-     display: inline-block;
-     text-align: center;
 h1 {
     padding-top: 15px;
     }
