@@ -358,7 +358,8 @@ h4 {
     border-width: medium;
     }
 .contact {
-    padding-left: 30px;
+    padding-left: 40px;
+    float: bottom;
     }
 .description {
     font-size: 20px;
@@ -395,14 +396,11 @@ h4 {
     transition: hover 0.15s, opacity 0.15s;
     height: 100px;
     width : auto;
-    margin-bottom: 20px;
+    padding-bottom: 20px;
   }
 .email {
-    margin-bottom: 20px;
+    padding-bottom: 20px;
 }
-.contact {
-    float: bottom;
-    }
 .phone {
     display: block;
 }
