@@ -74,7 +74,7 @@ iframe {
 .nav-btn::after,
 .nav-btn::before {
     font-size: 20px;
-    color: pink;
+    color: yellow;
     }
 .qualifications {
     display: inline-block;
@@ -471,7 +471,7 @@ iframe {
 .nav-btn::after,
 .nav-btn::before {
     font-size: 20px;
-    color: pink;
+    color: yellow;
     }
 .contact {
     padding-left: 30px;
