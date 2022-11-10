@@ -62,6 +62,8 @@ input {
 }
 .submit {
     margin-top: 30px;
+}
+.share {
     border-color: blue;
 }
 .videos {
@@ -232,8 +234,10 @@ html, body {
 }
 .submit {
     margin-top: 30px;
-    border-color: blue;
     }
+.share {
+    border-color: blue;
+}
 button {
       padding-left: 50px;
       padding-right: 30px;
