@@ -279,6 +279,7 @@ h1 {
     width: 70%;
     overflow: hidden;
     position: relative;
+    left: 50px;
     }
 .slide {
     display: flex;
