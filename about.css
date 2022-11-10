@@ -501,7 +501,8 @@ iframe {
 }
 .social-images {
     position: relative;
-    top: 40px;
+    top: 30px;
+    right: 20px;
  }
   button {
       margin-top: 20px; 
