@@ -75,6 +75,7 @@ input {
     align-items: center;
     justify-content: center;
     flex-direction: column;
+    color: black;
     }
 .description {
     display: flex;
@@ -277,6 +278,7 @@ h1 {
     align-items: center;
     justify-content: center;
     flex-direction: column;
+    color: black;
     }
 .description {
     display: flex;
