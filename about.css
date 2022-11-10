@@ -55,7 +55,7 @@ iframe {
     align-items: center;
     justify-content: center;
     flex-direction: column;
-    color: red;
+    color: black;
     }
 .names {
     display: flex;
@@ -450,7 +450,7 @@ iframe {
     align-items: center;
     justify-content: center;
     flex-direction: column;
-    color: red;
+    color: black;
     }
 .names {
     display: flex;
@@ -463,8 +463,7 @@ iframe {
     width: 40px;
     border-radius: 50%;
     transform: translateY(30px);
-    transition: 1s;
-    color: black;
+    transition: 2s;
     }
 .nav-btn::after,
 .nav-btn::before {
