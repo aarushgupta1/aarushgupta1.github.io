@@ -105,9 +105,6 @@ input {
     }    
  margin-top: 30px;      
 } 
-.final {
-    padding-bottom: 30px;
-}
 h1 {
     font-size: 55px;
     font-family: Roboto;
@@ -118,6 +115,9 @@ h2 {
     font-size: 35px;
     color: yellow;
     padding-top: 15px;
+}
+.final {
+    padding-bottom: 30px;
 }
 .form {
  padding-top: 15px;   
