@@ -67,6 +67,7 @@ input {
     border-color: black;
     border-width: medium;
     cursor: pointer;
+    font-weight: bold;
 }
 .videos {
     display: inline;
@@ -240,6 +241,7 @@ html, body {
 .share {
     border-color: black;
     border-width: medium;
+    font-weight: bold;
 }
 button {
       padding-left: 50px;
