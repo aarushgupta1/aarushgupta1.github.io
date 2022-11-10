@@ -67,7 +67,10 @@ input {
     border-color: black;
     border-width: medium;
     cursor: pointer;
+    color: black;
     font-weight: bold;
+    background-color: gray;
+    
 }
 .videos {
     display: inline;
