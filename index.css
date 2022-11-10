@@ -224,7 +224,10 @@ html, body {
 }    
   p, h1, h2, .logos, .explore, .description, .videocontainer, form, input, .video, .videos, .testi-content, .slide, .lessons, h4, .availability, .submit {
       text-align: center;
-} 
+}
+.submit {
+    padding-top: 20px;
+    }
 button {
       padding-left: 50px;
       padding-right: 30px;
