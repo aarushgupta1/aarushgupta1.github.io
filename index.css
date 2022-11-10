@@ -402,7 +402,8 @@ h4 {
     }
  .social-images {
      position: relative;
-     top: 40px;
+     top: 30px;
+     right: 20px;
     }
 .email {
     margin-bottom: 40px;
