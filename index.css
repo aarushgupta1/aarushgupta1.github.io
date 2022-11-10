@@ -105,8 +105,8 @@ input {
     }    
  margin-top: 30px;      
 } 
-.last {
-    padding-bottom: 50px;
+.final {
+    padding-bottom: 30px;
 }
 h1 {
     font-size: 55px;
@@ -322,7 +322,7 @@ p {
 h4 {
     color: red;
 }
-  .last {
+  .final {
       padding-bottom: 20px;
     }
   h1 {
