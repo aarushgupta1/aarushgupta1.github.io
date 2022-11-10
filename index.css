@@ -60,6 +60,9 @@ input {
     border-radius: 15px;
     display: inline-block;
 }
+.submit {
+    padding-top: 20px;
+}
 .videos {
     display: inline;
     width: 70%;
