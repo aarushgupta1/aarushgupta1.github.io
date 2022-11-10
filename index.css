@@ -399,6 +399,9 @@ h4 {
     height: 100px;
     width : auto;
     }
+ .social-images {
+     margin-bottom:0px;
+    }
 .email {
     margin-bottom: 40px;
 }
