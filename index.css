@@ -64,7 +64,7 @@ input {
     margin-top: 30px;
 }
 .share {
-    border-color: blue;
+    border-color: black;
     cursor: pointer;
 }
 .videos {
@@ -237,7 +237,7 @@ html, body {
     margin-top: 30px;
     }
 .share {
-    border-color: blue;
+    border-color: black;
 }
 button {
       padding-left: 50px;
