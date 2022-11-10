@@ -65,6 +65,7 @@ input {
 }
 .share {
     border-color: blue;
+    cursor: pointer;
 }
 .videos {
     display: inline;
