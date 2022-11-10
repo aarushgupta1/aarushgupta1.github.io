@@ -450,8 +450,6 @@ iframe {
     align-items: center;
     justify-content: center;
     flex-direction: column;
-    position: relative;
-    left: 40px;
     }
 .names {
     display: flex;
