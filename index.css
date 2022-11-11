@@ -76,8 +76,8 @@ input {
     display: inline-block;
     position: relative;
     overflow: hidden;
-    left: 400px;
-    top: 30px;
+    left: 100px;
+    top: 10px;
 }
 .slide {
     display: flex;
