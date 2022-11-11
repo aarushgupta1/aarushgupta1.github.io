@@ -274,7 +274,7 @@ h1 {
     padding-top: 15px;
     }
 .videos {
-    width: 512px;
+    width: 700px;
     overflow: hidden; 
     display: inline-block;
     position: relative;
@@ -282,7 +282,8 @@ h1 {
     top: 30px;
     }
 .slide {
-    display: flex;
+    display: inline-block;
+    width: 512px;
     align-items: center;
     justify-content: center;
     flex-direction: column;
