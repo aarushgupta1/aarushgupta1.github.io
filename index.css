@@ -215,8 +215,228 @@ h2 {
 .instagram:active, .facebook:active, .youtube:active, .tiktok:active {
     opacity: 0.6;
 }
-
 @media only screen and (min-width: 768px) {
+html, body {
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+}   
+.firstsection, .thirdsection {
+    background-image: url(../images/second.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-bottom: -30px;
+    margin-top: -30px;
+  }
+.secondsection {
+    background-image: url(../images/bluecourt.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-top: -30px;
+}   
+p, h1, h2, .logos, .explore, .description, .phone, .email, .contact, form, input, .videos, h4, .availability, .submit, .slide {
+    text-align: center;
+}
+p, h4 {
+    font-size: 25px;
+}
+p {
+    color: white;
+}
+h4 {
+    color: red;
+}
+button {
+    margin-top: 20px;
+    padding-left: 50px;
+    padding-right: 30px;
+    padding-bottom: 10px;
+    padding-top: 10px;
+    font-size: 25px;
+    color: white;
+    background-color: blue;
+    border-radius: 30px;
+    cursor: pointer;
+    border: none;
+    transition: opacity 0.15s, box-shadow 0.15s;
+    position: relative;
+    float: right;
+    display: inline-block;
+}
+button:hover {
+    box-shadow: 5px 5px 9px black; 
+}
+button:active {
+    opacity: 0.8; 
+  }
+input {
+    margin:5px;
+    padding:10px;
+    width:220px;
+    border-radius: 15px;
+    display: inline-block;
+}
+.submit {
+    margin-top: 30px;
+}
+.share {
+    border-color: black;
+    border-width: medium;
+    cursor: pointer;
+    color: black;
+    font-weight: bold;
+    background-color: lightgray;   
+}
+.videos {
+    width: 300px; 
+    display: inline-block;
+    left: 200px;
+    top: 30px;
+    position: relative;
+    overflow: hidden;
+    top: 10px;
+}
+.slide {
+    display: inline-block;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    }
+.description {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: aqua;
+    font-size: 20px;
+}
+.nav-btn {
+    height: 20px;
+    width: 20px;
+    border-radius: 50%;
+    transform: translateY(30px);
+    transition: 2s;
+    position: relative;
+    }
+.nav-btn::after,
+.nav-btn::before {
+    font-size: 20px;
+    color: red;
+    position: relative;
+} 
+.swiper-button-next {
+    float: right;
+    }
+ .swiper-button-prev {
+     float: left;
+    }
+h1 {
+    font-size: 55px;
+    font-family: Roboto;
+    color: blue;
+    padding-top: 15px;
+}
+h2 {
+    font-size: 35px;
+    color: yellow;
+    padding-top: 15px;
+}
+.final {
+    padding-bottom: 15px;
+}
+.form {
+ padding-top: 15px;   
+}
+.social-images {
+    display: inline-block;
+    margin-top: 40px;
+}
+.where, .location {
+    color: white;
+    font-size: 20px;
+    display: inline;
+ }
+.phone, .email {
+    display: block;
+}
+.lessons {
+ padding-top: 60px;
+ margin-left: 55px;
+}
+.phone {
+    margin-top: 20px;
+}
+.email {
+    padding-bottom: 20px;
+}
+.workingwithstudents {
+    padding-top: 15px;
+}
+.video {
+    border-style: solid;
+    border-color: black;
+    border-width: medium;
+    width: 225px;
+}
+.social-images {
+    display: inline-block;
+}
+.description {
+    margin-top: 10px;
+    font-size: 20px;
+    color: pink;
+}
+.logo, .secondlogo, .thirdlogo {
+    width: 80px;
+    border-radius: 50px;
+    float: bottom;
+    margin-right: 20px;
+    animation: rotation 8s infinite linear;
+}
+@keyframes rotation {
+    from {
+        transform: rotate(0deg);
+    }
+    to {
+        transform: rotate(359deg);
+    }
+}
+.facebook {
+    border-radius: 20px;
+}
+.youtube {
+    border-radius: 30px;
+}
+.tiktok {
+    border-radius: 60px;
+}
+.instagram, .facebook, .youtube {
+    margin-right: 30px;
+}
+.instagram, .facebook, .youtube, .tiktok {
+    transition: hover 0.15s, opacity 0.15s;
+    height: 50px;
+    width : auto;
+    margin-bottom: 10px;
+}
+.tiktok:hover {
+    box-shadow: 5px 5px 9px black;
+}
+.facebook:hover {
+    box-shadow: 5px 5px 9px blue;
+}
+ .youtube:hover {
+     box-shadow 5px 5px 9px white;
+    }
+ .instagram:hover {
+     box-shadow 5px 5px 9px white;
+     }
+.instagram:active, .facebook:active, .youtube:active, .tiktok:active {
+    opacity: 0.6;
+}
+}
+@media only screen and (min-width: 1000px) {
 html, body {
     width: 100%;
     height: 100%;
