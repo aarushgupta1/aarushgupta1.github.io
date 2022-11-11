@@ -79,7 +79,7 @@ input {
     width: 80%;
     overflow: hidden;
     position: relative;
-    left: 20px;
+    left: 35px;
     }
 .slide {
     display: flex;
@@ -104,9 +104,14 @@ input {
 .nav-btn::before {
     font-size: 20px;
     color: red;
-    margin-left: 10px;
-    margin-right: 10px;
+    position: relative;
+
 } 
+.nav-btn::before {
+    right: 20px;  
+}
+.nav-btn::after {
+    left: 20px;
 h1 {
     font-size: 55px;
     font-family: Roboto;
@@ -289,6 +294,7 @@ h1 {
     align-items: center;
     justify-content: center;
     flex-direction: column;
+    width: 40%;
     }
 .description {
     display: flex;
