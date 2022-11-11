@@ -102,7 +102,14 @@ input {
 .nav-btn::before {
     font-size: 20px;
     color: red;
+    position: relative;
 } 
+.swiper-button-next {
+    float: right;
+    }
+ .swiper-button-prev {
+     float: left;
+    }
 h1 {
     font-size: 55px;
     font-family: Roboto;
@@ -307,12 +314,13 @@ h1 {
 .nav-btn::before {
     font-size: 20px;
     color: red;
+    position: relative;
     }
 .swiper-button-next {
-    left: 20px;
+    float: right;
     }
  .swiper-button-prev {
-     right: 20px;
+     float: left;
     }
 .form {
     padding-top: 15px;
