@@ -307,10 +307,14 @@ h1 {
 .nav-btn::before {
     font-size: 20px;
     color: red;
-    position: relative;
     }
-.nav-btn::before {
-    right: 30px;
+.swiper-button-next.nav-btn {
+    position: relative;
+    left: 30px; 
+    }   
+.swiper-button-prev.nav-btn {
+     position: relative;
+     right: 30px;    
     }
 .form {
     padding-top: 15px;
