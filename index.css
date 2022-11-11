@@ -277,7 +277,6 @@ h1 {
 .videos {
     display: inline-block;
     width: 40%;
-    width: 900px;
     overflow: hidden;
     position: relative;
     left: 425px;
