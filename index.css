@@ -76,7 +76,7 @@ input {
 }
 .slide {
     display: flex;
-    width: 80%;
+    width: 40%;
     overflow: hidden;
     align-items: center;
     justify-content: center;
@@ -101,11 +101,11 @@ input {
     color: red;
 } 
 .swiper-button-next {
-    position: absolute;
+    position: fixed;
     float: right;
     }   
 .swiper-button-prev {
-     position: absolute;
+     position: fixed;
      float: left;    
     }
 h1 {
@@ -283,7 +283,7 @@ h1 {
     justify-content: center;
     flex-direction: column;
     overflow: hidden;
-    width: 40%;
+    width: 10%;
     }
 .description {
     display: flex;
@@ -306,11 +306,11 @@ h1 {
     color: red;
     }
 .swiper-button-next {
-    position: relative;
+    position: fixed;
     float: right;
     }   
 .swiper-button-prev {
-     position: relative;
+     position: fixed;
      float: left;    
     }
 .form {
