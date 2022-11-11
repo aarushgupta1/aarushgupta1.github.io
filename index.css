@@ -143,10 +143,6 @@ h2 {
 .workingwithstudents {
     padding-top: 15px;
 }
-.videocontainer {
-    margin-bottom: 50px;
-    display: inline-block;
-}
 .video {
     border-style: solid;
     border-color: black;
@@ -231,7 +227,7 @@ html, body {
     margin-top: -30px;
     height: 600px;
 }    
-  p, h1, h2, .logos, .explore, .description, .videocontainer, form, input, .video, .videos, .testi-content, .slide, .lessons, h4, .availability, .submit {
+p, h1, h2, .logos, .explore, .description, .videocontainer, form, input, .video, .videos, .testi-content, .slide, .lessons, h4, .availability, .submit {
       text-align: center;
 }
 .submit {
@@ -351,11 +347,6 @@ h4 {
     margin-bottom: 40px;
     padding-top: 15px;
   }
-.videocontainer {
-    display: inline-block;
-    margin-right: 60px;
-    margin-bottom: 40px;
-}
 .video {
     margin-bottom: 10px;
     border-style: solid;
