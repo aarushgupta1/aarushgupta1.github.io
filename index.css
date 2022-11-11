@@ -72,13 +72,14 @@ input {
     background-color: lightgray;   
 }
 .video {
-    width: 80%;       
+    width: 90%;       
 }
 .videos {
     display: inline-block;
     width: 80%;
     overflow: hidden;
     position: relative;
+    left: 20px;
     }
 .slide {
     display: flex;
@@ -102,7 +103,9 @@ input {
 .nav-btn::after,
 .nav-btn::before {
     font-size: 20px;
-    color: red;       
+    color: red;
+    margin-left: 10px;
+    margin-right: 10px;
 } 
 h1 {
     font-size: 55px;
