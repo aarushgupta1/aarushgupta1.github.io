@@ -280,8 +280,6 @@ h1 {
     position: relative;
     left: 375px;
     top: 30px;
-    padding-left: 300px;
-    padding-right: 300px;
     }
 .slide {
     display: flex;
@@ -308,13 +306,6 @@ h1 {
 .nav-btn::before {
     font-size: 20px;
     color: red;
-    position: relative;
-    }
- .swiper-button-prev {
-    float: left;
-    }
- .swiper-button-next {
-     float: right;
     }
 .form {
     padding-top: 15px;
