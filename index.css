@@ -277,18 +277,18 @@ h1 {
 .videos {
     display: inline-block;
     width: 40%;
+    width: 600px;
     overflow: hidden;
     position: relative;
     left: 425px;
     top: 40px;
+    
     }
 .slide {
     display: flex;
     align-items: center;
     justify-content: center;
     flex-direction: column;
-    padding-right: 30px;
-    padding-left: 30px;
     }
 .description {
     display: flex;
