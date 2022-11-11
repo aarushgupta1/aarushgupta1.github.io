@@ -72,8 +72,8 @@ input {
     background-color: lightgray;   
 }
 .videos {
-    display: inline;
-    width: 35%;
+    display: inline-block;
+    width: 20%;
     overflow: hidden;
     position: relative;
     }
