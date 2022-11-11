@@ -72,11 +72,11 @@ input {
     background-color: lightgray;   
 }
 .videos {
-    width: 40%;   
+    width: 200px; 
     display: inline-block;
     position: relative;
     overflow: hidden;
-    left: 100px;
+    left: 125px;
     top: 10px;
 }
 .slide {
