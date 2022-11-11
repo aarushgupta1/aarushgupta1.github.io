@@ -90,6 +90,7 @@ input {
     flex-direction: column;
     align-items: center;
     color: aqua;
+    font-size: 20px;
 }
 .nav-btn {
     height: 20px;
@@ -97,6 +98,7 @@ input {
     border-radius: 50%;
     transform: translateY(30px);
     transition: 2s;
+    position: relative;
     }
 .nav-btn::after,
 .nav-btn::before {
