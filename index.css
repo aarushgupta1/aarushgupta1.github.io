@@ -73,7 +73,7 @@ input {
 }
 .videos {
     width: 40%;   
-    display: block;
+    display: inline-block;
     position: relative;
     overflow: hidden;
     left: 400px;
@@ -276,9 +276,9 @@ h1 {
 .videos {
     width: 40%;
     overflow: hidden; 
-    display: block;
+    display: inline-block;
     position: relative;
-    left: 450px;
+    left: 400px;
     top: 30px;
     }
 .slide {
