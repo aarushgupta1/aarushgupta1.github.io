@@ -112,6 +112,7 @@ input {
 }
 .nav-btn::after {
     left: 20px;
+}
 h1 {
     font-size: 55px;
     font-family: Roboto;
@@ -294,6 +295,7 @@ h1 {
     align-items: center;
     justify-content: center;
     flex-direction: column;
+    width: 40%;
     }
 .description {
     display: flex;
