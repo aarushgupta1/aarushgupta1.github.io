@@ -76,6 +76,8 @@ input {
     display: inline-block;
     position: relative;
     overflow: hidden;
+    left: 325px;
+    top: 30px;
 }
 .slide {
     display: flex;
@@ -276,6 +278,8 @@ h1 {
     overflow: hidden; 
     display: inline-block;
     position: relative;
+    left: 325px;
+    top: 30px;
     }
 .slide {
     display: flex;
