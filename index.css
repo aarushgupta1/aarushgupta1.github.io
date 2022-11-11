@@ -99,9 +99,9 @@ input {
 .nav-btn::before {
     font-size: 20px;
     color: red;
+    position: fixed;
 } 
 .swiper-button-next {
-    position: fixed;
     float: right;
     }   
 .swiper-button-prev {
@@ -304,13 +304,12 @@ h1 {
 .nav-btn::before {
     font-size: 20px;
     color: red;
+    position: fixed;
     }
 .swiper-button-next {
-    position: fixed;
     float: right;
     }   
 .swiper-button-prev {
-     position: fixed;
      float: left;    
     }
 .form {
