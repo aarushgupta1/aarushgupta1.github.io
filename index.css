@@ -80,7 +80,7 @@ input {
     top: 10px;
 }
 .slide {
-    display: flex;
+    display: inline-block;
     align-items: center;
     justify-content: center;
     flex-direction: column;
@@ -149,7 +149,7 @@ h2 {
     border-style: solid;
     border-color: black;
     border-width: medium;
-    width: 90%; 
+    width: 225px;
 }
 .social-images {
     display: inline-block;
