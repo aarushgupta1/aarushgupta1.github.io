@@ -76,7 +76,7 @@ input {
     display: inline-block;
     position: relative;
     overflow: hidden;
-    left: 325px;
+    left: 400px;
     top: 30px;
 }
 .slide {
@@ -278,7 +278,7 @@ h1 {
     overflow: hidden; 
     display: inline-block;
     position: relative;
-    left: 375px;
+    left: 400px;
     top: 30px;
     }
 .slide {
