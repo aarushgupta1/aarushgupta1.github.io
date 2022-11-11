@@ -77,6 +77,7 @@ input {
     position: relative;
     overflow: hidden;
     top: 10px;
+    left: 50px;
 }
 .slide {
     display: inline-block;
@@ -292,7 +293,7 @@ input {
 .videos {
     width: 300px; 
     display: inline-block;
-    left: 200px;
+    left: 250px;
     top: 30px;
     position: relative;
     overflow: hidden;
@@ -377,7 +378,7 @@ h2 {
     border-style: solid;
     border-color: black;
     border-width: medium;
-    width: 225px;
+    width: 275px;
 }
 .social-images {
     display: inline-block;
