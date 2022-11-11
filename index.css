@@ -107,12 +107,6 @@ input {
     position: relative;
 
 } 
-.nav-btn::before {
-    right: 20px;  
-}
-.nav-btn::after {
-    left: 20px;
-}
 h1 {
     font-size: 55px;
     font-family: Roboto;
