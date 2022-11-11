@@ -277,7 +277,7 @@ h1 {
 .videos {
     display: inline-block;
     width: 40%;
-    width: 600px;
+    width: 900px;
     overflow: hidden;
     position: relative;
     left: 425px;
@@ -312,11 +312,11 @@ h1 {
     }
 .swiper-button-next {
     position: relative;
-    left: 30px; 
+    left: 60px; 
     }   
 .swiper-button-prev {
      position: relative;
-     right: 30px;    
+     right: 60px;    
     }
 .form {
     padding-top: 15px;
