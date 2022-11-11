@@ -74,15 +74,10 @@ input {
 .video {
     width: 90%;       
 }
-.videos {
-    display: inline-block;
-    width: 80%;
-    overflow: hidden;
-    position: relative;
-    left: 35px;
-    }
 .slide {
     display: flex;
+    width: 80%;
+    overflow: hidden;
     align-items: center;
     justify-content: center;
     flex-direction: column;
@@ -282,19 +277,13 @@ input {
 h1 {
     padding-top: 15px;
     }
-.videos {
-    display: inline-block;
-    width: 40%;
-    overflow: hidden;
-    position: relative;
-    left: 425px;
-    top: 40px;
-    }
 .slide {
     display: flex;
     align-items: center;
     justify-content: center;
     flex-direction: column;
+    overflow: hidden;
+    width: 40%;
     }
 .description {
     display: flex;
