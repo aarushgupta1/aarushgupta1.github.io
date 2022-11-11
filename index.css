@@ -80,14 +80,14 @@ input {
     overflow: hidden;
     position: relative;
     left: 35px;
-    padding-left: 30px;
-    padding-right: 30px;
     }
 .slide {
     display: flex;
     align-items: center;
     justify-content: center;
     flex-direction: column;
+    padding-left: 30px;
+    padding-right: 30px;
     }
 .description {
     display: flex;
@@ -291,14 +291,14 @@ h1 {
     position: relative;
     left: 425px;
     top: 40px;
-    padding-left: 30px;
-    padding-right: 30px;
     }
 .slide {
     display: flex;
     align-items: center;
     justify-content: center;
     flex-direction: column;
+    padding-left: 30px;
+    padding-right: 30px;
     }
 .description {
     display: flex;
