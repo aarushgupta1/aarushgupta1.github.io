@@ -101,11 +101,11 @@ input {
     color: red;
 } 
 .swiper-button-next {
-    position: relative;
+    position: absolute;
     float: right;
     }   
 .swiper-button-prev {
-     position: relative;
+     position: absolute;
      float: left;    
     }
 h1 {
