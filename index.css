@@ -501,9 +501,9 @@ h1 {
     }
 .videos {
     width: 675px; 
-    position: fixed;
-    left: 50%;
-    transform: translateX(-50%); 
+    display: inline-block;
+    position: relative;
+    left: 225px; 
     overflow: hidden;
     }
 .video {
