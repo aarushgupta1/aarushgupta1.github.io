@@ -292,7 +292,6 @@ input {
 }
 .videos {
     width: 400px; 
-    display: inline-block;
     top: 30px;
     position: fixed;
     overflow: hidden;
