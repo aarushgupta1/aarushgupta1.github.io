@@ -110,6 +110,7 @@ input {
     display: inline-block;
     top: 10px;
     left: 50px;   
+    overflow: hidden;
 }
 .video {
     border-style: solid;
@@ -295,6 +296,7 @@ input {
     position: relative;
     display: inline-block;
     left: 400px;
+    overflow: hidden;
 }
 .video {
     border-style: solid;
