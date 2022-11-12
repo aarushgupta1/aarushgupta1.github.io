@@ -294,7 +294,7 @@ input {
 .videos {
     width: 450px; 
     margin-top: 30px;
-    display: block;
+    display: inline-block;
     margin-left: auto;
     margin-right: auto;
     overflow: hidden;
@@ -505,7 +505,7 @@ h1 {
     }
 .videos {
     width: 750px; 
-    display: block;
+    display: inline-block;
     margin-left: auto;
     margin-right: auto;
     overflow: hidden;
