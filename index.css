@@ -584,9 +584,8 @@ h4 {
     padding-top: 30px;
     margin-bottom: 15px;
     display: inline-block;
-    left: 50%;
-    position: fixed;
-    transform: translateX(-50%);
+    position: relative;
+    left: 625px;
     }
 .workingwithstudents {
     margin-bottom: 40px;
