@@ -105,13 +105,11 @@ input {
      float: left;
     }
 .videos {
-    width: 375px; 
+    width: 375px;   
+    position: relative;
     display: inline-block;
-    top: 10px;  
-    display: grid;
-    place-items: center;
-    align-content: center;
-    display: inline-block;
+    top: 10px;
+    left: 50px;   
 }
 .video {
     border-style: solid;
@@ -294,11 +292,9 @@ input {
 .videos {
     width: 450px; 
     margin-top: 30px;
+    position: relative;
     display: inline-block;
-    margin-left: auto;
-    margin-right: auto;
-    overflow: hidden;
-    position: fixed;
+    left: 400px;
 }
 .video {
     border-style: solid;
@@ -507,8 +503,7 @@ h1 {
     width: 750px; 
     position: relative;
     display: inline-block;
-    margin-left: auto;
-    margin-right: auto;
+    left: 300px;
     }
 .video {
     width: 500px;
