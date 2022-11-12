@@ -293,10 +293,15 @@ input {
 .videos {
     width: 400px; 
     top: 30px;
-    position: fixed;
-    overflow: hidden;
-    left: 50%;
-    transform: translate(-50%, -50%);
+    display: grid;
+    place-items: center;
+    align-content: center;
+}
+.video {
+    border-style: solid;
+    border-color: black;
+    border-width: medium;
+    width: 275px;
 }
 .slide {
     display: inline-block;
@@ -372,12 +377,6 @@ h2 {
 }
 .workingwithstudents {
     padding-top: 15px;
-}
-.video {
-    border-style: solid;
-    border-color: black;
-    border-width: medium;
-    width: 275px;
 }
 .social-images {
     display: inline-block;
