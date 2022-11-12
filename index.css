@@ -503,7 +503,7 @@ h1 {
     width: 675px; 
     display: inline-block;
     position: relative;
-    left: 300px; 
+    left: 350px; 
     overflow: hidden;
     }
 .video {
@@ -585,7 +585,7 @@ h4 {
     margin-bottom: 15px;
     display: inline-block;
     position: relative;
-    left: 650px;
+    left: 600px;
     }
 .workingwithstudents {
     margin-bottom: 40px;
