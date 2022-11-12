@@ -296,6 +296,7 @@ input {
     display: grid;
     place-items: center;
     align-content: center;
+    display: inline-block;
 }
 .video {
     border-style: solid;
@@ -505,6 +506,7 @@ h1 {
     display: grid;
     place-items: center;
     align-content: center;
+    display: inline-block;
     }
 .video {
     width: 550px;
