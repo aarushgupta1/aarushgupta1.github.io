@@ -504,6 +504,7 @@ h1 {
     position: relative;
     display: inline-block;
     left: 250px;
+    overflow: hidden;
     }
 .video {
     width: 500px;
