@@ -504,9 +504,9 @@ h1 {
     }
 .videos {
     width: 900px; 
-    display: inline-block;
-    place-items: center;
-    align-content: center;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
     }
 .video {
     width: 550px;
