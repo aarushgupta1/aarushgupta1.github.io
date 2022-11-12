@@ -502,11 +502,10 @@ h1 {
     padding-top: 15px;
     }
 .videos {
-    width: 900px;
-    overflow: hidden; 
-    position: fixed;
-    left: 50%;
-    transform: translate(-50%, -50%);
+    width: 900px; 
+    display: grid;
+    place-items: center;
+    align-content: center;
     }
 .video {
     width: 550px;
