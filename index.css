@@ -71,14 +71,6 @@ input {
     font-weight: bold;
     background-color: lightgray;   
 }
-.videos {
-    width: 325px; 
-    display: inline-block;
-    position: relative;
-    overflow: hidden;
-    top: 10px;
-    left: 50px;
-}
 .slide {
     display: inline-block;
     align-items: center;
@@ -112,6 +104,20 @@ input {
  .swiper-button-prev {
      float: left;
     }
+.videos {
+    width: 375px; 
+    display: inline-block;
+    position: relative;
+    overflow: hidden;
+    top: 10px;
+    left: 10px;
+}
+.video {
+    border-style: solid;
+    border-color: black;
+    border-width: medium;
+    width: 250px;
+}
 h1 {
     font-size: 55px;
     font-family: Roboto;
@@ -153,12 +159,6 @@ h2 {
 }
 .workingwithstudents {
     padding-top: 15px;
-}
-.video {
-    border-style: solid;
-    border-color: black;
-    border-width: medium;
-    width: 200px;
 }
 .social-images {
     display: inline-block;
