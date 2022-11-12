@@ -293,11 +293,11 @@ input {
 .videos {
     width: 400px; 
     display: inline-block;
-    left: 250px;
     top: 30px;
-    position: relative;
+    position: fixed;
     overflow: hidden;
-    top: 10px;
+    left: 50%;
+    transform: translate(-50%, -50%);
 }
 .slide {
     display: inline-block;
@@ -506,9 +506,15 @@ h1 {
     width: 900px;
     overflow: hidden; 
     position: fixed;
-    top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
+    }
+.video {
+    width: 550px;
+    margin-bottom: 10px;
+    border-style: solid;
+    border-color: black;
+    border-width: medium;
     }
 .slide {
     display: inline-block;
@@ -587,13 +593,6 @@ h4 {
     margin-bottom: 40px;
     padding-top: 15px;
   }
-.video {
-    width: 550px;
-    margin-bottom: 10px;
-    border-style: solid;
-    border-color: black;
-    border-width: medium;
-    }
 .contact {
     padding-left: 40px;
     float: bottom;
