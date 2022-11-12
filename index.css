@@ -500,10 +500,10 @@ h1 {
     padding-top: 15px;
     }
 .videos {
-    width: 750px; 
+    width: 500px; 
     position: relative;
     display: inline-block;
-    left: 300px;
+    left: 250px;
     }
 .video {
     width: 500px;
