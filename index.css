@@ -105,11 +105,10 @@ input {
      float: left;
     }
 .videos {
-    width: 350px;   
+    width: 375px;   
     position: relative;
     display: inline-block;
-    top: 10px;
-    left: 25px;   
+    top: 10px;  
     overflow: hidden;
 }
 .video {
