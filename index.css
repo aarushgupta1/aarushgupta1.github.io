@@ -289,18 +289,18 @@ input {
     background-color: lightgray;   
 }
 .videos {
-    width: 450px; 
+    width: 475px; 
     margin-top: 30px;
     position: relative;
     display: inline-block;
-    left: 400px;
+    left: 250px;
     overflow: hidden;
 }
 .video {
     border-style: solid;
     border-color: black;
     border-width: medium;
-    width: 275px;
+    width: 300px;
 }
 .slide {
     display: inline-block;
