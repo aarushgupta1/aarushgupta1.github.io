@@ -502,14 +502,14 @@ h1 {
     padding-top: 15px;
     }
 .videos {
-    width: 550px; 
+    width: 650px; 
     position: relative;
     display: inline-block;
     left: 400px;
     overflow: hidden;
     }
 .video {
-    width: 350px;
+    width: 450px;
     margin-bottom: 10px;
     border-style: solid;
     border-color: black;
