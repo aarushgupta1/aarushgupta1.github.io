@@ -105,7 +105,8 @@ input {
      float: left;
     }
 .videos {
-    width: 375px;   
+    width: 350px;
+    height: 250px;
     position: relative;
     display: inline-block;
     top: 10px;  
