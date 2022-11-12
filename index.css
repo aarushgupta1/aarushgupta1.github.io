@@ -105,18 +105,18 @@ input {
      float: left;
     }
 .videos {
-    width: 375px;   
+    width: 350px;   
     position: relative;
     display: inline-block;
     top: 10px;
-    left: 50px;   
+    left: 25px;   
     overflow: hidden;
 }
 .video {
     border-style: solid;
     border-color: black;
     border-width: medium;
-    width: 250px;
+    width: 275px;
 }
 h1 {
     font-size: 55px;
