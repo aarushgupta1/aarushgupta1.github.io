@@ -293,14 +293,14 @@ input {
     margin-top: 30px;
     position: relative;
     display: inline-block;
-    left: 175px;
+    left: 150px;
     overflow: hidden;
 }
 .video {
     border-style: solid;
     border-color: black;
     border-width: medium;
-    width: 325px;
+    width: 350px;
 }
 .slide {
     display: inline-block;
