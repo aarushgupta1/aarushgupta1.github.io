@@ -5,19 +5,19 @@ html, body {
     padding: 0;
     overflow-x: hidden;
 }   
-.firstsection, .thirdsection {
+.first-section, .third-section {
     background-image: url(../images/second.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     margin: -30px 0;
 }
-.secondsection {
+.second-section {
     background-image: url(../images/bluecourt.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     margin-top: -30px;
 }   
-p, h1, h2, .logos, .explore, figcaption, .phone, .email, .contact, form, input, .videos, h4, .availability, .submit, .slide {
+p, h1, h2, .logos, .other-platforms, figcaption, .phone, .email-address, .contact-info-info, form, input, .videos, h4, .availability, .submit, .slide {
     text-align: center;
 }
 p, h4 {
@@ -124,22 +124,22 @@ h2 {
     color: yellow;
     padding-top: 15px;
 }
-.final {
+.final-lesson-info {
     padding-bottom: 15px;
 }
 .form {
      padding-top: 15px;   
 }
-.social-images {
+.socials {
     display: inline-block;
     margin-top: 40px;
 }
-.where, .location {
+.location {
     color: white;
     font-size: 20px;
     display: inline;
  }
-.phone, .email {
+.phone, .email-address {
     display: block;
 }
 .lessons {
@@ -149,13 +149,13 @@ h2 {
 .phone {
     margin-top: 20px;
 }
-.email {
+.email-address {
     padding-bottom: 20px;
 }
-.workingwithstudents {
+.student-demos {
     padding-top: 15px;
 }
-.social-images {
+.socials {
     display: inline-block;
 }
 .description {
@@ -219,20 +219,20 @@ html, body {
     padding: 0;
     overflow-x: hidden;
 }   
-.firstsection, .thirdsection {
+.first-section, .third-section {
     background-image: url(../images/second.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     margin-bottom: -30px;
     margin-top: -30px;
 }
-.secondsection {
+.second-section {
     background-image: url(../images/bluecourt.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     margin-top: -30px;
 }   
-p, h1, h2, .logos, .explore, .description, .phone, .email, .contact, form, input, .videos, h4, .availability, .submit, .slide {
+p, h1, h2, .logos, .other-platforms, .description, .phone, .email-address, .contact-info-info, form, input, .videos, h4, .availability, .submit, .slide {
     text-align: center;
 }
 p, h4 {
@@ -343,13 +343,13 @@ h2 {
     color: yellow;
     padding-top: 15px;
 }
-.final {
+.final-lesson-info {
     padding-bottom: 15px;
 }
 .form {
  padding-top: 15px;   
 }
-.social-images {
+.socials {
     display: inline-block;
     margin-top: 40px;
 }
@@ -358,7 +358,7 @@ h2 {
     font-size: 20px;
     display: inline;
  }
-.phone, .email {
+.phone, .email-address {
     display: block;
 }
 .lessons {
@@ -368,10 +368,10 @@ h2 {
 .phone {
     margin-top: 20px;
 }
-.email {
+.email-address {
     padding-bottom: 20px;
 }
-.workingwithstudents {
+.student-demos {
     padding-top: 15px;
 }
 .description {
@@ -435,21 +435,21 @@ html, body {
     padding: 0;
     overflow-x: hidden;
 }   
-.firstsection {
+.first-section {
     background-image: url(../images/second.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     margin-bottom: -30px;
     margin-top: -30px;
 }
-.secondsection {
+.second-section {
     background-image: url(../images/bluecourt.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     margin-top: -30px;
     height: 600px;
 }    
-p, h1, h2, .logos, .explore, .description, .videocontainer, form, input, .video, .videos, .slide, .lessons, h4, .availability, .submit {
+p, h1, h2, .logos, .other-platforms, .description, .videocontainer, form, input, .video, .videos, .slide, .lessons, h4, .availability, .submit {
       text-align: center;
 }
 .submit {
@@ -552,7 +552,7 @@ p {
 h4 {
     color: red;
 }
-.final {
+.final-lesson-info {
     padding-bottom: 20px;
 }
 h1 {
@@ -565,7 +565,7 @@ h2 {
   font-size: 35px;
   color: yellow;
 }
-.social-images, .contact {
+.socials, .contact-info-info {
     display: inline-block;
 }
 .where, .location {
@@ -580,11 +580,11 @@ h2 {
     position: relative;
     left: 585px;
 }
-.workingwithstudents {
+.student-demos {
     margin-bottom: 40px;
     padding-top: 15px;
 }
-.contact {
+.contact-info-info {
     padding-left: 40px;
     float: bottom;
 }
@@ -619,12 +619,12 @@ h2 {
     height: 100px;
     width : auto;
 }
- .social-images {
+ .socials {
      position: relative;
      top: 30px;
      right: 50px;
 }
-.email {
+.email-address {
     margin-bottom: 40px;
 }
 .phone {
