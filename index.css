@@ -15,41 +15,41 @@ html, body {
 ol {
     list-style-type: circle;
 }
-#name, #email, #phone, #experience, #availability {
+#user-name, #user-email, #user-phone, #user-experience, #user-availability {
     color: white;
 }
 .essential-info-section, .interest-form-section, .bio-section {
     background-image: url(../images/second.jpg);
     background-repeat: no-repeat;
     background-size: cover;
-    margin: -30px 0;
-}
-.testimonial-section {
-    padding-top: 15px;
-    margin-bottom: 30px;
+    margin: 0 auto 30px;
 }
 .working-with-students-section, .testimonial-section {
     background-image: url(../images/bluecourt.jpg);
     background-repeat: no-repeat;
     background-size: cover;
-    margin-top: -30px;
+    margin: 0 auto 30px;
 }
 .gnitou-pic {
-    display: block;
     height: 500px;
-    width: auto;
-    padding-bottom: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    display: block;
+    padding-bottom: 30px;
 } 
 .about-gnitou {
     margin-bottom: 40px;
 }
-p, li, h1, h2, .logos, .video .other-platforms, .gnitou-phone-number, .phone, .gnitou-email-address, .contact-info, form, input, .videos, .availability, .submit, .slide, .gnitou-pic, .reviews {
+p, li, h1, h2, .logos, .video .other-platforms, .gnitou-phone-number, .user-phone, .gnitou-email-address, .contact-info, form, input, .videos, .user-availability, .submit, .slide, .gnitou-pic, .reviews {
     text-align: center;
+}
+#user-name, #user-email, #user-phone, #user-experience, #user-availability {
+    color: white;
 }
 p {
     color: red;
 }
-
 .last-qualification {
     margin-bottom: 30px;
 }
@@ -81,13 +81,6 @@ input {
     justify-content: center;
     flex-direction: column;
 }
-/* figcaption {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    color: aqua;
-    font-size: 20px;
-} */
 .nav {
     height: 20px;
     width: 20px;
@@ -141,17 +134,17 @@ h2 {
     display: inline-block;
     margin-top: 40px;
 }
-.phone, .email-address {
+.user-phone, .user-email-address {
     display: block;
 }
 .lessons {
     padding-top: 60px;
     margin-left: 55px;
 }
-.phone {
+.user-phone {
     margin-top: 20px;
 }
-.email-address {
+.user-email-address {
     padding-bottom: 20px;
 }
 .student-demos {
@@ -181,18 +174,18 @@ iframe {
     width: 100%;
     overflow: hidden;
     }
-.slide {
+.slide, .reviewer {
     display: flex;
     align-items: center;
-    justify-content: center;
     flex-direction: column;
+}
+.reviewer {
+    color: white;
+}
+.slide {
+    justify-content: center;
     color: black;
     }
-.reviewer {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-}
 .gnitou-phone-number, .gnitou-email-address {
     display: block;
 }
@@ -247,33 +240,30 @@ html, body {
 ol {
     list-style-type: circle;
 }
-#name, #email, #phone, #experience, #availability {
+#user-name, #user-email, #user-phone, #user-experience, #user-availability {
     color: white;
 }
 .essential-info-section, .interest-form-section, .bio-section {
     background-image: url(../images/second.jpg);
     background-repeat: no-repeat;
     background-size: cover;
-    margin-bottom: -30px;
-    margin-top: -30px;
+    margin: 0 auto 30px;
 }
 .working-with-students-section, .testimonial-section {
     background-image: url(../images/bluecourt.jpg);
     background-repeat: no-repeat;
     background-size: cover;
-    margin-top: -30px;
+    margin: 0 auto 30px;
 }  
-.testimonial-section {
-    padding-top: 115px;
-    margin-top: 30px;
-    margin-bottom: 30px;
-}
 .video {
     display: block;
     margin-top: 40px;
   }
-p, li, h1, h2, .logos, .socials, .video, .other-platforms, .description, .phone, .email-address, .contact-info, form, input, .videos, .availability, .submit, .slide, .gnitou-email-address, .gnitou-phone-number, .qualifications, .reviews, .gnitou-pic {
+p, li, h1, h2, .logos, .socials, .video, .other-platforms, .description, .user-phone, .user-email-address, .contact-info, form, input, .videos, .user-availability, .submit, .slide, .gnitou-email-address, .gnitou-phone-number, .qualifications, .reviews, .gnitou-pic {
     text-align: center;
+}
+#user-name, #user-email, #user-phone, #user-experience, #user-availability {
+    color: white;
 }
 p, li {
     font-size: 25px;
@@ -337,19 +327,19 @@ iframe {
    border-color: black; 
    border-width: medium;
 }
+.slide, .reviewer {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+
+}
 .slide {
-    display: flex;
-    align-items: center;
     justify-content: center;
-    flex-direction: column;
     color: red;
-    }
+}
 .reviewer {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    color: pink;
-    }
+    color: white;
+}
 .nav {
     height: 20px;
     width: 20px;
@@ -385,7 +375,7 @@ h2 {
     padding-bottom: 15px;
 }
 .form {
- padding-top: 15px;   
+    padding-top: 15px;   
 }
 .socials {
     display: inline-block;
@@ -394,17 +384,17 @@ h2 {
 .socials, .contact-info {
     display: inline-block;
 }
-.phone, .email-address {
+.user-phone, .user-email-address {
     display: block;
 }
 .lessons {
- padding-top: 60px;
- margin-left: 55px;
+     padding-top: 60px;
+     margin-left: 55px;
 }
-.phone {
+.user-phone {
     margin-top: 20px;
 }
-.email-address {
+.user-email-address {
     padding-bottom: 20px;
 }
 .gnitou-phone-number {
@@ -416,7 +406,9 @@ h2 {
 }
 .gnitou-pic {
     height: 500px;
-    width: auto;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
     display: block;
     padding-bottom: 30px;
 } 
@@ -494,17 +486,13 @@ ol {
     background-image: url(../images/bluecourt.jpg);
     background-repeat: no-repeat;
     background-size: cover;
-    margin-top: -30px;
+    margin: 0 auto 30px;
     height: 600px;
 }
-.testimonial-section { 
-     margin-top: 30px;
-     margin-bottom: 30px;
-}
-p, li, h1, h2, .logos, .video, .other-platforms, .description, .videocontainer, form, input, .video, .videos, .slide, .gnitou-email-address, .gnitou-phone-number, .gnitou-pic, .qualifications, .reviews, .lessons, .contact-info, .availability, .submit, .socials {
+p, li, h1, h2, .logos, .video, .other-platforms, .description, .videocontainer, form, input, .video, .videos, .slide, .gnitou-email-address, .gnitou-phone-number, .gnitou-pic, .qualifications, .reviews, .lessons, .contact-info, .user-availability, .submit, .socials {
       text-align: center;
 }
-#name, #email, #phone, #experience, #availability {
+#user-name, #user-email, #user-phone, #user-experience, #user-availability {
     color: white;
 }
 p, li {
@@ -513,10 +501,12 @@ p, li {
 }
 .gnitou-pic {
     height: 500px;
-    width: auto;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
     display: block;
     padding-bottom: 30px;
-} 
+}  
 .gnitou-phone-number {
     display: block;
 }
@@ -530,18 +520,19 @@ p, li {
     position: relative;
     width: 100%;
     overflow: hidden;
-    }
+}
 .slide {
     display: flex;
     align-items: center;
     justify-content: center;
     flex-direction: column;
-    }
+}
 .reviewer {
     display: flex;
     flex-direction: column;
     align-items: center;
-    }
+    color: white;
+}
 .submit {
     margin-top: 30px;
 }
@@ -682,10 +673,10 @@ h2 {
      top: 30px;
      right: 50px;
 }
-.email-address {
+.user-email-address {
     margin-bottom: 40px;
 }
-.phone {
+.user-phone {
     display: block;
 }
 .tiktok:hover {
