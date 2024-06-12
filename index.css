@@ -13,15 +13,14 @@ html, body {
     font-size: 20px;
     color: white;
 }
-.header, footer {
+footer {
     background: black;
+    height: 100px;
 }
 .header {
+    background: darkblue;
     padding-bottom: 10px; 
     height: 200px;
-}
-.footer {
-    height: 100px;
 }
 ol {
     list-style-type: disc;
@@ -29,6 +28,7 @@ ol {
 label {
     color: white;
     display: block;
+    margin-bottom: 10px;
 }
 .essential-info-section, .interest-form-section, .bio-section {
     background-image: url(../images/second.jpg);
@@ -36,7 +36,7 @@ label {
 .working-with-students-section, .testimonial-section {
     background-image: url(../images/bluecourt.jpg); 
 }
-.working-with-students-section, .testimonial-section, .essential-info-section, .interest-form-section, .bio-section {
+section {
     background-repeat: no-repeat;
     background-size: cover;
     margin: 0;
@@ -56,13 +56,13 @@ label {
 p, li, label, h1, h2, .logos, .other-platforms, .gnitou-phone-number, .gnitou-email-address, .contact-info, form, input, .videos, .submit, .slide, .gnitou-pic, .reviews {
     text-align: center;
 }
-p, li {
+p, label, li {
     font-size: 25px;
 }
 p {
     color: red;
 }
-li {
+label, li {
     color: white;
 }
 li::marker {
@@ -87,12 +87,14 @@ input {
     font-weight: bold;
     background-color: lightgray;
     display: block;
+    margin-left: auto;
+    margin-right: auto;
 }
 .submit:hover {
     box-shadow: 5px 5px 9px black;
 }
 #user-name, #user-email, #user-phone, #user-experience, #user-availability {
-    margin-bottom: 35px;
+    margin-bottom: 50px;
 }
 .slide {
     display: inline-block;
@@ -127,23 +129,27 @@ input {
     overflow: hidden;
 }
 .demo-video {
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 40px;
     border: solid black 300px;
     border-width: medium;
-    margin-top: 40px;
     position: relative;
     overflow: hidden;
 }
 .fun-day-video {
     width: 675px;
-    margin: 40px 0 10px;
+    margin: 40px auto 10px;
     border: solid black 300px;
     border-width: medium;
     display: block;
+    position: relative;
+    overflow: hidden;
 }
 h1 {
     font-size: 55px;
     font-family: Roboto;
-    color: darkblue;
+    color: black;
     padding-top: 15px;
 }
 h2 {
@@ -205,7 +211,7 @@ form {
     color: white;
 }
 .stars {
-    letter-spacing: 5px;
+    letter-spacing: 10px;
 }
 .slide {
     justify-content: center;
@@ -216,6 +222,7 @@ form {
 }
 .gnitou-email-address {
     margin-top: 20px;
+    margin-bottom: 10px;
 }
 .tiktok {
     border-radius: 60px;
@@ -254,15 +261,14 @@ html, body {
     padding: 0;
     overflow-x: hidden;
 }
-.header, footer {
+footer {
     background: black;
+    height: 100px;
 }
 .header {
+    background: darkblue;
     padding-bottom: 10px;
     height: 200px;
-}
-.footer {
-    height: 100px;
 }
 ol {
     list-style-type: disc;
@@ -273,7 +279,7 @@ ol {
 .working-with-students-section, .testimonial-section {
     background-image: url(../images/bluecourt.jpg);
 }
-.working-with-students-section, .testimonial-section, .essential-info-section, .interest-form-section, .bio-section {
+section {
     background-repeat: no-repeat;
     background-size: cover;
     margin: 0;
@@ -282,6 +288,8 @@ ol {
 .demo-video {
     position: relative;
     overflow: hidden;
+    margin-left: auto;
+    margin-right: auto;
     margin-top: 40px;
     border-style: solid;
     border-color: black;
@@ -289,19 +297,21 @@ ol {
 }
 
 .fun-day-video {
-    margin: 40px 0 10px;
+    margin: 40px auto 10px;
     border-style: solid;
     border-color: black;
     border-width: medium;
+    position: relative;
+    overflow: hidden;
 }
     
 p, li, h1, h2, label, .logos, .socials, .other-platforms, .description, .contact-info, form, input, .videos, .submit, .slide, .gnitou-email-address, .gnitou-phone-number, .qualifications, .reviews, .gnitou-pic {
     text-align: center;
 }
 label {
-    color: white;
+    margin-bottom: 10px;
 }
-p, li {
+p, label, li {
     font-size: 25px;
     color: white;
 }
@@ -321,12 +331,14 @@ input {
     font-weight: bold;
     background-color: lightgray; 
     display: block;
+    margin-left: auto;
+    margin-right: auto;
 }
 .submit:hover {
     box-shadow: 5px 5px 9px black;
 }
 #user-name, #user-email, #user-phone, #user-experience, #user-availability {
-    margin-bottom: 35px;
+    margin-bottom: 50px;
 }
 .videos {
     width: 500px; 
@@ -370,7 +382,7 @@ input {
     color: white;
 }
 .stars {
-    letter-spacing: 5px;
+    letter-spacing: 10px;
 }
 .nav {
     height: 20px;
@@ -395,7 +407,7 @@ input {
 h1 {
     font-size: 55px;
     font-family: Roboto;
-    color: darkblue;
+    color: black;
     padding-top: 15px;
 }
 h2 {
@@ -472,6 +484,7 @@ form {
 }
 .gnitou-email-address {
     margin-top: 20px;
+    margin-bottom: 10px;
 }
 .tiktok {
     border-radius: 60px;
@@ -506,15 +519,14 @@ html, body {
     padding: 0;
     overflow-x: hidden;
 }
-.header, footer {
+footer {
     background: black;
+    height: 100px;
 }
 .header {
-   padding-bottom: 10px; 
-   height: 200px;
-}
-footer {
-    height: 100px;
+    padding-bottom: 10px; 
+    height: 200px;
+    background: darkblue;
 }
 ol {
     list-style-type: disc;
@@ -525,7 +537,7 @@ ol {
 .working-with-students-section, .testimonial-section {
     background-image: url(../images/bluecourt.jpg);
 }
-.working-with-students-section, .testimonial-section, .essential-info-section, .interest-form-section, .bio-section {
+section {
     background-repeat: no-repeat;
     background-size: cover;
     margin: 0;
@@ -534,14 +546,17 @@ ol {
 p, li, h1, h2, label, .logos, .other-platforms, .description, .videocontainer, form, input, .videos, .slide, .gnitou-email-address, .gnitou-phone-number, .gnitou-pic, .qualifications, .reviews, .lessons, .contact-info, .submit, .socials {
     text-align: center;
 }
-p, li {
+p, label, li {
     font-size: 25px;
 }
 p {
     color: red;
 }        
-li, .reviewer, label {
+.reviewer, label, li {
     color: white;
+}
+label {
+    margin-bottom: 10px;
 }
 li::marker {
     color: black;
@@ -580,19 +595,21 @@ li::marker {
     justify-content: center;
 }
 .stars {
-    letter-spacing: 5px;
+    letter-spacing: 10px;
 }
 .submit {
     margin-top: 30px;
     border-color: black;
     border-width: medium;
     font-weight: bold;
+    margin-left: auto;
+    margin-right: auto;
 }
 .submit:hover {
     box-shadow: 5px 5px 9px black;
 }
 #user-name, #user-email, #user-phone, #user-experience, #user-availability {
-    margin-bottom: 35px;
+    margin-bottom: 50px;
 }
 input {
     margin:5px;
@@ -603,16 +620,20 @@ input {
 }
 .demo-video {
     width: 675px; 
+    margin-left: auto;
+    margin-right: auto;
     position: relative;
     overflow: hidden;
 }
 .fun-day-video {
     width: 424px;
-    margin: 40px 0 10px;
+    margin: 40px auto 10px;
     border-style: solid;
     border-color: black;
     border-width: medium;
     display: block;
+    position: relative;
+    overflow: hidden;
 }
 .slide {
     display: inline-block;
@@ -669,11 +690,12 @@ li::marker {
 }
 .gnitou-email-address {
     margin-top: 20px;
+    margin-bottom: 10px;
 }
 h1 {
   font-size: 55px;
   font-family: Roboto;
-  color: darkblue;
+  color: black;
   margin-top: 30px;
   padding-top: 15px;
 }
@@ -705,7 +727,6 @@ h2 {
     width: 80px;
     border-radius: 50px;
     float: bottom;
-    margin-right: 25px;
 }
 .facebook, .youtube, .instagram {
     border-radius: 30px;
