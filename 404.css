@@ -23,31 +23,12 @@ p {
   color: white;
   font-size: 35px;
 }
-.first-logo, .second-logo, .third-logo {
+.logo {
     width: 80px;
     border-radius: 50px;
     float: bottom;
     margin-right: 20px;
 }
-  button {
-    width: 210px;
-    height: auto;
-    padding: 10px 30px;
-    font-size: 25px;
-    color: white;
-    background-color: blue;
-    border-radius: 30px;
-    cursor: pointer;
-    border: none;
-    transition: opacity 0.15s, box-shadow 0.15s;
-    margin-top: 20px;
-  }
-  button:hover {
-    box-shadow: 5px 5px 9px black; 
-  }
-  button:active {
-    opacity: 0.8; 
-  }
 
 @media only screen and (min-width: 1000px) {
 html, body {
@@ -75,33 +56,10 @@ body {
     font-size: 35px;
     padding-top: 40px;
   }
-.first-logo, .second-logo, .third-logo {
+.logo {
     width: 80px;
     border-radius: 50px;
     float: bottom;
     margin-right: 20px;
   }
-button {
-      text-align: center;
-      width: 210px;
-      height: auto;
-      padding-left: 30px;
-      padding-right: 30px;
-      padding-bottom: 10px;
-      padding-top: 10px;
-      font-size: 25px;
-      color: white;
-      background-color: blue;
-      border-radius: 30px;
-      cursor: pointer;
-      border: none;
-      transition: opacity 0.15s, box-shadow 0.15s;
-      margin-top: 20px;
-    }
-    button:hover {
-      box-shadow: 5px 5px 9px black; 
-    }
-    button:active {
-      opacity: 0.8; 
-    }
   }
