@@ -125,8 +125,7 @@ input {
 .fun-day-video {
     width: 675px;
     margin: 40px 0 10px;
-    border-style: solid;
-    border-color: black;
+    border: solid black 300px;
     border-width: medium;
     display: block;
 }
@@ -179,11 +178,7 @@ h2 {
     float: bottom;
     margin-right: 20px;
 }
-iframe {
-   border-style: solid;
-   border-color: black; 
-   border-width: medium;
-}
+
 .reviews {
     display: inline-block;
     height: 250px;
@@ -275,6 +270,9 @@ ol {
     position: relative;
     overflow: hidden;
     margin-top: 40px;
+    border-style: solid;
+    border-color: black;
+    border-width: medium;
 }
 
 .fun-day-video {
@@ -282,8 +280,8 @@ ol {
     border-style: solid;
     border-color: black;
     border-width: medium;
-    display: block;
-}    
+}
+    
 p, li, h1, h2, .logos, .socials, .other-platforms, .description, .user-phone, .user-email-address, .contact-info, form, input, .videos, .user-availability, .submit, .slide, .gnitou-email-address, .gnitou-phone-number, .qualifications, .reviews, .gnitou-pic {
     text-align: center;
 }
@@ -323,12 +321,6 @@ input {
     left: 125px;
     overflow: hidden;
 }
-.fun-day-video {
-    border-style: solid;
-    border-color: black;
-    border-width: medium;
-    width: 350px;
-}
 .slide {
     display: inline-block;
     align-items: center;
@@ -350,11 +342,7 @@ input {
     width: 100%;
     overflow: hidden;
 }
-iframe {
-   border-style: solid;
-   border-color: black; 
-   border-width: medium;
-}
+
 .slide, .reviewer {
     display: flex;
     align-items: center;
