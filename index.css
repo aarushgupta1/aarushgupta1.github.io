@@ -99,7 +99,7 @@ input {
 .nav::after,
 .nav::before {
     font-size: 20px;
-    color: red;
+    color: yellow;
     position: relative;
 }
 .swiper-button-next {
@@ -141,11 +141,6 @@ h2 {
     display: inline-block;
     margin-top: 40px;
 }
-.location {
-    color: white;
-    font-size: 20px;
-    display: inline;
- }
 .phone, .email-address {
     display: block;
 }
@@ -207,7 +202,6 @@ iframe {
 .gnitou-email-address {
     padding-bottom: 20px;
 }
-
 .facebook {
     border-radius: 20px;
 }
@@ -367,7 +361,7 @@ iframe {
 .nav::after,
 .nav::before {
     font-size: 20px;
-    color: red;
+    color: yellow;
     position: relative;
 } 
 .swiper-button-next {
@@ -400,11 +394,6 @@ h2 {
 .socials, .contact-info {
     display: inline-block;
 }
-.location {
-    color: white;
-    font-size: 20px;
-    display: inline;
- }
 .phone, .email-address {
     display: block;
 }
@@ -616,7 +605,7 @@ iframe {
 .nav::after,
 .nav::before {
     font-size: 20px;
-    color: red;
+    color: yellow;
     position: relative;
 }
 .swiper-button-next {
@@ -647,11 +636,6 @@ h2 {
 }
 .socials, .contact-info {
     display: inline-block;
-}
-.location {
-    color: white;
-    font-size: 25px;
-    display: inline;
 }
 .lessons {
     padding-top: 30px;
