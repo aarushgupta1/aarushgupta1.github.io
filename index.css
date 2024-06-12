@@ -9,9 +9,8 @@ html, body {
     background-image: url(../images/second.jpg);
     background-repeat: no-repeat;
     background-size: cover;
-    margin-bottom: -30px;
-    margin-top: -30px;
-  }
+    margin: -30px 0;
+}
 .secondsection {
     background-image: url(../images/bluecourt.jpg);
     background-repeat: no-repeat;
@@ -52,7 +51,7 @@ button:hover {
 }
 button:active {
     opacity: 0.8; 
-  }
+}
 input {
     margin:5px;
     padding:10px;
@@ -76,7 +75,7 @@ input {
     align-items: center;
     justify-content: center;
     flex-direction: column;
-    }
+}
 figcaption {
     display: flex;
     flex-direction: column;
@@ -91,19 +90,19 @@ figcaption {
     transform: translateY(30px);
     transition: 2s;
     position: relative;
-    }
-/* .nav::after,
+}
+.nav::after,
 .nav::before {
     font-size: 20px;
     color: red;
     position: relative;
-} */
+}
 .swiper-button-next {
     float: right;
-    }
+}
  .swiper-button-prev {
      float: left;
-    }
+}
 .videos {
     width: 100%;
     position: relative;
@@ -193,7 +192,7 @@ h2 {
 .instagram, .facebook, .youtube, .tiktok {
     transition: hover 0.15s, opacity 0.15s;
     height: 50px;
-    width : auto;
+    width: auto;
     margin-bottom: 10px;
 }
 .tiktok:hover {
@@ -203,13 +202,14 @@ h2 {
     box-shadow: 5px 5px 9px blue;
 }
  .youtube:hover {
-     box-shadow 5px 5px 9px white;
-    }
+     box-shadow: 5px 5px 9px white;
+}
  .instagram:hover {
-     box-shadow 5px 5px 9px white;
-     }
+     box-shadow: 5px 5px 9px white;
+}
 .instagram:active, .facebook:active, .youtube:active, .tiktok:active {
     opacity: 0.6;
+}
 }
 @media only screen and (min-width: 768px) {
 html, body {
@@ -225,7 +225,7 @@ html, body {
     background-size: cover;
     margin-bottom: -30px;
     margin-top: -30px;
-  }
+}
 .secondsection {
     background-image: url(../images/bluecourt.jpg);
     background-repeat: no-repeat;
@@ -266,7 +266,7 @@ button:hover {
 }
 button:active {
     opacity: 0.8; 
-  }
+}
 input {
     margin:5px;
     padding:10px;
@@ -319,7 +319,7 @@ input {
     transform: translateY(30px);
     transition: 2s;
     position: relative;
-    }
+}
 .nav::after,
 .nav::before {
     font-size: 20px;
@@ -328,10 +328,10 @@ input {
 } 
 .swiper-button-next {
     float: right;
-    }
+}
  .swiper-button-prev {
      float: left;
-    }
+}
 h1 {
     font-size: 55px;
     font-family: Roboto;
@@ -419,12 +419,13 @@ h2 {
 }
  .youtube:hover {
      box-shadow: 5px 5px 9px white;
-    }
+}
  .instagram:hover {
      box-shadow: 5px 5px 9px white;
-     }
+}
 .instagram:active, .facebook:active, .youtube:active, .tiktok:active {
     opacity: 0.6;
+}
 }
 @media only screen and (min-width: 1000px) {
 html, body {
@@ -440,7 +441,7 @@ html, body {
     background-size: cover;
     margin-bottom: -30px;
     margin-top: -30px;
-  }
+}
 .secondsection {
     background-image: url(../images/bluecourt.jpg);
     background-repeat: no-repeat;
@@ -453,7 +454,7 @@ p, h1, h2, .logos, .explore, .description, .videocontainer, form, input, .video,
 }
 .submit {
     margin-top: 30px;
-    }
+}
 .share {
     border-color: black;
     border-width: medium;
@@ -474,43 +475,43 @@ button {
       position: relative;
       float: right;
       display: inline-block;
-    }
+}
 button:hover {
    box-shadow: 5px 5px 9px black; 
-    }
+}
 button:active {
       opacity: 0.8; 
-    }
+}
 input {
     margin:5px;
     padding:10px;
     width:220px;
     border-radius: 15px;
     display: inline-block;
-    }
+}
 h1 {
     padding-top: 15px;
-    }
+}
 .videos {
     width: 675px; 
     display: inline-block;
     position: relative;
     left: 365px; 
     overflow: hidden;
-    }
+}
 .video {
     width: 475px;
     margin-bottom: 10px;
     border-style: solid;
     border-color: black;
     border-width: medium;
-    }
+}
 .slide {
     display: inline-block;
     align-items: center;
     justify-content: center;
     flex-direction: column;
-    }
+}
 .description {
     display: flex;
     flex-direction: column;
@@ -518,7 +519,7 @@ h1 {
     font-size: 20px;
     color: aqua;
     font-weight: bold;
-    }
+}
 .nav {
     height:30px;
     width: 30px;
@@ -526,22 +527,22 @@ h1 {
     transform: translateY(10px);
     transition: 2s;
     position: relative;
-    }
+}
 .nav::after,
 .nav::before {
     font-size: 20px;
     color: red;
     position: relative;
-    }
+}
 .swiper-button-next {
     float: right;
-    }
+}
  .swiper-button-prev {
      float: left;
-    }
+}
 .form {
     padding-top: 15px;
-    }
+}
 p, h4 {
     font-size: 25px;
 }
@@ -566,27 +567,27 @@ h2 {
 }
 .social-images, .contact {
     display: inline-block;
-    }
+}
 .where, .location {
     color: white;
     font-size: 25px;
     display: inline;
-    }
+}
 .lessons {
     padding-top: 30px;
     margin-bottom: 15px;
     display: inline-block;
     position: relative;
     left: 585px;
-    }
+}
 .workingwithstudents {
     margin-bottom: 40px;
     padding-top: 15px;
-  }
+}
 .contact {
     padding-left: 40px;
     float: bottom;
-    }
+}
 .firstlogo, .secondlogo, .thirdlogo {
     width: 80px;
     border-radius: 50px;
@@ -603,26 +604,26 @@ h2 {
 }
   .facebook {
     border-radius: 20px;
-  }
+}
   .youtube {
     border-radius: 30px;
-  }
+}
    .tiktok {
      border-radius: 60px;
-    }
+}
   .instagram, .facebook, .youtube {
     margin-right: 30px;
-  }
+}
   .instagram, .facebook, .youtube, .tiktok {
     transition: hover 0.15s, opacity 0.15s;
     height: 100px;
     width : auto;
-    }
+}
  .social-images {
      position: relative;
      top: 30px;
      right: 50px;
-    }
+}
 .email {
     margin-bottom: 40px;
 }
@@ -637,11 +638,11 @@ h2 {
 }
  .youtube:hover {
      box-shadow: 5px 5px 9px white;
-    }
+}
  .instagram:hover {
      box-shadow: 5px 5px 9px white;
-     }
+}
 .instagram:active, .facebook:active, .youtube:active, .tiktok:active {
     opacity: 0.6;
-    }
+}
 }
