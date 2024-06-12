@@ -20,7 +20,7 @@ ol {
     background-size: cover;
     margin-top: -30px;
 }    
-p, h1, h2, li, .logos, .other-personal-platforms, .video, figcaption, .contact-info, .email-address, .phone-number-number, .gnitou-pic, .reviews {
+p, h1, h2, li, .logos, .other-platforms, .video, figcaption, .contact-info, .coach-email-address, .coach-phone-number, .gnitou-pic, .reviews {
   text-align: center;
 }
 p, li {
@@ -82,25 +82,25 @@ iframe {
     width: auto;
     padding-bottom: 20px;
     } 
-.socials-logos {
+.socials {
     display: inline-block;
     margin-top: 40px;
 }
 .about-coach {
     margin-bottom: 40px;
 }
-.where, .msg-location {
+.msg-location {
     font-size: 20px;
     color: white;
     display: inline;
 }
-.phone-number-number, .email-address {
+.coach-phone-number, .coach-email-address {
     display: block;
 }
-.phone-number-number {
+.coach-phone-number {
     margin-top: 20px;
 }
-.email-address {
+.coach-email-address {
     padding-bottom: 20px;
 }
 .testimonials {  
@@ -131,7 +131,7 @@ button {
   button:active {
     opacity: 0.8; 
   }
-  .firstlogo, .secondlogo, .thirdlogo {
+  .first-logo, .second-logo, .third-logo {
     width: 80px;
     border-radius: 50px;
     margin-right: 20px;
@@ -212,7 +212,7 @@ ol {
     background-size: cover;
     margin-top: -30px;
 }    
-  p, li, h1, h2, .logos, .socials, .other-personal-platforms, .video, figcaption, .contact-info, .email-address, .phone-number-number, .gnitou-pic, .bio, .reviews {
+  p, li, h1, h2, .logos, .socials, .other-platforms, .video, figcaption, .contact-info, .coach-email-address, .coach-phone-number, .gnitou-pic, .bio, .reviews {
     text-align: center;
   }
   p, li {
@@ -279,29 +279,29 @@ iframe {
     display: block;
     padding-bottom: 30px;
 } 
-.socials-logos, .contact-info {
+.socials, .contact-info {
     display: inline-block;
 }
-.socials-logos {
+.socials {
     margin: 40px auto -5px;
 }
-.where, .msg-location {
+.msg-location {
     color: white;
     font-size: 25px;
     display: inline;
 }
-.phone-number-number {
+.coach-phone-number {
     display: block;
     margin-top: 20px;
 }
-.email-address, .about-coach {
+.coach-email-address, .about-coach {
     margin-bottom: 40px;
 }
 .testimonials { 
      margin-top: 30px;
      margin-bottom: 30px;
 }
-.socials-logos {
+.socials {
     display: inline-block;
  }
   button {
@@ -328,7 +328,7 @@ iframe {
     button:active {
       opacity: 0.8; 
     }
-.firstlogo, .secondlogo, .thirdlogo {
+.first-logo, .second-logo, .third-logo {
     width: 80px;
     border-radius: 50px;
     float: bottom;
@@ -408,7 +408,7 @@ ol {
     background-size: cover;
     margin-top: -30px;
 }    
-  p, li, h1, h2, .logos, .socials, .other-personal-platforms, .video, figcaption, .contact-info, .email-address, .phone-number-number, .gnitou-pic, .bio, .reviews {
+  p, li, h1, h2, .logos, .socials, .other-platforms, .video, figcaption, .contact-info, .coach-email-address, .coach-phone-number, .gnitou-pic, .bio, .reviews {
     text-align: center;
   }
   p, li {
@@ -473,25 +473,25 @@ iframe {
     display: block;
     padding-bottom: 30px;
     } 
-.socials-logos, .contact-info {
+.socials, .contact-info {
     display: inline-block;
 }
-.where, .msg-location {
+.msg-location {
     color: white;
     font-size: 25px;
     display: inline;
 }
-.phone-number-number {
+.coach-phone-number {
     display: block;
 }
-.email-address, .about-coach {
+.coach-email-address, .about-coach {
     margin-bottom: 40px;
 }
 .testimonials { 
      margin-top: 30px;
      margin-bottom: 30px;
 }
-.socials-logos {
+.socials {
     position: relative;
     top: 30px;
     right: 50px;
@@ -519,7 +519,7 @@ iframe {
     button:active {
       opacity: 0.8; 
     }
-.firstlogo, .secondlogo, .thirdlogo {
+.first-logo, .second-logo, .third-logo {
     width: 80px;
     border-radius: 50px;
     float: bottom;
