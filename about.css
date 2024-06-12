@@ -4,27 +4,30 @@ html, body {
     margin: 0;
     padding: 0;
     overflow-x: hidden;
-}   
- .firstsection {
+}
+ol {
+    list-style-type: circle;
+}
+ .first-section {
     background-image: url(../images/second.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     margin: -30px auto;
 }
-.secondsection {
+.second-section {
     background-image: url(../images/bluecourt.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     margin-top: -30px;
 }    
-p, h1, h2, .logos, .explore, .funvideo, figcaption, .contact, .email, .phone, .gnitou-pic, .reviews {
+p, h1, h2, li, .logos, .other-personal-platforms, .video, figcaption, .contact-info, .email-address, .phone-number-number, .gnitou-pic, .reviews {
   text-align: center;
 }
-p {
+p, li {
     color: red;
     font-size: 25px;
 }
-.last {
+.last-qualification {
  margin-bottom: 30px;   
 }
 h1 {
@@ -83,7 +86,7 @@ iframe {
     display: inline-block;
     margin-top: 40px;
 }
-.coach {
+.about-coach {
     margin-bottom: 40px;
 }
 .where, .msg-location {
@@ -91,13 +94,13 @@ iframe {
     color: white;
     display: inline;
 }
-.phone, .email {
+.phone-number-number, .email-address {
     display: block;
 }
-.phone {
+.phone-number-number {
     margin-top: 20px;
 }
-.email {
+.email-address {
     padding-bottom: 20px;
 }
 .testimonials {  
@@ -180,7 +183,7 @@ border-radius: 60px;
 .instagram:active, .facebook:active, .youtube:active, .tiktok:active {
     opacity: 0.6;
 }
-.funvideo {
+.video {
   display: block;
   margin-top: 40px;
 }
@@ -193,23 +196,26 @@ html, body {
     padding: 0;
     overflow-x: hidden;
 }   
-.firstsection {
+ol {
+    list-style-type: circle;
+}    
+.first-section {
     background-image: url(../images/second.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     margin-bottom: -30px;
     margin-top: -30px;
   }
-.secondsection {
+.second-section {
     background-image: url(../images/bluecourt.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     margin-top: -30px;
 }    
-  p, h1, h2, .logos, .socials, .explore, .funvideo, figcaption, .contact, .email, .phone, .gnitou-pic, .bio, .reviews {
+  p, li, h1, h2, .logos, .socials, .other-personal-platforms, .video, figcaption, .contact-info, .email-address, .phone-number-number, .gnitou-pic, .bio, .reviews {
     text-align: center;
   }
-  p {
+  p, li {
       color: red;
       font-size: 25px;
   }
@@ -264,7 +270,7 @@ iframe {
     font-size: 20px;
     color: yellow;
 }
-.contact {
+.contact-info {
     padding-left: 30px;
 }
 .gnitou-pic {
@@ -273,7 +279,7 @@ iframe {
     display: block;
     padding-bottom: 30px;
 } 
-.socials-logos, .contact {
+.socials-logos, .contact-info {
     display: inline-block;
 }
 .socials-logos {
@@ -284,11 +290,11 @@ iframe {
     font-size: 25px;
     display: inline;
 }
-.phone {
+.phone-number-number {
     display: block;
     margin-top: 20px;
 }
-.email, .coach {
+.email-address, .about-coach {
     margin-bottom: 40px;
 }
 .testimonials { 
@@ -373,7 +379,7 @@ iframe {
 .instagram:active, .facebook:active, .youtube:active, .tiktok:active {
     opacity: 0.6;
     }
-  .funvideo {
+  .video {
     display: block;
     margin-top: 40px;
   }
@@ -385,24 +391,27 @@ html, body {
     margin: 0;
     padding: 0;
     overflow-x: hidden;
-}   
-.firstsection {
+} 
+ol {
+    list-style-type: circle;
+}
+.first-section {
     background-image: url(../images/second.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     margin-bottom: -30px;
     margin-top: -30px;
   }
-.secondsection {
+.second-section {
     background-image: url(../images/bluecourt.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     margin-top: -30px;
 }    
-  p, h1, h2, .logos, .socials, .explore, .funvideo, figcaption, .contact, .email, .phone, .gnitou-pic, .bio, .reviews {
+  p, li, h1, h2, .logos, .socials, .other-personal-platforms, .video, figcaption, .contact-info, .email-address, .phone-number-number, .gnitou-pic, .bio, .reviews {
     text-align: center;
   }
-  p {
+  p, li {
       color: red;
       font-size: 25px;
   }
@@ -455,7 +464,7 @@ iframe {
     font-size: 20px;
     color: yellow;
     }
-.contact {
+.contact-info {
     padding-left: 40px;
     }
 .gnitou-pic {
@@ -464,7 +473,7 @@ iframe {
     display: block;
     padding-bottom: 30px;
     } 
-.socials-logos, .contact {
+.socials-logos, .contact-info {
     display: inline-block;
 }
 .where, .msg-location {
@@ -472,13 +481,10 @@ iframe {
     font-size: 25px;
     display: inline;
 }
-.phone {
+.phone-number-number {
     display: block;
 }
-.email {
-    margin-bottom: 40px;
-}
-.coach {
+.email-address, .about-coach {
     margin-bottom: 40px;
 }
 .testimonials { 
@@ -563,7 +569,7 @@ iframe {
 .instagram:active, .facebook:active, .youtube:active, .tiktok:active {
     opacity: 0.6;
     }
-  .funvideo {
+  .video {
     display: block;
     margin-top: 40px;
   }
