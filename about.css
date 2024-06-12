@@ -8,13 +8,13 @@ html, body {
 ol {
     list-style-type: circle;
 }
- .first-section {
+ .bio {
     background-image: url(../images/second.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     margin: -30px auto;
 }
-.second-section {
+.testimonials {
     background-image: url(../images/bluecourt.jpg);
     background-repeat: no-repeat;
     background-size: cover;
@@ -89,7 +89,7 @@ iframe {
 .about-coach {
     margin-bottom: 40px;
 }
-.msg-location {
+.send-message {
     font-size: 20px;
     color: white;
     display: inline;
@@ -107,43 +107,11 @@ iframe {
      padding-top: 15px;
      margin-bottom: 30px;
 }
-button {
-    margin-top: 20px;
-    width: 210px;
-    height: auto;
-    font-size: 25px; 
-    color: white; 
-    background-color: blue; 
-    border-radius: 30px; 
-    cursor: pointer; 
-    padding-left: 30px;
-    padding-right: 30px;
-    padding-bottom: 10px;
-    padding-top: 10px;
-    margin-left: 0px; 
-    border: none; 
-    transition: opacity 0.15s, box-shadow 0.15s; 
-  }
-
-  button:hover {
-    box-shadow: 5px 5px 9px black; 
-  }
-  button:active {
-    opacity: 0.8; 
-  }
-  .first-logo, .second-logo, .third-logo {
+  .logo {
     width: 80px;
     border-radius: 50px;
     margin-right: 20px;
     float: bottom;
-}
-@keyframes rotation {
-    from {
-        transform: rotate(0deg);
-    }
-    to {
-        transform: rotate(359deg);
-    }
 }
 figcaption {
     color: pink;
@@ -199,20 +167,20 @@ html, body {
 ol {
     list-style-type: circle;
 }    
-.first-section {
+.bio {
     background-image: url(../images/second.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     margin-bottom: -30px;
     margin-top: -30px;
   }
-.second-section {
+.testimonials {
     background-image: url(../images/bluecourt.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     margin-top: -30px;
 }    
-  p, li, h1, h2, .logos, .socials, .other-platforms, .video, figcaption, .contact-info, .coach-email-address, .coach-phone-number, .gnitou-pic, .bio, .reviews {
+  p, li, h1, h2, .logos, .socials, .other-platforms, .video, figcaption, .contact-info, .coach-email-address, .coach-phone-number, .gnitou-pic, .qualifications, .reviews {
     text-align: center;
   }
   p, li {
@@ -285,7 +253,7 @@ iframe {
 .socials {
     margin: 40px auto -5px;
 }
-.msg-location {
+.contact-info {
     color: white;
     font-size: 25px;
     display: inline;
@@ -304,43 +272,11 @@ iframe {
 .socials {
     display: inline-block;
  }
-  button {
-      margin-top: 20px; 
-      width: 210px;
-      height: auto;
-      font-size: 25px; 
-      color: white; 
-      background-color: blue; 
-      border-radius: 30px; 
-      cursor: pointer; 
-      padding-left: 50px;
-      padding-right: 30px;
-      padding-bottom: 10px;
-      padding-top: 10px;
-      margin-left: 0px;
-      border: none; 
-      transition: opacity 0.15s, box-shadow 0.15s; 
-    }
-
-    button:hover {
-      box-shadow: 5px 5px 9px black; 
-    }
-    button:active {
-      opacity: 0.8; 
-    }
-.first-logo, .second-logo, .third-logo {
+.logo {
     width: 80px;
     border-radius: 50px;
     float: bottom;
     margin-right: 20px;
-}
-@keyframes rotation {
-    from {
-        transform: rotate(0deg);
-    }
-    to {
-        transform: rotate(359deg);
-    }
 }
  figcaption {
     color: pink;
@@ -395,20 +331,20 @@ html, body {
 ol {
     list-style-type: circle;
 }
-.first-section {
+.bio {
     background-image: url(../images/second.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     margin-bottom: -30px;
     margin-top: -30px;
   }
-.second-section {
+.testimonials {
     background-image: url(../images/bluecourt.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     margin-top: -30px;
 }    
-  p, li, h1, h2, .logos, .socials, .other-platforms, .video, figcaption, .contact-info, .coach-email-address, .coach-phone-number, .gnitou-pic, .bio, .reviews {
+  p, li, h1, h2, .logos, .socials, .other-platforms, .video, figcaption, .contact-info, .coach-email-address, .coach-phone-number, .gnitou-pic, .qualifications, .reviews {
     text-align: center;
   }
   p, li {
@@ -476,7 +412,7 @@ iframe {
 .socials, .contact-info {
     display: inline-block;
 }
-.msg-location {
+.contact-info {
     color: white;
     font-size: 25px;
     display: inline;
@@ -496,42 +432,11 @@ iframe {
     top: 30px;
     right: 50px;
  }
-  button {
-      margin-top: 20px; 
-      width: 210px;
-      height: auto;
-      font-size: 25px; 
-      color: white; 
-      background-color: blue; 
-      border-radius: 30px; 
-      cursor: pointer; 
-      padding-left: 50px;
-      padding-right: 30px;
-      padding-bottom: 10px;
-      padding-top: 10px;
-      margin-left: 0px;
-      border: none; 
-      transition: opacity 0.15s, box-shadow 0.15s; 
-    }
-    button:hover {
-      box-shadow: 5px 5px 9px black; 
-    }
-    button:active {
-      opacity: 0.8; 
-    }
-.first-logo, .second-logo, .third-logo {
+.logo {
     width: 80px;
     border-radius: 50px;
     float: bottom;
     margin-right: 20px;
-}
-@keyframes rotation {
-    from {
-        transform: rotate(0deg);
-    }
-    to {
-        transform: rotate(359deg);
-    }
 }
  figcaption {
     color: pink;
