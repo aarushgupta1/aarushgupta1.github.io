@@ -53,7 +53,7 @@ section {
 .about-gnitou {
     margin-bottom: 40px;
 }
-p, li, label, h1, h2, .logos, .other-platforms, .gnitou-phone-number, .gnitou-email-address, .contact-info, form, input, .videos, .submit, .slide, .gnitou-pic, .reviews {
+p, li, label, h1, h2, .other-platforms, .gnitou-phone-number, .gnitou-email-address, .contact-info, form, input, .videos, .submit, .slide, .gnitou-pic, .reviews {
     text-align: center;
 }
 p, label, li {
@@ -192,7 +192,6 @@ form {
     width: 80px;
     border-radius: 50px;
     float: bottom;
-    margin-right: 25px;
 }
 .reviews {
     display: inline-block;
@@ -305,7 +304,7 @@ section {
     overflow: hidden;
 }
     
-p, li, h1, h2, label, .logos, .socials, .other-platforms, .description, .contact-info, form, input, .videos, .submit, .slide, .gnitou-email-address, .gnitou-phone-number, .qualifications, .reviews, .gnitou-pic {
+p, li, h1, h2, label, .socials, .other-platforms, .description, .contact-info, form, input, .videos, .submit, .slide, .gnitou-email-address, .gnitou-phone-number, .qualifications, .reviews, .gnitou-pic {
     text-align: center;
 }
 label {
@@ -473,7 +472,6 @@ form {
     width: 80px;
     border-radius: 50px;
     float: bottom;
-    margin-right: 25px;
 }
 .facebook, .youtube, .instagram {
     border-radius: 30px;
@@ -543,7 +541,7 @@ section {
     margin: 0;
     padding: 15px 0;
 } 
-p, li, h1, h2, label, .logos, .other-platforms, .description, .videocontainer, form, input, .videos, .slide, .gnitou-email-address, .gnitou-phone-number, .gnitou-pic, .qualifications, .reviews, .lessons, .contact-info, .submit, .socials {
+p, li, h1, h2, label, .other-platforms, .description, .videocontainer, form, input, .videos, .slide, .gnitou-email-address, .gnitou-phone-number, .gnitou-pic, .qualifications, .reviews, .lessons, .contact-info, .submit, .socials {
     text-align: center;
 }
 p, label, li {
