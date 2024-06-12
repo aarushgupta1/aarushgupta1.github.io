@@ -4,7 +4,10 @@ html, body {
     margin: 0;
     padding: 0;
     overflow-x: hidden;
-}   
+}
+ol {
+    list-style-type: circle;
+}
 .first-section, .third-section {
     background-image: url(../images/second.jpg);
     background-repeat: no-repeat;
@@ -17,13 +20,13 @@ html, body {
     background-size: cover;
     margin-top: -30px;
 }   
-p, h1, h2, .logos, .other-platforms, figcaption, .phone, .email-address, .contact-info-info, form, input, .videos, h4, .availability, .submit, .slide {
+li, h1, h2, .logos, .other-platforms, figcaption, .phone, .email-address, .contact-info, form, input, .videos, h4, .availability, .submit, .slide {
     text-align: center;
 }
-p, h4 {
+li, h4 {
     font-size: 25px;
 }
-p {
+li {
     color: white;
 }
 h4 {
@@ -155,9 +158,6 @@ h2 {
 .student-demos {
     padding-top: 15px;
 }
-.socials {
-    display: inline-block;
-}
 .description {
     margin-top: 10px;
     font-size: 20px;
@@ -168,14 +168,6 @@ h2 {
     border-radius: 50px;
     float: bottom;
     margin-right: 20px;
-}
-@keyframes rotation {
-    from {
-        transform: rotate(0deg);
-    }
-    to {
-        transform: rotate(359deg);
-    }
 }
 .facebook {
     border-radius: 20px;
@@ -218,7 +210,10 @@ html, body {
     margin: 0;
     padding: 0;
     overflow-x: hidden;
-}   
+}
+ol {
+    list-style-type: circle;
+}
 .first-section, .third-section {
     background-image: url(../images/second.jpg);
     background-repeat: no-repeat;
@@ -232,13 +227,13 @@ html, body {
     background-size: cover;
     margin-top: -30px;
 }   
-p, h1, h2, .logos, .other-platforms, .description, .phone, .email-address, .contact-info-info, form, input, .videos, h4, .availability, .submit, .slide {
+li, h1, h2, .logos, .other-platforms, .description, .phone, .email-address, .contact-info-info, form, input, .videos, h4, .availability, .submit, .slide {
     text-align: center;
 }
-p, h4 {
+li, h4 {
     font-size: 25px;
 }
-p {
+li {
     color: white;
 }
 h4 {
@@ -353,7 +348,7 @@ h2 {
     display: inline-block;
     margin-top: 40px;
 }
-.where, .location {
+.location {
     color: white;
     font-size: 20px;
     display: inline;
@@ -384,14 +379,6 @@ h2 {
     border-radius: 50px;
     float: bottom;
     margin-right: 20px;
-}
-@keyframes rotation {
-    from {
-        transform: rotate(0deg);
-    }
-    to {
-        transform: rotate(359deg);
-    }
 }
 .facebook {
     border-radius: 20px;
@@ -434,13 +421,15 @@ html, body {
     margin: 0;
     padding: 0;
     overflow-x: hidden;
-}   
+}
+ol {
+    list-style-type: circle;
+}
 .first-section {
     background-image: url(../images/second.jpg);
     background-repeat: no-repeat;
     background-size: cover;
-    margin-bottom: -30px;
-    margin-top: -30px;
+    margin: -30px; auto;
 }
 .second-section {
     background-image: url(../images/bluecourt.jpg);
@@ -449,7 +438,7 @@ html, body {
     margin-top: -30px;
     height: 600px;
 }    
-p, h1, h2, .logos, .other-platforms, .description, .videocontainer, form, input, .video, .videos, .slide, .lessons, h4, .availability, .submit {
+li, h1, h2, .logos, .other-platforms, .description, .videocontainer, form, input, .video, .videos, .slide, .lessons, h4, .availability, .submit {
       text-align: center;
 }
 .submit {
@@ -543,10 +532,10 @@ h1 {
 .form {
     padding-top: 15px;
 }
-p, h4 {
+li, h4 {
     font-size: 25px;
 }
-p {
+li {
     color: white;
 }
 h4 {
@@ -565,10 +554,10 @@ h2 {
   font-size: 35px;
   color: yellow;
 }
-.socials, .contact-info-info {
+.socials, .contact-info {
     display: inline-block;
 }
-.where, .location {
+.location {
     color: white;
     font-size: 25px;
     display: inline;
@@ -584,7 +573,7 @@ h2 {
     margin-bottom: 40px;
     padding-top: 15px;
 }
-.contact-info-info {
+.contact-info {
     padding-left: 40px;
     float: bottom;
 }
@@ -593,14 +582,6 @@ h2 {
     border-radius: 50px;
     float: bottom;
     margin-right: 20px;
-}
-@keyframes rotation {
-    from {
-        transform: rotate(0deg);
-    }
-    to {
-        transform: rotate(359deg);
-    }
 }
   .facebook {
     border-radius: 20px;
@@ -617,7 +598,7 @@ h2 {
   .instagram, .facebook, .youtube, .tiktok {
     transition: hover 0.15s, opacity 0.15s;
     height: 100px;
-    width : auto;
+    width: auto;
 }
  .socials {
      position: relative;
