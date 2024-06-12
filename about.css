@@ -9,16 +9,15 @@ html, body {
     background-image: url(../images/second.jpg);
     background-repeat: no-repeat;
     background-size: cover;
-    margin-bottom: -30px;
-    margin-top: -30px;
-  }
+    margin: -30px auto;
+}
 .secondsection {
     background-image: url(../images/bluecourt.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     margin-top: -30px;
 }    
-p, h1, h2, .logos, .explore, .funvideo, figcaption, .contact, .email, .phone, .gnitou, .reviews {
+p, h1, h2, .logos, .explore, .funvideo, figcaption, .contact, .email, .phone, .gnitou-pic, .reviews {
   text-align: center;
 }
 p {
@@ -57,7 +56,7 @@ iframe {
     flex-direction: column;
     color: black;
     }
-.names {
+.reviewers {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -74,23 +73,20 @@ iframe {
     font-size: 20px;
     color: yellow;
     }
-.qualifications {
-    display: inline-block;
-    }
-.gnitou {
+.gnitou-pic {
     display: block;
     height: 500px;
     width: auto;
     padding-bottom: 20px;
     } 
-.social-images {
+.socials-logos {
     display: inline-block;
     margin-top: 40px;
 }
 .coach {
     margin-bottom: 40px;
 }
-.where, .location {
+.where, .msg-location {
     font-size: 20px;
     color: white;
     display: inline;
@@ -137,7 +133,6 @@ button {
     border-radius: 50px;
     margin-right: 20px;
     float: bottom;
-    animation: rotation 8s infinite linear;
 }
 @keyframes rotation {
     from {
@@ -211,7 +206,7 @@ html, body {
     background-size: cover;
     margin-top: -30px;
 }    
-  p, h1, h2, .logos, .socials, .explore, .funvideo, figcaption, .contact, .email, .phone, .gnitou, .bio, .reviews {
+  p, h1, h2, .logos, .socials, .explore, .funvideo, figcaption, .contact, .email, .phone, .gnitou-pic, .bio, .reviews {
     text-align: center;
   }
   p {
@@ -251,7 +246,7 @@ iframe {
     flex-direction: column;
     color: red;
     }
-.names {
+.reviewers {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -268,24 +263,23 @@ iframe {
 .nav::before {
     font-size: 20px;
     color: yellow;
-    }
+}
 .contact {
     padding-left: 30px;
-    }
-.gnitou {
+}
+.gnitou-pic {
     height: 500px;
     width: auto;
     display: block;
     padding-bottom: 30px;
-    } 
-.social-images, .contact {
+} 
+.socials-logos, .contact {
     display: inline-block;
 }
-.social-images {
-    margin-bottom: -5px;
-    margin-top: 40px;
-    }
-.where, .location {
+.socials-logos {
+    margin: 40px auto -5px;
+}
+.where, .msg-location {
     color: white;
     font-size: 25px;
     display: inline;
@@ -294,17 +288,14 @@ iframe {
     display: block;
     margin-top: 20px;
 }
-.email {
-    margin-bottom: 40px;
-}
-.coach {
+.email, .coach {
     margin-bottom: 40px;
 }
 .testimonials { 
      margin-top: 30px;
      margin-bottom: 30px;
 }
-.social-images {
+.socials-logos {
     display: inline-block;
  }
   button {
@@ -336,7 +327,6 @@ iframe {
     border-radius: 50px;
     float: bottom;
     margin-right: 20px;
-    animation: rotation 8s infinite linear;
 }
 @keyframes rotation {
     from {
@@ -409,7 +399,7 @@ html, body {
     background-size: cover;
     margin-top: -30px;
 }    
-  p, h1, h2, .logos, .socials, .explore, .funvideo, figcaption, .contact, .email, .phone, .gnitou, .bio, .reviews {
+  p, h1, h2, .logos, .socials, .explore, .funvideo, figcaption, .contact, .email, .phone, .gnitou-pic, .bio, .reviews {
     text-align: center;
   }
   p {
@@ -448,7 +438,7 @@ iframe {
     justify-content: center;
     flex-direction: column;
     }
-.names {
+.reviewers {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -468,16 +458,16 @@ iframe {
 .contact {
     padding-left: 40px;
     }
-.gnitou {
+.gnitou-pic {
     height: 500px;
     width: auto;
     display: block;
     padding-bottom: 30px;
     } 
-.social-images, .contact {
+.socials-logos, .contact {
     display: inline-block;
 }
-.where, .location {
+.where, .msg-location {
     color: white;
     font-size: 25px;
     display: inline;
@@ -495,7 +485,7 @@ iframe {
      margin-top: 30px;
      margin-bottom: 30px;
 }
-.social-images {
+.socials-logos {
     position: relative;
     top: 30px;
     right: 50px;
@@ -528,7 +518,6 @@ iframe {
     border-radius: 50px;
     float: bottom;
     margin-right: 20px;
-    animation: rotation 8s infinite linear;
 }
 @keyframes rotation {
     from {
@@ -538,7 +527,7 @@ iframe {
         transform: rotate(359deg);
     }
 }
- .tricks {
+ figcaption {
     color: pink;
     margin-top: 10px;
 }
