@@ -22,7 +22,7 @@
   <body style = "margin:0;">
       <h1>Gnitou Tennis Academy</h1>
       <div class = "logos">
-        <img class="logo" src="images/ball.jpg" />
+        <img class="firstlogo" src="images/ball.jpg" />
         <img class="secondlogo" src="images/ball.jpg" />
         <img class="thirdlogo" src="images/ball.jpg" />
       </div>
@@ -53,7 +53,7 @@
             src="https://www.youtube.com/embed/3-R-YLC-f90"
       >
           </iframe>
-          <p class = "description"> Forehand - Backhand Drill </p>
+          <figcaption> Forehand - Backhand Drill </figcaption>
          </div>
             
        <div class = "slide swiper-slide">
@@ -63,18 +63,8 @@
             src="https://www.youtube.com/embed/4xLd03M05WA"
       >
           </iframe>
-          <p class = "description"> Using a Soccer Ball to Improve the Forehand  </p>
+          <figcaption class = "description"> Using a Soccer Ball to Improve the Forehand  </figcaption>
          </div>
-               
-      <div class = "slide swiper-slide">
-         <iframe class = "video"
-            width="420"
-            height="315"
-            src="https://www.youtube.com/embed/_AXnNVhY2yo"
-      >
-          </iframe>
-          <p class = "description"> Correcting the Forehand Takeback </p>
-           </div>
             
        <div class = "slide swiper-slide">
          <iframe class = "video"
@@ -83,7 +73,7 @@
             src="https://www.youtube.com/embed/G4Ta4qtrTMs"
       >
           </iframe>
-          <p class = "description"> Learning to Jump Higher on the Serve </p>
+          <figcaption> Learning to Jump Higher on the Serve </figcaption>
          </div>
             
        <div class = "slide swiper-slide">
@@ -93,12 +83,12 @@
             src="https://www.youtube.com/embed/jCSvr2ccF4g"
       >
           </iframe>
-          <p class = "description"> Rallying Forehand to Forehand </p>            
+          <figcaption> Rallying Forehand to Forehand </figcaption>            
         </div>
             </div>
     
-          <div class="swiper-button-next nav-btn"></div>
-          <div class="swiper-button-prev nav-btn"></div>
+          <div class="swiper-button-next nav"></div>
+          <div class="swiper-button-prev nav"></div>
           <div class="swiper-pagination"></div>
           <script src = "swiper-bundle.min.js"></script>
           <script src = "script.js"></script>
@@ -109,44 +99,44 @@
     <body style = "margin:0;">
     <h2 class = "form">Interest Form</h2>
     <form action = "https://formspree.io/f/mvoydgby" method = "post">
-    <h4>Name:</h4>
-    <input name = "name" type = "text" placeholder = "Enter your name" required minlength = "2" maxlength = "100">
-    <h4>Email:</h4>
-    <input name = "email" type = "email" placeholder = "Enter your email address" required minlength = "3" maxlength = "100">
-    <h4>Phone Number:</h4>
-    <input name = "phonenumber" type = "text" placeholder = "Enter your phone number" required minlength = "8" maxlength = "20">
-    <h4>Experience:</h4>
-    <input name = "experience" type = "text" placeholder = "# of years you've played tennis for">
-    <h4>Available days:</h4>
-    <div class = "availability">
-    <input name = "availability" type = "text" placeholder = "List days that work for you" required minlength = "3" maxlength = "120">
-      </div>
-      <div class = "submit">
+    <label for="name">Name: </label>
+    <input id="name" name = "name" type = "text" placeholder = "Enter your name" required minlength = "2" maxlength = "75">
+    <label for="email">Email: </label>
+    <input id="email" name = "email" type = "email" placeholder = "Enter your email address" required minlength = "3" maxlength = "100">
+    <label for="phone-number">Phone Number:</label>
+    <input id="phone-number" name = "phone-number" type = "text" placeholder = "Enter your phone number" required minlength = "8" maxlength = "15">
+    <label for="experience">Experience:</label>
+    <input id="experience" name = "experience" type = "number" placeholder = "# of years you've played tennis for">
+    <label for="availability">Available days:</label>
+    <input id="availability" name = "availability" type = "text" placeholder = "List days that work for you" required minlength = "3" maxlength = "75">
+   </div>
+    <div class = "submit">
     <input class = "share" type = "submit">
-      </div>
+    </div>
     </form>
+      
     <div class="explore">
       <div class = "social-images"> 
       <a href="https://www.instagram.com/gnitou_tennis_academy/" target="_blank"
-        ><img src="images/insta.jpg" alt="An image of instagram" class="instagram"
+        ><img src="images/insta.jpg" alt="instagram logo" class="instagram"
       /></a>
       <a
         href="https://www.facebook.com/Gnitou-tennis-academy-105739311342289"
         target="_blank"
         ><img
           src="images/facebook.jpg"
-          alt="An image of facebook"
+          alt="facebook logo"
           class="facebook"
       /></a>
       <a
         href="https://www.youtube.com/channel/UCp7OAXdH22dV5FRyiDGvH1A"
         target="_blank"
-        ><img src="images/youtube.jpg" alt="An image of youtube" class="youtube"
+        ><img src="images/youtube.jpg" alt="youtube logo" class="youtube"
       /></a>
       <a
         href="https://www.tiktok.com/@gnitoutennisacademy"
         target="_blank"
-        ><img src="images/tiktok.jpg" alt="An image of tiktok" class="tiktok"
+        ><img src="images/tiktok.jpg" alt="tiktok logo" class="tiktok"
       /></a>
       </div>
     <div class = "contact">
