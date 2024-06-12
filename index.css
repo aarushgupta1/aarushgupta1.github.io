@@ -15,7 +15,7 @@ html, body {
 .header, .footer {
     background: black;
 }
-header {
+.header {
     padding-bottom: 20px;    
 }
 ol {
@@ -47,7 +47,7 @@ label {
 .about-gnitou {
     margin-bottom: 40px;
 }
-p, li, h1, h2, .logos, .fun-day-video, .demo-video, .other-platforms, .gnitou-phone-number, .user-phone, .gnitou-email-address, .contact-info, form, input, .videos, .user-availability, .submit, .slide, .gnitou-pic, .reviews {
+p, li, h1, h2, .logos, .other-platforms, .gnitou-phone-number, .user-phone, .gnitou-email-address, .contact-info, form, input, .videos, .user-availability, .submit, .slide, .gnitou-pic, .reviews {
     text-align: center;
 }
 p, li {
@@ -71,6 +71,9 @@ input {
 }
 .submit {
     margin-top: 30px;
+}
+.submit:hover {
+    box-shadow: 5px 5px 9px black;
 }
 .share {
     border-color: black;
@@ -115,9 +118,19 @@ input {
 .demo-video {
     border: solid black 300px;
     border-width: medium;
-    display: block;
     margin-top: 40px;
+    position: relative;
+    overflow: hidden;
 }
+.fun-day-video {
+    width: 675px;
+    margin: 40px 0 10px;
+    border-style: solid;
+    border-color: black;
+    border-width: medium;
+    display: block;
+}
+
 h1 {
     font-size: 55px;
     font-family: Roboto;
@@ -126,14 +139,14 @@ h1 {
 }
 h2 {
     font-size: 35px;
-    color: black;
-    padding-top: 15px;
+    color: gray;
+    padding-top: 5px;
 }
 .final-lesson-info {
-    padding-bottom: 15px;
+    padding-bottom: 10px;
 }
 .form {
-     padding-top: 15px;   
+     padding-top: 20px;   
 }
 .socials {
     display: inline-block;
@@ -220,10 +233,10 @@ iframe {
     box-shadow: 5px 5px 9px blue;
 }
  .youtube:hover {
-     box-shadow: 5px 5px 9px white;
+     box-shadow: 5px 5px 9px red;
 }
  .instagram:hover {
-     box-shadow: 5px 5px 9px white;
+     box-shadow: 5px 5px 9px magenta;
 }
 .instagram:active, .facebook:active, .youtube:active, .tiktok:active {
     opacity: 0.6;
@@ -240,7 +253,7 @@ html, body {
 .header, .footer {
     background: black;
 }
-header {
+.header {
     padding-bottom: 20px;
 }
 ol {
@@ -259,10 +272,19 @@ ol {
     padding: 30px 0;
 }  
 .demo-video {
-    display: block;
+    position: relative;
+    overflow: hidden;
     margin-top: 40px;
 }
-p, li, h1, h2, .logos, .socials, .fun-day-video, .demo-video, .other-platforms, .description, .user-phone, .user-email-address, .contact-info, form, input, .videos, .user-availability, .submit, .slide, .gnitou-email-address, .gnitou-phone-number, .qualifications, .reviews, .gnitou-pic {
+
+.fun-day-video {
+    margin: 40px 0 10px;
+    border-style: solid;
+    border-color: black;
+    border-width: medium;
+    display: block;
+}    
+p, li, h1, h2, .logos, .socials, .other-platforms, .description, .user-phone, .user-email-address, .contact-info, form, input, .videos, .user-availability, .submit, .slide, .gnitou-email-address, .gnitou-phone-number, .qualifications, .reviews, .gnitou-pic {
     text-align: center;
 }
 label {
@@ -281,6 +303,9 @@ input {
 }
 .submit {
     margin-top: 30px;
+}
+.submit:hover {
+    box-shadow: 5px 5px 9px black;
 }
 .share {
     border-color: black;
@@ -371,14 +396,14 @@ h1 {
 }
 h2 {
     font-size: 35px;
-    color: black;
-    padding-top: 15px;
+    color: gray;
+    padding-top: 5px;
 }
 .final-lesson-info {
-    padding-bottom: 15px;
+    padding-bottom: 10px;
 }
 .form {
-    padding-top: 15px;   
+    padding-top: 20px;   
 }
 .socials {
     display: inline-block;
@@ -454,10 +479,10 @@ h2 {
     box-shadow: 5px 5px 9px blue;
 }
  .youtube:hover {
-     box-shadow: 5px 5px 9px white;
+     box-shadow: 5px 5px 9px red;
 }
  .instagram:hover {
-     box-shadow: 5px 5px 9px white;
+     box-shadow: 5px 5px 9px magenta;
 }
 .instagram:active, .facebook:active, .youtube:active, .tiktok:active {
     opacity: 0.6;
@@ -492,7 +517,7 @@ ol {
     margin: 0;
     padding: 30px 0;
 } 
-p, li, h1, h2, .logos, .fun-day-video, .demo-video, .other-platforms, .description, .videocontainer, form, input, .videos, .slide, .gnitou-email-address, .gnitou-phone-number, .gnitou-pic, .qualifications, .reviews, .lessons, .contact-info, .user-availability, .submit, .socials {
+p, li, h1, h2, .logos, .other-platforms, .description, .videocontainer, form, input, .videos, .slide, .gnitou-email-address, .gnitou-phone-number, .gnitou-pic, .qualifications, .reviews, .lessons, .contact-info, .user-availability, .submit, .socials {
     text-align: center;
 }
 label {
@@ -544,6 +569,9 @@ li {
 .submit {
     margin-top: 30px;
 }
+.submit:hover {
+    box-shadow: 5px 5px 9px black;
+}
 .share {
     border-color: black;
     border-width: medium;
@@ -558,23 +586,16 @@ input {
 }
 .demo-video {
     width: 675px; 
-    display: inline-block;
     position: relative;
-    left: 365px; 
     overflow: hidden;
 }
 .fun-day-video {
-    width: 475px;
+    width: 675px;
     margin: 40px 0 10px;
     border-style: solid;
     border-color: black;
     border-width: medium;
     display: block;
-}
-iframe {
-   border-style: solid;
-   border-color: black; 
-   border-width: medium;
 }
 .slide {
     display: inline-block;
@@ -611,14 +632,14 @@ iframe {
      float: left;
 }
 .form {
-    padding-top: 15px;
+    padding-top: 20px;
 }
 li {
     font-size: 25px;
     color: white;
 }
 .final-lesson-info {
-    padding-bottom: 20px;
+    padding-bottom: 10px;
 }
 h1 {
   font-size: 55px;
@@ -629,7 +650,8 @@ h1 {
 }
 h2 {
   font-size: 35px;
-  color: black;
+  color: gray;
+  padding-top: 5px;
 }
 .socials, .contact-info {
     display: inline-block;
@@ -666,7 +688,7 @@ h2 {
 }
 .instagram, .facebook, .youtube, .tiktok {
     transition: hover 0.15s, opacity 0.15s;
-    height: 100px;
+    height: 50px;
     width: auto;
 }
 .socials {
@@ -687,10 +709,10 @@ h2 {
     box-shadow: 5px 5px 9px blue;
 }
  .youtube:hover {
-     box-shadow: 5px 5px 9px white;
+     box-shadow: 5px 5px 9px red;
 }
  .instagram:hover {
-     box-shadow: 5px 5px 9px white;
+     box-shadow: 5px 5px 9px magenta;
 }
 .instagram:active, .facebook:active, .youtube:active, .tiktok:active {
     opacity: 0.6;
