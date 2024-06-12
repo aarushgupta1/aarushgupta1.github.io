@@ -12,17 +12,18 @@ html, body {
     font-size: 20px;
     color: white;
 }
-.header {
-    background-color: gray;
+.header, .footer {
+    background: black;
 }
-footer {
-    background-color: blue;
+header {
+    padding-bottom: 20px;    
 }
 ol {
     list-style-type: disc;
 }
-#user-name, #user-email, #user-phone, #user-experience, #user-availability {
+label {
     color: white;
+    display: block;
 }
 .essential-info-section, .interest-form-section, .bio-section {
     background-image: url(../images/second.jpg);
@@ -37,7 +38,6 @@ ol {
     padding: 30px 0;
 }
 .gnitou-pic {
-    height: 500px;
     margin-left: auto;
     margin-right: auto;
     width: 50%;
@@ -47,21 +47,20 @@ ol {
 .about-gnitou {
     margin-bottom: 40px;
 }
-p, li, h1, h2, .logos, .video .other-platforms, .gnitou-phone-number, .user-phone, .gnitou-email-address, .contact-info, form, input, .videos, .user-availability, .submit, .slide, .gnitou-pic, .reviews {
+p, li, h1, h2, .logos, .fun-day-video, .demo-video, .other-platforms, .gnitou-phone-number, .user-phone, .gnitou-email-address, .contact-info, form, input, .videos, .user-availability, .submit, .slide, .gnitou-pic, .reviews {
     text-align: center;
 }
-#user-name, #user-email, #user-phone, #user-experience, #user-availability {
-    color: white;
+p, li {
+    font-size: 25px;
 }
 p {
     color: red;
 }
+li {
+    color: white;
+}
 .last-qualification {
     margin-bottom: 30px;
-}
-li {
-    font-size: 25px;
-    color: white;
 }
 input {
     margin:5px;
@@ -113,7 +112,7 @@ input {
     display: inline-block; 
     overflow: hidden;
 }
-.video {
+.demo-video {
     border: solid black 300px;
     border-width: medium;
     display: block;
@@ -122,12 +121,12 @@ input {
 h1 {
     font-size: 55px;
     font-family: Roboto;
-    color: blue;
+    color: yellow;
     padding-top: 15px;
 }
 h2 {
     font-size: 35px;
-    color: yellow;
+    color: black;
     padding-top: 15px;
 }
 .final-lesson-info {
@@ -201,16 +200,11 @@ iframe {
 .gnitou-email-address {
     padding-bottom: 20px;
 }
-.facebook {
-    border-radius: 20px;
-}
-.youtube {
-    border-radius: 30px;
-}
 .tiktok {
     border-radius: 60px;
 }
-.instagram, .facebook, .youtube {
+.facebook, .youtube, .instagram {
+    border-radius: 30px;
     margin-right: 30px;
 }
 .instagram, .facebook, .youtube, .tiktok {
@@ -243,17 +237,14 @@ html, body {
     padding: 0;
     overflow-x: hidden;
 }
-.header {
-    background-color: gray;
+.header, .footer {
+    background: black;
 }
-footer {
-    background-color: blue;
+header {
+    padding-bottom: 20px;
 }
 ol {
     list-style-type: disc;
-}
-#user-name, #user-email, #user-phone, #user-experience, #user-availability {
-    color: white;
 }
 .essential-info-section, .interest-form-section, .bio-section {
     background-image: url(../images/second.jpg);
@@ -267,14 +258,14 @@ ol {
     margin: 0;
     padding: 30px 0;
 }  
-.video {
+.demo-video {
     display: block;
     margin-top: 40px;
-  }
-p, li, h1, h2, .logos, .socials, .video, .other-platforms, .description, .user-phone, .user-email-address, .contact-info, form, input, .videos, .user-availability, .submit, .slide, .gnitou-email-address, .gnitou-phone-number, .qualifications, .reviews, .gnitou-pic {
+}
+p, li, h1, h2, .logos, .socials, .fun-day-video, .demo-video, .other-platforms, .description, .user-phone, .user-email-address, .contact-info, form, input, .videos, .user-availability, .submit, .slide, .gnitou-email-address, .gnitou-phone-number, .qualifications, .reviews, .gnitou-pic {
     text-align: center;
 }
-#user-name, #user-email, #user-phone, #user-experience, #user-availability {
+label {
     color: white;
 }
 p, li {
@@ -307,7 +298,7 @@ input {
     left: 125px;
     overflow: hidden;
 }
-.video {
+.fun-day-video {
     border-style: solid;
     border-color: black;
     border-width: medium;
@@ -375,12 +366,12 @@ iframe {
 h1 {
     font-size: 55px;
     font-family: Roboto;
-    color: blue;
+    color: yellow;
     padding-top: 15px;
 }
 h2 {
     font-size: 35px;
-    color: yellow;
+    color: black;
     padding-top: 15px;
 }
 .final-lesson-info {
@@ -443,17 +434,12 @@ h2 {
     float: bottom;
     margin-right: 20px;
 }
-.facebook {
-    border-radius: 20px;
-}
-.youtube {
+.facebook, .youtube, .instagram {
     border-radius: 30px;
+    margin-right: 30px;
 }
 .tiktok {
     border-radius: 60px;
-}
-.instagram, .facebook, .youtube {
-    margin-right: 30px;
 }
 .instagram, .facebook, .youtube, .tiktok {
     transition: hover 0.15s, opacity 0.15s;
@@ -485,11 +471,11 @@ html, body {
     padding: 0;
     overflow-x: hidden;
 }
-.header {
-    background-color: gray;
+.header, .footer {
+    background: black;
 }
-footer {
-    background-color: blue;
+header {
+   padding-bottom: 20px; 
 }
 ol {
     list-style-type: disc;
@@ -506,15 +492,20 @@ ol {
     margin: 0;
     padding: 30px 0;
 } 
-p, li, h1, h2, .logos, .video, .other-platforms, .description, .videocontainer, form, input, .video, .videos, .slide, .gnitou-email-address, .gnitou-phone-number, .gnitou-pic, .qualifications, .reviews, .lessons, .contact-info, .user-availability, .submit, .socials {
-      text-align: center;
+p, li, h1, h2, .logos, .fun-day-video, .demo-video, .other-platforms, .description, .videocontainer, form, input, .videos, .slide, .gnitou-email-address, .gnitou-phone-number, .gnitou-pic, .qualifications, .reviews, .lessons, .contact-info, .user-availability, .submit, .socials {
+    text-align: center;
 }
-#user-name, #user-email, #user-phone, #user-experience, #user-availability {
+label {
     color: white;
 }
 p, li {
-    color: red;
     font-size: 25px;
+}
+p {
+    color: red;
+}        
+li {
+    color: white;
 }
 .gnitou-pic {
     height: 500px;
@@ -565,17 +556,14 @@ input {
     border-radius: 15px;
     display: inline-block;
 }
-h1 {
-    padding-top: 15px;
-}
-.videos {
+.demo-video {
     width: 675px; 
     display: inline-block;
     position: relative;
     left: 365px; 
     overflow: hidden;
 }
-.video {
+.fun-day-video {
     width: 475px;
     margin: 40px 0 10px;
     border-style: solid;
@@ -635,12 +623,13 @@ li {
 h1 {
   font-size: 55px;
   font-family: Roboto;
-  color: blue;
+  color: yellow;
   margin-top: 30px;
+  padding-top: 15px;
 }
 h2 {
   font-size: 35px;
-  color: yellow;
+  color: black;
 }
 .socials, .contact-info {
     display: inline-block;
@@ -668,27 +657,22 @@ h2 {
     float: bottom;
     margin-right: 20px;
 }
-  .facebook {
-    border-radius: 20px;
-}
-  .youtube {
+.facebook, .youtube, .instagram {
     border-radius: 30px;
-}
-   .tiktok {
-     border-radius: 60px;
-}
-  .instagram, .facebook, .youtube {
     margin-right: 30px;
 }
-  .instagram, .facebook, .youtube, .tiktok {
+.tiktok {
+    border-radius: 60px;
+}
+.instagram, .facebook, .youtube, .tiktok {
     transition: hover 0.15s, opacity 0.15s;
     height: 100px;
     width: auto;
 }
- .socials {
-     position: relative;
-     top: 30px;
-     right: 50px;
+.socials {
+    position: relative;
+    top: 30px;
+    right: 50px;
 }
 .user-email-address {
     margin-bottom: 40px;
