@@ -10,7 +10,7 @@ body {
   background-repeat: no-repeat;
   background-size: cover;
 }
-h1, p, .logos {
+h1, p {
   text-align: center;
 }
 h1 {
@@ -27,7 +27,6 @@ p {
     width: 80px;
     border-radius: 50px;
     float: bottom;
-    margin-right: 20px;
 }
 
 @media only screen and (min-width: 1000px) {
@@ -43,7 +42,7 @@ body {
     background-repeat: no-repeat;
     background-size: cover;
   }
-  h1, p, .logos {
+  h1, p, {
     text-align: center;
   }
   h1 {
@@ -57,7 +56,6 @@ body {
     padding-top: 40px;
   }
 .logo {
-    width: 80px;
     border-radius: 50px;
     float: bottom;
     margin-right: 20px;
