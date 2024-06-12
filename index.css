@@ -13,7 +13,7 @@ html, body {
     color: white;
 }
 ol {
-    list-style-type: circle;
+    list-style-type: disc;
 }
 #user-name, #user-email, #user-phone, #user-experience, #user-availability {
     color: white;
@@ -238,7 +238,7 @@ html, body {
     overflow-x: hidden;
 }
 ol {
-    list-style-type: circle;
+    list-style-type: disc;
 }
 #user-name, #user-email, #user-phone, #user-experience, #user-availability {
     color: white;
@@ -474,7 +474,7 @@ html, body {
     overflow-x: hidden;
 }
 ol {
-    list-style-type: circle;
+    list-style-type: disc;
 }
 .essential-info-section, .interest-form-section, .bio-section {
     background-image: url(../images/second.jpg);
