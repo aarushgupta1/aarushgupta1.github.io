@@ -46,7 +46,11 @@ h2 {
     margin-right: auto;
     margin-left: auto;
 }
-p, li, h1, h2, label, footer, .description, .videocontainer, form, input, .videos, .slide, .gnitou-email-address, .gnitou-phone-number, .gnitou-pic, .qualifications, .reviews, .lessons, .contact-info, .submit, .socials {
+.logo-container {
+    margin-right: auto;
+    margin-left: auto;
+}
+p, h1, h2, label, footer, .description, .videocontainer, form, input, .videos, .slide, .gnitou-email-address, .gnitou-phone-number, .gnitou-pic, .qualifications, .reviews, .lessons, .contact-info, .submit, .socials {
     text-align: center;
 }
 ol {
@@ -64,8 +68,33 @@ p {
 label {
     margin-bottom: 10px;
 }
+li {
+    display: block;
+}
 li::marker {
     color: black;
+}
+.submit {
+    margin-top: 30px;
+    border-color: black;
+    border-width: medium;
+    font-weight: bold;
+    margin-left: auto;
+    margin-right: auto;
+}
+.submit:hover {
+    box-shadow: 5px 5px 9px black;
+}
+#user-name, #user-email, #user-phone, #user-experience, #user-availability, #referral {
+    margin-bottom: 50px;
+    display: block;
+}
+input {
+    margin:5px;
+    padding:10px;
+    width:220px;
+    border-radius: 15px;
+    display: inline-block;
 }
 .last-qualification {
     margin-bottom: 30px;
@@ -100,33 +129,6 @@ li::marker {
 }
 .stars {
     letter-spacing: 10px;
-}
-.submit {
-    margin-top: 30px;
-    border-color: black;
-    border-width: medium;
-    font-weight: bold;
-    margin-left: auto;
-    margin-right: auto;
-}
-.submit:hover {
-    box-shadow: 5px 5px 9px black;
-}
-#user-name, #user-email, #user-phone, #user-experience, #user-availability, #referral {
-    margin-bottom: 50px;
-}
-#user-email {
-    margin-bottom: 40px;
-}
-#user-phone {
-    display: block;
-}
-input {
-    margin:5px;
-    padding:10px;
-    width:220px;
-    border-radius: 15px;
-    display: inline-block;
 }
 .demo-video {
     width: 675px; 
@@ -184,26 +186,11 @@ input {
 form {
     padding-top: 20px;
 }
-li {
-    font-size: 25px;
-    color: white;
-    display: inline;
-}
-li::marker {
-    color: black;
-}
 .last-qualification {
     margin-bottom: 30px;
 }
 .final-lesson-info {
     padding-bottom: 10px;
-}
-.gnitou-phone-number, .gnitou-email-address {
-    display: block;
-}
-.gnitou-email-address {
-    margin-top: 20px;
-    margin-bottom: 10px;
 }
 .lessons {
     padding-top: 30px;
@@ -224,6 +211,13 @@ li::marker {
     color: white;
     font-size: 25px;
     float: bottom;
+}
+.gnitou-phone-number, .gnitou-email-address {
+    display: block;
+}
+.gnitou-email-address {
+    margin-top: 20px;
+    margin-bottom: 10px;
 }
 .socials {
     position: relative;
