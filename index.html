@@ -25,11 +25,11 @@
           <img src="images/ball.jpg" class="gnitou-logo" alt="Gnitou Tennis Academy's logo" />
         </div>
         <ul>
-          <li><a href="#lessons">LESSON INFO</a></li>
-          <li><a href="#student-demos">WORKING WITH STUDENTS</a></li>
-          <li><a href="#about-gnitou">BIO</a></li>
-          <li><a href="#testimonials">TESTIMONIALS</a></li>
-          <li><a href="#form">INTEREST FORM</a></li>
+          <li id="help-nav"><a href="#lessons">LESSON INFO</a></li>
+          <li id="help-nav"><a href="#student-demos">WORKING WITH STUDENTS</a></li>
+          <li id="help-nav"><a href="#about-gnitou">BIO</a></li>
+          <li id="help-nav"><a href="#testimonials">TESTIMONIALS</a></li>
+          <li id="help-nav"><a href="#form">INTEREST FORM</a></li>
         </ul>
       </body>
   </header>
@@ -38,9 +38,9 @@
     <div class="lesson-info">
       <h2 id = "lessons">Lessons</h2>
       <ol>
-        <li>Coach Gnitou focuses on developing his students' technique, footwork, & strategy</li>
-        <li>Coach Gnitou works with both children & adults</li>
-        <li class="final-lesson-info">Coach Gnitou offers private, semiprivate, & group lessons (up to 4 people & 2 hours)</li>
+        <li id="lesson-tidbits">Coach Gnitou focuses on developing his students' technique, footwork, & strategy</li>
+        <li id="lesson-tidbits">Coach Gnitou works with both children & adults</li>
+        <li id="lesson-tidbits" class="final-lesson-info">Coach Gnitou offers private, semiprivate, & group lessons (up to 4 people & 2 hours)</li>
       </ol>
     </div>
   </body>
@@ -99,9 +99,9 @@
       <div class = "qualifications">
         <h2 id = "about-gnitou">Coach Gnitou...</h2>
         <ol>
-          <li>has been a Davis Cup Player for the Congo</li>
-          <li>is PTR Level 1, 2, & 3 Certified</li>
-          <li>is ITF Level 1 Certified</li>
+          <li id="achievements">has been a Davis Cup Player for the Congo</li>
+          <li id="achievements">is PTR Level 1, 2, & 3 Certified</li>
+          <li id="achievements">is ITF Level 1 Certified</li>
           <li class = "last-qualification">is MOT master certified</li>
         </ol>
         <img class="gnitou-pic" src="images/gnitou.jpg" alt="Picture of Coach Gnitou"/>
@@ -154,9 +154,10 @@
           <option value="yes">Social Media</option>
           <option value="no">Website</option>
           <option value="no">Friend</option>
+          <option value="no">Other</option>
         </select>
     </div>
-    <label for="additional-comments"></label>
+    <label for="additional-comments">Additional Comments, Questions, or Concerns</label>
       <textarea id="additional-comments"></textarea>
     <input class="submit" type="submit">
     </form>
