@@ -5,555 +5,52 @@ html, body {
     padding: 0;
     overflow-x: hidden;
 }
-.socials, .contact-info {
-    display: inline-block;
-}
-.contact-info {
-    padding-left: 30px;
-    font-size: 20px;
-    color: white;
-}
-footer {
-    background: black;
-    height: 100px;
-}
 .header {
-    background: black;
     padding-bottom: 10px; 
     height: 200px;
-}
-ol {
-    list-style-type: disc;
-}
-label {
-    color: white;
-    display: block;
-    margin-bottom: 10px;
+    background: black;
 }
 .essential-info-section, .interest-form-section, .bio-section {
     background-image: url(../images/second.jpg);
-}
-.working-with-students-section, .testimonial-section {
-    background-image: url(../images/bluecourt.jpg); 
-}
-section {
     background-repeat: no-repeat;
     background-size: cover;
     margin: 0;
     padding: 15px 0;
 }
-.gnitou-pic {
-    margin-left: auto;
-    margin-right: auto;
-    width: 50%;
-    display: block;
-    padding-bottom: 30px;
-    max-width: 700px;
-} 
-.about-gnitou {
-    margin-bottom: 40px;
+.working-with-students-section, .testimonial-section {
+    background-image: url(../images/bluecourt.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 0;
+    padding: 15px 0;
 }
-p, li, label, h1, h2, .other-platforms, .gnitou-phone-number, .gnitou-email-address, .contact-info, form, input, .videos, .submit, .slide, .gnitou-pic, .reviews {
-    text-align: center;
-}
-p, label, li {
-    font-size: 25px;
-}
-p {
-    color: red;
-}
-label, li {
-    color: white;
-}
-li {
-    display: inline;
-}
-li::marker {
-    color: black;
-}
-.last-qualification {
-    margin-bottom: 30px;
-}
-input {
-    margin:5px;
-    padding:10px;
-    width:220px;
-    border-radius: 15px;
-    display: inline-block;
-}
-.submit {
-    margin-top: 30px;
-    border-color: black;
-    border-width: medium;
-    cursor: pointer;
-    color: black;
-    font-weight: bold;
-    background-color: lightgray;
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-}
-.submit:hover {
-    box-shadow: 5px 5px 9px black;
-}
-#user-name, #user-email, #user-phone, #user-experience, #user-availability, #referral {
-    margin-bottom: 50px;
-}
-.slide {
-    display: inline-block;
-    align-items: center;
-    justify-content: center;
-    flex-direction: column;
-}
-.nav {
-    height: 20px;
-    width: 20px;
-    border-radius: 50%;
-    transform: translateY(30px);
-    transition: 2s;
-    position: absolute;
-    width: 100%;
-}
-.nav::after,
-.nav::before {
-    font-size: 20px;
-    color: yellow;
-    position: absolute;
-    width: 100%;
-}
-.swiper-button-next {
-    float: right;
-}
-.swiper-button-prev {
-     float: left;
-}
-.videos {
-    width: 100%;
-    position: relative;
-    display: inline-block; 
-    overflow: hidden;
-}
-.demo-video {
-    margin-left: auto;
-    margin-right: auto;
-    margin-top: 40px;
-    border: solid black 300px;
-    border-width: medium;
-    position: relative;
-    overflow: hidden;
-}
-.fun-day-video {
-    width: 675px;
-    margin: 40px auto 10px;
-    border: solid black 300px;
-    border-width: medium;
-    display: block;
-    position: relative;
-    overflow: hidden;
+footer {
+    background: black;
+    height: 100px;
 }
 h1 {
-    font-size: 55px;
-    font-family: Roboto;
-    color: blue;
-    padding-top: 15px;
+  font-size: 55px;
+  font-family: Roboto;
+  color: blue;
+  margin-top: 30px;
+  padding-top: 15px;
 }
 h2 {
-    font-size: 40px;
-    color: yellow;
+  font-size: 40px;
+  color: yellow;
 }
-.final-lesson-info {
-    padding-bottom: 10px;
-}
-form {
-     padding-top: 20px;   
-}
-.socials {
-    display: inline-block;
-    margin-top: 40px;
-    margin-right: 50px;
-}
-.user-phone, .user-email-address {
-    display: block;
-}
-.lessons {
-    padding-top: 60px;
-    margin-left: 55px;
-}
-.student-demos {
-    padding-top: 5px;
-}
-.user-phone {
-    margin-top: 20px;
-}
-.user-email-address {
-    padding-bottom: 20px;
-}
-.description {
-    margin-top: 10px;
-    font-size: 20px;
-    color: pink;
-}
-.logo {
+.gnitou-logo {
     width: 80px;
     border-radius: 50px;
     float: bottom;
     margin-right: auto;
     margin-left: auto;
 }
-.reviews {
-    display: inline-block;
-    height: 250px;
-    width: 170px;
-    position: relative;
-    width: 100%;
-    overflow: hidden;
-}
-.slide, .reviewer {
-    display: flex;
-    align-items: center;
-    flex-direction: column;
-}
-.reviewer {
-    color: white;
-}
-.stars {
-    letter-spacing: 10px;
-}
-.slide {
-    justify-content: center;
-    color: black;
-    }
-.gnitou-phone-number, .gnitou-email-address {
-    display: block;
-}
-.gnitou-email-address {
-    margin-top: 20px;
-    margin-bottom: 10px;
-}
-.tiktok {
-    border-radius: 60px;
-}
-.facebook, .youtube, .instagram {
-    border-radius: 30px;
-    margin-right: 30px;
-}
-.instagram, .facebook, .youtube, .tiktok {
-    transition: hover 0.15s, opacity 0.15s;
-    height: 50px;
-    width: auto;
-    margin-bottom: 10px;
-}
-.tiktok:hover {
-    box-shadow: 5px 5px 9px black;
-}
-.facebook:hover {
-    box-shadow: 5px 5px 9px blue;
-}
- .youtube:hover {
-     box-shadow: 5px 5px 9px red;
-}
- .instagram:hover {
-     box-shadow: 5px 5px 9px magenta;
-}
-.instagram:active, .facebook:active, .youtube:active, .tiktok:active {
-    opacity: 0.6;
-}
-}
-@media only screen and (min-width: 768px) {
-html, body {
-    width: 100%;
-    height: 100%;
-    margin: 0;
-    padding: 0;
-    overflow-x: hidden;
-}
-footer {
-    background: black;
-    height: 100px;
-}
-.header {
-    background: black;
-    padding-bottom: 10px;
-    height: 200px;
-}
-ol {
-    list-style-type: disc;
-}
-.essential-info-section, .interest-form-section, .bio-section {
-    background-image: url(../images/second.jpg);
-}
-.working-with-students-section, .testimonial-section {
-    background-image: url(../images/bluecourt.jpg);
-}
-section {
-    background-repeat: no-repeat;
-    background-size: cover;
-    margin: 0;
-    padding: 15px 0;
-}  
-.demo-video {
-    position: relative;
-    overflow: hidden;
-    margin-left: auto;
-    margin-right: auto;
-    margin-top: 40px;
-    border-style: solid;
-    border-color: black;
-    border-width: medium;
-}
-
-.fun-day-video {
-    margin: 40px auto 10px;
-    border-style: solid;
-    border-color: black;
-    border-width: medium;
-    position: relative;
-    overflow: hidden;
-}
-    
-p, li, h1, h2, label, .socials, .other-platforms, .description, .contact-info, form, input, .videos, .submit, .slide, .gnitou-email-address, .gnitou-phone-number, .qualifications, .reviews, .gnitou-pic {
-    text-align: center;
-}
-label {
-    margin-bottom: 10px;
-}
-p, label, li {
-    font-size: 25px;
-    color: white;
-}
-input {
-    margin:5px;
-    padding:10px;
-    width:220px;
-    border-radius: 15px;
-    display: inline-block;
-}
-.submit {
-    margin-top: 30px;
-    border-color: black;
-    border-width: medium;
-    cursor: pointer;
-    color: black;
-    font-weight: bold;
-    background-color: lightgray; 
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-}
-.submit:hover {
-    box-shadow: 5px 5px 9px black;
-}
-#user-name, #user-email, #user-phone, #user-experience, #user-availability, #referral {
-    margin-bottom: 50px;
-}
-.videos {
-    width: 500px; 
-    margin-top: 30px;
-    position: relative;
-    display: inline-block;
-    left: 125px;
-    overflow: hidden;
-}
-.slide {
-    display: inline-block;
-    align-items: center;
-    justify-content: center;
-    flex-direction: column;
-    }
-.description {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    color: aqua;
-    font-size: 20px;
-}
-.reviews {
-    display: inline-block;
-    height: 170px;
-    width: 170px;
-    position: relative;
-    width: 100%;
-    overflow: hidden;
-}
-.slide, .reviewer {
-    display: flex;
-    align-items: center;
-    flex-direction: column;
-}
-.slide {
-    justify-content: center;
-    color: red;
-}
-.reviewer {
-    color: white;
-}
-.stars {
-    letter-spacing: 10px;
-}
-.nav {
-    height: 20px;
-    width: 20px;
-    border-radius: 50%;
-    transform: translateY(30px);
-    transition: 2s;
-    position: absolute;
-    width: 100%;
-}
-.nav::after,
-.nav::before {
-    font-size: 20px;
-    color: yellow;
-    position: absolute;
-    width: 100%;
-} 
-.swiper-button-next {
-    float: right;
-}
- .swiper-button-prev {
-     float: left;
-}
-h1 {
-    font-size: 55px;
-    font-family: Roboto;
-    color: blue;
-    padding-top: 15px;
-}
-h2 {
-    font-size: 40px;
-    color: yellow;
-}
-.final-lesson-info {
-    padding-bottom: 10px;
-}
-form {
-    padding-top: 20px;   
-}
-.socials {
-    display: inline-block;
-    margin: 40px auto 0;
-}
-.socials, .contact-info {
-    display: inline-block;
-}
-.user-phone, .user-email-address {
-    display: block;
-}
-.lessons {
-     padding-top: 60px;
-     margin-left: 55px;
-}
-.user-phone {
-    margin-top: 20px;
-}
-.user-email-address {
-    padding-bottom: 20px;
-}
-.gnitou-phone-number {
-    display: block;
-    margin-top: 20px;
-}
-.about-gnitou {
-    margin-bottom: 40px;
-}
-.gnitou-pic {
-    height: 500px;
-    margin-left: auto;
-    margin-right: auto;
-    width: 50%;
-    display: block;
-    padding-bottom: 30px;
-    max-width: 700px;
-} 
-.student-demos {
-    padding-top: 5px;
-}
-.contact-info {
-    padding-left: 30px;
-    color: white;
-    font-size: 25px;
-}
-.description {
-    margin-top: 10px;
-    font-size: 20px;
-    color: pink;
-}
-.logo {
-    width: 80px;
-    border-radius: 50px;
-    float: bottom;
-    margin-right: auto;
-    margin-left: auto;
-}
-.facebook, .youtube, .instagram {
-    border-radius: 30px;
-    margin-right: 30px;
-}
-.gnitou-phone-number, .gnitou-email-address {
-    display: block;
-}
-.gnitou-email-address {
-    margin-top: 20px;
-    margin-bottom: 10px;
-}
-.tiktok {
-    border-radius: 60px;
-}
-.instagram, .facebook, .youtube, .tiktok {
-    transition: hover 0.15s, opacity 0.15s;
-    height: 50px;
-    width: auto;
-    margin-bottom: 10px;
-}
-.tiktok:hover {
-    box-shadow: 5px 5px 9px black;
-}
-.facebook:hover {
-    box-shadow: 5px 5px 9px blue;
-}
- .youtube:hover {
-     box-shadow: 5px 5px 9px red;
-}
- .instagram:hover {
-     box-shadow: 5px 5px 9px magenta;
-}
-.instagram:active, .facebook:active, .youtube:active, .tiktok:active {
-    opacity: 0.6;
-}
-}
-@media only screen and (min-width: 1000px) {
-html, body {
-    width: 100%;
-    height: 100%;
-    margin: 0;
-    padding: 0;
-    overflow-x: hidden;
-}
-footer {
-    background: black;
-    height: 100px;
-}
-.header {
-    padding-bottom: 10px; 
-    height: 200px;
-    background: black;
-}
-ol {
-    list-style-type: disc;
-}
-.essential-info-section, .interest-form-section, .bio-section {
-    background-image: url(../images/second.jpg);
-}
-.working-with-students-section, .testimonial-section {
-    background-image: url(../images/bluecourt.jpg);
-}
-section {
-    background-repeat: no-repeat;
-    background-size: cover;
-    margin: 0;
-    padding: 15px 0;
-} 
 p, li, h1, h2, label, .other-platforms, .description, .videocontainer, form, input, .videos, .slide, .gnitou-email-address, .gnitou-phone-number, .gnitou-pic, .qualifications, .reviews, .lessons, .contact-info, .submit, .socials {
     text-align: center;
+}
+ol {
+    list-style-type: disc;
 }
 p, label, li {
     font-size: 25px;
@@ -619,6 +116,12 @@ li::marker {
 }
 #user-name, #user-email, #user-phone, #user-experience, #user-availability, #referral {
     margin-bottom: 50px;
+}
+#user-email {
+    margin-bottom: 40px;
+}
+#user-phone {
+    display: block;
 }
 input {
     margin:5px;
@@ -704,20 +207,6 @@ li::marker {
     margin-top: 20px;
     margin-bottom: 10px;
 }
-h1 {
-  font-size: 55px;
-  font-family: Roboto;
-  color: blue;
-  margin-top: 30px;
-  padding-top: 15px;
-}
-h2 {
-  font-size: 40px;
-  color: yellow;
-}
-.socials, .contact-info {
-    display: inline-block;
-}
 .lessons {
     padding-top: 30px;
     margin-bottom: 15px;
@@ -729,18 +218,19 @@ h2 {
     margin-bottom: 40px;
     padding-top: 5px;
 }
+.socials, .contact-info {
+    display: inline-block;
+}
 .contact-info {
     padding-left: 30px;
     color: white;
     font-size: 25px;
     float: bottom;
 }
-.logo {
-    width: 80px;
-    border-radius: 50px;
-    float: bottom;
-    margin-right: auto;
-    margin-left: auto;
+.socials {
+    position: relative;
+    margin-top: 40px;
+    margin-right: 50px;
 }
 .facebook, .youtube, .instagram {
     border-radius: 30px;
@@ -753,17 +243,6 @@ h2 {
     transition: hover 0.15s, opacity 0.15s;
     height: 50px;
     width: auto;
-}
-.socials {
-    position: relative;
-    margin-top: 40px;
-    margin-right: 50px;
-}
-.user-email-address {
-    margin-bottom: 40px;
-}
-.user-phone {
-    display: block;
 }
 .tiktok:hover {
     box-shadow: 5px 5px 9px black;
@@ -779,5 +258,4 @@ h2 {
 }
 .instagram:active, .facebook:active, .youtube:active, .tiktok:active {
     opacity: 0.6;
-}
 }
