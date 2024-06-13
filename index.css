@@ -64,8 +64,13 @@ p {
 label {
     margin-bottom: 10px;
 }
-li {
+#lesson-tidbits, #achievements {
     display: block;
+}
+#help-nav {
+    font-size: 15px;
+    color: white;
+    text-decoration: none;
 }
 li::marker {
     color: black;
@@ -78,10 +83,14 @@ li::marker {
     margin-left: auto;
     margin-right: auto;
 }
+.msg-location {
+    text-decoration: none;
+    color: white;
+}
 .submit:hover {
     box-shadow: 5px 5px 9px black;
 }
-#user-name, #user-email, #user-phone, #user-experience, #user-availability, #referral {
+#user-name, #user-email, #user-phone, #user-experience, #user-availability, #referral, #additional-comments {
     margin-bottom: 50px;
     display: block;
     margin-right: auto;
