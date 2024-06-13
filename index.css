@@ -16,7 +16,7 @@ header {
     background: black;
     display: flex;
     justify-content: space-between;
-    align-item: center;
+    align-items: center;
     padding-bottom: 10px; 
     position: fixed;
     top: 0;
@@ -37,6 +37,8 @@ section {
 footer {
     background: black;
     height: 100px;
+    display: flex;
+    justify-content: center;
 }
 h1 {
   font-size: 55px;
@@ -48,7 +50,7 @@ h2 {
   font-size: 40px;
   color: yellow;
 }
-a {
+li > a {
     text-decoration: none;
     color: white;
 }
@@ -57,7 +59,7 @@ a {
     border-radius: 50px;
     float: bottom;
 }
-p, h1, h2, .lesson-info, .logo-container, label, footer, .description, .fun-day-video-container, form, input, .videos, .slide, .gnitou-email-address, .gnitou-phone-number, .gnitou-pic, .qualifications, .reviews, #lessons, .contact-info, .submit, .socials {
+p, h1, h2, .lesson-info, .logo-container, label, .description, .fun-day-video-container, form, input, .videos, .slide, .gnitou-email-address, .gnitou-phone-number, .gnitou-pic, .qualifications, .reviews, #lessons, .contact-info, .submit, .socials {
     text-align: center;
 }
 ol {
@@ -111,7 +113,6 @@ input {
     padding:10px;
     width:220px;
     border-radius: 15px;
-    display: inline-block;
 }
 .last-qualification {
     margin-bottom: 30px;
