@@ -21,7 +21,9 @@
   <div class="header">
       <body style = "margin:0;">
         <h1>Gnitou Tennis Academy</h1>
-        <img class="logo" src="images/ball.jpg" />
+        <div class="logo">
+          <img src="images/ball.jpg" rel="logo" />
+        </div>
       </body>
   </div>
 <section class = "essential-info-section">
@@ -149,8 +151,8 @@
     <label for="user-email">Email</label><input id="user-email" name = "email" type = "email" required minlength = "3" maxlength = "100">
     <label for="user-phone">Phone Number</label><input id="user-phone" name = "phone" type = "text" required minlength = "8" maxlength = "15">
     <label for="user-experience"># of Years Playing</label><input id="user-experience" name = "experience" type = "number">
-    <label for="user-availability">Available Days</label><input id="user-availability" name = "availability" type = "checkbox" required minlength = "3" maxlength = "75">
-    <label for="referral">How did you hear about Coach Gnitou?</label>
+    <label for="user-availability">Available Days</label><input id="user-availability" name = "availability" type = "text" required minlength = "3" maxlength = "75">
+    <label for="referral">How did you hear about Coach Gnitou?</label><input id="referral" name = "referral" type = "text" required minlength = "3" maxlength = "75">
     <input class="submit" type="submit">
     </form>
     </body>
