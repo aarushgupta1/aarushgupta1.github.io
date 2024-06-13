@@ -234,10 +234,10 @@ li::marker {
 }
 .facebook, .youtube, .instagram {
     
-    margin-right: 30px;
+    /* margin-right: 30px; */
 }
 .tiktok {
-    border-radius: 60px;
+    /* border-radius: 60px; */
 }
 .instagram, .facebook, .youtube, .tiktok {
     transition: hover 0.15s, opacity 0.15s;
