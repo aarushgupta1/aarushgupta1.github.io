@@ -48,7 +48,7 @@ section {
     width: 50%;
     display: block;
     padding-bottom: 30px;
-    max-width: 600px;
+    max-width: 700px;
 } 
 .about-gnitou {
     margin-bottom: 40px;
@@ -111,13 +111,15 @@ input {
     border-radius: 50%;
     transform: translateY(30px);
     transition: 2s;
-    position: fixed;
+    position: absolute;
+    width: 100%;
 }
 .nav::after,
 .nav::before {
     font-size: 20px;
     color: yellow;
-    position: fixed;
+    position: absolute;
+    width: 100%;
 }
 .swiper-button-next {
     float: right;
@@ -394,13 +396,15 @@ input {
     border-radius: 50%;
     transform: translateY(30px);
     transition: 2s;
-    position: fixed;
+    position: absolute;
+    width: 100%;
 }
 .nav::after,
 .nav::before {
     font-size: 20px;
     color: yellow;
-    position: fixed;
+    position: absolute;
+    width: 100%;
 } 
 .swiper-button-next {
     float: right;
@@ -458,7 +462,7 @@ form {
     width: 50%;
     display: block;
     padding-bottom: 30px;
-    max-width: 600px;
+    max-width: 700px;
 } 
 .student-demos {
     padding-top: 5px;
@@ -575,7 +579,7 @@ li::marker {
     width: 50%;
     display: block;
     padding-bottom: 30px;
-    max-width: 600px;
+    max-width: 700px;
 }  
 .gnitou-phone-number {
     display: block;
@@ -655,18 +659,20 @@ input {
     font-weight: bold;
 }
 .nav {
-    height:30px;
+    height: 30px;
     width: 30px;
     border-radius: 50%;
     transform: translateY(10px);
     transition: 2s;
-    position: fixed;
+    position: absolute;
+    width: 100px;
 }
 .nav::after,
 .nav::before {
     font-size: 20px;
     color: yellow;
-    position: fixed;
+    position: absolute;
+    width: 100%;
 }
 .swiper-button-next {
     float: right;
