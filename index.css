@@ -44,7 +44,7 @@ h2 {
     border-radius: 50px;
     float: bottom;
 }
-p, h1, h2, .lesson-info, .logo-container, label, footer, .description, .videocontainer, form, input, .videos, .slide, .gnitou-email-address, .gnitou-phone-number, .gnitou-pic, .qualifications, .reviews, .lessons, .contact-info, .submit, .socials {
+p, h1, h2, .lesson-info, .logo-container, label, footer, .description, .fun-day-video-container, form, input, .videos, .slide, .gnitou-email-address, .gnitou-phone-number, .gnitou-pic, .qualifications, .reviews, .lessons, .contact-info, .submit, .socials {
     text-align: center;
 }
 ol {
