@@ -18,7 +18,7 @@ footer {
     height: 100px;
 }
 .header {
-    background: darkblue;
+    background: black;
     padding-bottom: 10px; 
     height: 200px;
 }
@@ -48,7 +48,7 @@ section {
     width: 50%;
     display: block;
     padding-bottom: 30px;
-    max-width: 500px;
+    max-width: 600px;
 } 
 .about-gnitou {
     margin-bottom: 40px;
@@ -64,6 +64,9 @@ p {
 }
 label, li {
     color: white;
+}
+li {
+    display: inline;
 }
 li::marker {
     color: black;
@@ -93,7 +96,7 @@ input {
 .submit:hover {
     box-shadow: 5px 5px 9px black;
 }
-#user-name, #user-email, #user-phone, #user-experience, #user-availability {
+#user-name, #user-email, #user-phone, #user-experience, #user-availability, #referral {
     margin-bottom: 50px;
 }
 .slide {
@@ -108,13 +111,13 @@ input {
     border-radius: 50%;
     transform: translateY(30px);
     transition: 2s;
-    position: relative;
+    position: fixed;
 }
 .nav::after,
 .nav::before {
     font-size: 20px;
     color: yellow;
-    position: relative;
+    position: fixed;
 }
 .swiper-button-next {
     float: right;
@@ -149,7 +152,7 @@ input {
 h1 {
     font-size: 55px;
     font-family: Roboto;
-    color: black;
+    color: blue;
     padding-top: 15px;
 }
 h2 {
@@ -192,6 +195,8 @@ form {
     width: 80px;
     border-radius: 50px;
     float: bottom;
+    margin-right: auto;
+    margin-left: auto;
 }
 .reviews {
     display: inline-block;
@@ -265,7 +270,7 @@ footer {
     height: 100px;
 }
 .header {
-    background: darkblue;
+    background: black;
     padding-bottom: 10px;
     height: 200px;
 }
@@ -336,7 +341,7 @@ input {
 .submit:hover {
     box-shadow: 5px 5px 9px black;
 }
-#user-name, #user-email, #user-phone, #user-experience, #user-availability {
+#user-name, #user-email, #user-phone, #user-experience, #user-availability, #referral {
     margin-bottom: 50px;
 }
 .videos {
@@ -389,13 +394,13 @@ input {
     border-radius: 50%;
     transform: translateY(30px);
     transition: 2s;
-    position: relative;
+    position: fixed;
 }
 .nav::after,
 .nav::before {
     font-size: 20px;
     color: yellow;
-    position: relative;
+    position: fixed;
 } 
 .swiper-button-next {
     float: right;
@@ -406,7 +411,7 @@ input {
 h1 {
     font-size: 55px;
     font-family: Roboto;
-    color: black;
+    color: blue;
     padding-top: 15px;
 }
 h2 {
@@ -453,7 +458,7 @@ form {
     width: 50%;
     display: block;
     padding-bottom: 30px;
-    max-width: 500px;
+    max-width: 600px;
 } 
 .student-demos {
     padding-top: 5px;
@@ -472,6 +477,8 @@ form {
     width: 80px;
     border-radius: 50px;
     float: bottom;
+    margin-right: auto;
+    margin-left: auto;
 }
 .facebook, .youtube, .instagram {
     border-radius: 30px;
@@ -524,7 +531,7 @@ footer {
 .header {
     padding-bottom: 10px; 
     height: 200px;
-    background: darkblue;
+    background: black;
 }
 ol {
     list-style-type: disc;
@@ -568,7 +575,7 @@ li::marker {
     width: 50%;
     display: block;
     padding-bottom: 30px;
-    max-width: 500px;
+    max-width: 600px;
 }  
 .gnitou-phone-number {
     display: block;
@@ -606,7 +613,7 @@ li::marker {
 .submit:hover {
     box-shadow: 5px 5px 9px black;
 }
-#user-name, #user-email, #user-phone, #user-experience, #user-availability {
+#user-name, #user-email, #user-phone, #user-experience, #user-availability, #referral {
     margin-bottom: 50px;
 }
 input {
@@ -653,13 +660,13 @@ input {
     border-radius: 50%;
     transform: translateY(10px);
     transition: 2s;
-    position: relative;
+    position: fixed;
 }
 .nav::after,
 .nav::before {
     font-size: 20px;
     color: yellow;
-    position: relative;
+    position: fixed;
 }
 .swiper-button-next {
     float: right;
@@ -673,6 +680,7 @@ form {
 li {
     font-size: 25px;
     color: white;
+    display: inline;
 }
 li::marker {
     color: black;
@@ -693,7 +701,7 @@ li::marker {
 h1 {
   font-size: 55px;
   font-family: Roboto;
-  color: black;
+  color: blue;
   margin-top: 30px;
   padding-top: 15px;
 }
@@ -725,6 +733,8 @@ h2 {
     width: 80px;
     border-radius: 50px;
     float: bottom;
+    margin-right: auto;
+    margin-left: auto;
 }
 .facebook, .youtube, .instagram {
     border-radius: 30px;
