@@ -88,6 +88,8 @@ li::marker {
 #user-name, #user-email, #user-phone, #user-experience, #user-availability, #referral {
     margin-bottom: 50px;
     display: block;
+    margin-right: auto;
+    margin-left: auto;
 }
 input {
     margin:5px;
