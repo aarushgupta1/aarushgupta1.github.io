@@ -43,14 +43,8 @@ h2 {
     width: 80px;
     border-radius: 50px;
     float: bottom;
-    margin-right: auto;
-    margin-left: auto;
 }
-.logo-container {
-    margin-right: auto;
-    margin-left: auto;
-}
-p, h1, h2, label, footer, .description, .videocontainer, form, input, .videos, .slide, .gnitou-email-address, .gnitou-phone-number, .gnitou-pic, .qualifications, .reviews, .lessons, .contact-info, .submit, .socials {
+p, h1, h2, .logo-container, label, footer, .description, .videocontainer, form, input, .videos, .slide, .gnitou-email-address, .gnitou-phone-number, .gnitou-pic, .qualifications, .reviews, .lessons, .contact-info, .submit, .socials {
     text-align: center;
 }
 ol {
