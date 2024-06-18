@@ -12,13 +12,14 @@ html, body {
 }
 header {
     width: 100%;
-    height: 200px;
+    height: 150px;
     background: black;
     display: flex;
-    justify-content: space-between;
     align-items: center;
+    justify-content: center;
     padding-bottom: 10px; 
-    position: fixed;
+    position: sticky;
+    z-index: 1;
     top: 0;
 }
 section {
@@ -41,10 +42,10 @@ footer {
     justify-content: center;
 }
 h1 {
-  font-size: 55px;
+  font-size: 50px;
   font-family: Roboto;
   color: blue;
-  padding-top: 15px;
+  padding-top: 10px;
 }
 h2 {
   font-size: 40px;
@@ -57,13 +58,13 @@ li > a {
 .gnitou-logo {
     width: 80px;
     border-radius: 50px;
-    float: bottom;
+    margin-left: 40px;
 }
-p, h1, h2, .lesson-info, .logo-container, label, .description, .fun-day-video-container, form, input, .videos, .slide, .gnitou-email-address, .gnitou-phone-number, .gnitou-pic, .qualifications, .reviews, #lessons, .contact-info, .submit, .socials {
+* {
     text-align: center;
 }
 ol {
-    list-style-type: disc;
+    list-style-type: none;
 }
 p, label, li {
     font-size: 25px;
@@ -72,7 +73,7 @@ p {
     color: red;
 }        
 .reviewer, label, li {
-    color: white;
+    color: green;
 }
 label {
     margin-bottom: 15px;
@@ -81,8 +82,12 @@ label {
     display: block;
 }
 #help-nav {
-    font-size: 15px;
-    color: white;
+    font-size: 15px; 
+    margin-bottom: 5px;
+    
+}
+#help-nav:hover {
+    box-shadow: 2.5px 2.5px 9px green;
 }
 li::marker {
     color: black;
@@ -98,6 +103,7 @@ li::marker {
 .msg-location {
     color: white;
     font-size: 15px;
+    text-decoration: none;
 }
 .submit:hover {
     box-shadow: 5px 5px 9px black;
@@ -108,12 +114,24 @@ li::marker {
     margin-right: auto;
     margin-left: auto;
 }
-input {
-    margin:5px;
+
+form {
+  border: 2px solid black;
+  padding-top: 20px;
+  width: 66%;
+  text-align: center;
+  margin-right: auto;
+  margin-left: auto;
+  background-color: black;
+}
+
+input, select, textarea {
+    margin:10px;
     padding:10px;
     width:220px;
     border-radius: 15px;
 }
+
 .last-qualification {
     margin-bottom: 30px;
 }
@@ -130,10 +148,9 @@ input {
 }
 .reviews {
     display: inline-block;
-    height: 170px;
-    width: 170px;
-    position: relative;
+    height: 100%;
     width: 100%;
+    position: relative;
     overflow: hidden;
 }
 .slide, .reviewer {
@@ -152,7 +169,7 @@ input {
     border-color: black;
     border-width: medium;
     position: relative;
-    overflow: hidden;
+    
 }
 .fun-day-video {
     margin: 40px auto 10px;
@@ -173,7 +190,6 @@ input {
 }
 .nav {
     height: 30px;
-    width: 30px;
     border-radius: 50%;
     transform: translateY(10px);
     transition: 2s;
@@ -191,9 +207,6 @@ input {
  .swiper-button-prev {
      float: left;
 }
-form {
-    padding-top: 20px;
-}
 .last-qualification {
     margin-bottom: 30px;
 }
@@ -210,14 +223,11 @@ form {
     margin-bottom: 40px;
     padding-top: 5px;
 }
-.socials, .contact-info {
-    display: inline-block;
-}
 .contact-info {
     padding-left: 30px;
     color: white;
     font-size: 25px;
-    float: bottom;
+    margin-top: 30px;
 }
 .gnitou-phone-number, .gnitou-email-address {
     display: block;
