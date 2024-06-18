@@ -16,10 +16,11 @@ header {
     background: black;
     display: flex;
     align-items: center;
-    justify-content: center;
+    justify-content: space-evenly;
+
     padding-bottom: 10px; 
     position: sticky;
-    z-index: 1;
+    z-index: 2;
     top: 0;
 }
 section {
@@ -40,6 +41,7 @@ footer {
     height: 100px;
     display: flex;
     justify-content: center;
+    
 }
 h1 {
   font-size: 50px;
@@ -69,29 +71,38 @@ ol {
 p, label, li {
     font-size: 25px;
 }
-p {
-    color: red;
+p, li, label {
+    color: white;
 }        
-.reviewer, label, li {
-    color: green;
+.reviewer {
+    font-size: 20px;
+    margin-top: -10px;
+    color: lightgreen;
 }
 label {
     margin-bottom: 15px;
 }
 #lesson-tidbits, #achievements {
     display: block;
+    margin-bottom: 20px;
 }
 #help-nav {
     font-size: 15px; 
     margin-bottom: 5px;
     
 }
-#help-nav:hover {
-    box-shadow: 2.5px 2.5px 9px green;
+#help-nav:hover, .msg-location:hover {
+    box-shadow: 0px 2.5px 9px green;
 }
 li::marker {
     color: black;
 }
+.slide.swiper-slide {
+    border: 1px solid black;
+    background: linear-gradient(90deg, darkblue, lightblue);
+     border-radius: 10px;
+}
+
 .submit {
     margin-top: 30px;
     border-color: black;
@@ -117,12 +128,13 @@ li::marker {
 
 form {
   border: 2px solid black;
+  border-radius: 45px;
   padding-top: 20px;
   width: 66%;
   text-align: center;
   margin-right: auto;
   margin-left: auto;
-  background-color: black;
+  background: linear-gradient(rgba(12, 12, 12, 0.5), rgba(50, 50, 50, 0.5));
 }
 
 input, select, textarea {
@@ -164,15 +176,12 @@ input, select, textarea {
 .stars {
     letter-spacing: 15px;
 }
-.demo-video, .fun-day-video {
+.demo-video {
     border-style: solid;
     border-color: black;
     border-width: medium;
     position: relative;
     
-}
-.fun-day-video {
-    margin: 40px auto 10px;
 }
 .slide {
     display: inline-block;
