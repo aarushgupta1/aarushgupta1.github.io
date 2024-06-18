@@ -1,186 +1,34 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
   <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta name="keywords" content="tennis, coach, skills" />
-    <meta name="description" content="This is a great website" />
-    <title>Gnitou Tennis Academy</title>
-    <meta name = "viewport" content = "width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="index.css" />
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap"
-      rel="stylesheet"
-    />
-    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css'>
-    <link rel = "stylesheet" href = "swiper-bundle.min.css">
+    <title>Product Landing Page</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
   </head>
-  <body style = "margin:0;">
-    <header>
-      <h1>Gnitou Tennis Academy</h1>
-      <div class="logo-container">
-        <img class="gnitou-logo" alt="Gnitou Tennis Academy's logo" />
-      </div>
-      <ul>
-        <li id="help-nav"><a href="#lessons">LESSON INFO</a></li>
-        <li id="help-nav"><a href="#student-demos">WORKING WITH STUDENTS</a></li>
-        <li id="help-nav"><a href="#about-gnitou">BIO</a></li>
-        <li id="help-nav"><a href="#testimonials">TESTIMONIALS</a></li>
-        <li id="help-nav"><a href="#form">INTEREST FORM</a></li>
-      </ul>
-    </header>
+  <body>
+      <header id="header">
+        <img id="header-img" src="https://cdn.freecodecamp.org/platform/universal/fcc_meta_1920X1080-indigo.png"
+alt="freeCodeCamp logo">
+        <nav id="nav-bar">
+          <a class="nav-link" href="#form">FORM</a>
+          <a class="nav-link"href="#email">EMAIL</a>
+          <a class="nav-link" href="#submit">SUBMIT</a>
+        </nav>
+      </header>
     <main>
-    <section class = "essential-info-section">
-    <div class="lesson-info">
-      <h2 id = "lessons">Lessons</h2>
-      <ol>
-        <li id="lesson-tidbits">Coach Gnitou focuses on developing his students' technique, footwork, & strategy</li>
-        <li id="lesson-tidbits">Coach Gnitou works with both children & adults</li>
-        <li id="lesson-tidbits" class="final-lesson-info">Coach Gnitou offers private, semiprivate, & group lessons (up to 4 people & 2 hours)</li>
-      </ol>
-    </div>
-</section>
-<section class = "working-with-students-section">
-      <h2 id = "student-demos">Working With Students</h2>
-       <div class = "videos mySwiper">
-         <div class = "testi-content swiper-wrapper">
-            <div class = "slide swiper-slide">
-               <iframe class = "demo-video"
+      <iframe id="video"
                 width="420"
                 height="315"
                 src="https://www.youtube.com/embed/3-R-YLC-f90"
                 >
-                </iframe>
-             </div>
-            
-            <div class = "slide swiper-slide">
-               <iframe class = "demo-video"
-                width="420"
-                height="315"
-                src="https://www.youtube.com/embed/4xLd03M05WA"
-              >
-              </iframe>
-            </div>
-            
-            <div class = "slide swiper-slide">
-             <iframe class = "demo-video"
-                width="420"
-                height="315"
-                src="https://www.youtube.com/embed/G4Ta4qtrTMs"
-              >
-              </iframe>
-            </div>
-            
-            <div class = "slide swiper-slide">
-             <iframe class = "demo-video"
-              width="420"
-              height="315"
-              src="https://www.youtube.com/embed/jCSvr2ccF4g"
-            >
-              </iframe>
-            </div>
-          </div>
-          <div class="swiper-button-next nav"></div>
-          <div class="swiper-button-prev nav"></div>
-          <div class="swiper-pagination"></div>
-          <script src = "swiper-bundle.min.js"></script>
-          <script src = "script.js"></script>
-        </div> 
-  </section>
-  <section class = "bio-section">
-    <body style = "margin:0;">
-      <div class = "qualifications">
-        <h2 id = "about-gnitou">Coach Gnitou...</h2>
-        <ol>
-          <li id="achievements">has been a Davis Cup Player for the Congo</li>
-          <li id="achievements">is PTR Level 1, 2, & 3 Certified</li>
-          <li id="achievements">is ITF Level 1 Certified</li>
-          <li class = "last-qualification">is MOT master certified</li>
-        </ol>
-        <img class="gnitou-pic" src="images/gnitou.jpg" alt="Picture of Coach Gnitou"/>
-      </div>
-  </section>
-  <section class = "testimonial-section">
-       <h2 id = "testimonials">Student Testimonials</h2>
-       <div class = "reviews mySwiper">
-          <div class = "testi-content swiper-wrapper">
-            <div class = "slide swiper-slide">
-              <p><strong>"</strong>Coach has a great eye for your technique and has a lot of tennis intelligence and experience. Thumbs up!<strong>"</strong></p>
-              <p class="stars">⭐⭐⭐⭐⭐</p>
-              <p class="reviewer">Edward Tang</p>
-            </div>
-            <div class = "slide swiper-slide">
-              <p><strong>"</strong>Excellent coach and service, would recommend tenfold!<strong>"</strong></p>
-              <p class="stars">⭐⭐⭐⭐⭐</p>      
-              <p class="reviewer">Jack Mercer</p>
-            </div>
-            <div class = "slide swiper-slide">
-              <p><strong>"</strong>The best coach!!<strong>"</strong></p>
-              <p class="stars">⭐⭐⭐⭐⭐</p>
-              <p class="reviewer">Kayla Ruggiero</p>
-              </div>
-            </div>
-          </div>
-          <div class="swiper-button-next nav"></div>
-          <div class="swiper-button-prev nav"></div>
-          <div class="swiper-pagination"></div>
-          <script src = "swiper-bundle.min.js"></script>
-          <script src = "script.js"></script>
-        </div>
-  </section>
-  <section class = "interest-form-section">
-    <h2 id = "form">Interest Form</h2>
-    <form action = "https://formspree.io/f/mvoydgby" method = "post">
-    <label for="user-name">Name</label><input id="user-name" name = "name" type = "text" required minlength = "2" maxlength = "75">
-    <label for="user-email">Email</label><input id="user-email" name = "email" type = "email" required minlength = "3" maxlength = "100">
-    <label for="user-phone">Phone Number</label><input id="user-phone" name = "phone" type = "text" required minlength = "8" maxlength = "15">
-    <label for="user-experience"># of Years Playing</label><input id="user-experience" name = "experience" type = "number">
-    <label for="user-availability">Available Days</label><input id="user-availability" name = "availability" type = "text" required minlength = "3" maxlength = "75">
-    <label for="referral">How did you hear about Coach Gnitou?</label>
-        <select name="selector" id="referral" required>
-          <option value="">Select an option</option>
-          <option value="yes">Social Media</option>
-          <option value="no">Website</option>
-          <option value="no">Friend</option>
-          <option value="no">Other</option>
-        </select>
-    <label for="additional-comments">Additional Comments, Questions, or Concerns</label>
-      <textarea id="additional-comments"></textarea>
-    <input class="submit" type="submit">
-    </form>
-  </section>
-  </main>
-  <footer>
-    <div class="socials">
-      <a href="https://www.instagram.com/gnitou_tennis_academy/" target="_blank"
-      ><img src="images/insta.jpg" alt="instagram logo" class="instagram"
-        /></a>
-      <a href="https://www.facebook.com/Gnitou-tennis-academy-105739311342289"
-         target="_blank"
-      ><img src="images/facebook.jpg"
-             alt="facebook logo"
-            class="facebook"
-      /></a>
-      <a href="https://www.youtube.com/channel/UCp7OAXdH22dV5FRyiDGvH1A"
-         target="_blank"
-      ><img src="images/youtube.jpg" alt="youtube logo" class="youtube"
-      /></a>
-      <a href="https://www.tiktok.com/@gnitoutennisacademy"
-        target="_blank"
-      ><img src="images/tiktok.jpg" alt="tiktok logo" class="tiktok"
-      /></a>
-    </div>
-    <div class="contact-info">
-      <div class="gnitou-phone-number">
-         <a href="tel:772-626-5504" target = "_blank" class = "msg-location">772-626-5504</a> 
-       </div>
-       <div class="gnitou-email-address">
-          <a href="mailto:chatrian_gnitou@yahoo.fr" target = "_blank" class = "msg-location">chatrian_gnitou@yahoo.fr</a>
-        </div>
-    </div>
-  </footer>
-</body>
+      </iframe>
+
+      <form method="post" id="form" action="https://www.freecodecamp.com/email-submit">
+        <input id="email" placeholder="Enter your email" name="email" type="email">
+        <input id="submit" type="submit">
+
+      </form>
+    </main>
+  </body>
 </html>
