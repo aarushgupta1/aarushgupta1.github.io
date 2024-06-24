@@ -10,7 +10,7 @@ html, body {
     padding: 0;
     overflow-x: hidden;
 }
-header, footer {
+header, footer {ƒ
     width: 100%;
     background: black;
     display: flex;
@@ -21,7 +21,7 @@ header {
     height: 150px;
     padding-bottom: 10px; 
     position: sticky;
-    z-index: 2;
+    z-index: 1;
     top: 0;
 }
 footer {
@@ -155,21 +155,17 @@ li::marker {
     transition: 2s;
     width: 100px;
     position: relative;
-    z-index: 1;
 }
 .nav::after,
 .nav::before {
     font-size: 20px;
     color: yellow;
-    z-index: 1;
 }
 .swiper-button-next {
     float: right;
-    z-index: 1;
 }
  .swiper-button-prev {
      float: left;
-     z-index: 1;
 }
 #user-name, #user-email, #user-phone, #user-experience, #user-availability, #referral, #additional-comments {
     margin-bottom: 50px;
