@@ -21,7 +21,7 @@ header {
     height: 150px;
     padding-bottom: 10px; 
     position: sticky;
-    z-index: 2;
+    z-index: 1;
     top: 0;
 }
 footer {
@@ -93,7 +93,7 @@ label {
     margin-bottom: 5px;
     color: lightblue;
 }
-#help-nav:hover, .msg-location:hover {
+#help-nav:hover, .msg-gnitou:hover {
     box-shadow: 0px 2.5px 9px green;
 }
 li::marker {
@@ -163,12 +163,12 @@ li::marker {
     color: yellow;
     position: relative;
 }
-.swiper-button-next {
+/* .swiper-button-next {
     float: right;
 }
  .swiper-button-prev {
      float: left;
-}
+} */
 #user-name, #user-email, #user-phone, #user-experience, #user-availability, #referral, #additional-comments {
     margin-bottom: 50px;
     display: block;
