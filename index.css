@@ -72,17 +72,21 @@ p, label, li {
 p, li, label {
     color: white;
 }        
-.reviewer {
-    font-size: 20px;
-    margin-top: -10px;
-    color: lightgreen;
-}
 label {
     margin-bottom: 15px;
 }
 #lesson-tidbits, #achievements {
     display: block;
     margin-bottom: 20px;
+}
+.final-lesson-info {
+    padding-bottom: 10px;
+}
+#lessons {
+    padding-top: 30px;
+    margin-bottom: 15px;
+    display: inline-block;
+    position: relative;
 }
 #help-nav {
     font-size: 15px; 
@@ -95,60 +99,24 @@ label {
 li::marker {
     color: black;
 }
-
-.submit {
-    margin-top: 30px;
+.demo-video {
+    border-style: solid;
     border-color: black;
     border-width: medium;
-    font-weight: bold;
-    margin-left: auto;
-    margin-right: auto;
+    position: relative;   
 }
-.msg-location {
-    color: lightblue;
-    font-size: 15px;
-    text-decoration: none;
+#student-demos {
+    margin-bottom: 40px;
+    padding-top: 5px;
 }
-.submit:hover {
-    box-shadow: 5px 5px 9px black;
-}
-#user-name, #user-email, #user-phone, #user-experience, #user-availability, #referral, #additional-comments {
-    margin-bottom: 50px;
-    display: block;
-    margin-right: auto;
-    margin-left: auto;
-}
-
-form {
-  border: 2px solid black;
-  border-radius: 45px;
-  padding-top: 20px;
-  width: 66%;
-  text-align: center;
-  margin-right: auto;
-  margin-left: auto;
-  background: linear-gradient(rgba(20, 20, 20, 0.75), rgba(90, 90, 90, 0.75));
-}
-
-input, select, textarea {
-    margin:10px;
-    padding:10px;
-    width:220px;
-    border-radius: 15px;
-}
-
 .last-qualification {
     margin-bottom: 30px;
 }
 .gnitou-pic {
     margin: 50px auto 0;
     width: 50%;
-    padding-bottom: 30px;
-    
+    padding-bottom: 30px;    
 }  
-.gnitou-phone-number {
-    display: block;
-}
 #about-gnitou {
     margin-bottom: 40px;
 }
@@ -166,6 +134,9 @@ input, select, textarea {
 .reviewer {
     display: flex;
     letter-spacing: 1px;
+    font-size: 20px;
+    margin-top: -10px;
+    color: lightgreen;
 }
 .slide {
     display: inline-block;
@@ -177,13 +148,6 @@ input, select, textarea {
 }
 .stars {
     letter-spacing: 15px;
-}
-.demo-video {
-    border-style: solid;
-    border-color: black;
-    border-width: medium;
-    position: relative;
-    
 }
 .nav {
     height: 30px;
@@ -197,7 +161,7 @@ input, select, textarea {
 .nav::before {
     font-size: 20px;
     color: yellow;
-    width: 100%;
+    z-index: 0;
 }
 .swiper-button-next {
     float: right;
@@ -205,21 +169,46 @@ input, select, textarea {
  .swiper-button-prev {
      float: left;
 }
-.last-qualification {
-    margin-bottom: 30px;
+#user-name, #user-email, #user-phone, #user-experience, #user-availability, #referral, #additional-comments {
+    margin-bottom: 50px;
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
 }
-.final-lesson-info {
-    padding-bottom: 10px;
+input, select, textarea {
+    margin:10px;
+    padding:10px;
+    width:220px;
+    border-radius: 15px;
 }
-#lessons {
-    padding-top: 30px;
-    margin-bottom: 15px;
-    display: inline-block;
-    position: relative;
+form {
+  border: 2px solid black;
+  border-radius: 45px;
+  padding-top: 20px;
+  width: 66%;
+  text-align: center;
+  margin-right: auto;
+  margin-left: auto;
+  background: linear-gradient(rgba(20, 20, 20, 0.75), rgba(90, 90, 90, 0.75));
 }
-#student-demos {
-    margin-bottom: 40px;
-    padding-top: 5px;
+.submit {
+    margin-top: 30px;
+    border-color: black;
+    border-width: medium;
+    font-weight: bold;
+    margin-left: auto;
+    margin-right: auto;
+}
+.submit:hover {
+    box-shadow: 5px 5px 9px black;
+}
+.msg-location {
+    color: lightblue;
+    font-size: 15px;
+    text-decoration: none;
+}
+.gnitou-phone-number {
+    display: block;
 }
 .gnitou-email-address {
     align-items: center;
