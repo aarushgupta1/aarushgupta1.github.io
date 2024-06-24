@@ -113,16 +113,16 @@ li::marker {
     margin-bottom: 30px;
 }
 .gnitou-pic {
-    margin: 50px auto 0;
-    width: 50%;
+    width: 100px;
     padding-bottom: 30px;    
+    margin-left: 40px;
 }  
 #about-gnitou {
     margin-bottom: 40px;
 }
 .reviews, .videos {
     display: inline-block;
-    width: 100%;
+    width: 50%;
     height: 100%;
     position: relative;
     overflow: hidden;
