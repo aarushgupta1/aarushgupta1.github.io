@@ -152,7 +152,7 @@ input, select, textarea {
 #about-gnitou {
     margin-bottom: 40px;
 }
-.reviews {
+.reviews, videos {
     display: inline-block;
     height: 100%;
     width: 100%;
