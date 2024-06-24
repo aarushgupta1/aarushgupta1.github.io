@@ -20,6 +20,11 @@ h1 {
   padding-top: 10px;
 }
 header {
+    width: 100%;
+    background: black;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
     height: 150px;
     padding-bottom: 10px; 
     position: sticky;
