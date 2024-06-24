@@ -34,7 +34,7 @@ section {
     margin: 0;
     padding: 15px 0;
 }
-.essential-info-section, .interest-form-section, .bio-section {
+.lessons-section, .interest-form-section, .bio-section {
     background-image: url(../images/second.jpg);
     
 }
@@ -113,7 +113,7 @@ li::marker {
     margin-bottom: 30px;
 }
 .gnitou-pic {
-    width: 100px;
+    width: 200px;
     padding-bottom: 30px;    
     margin-left: 40px;
 }  
@@ -201,7 +201,7 @@ form {
 .submit:hover {
     box-shadow: 5px 5px 9px black;
 }
-.msg-location {
+.msg-gnitou {
     color: lightblue;
     font-size: 15px;
     text-decoration: none;
