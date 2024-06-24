@@ -95,12 +95,6 @@ label {
 li::marker {
     color: black;
 }
-.slide.swiper-slide {
-    border: 1px solid blue;
-    background: linear-gradient(90deg, rgba(0, 0, 139, 0.75), rgba(173, 216, 230, 0.5));
-     border-radius: 10px;
-    width: 75%;
-}
 
 .submit {
     margin-top: 30px;
@@ -166,12 +160,20 @@ input, select, textarea {
     overflow: hidden;
 }
 .slide, .reviewer {
-    display: flex;
     align-items: center;
     flex-direction: column;
 }
 .reviewer {
+    display: flex;
     letter-spacing: 1px;
+}
+.slide {
+    display: inline-block;
+    border: 1px solid blue;
+    background: linear-gradient(90deg, rgba(0, 0, 139, 0.75), rgba(173, 216, 230, 0.5));
+     border-radius: 10px;
+     width: 75%;
+     justify-content: center;
 }
 .stars {
     letter-spacing: 15px;
@@ -183,18 +185,13 @@ input, select, textarea {
     position: relative;
     
 }
-.slide {
-    display: inline-block;
-    align-items: center;
-    justify-content: center;
-    flex-direction: column;
-}
 .nav {
     height: 30px;
     border-radius: 50%;
     transform: translateY(10px);
     transition: 2s;
     width: 100px;
+    position: relative;
 }
 .nav::after,
 .nav::before {
