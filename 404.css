@@ -23,6 +23,9 @@ h1 {
 #this-webpage, header {
     display: flex;
 }
+#this-webpage {
+    text-decoration: none;
+}
 header {
     width: 100%;
     background: black;
