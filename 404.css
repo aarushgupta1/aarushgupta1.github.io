@@ -14,9 +14,10 @@ body {
     text-align: center;
   }
 h1 {
-  font-size: 50px;
+  margin-left: 35px;
+  font-size: 40px;
   font-family: Roboto;
-  color: blue;
+  color: white;
   padding-top: 10px;
 }
 header {
@@ -39,5 +40,4 @@ p {
 .gnitou-logo {
     width: 80px;
     border-radius: 50px;
-    margin-left: 40px;
 }
