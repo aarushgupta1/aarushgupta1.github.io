@@ -25,7 +25,6 @@
         <h1>Gnitou Tennis Academy</h1>
         </div>
       </a>
-
       <ul>
         <li><a id="help-nav" href="#lessons">Lessons</a></li>
         <li><a id="help-nav" href="#student-demos">Demos</a></li>
@@ -90,14 +89,12 @@
               </iframe>
           </div>
           </div>
+          <div class="swiper-button-next nav"></div>
+          <div class="swiper-button-prev nav"></div>
+          <div class="swiper-pagination"></div>
+          <script src = "swiper-bundle.min.js"></script>
+          <script src = "script.js"></script>
         </div> 
-<div class="scroll-btns">
-      <div class="swiper-button-next nav"></div>
-      <div class="swiper-button-prev nav"></div>
-      <div class="swiper-pagination"></div>
-      <script src = "swiper-bundle.min.js"></script>
-      <script src = "script.js"></script>
-</div>
   </section>
   <section class = "bio-section">
       <div class = "qualifications">
@@ -150,14 +147,12 @@
 Oliver Do</i></p>
               </div>
             </div>
-        </div>
-        <div class="scroll-btns">
           <div class="swiper-button-next nav"></div>
           <div class="swiper-button-prev nav"></div>
           <div class="swiper-pagination"></div>
           <script src = "swiper-bundle.min.js"></script>
           <script src = "script.js"></script>
-      </div>
+        </div>
   </section>
   <section class = "interest-form-section">
     <h2 id = "form">Interest Form</h2>
@@ -173,14 +168,27 @@ Oliver Do</i></p>
           <option value="no">Advanced</option>
         </select>
     <label id="user-availability">Which days are you available?</label>
-    <label for="monday" class="week-day"><input type="checkbox" id="monday" name="monday" value="Monday"/>Monday</label><br>
-    <label for="tuesday" class="week-day"><input type="checkbox" id="tuesday" name="tuesday" value="Tuesday"/>Tuesday</label><br>
-    <label for="wednesday" class="week-day"><input type="checkbox" id="wednesday" name="wednesday" value="Wednesday"/>Wednesday</label><br>
-    <label for="thursday" class="week-day"><input type="checkbox" id="thursday" name="thursday" value="Thursday"/>Thursday</label><br>
-    <label for="friday" class="week-day"><input type="checkbox" id="friday" name="friday" value="Friday"/>Friday</label><br>
-    <label for="saturday" class="week-day"><input type="checkbox" id="saturday" name="saturday" value="Saturday"/>Saturday</label><br>
-    <label for="sunday" class="week-day"><input type="checkbox" id="sunday" name="sunday" value="Sunday"/>Sunday</label><br>
-  
+    <div class="week-day">
+      <label for="monday"><input type="checkbox" id="monday" name="monday" value="Monday"/>Monday</label><br>
+    </div>
+    <div class="week-day">
+      <label for="tuesday"><input type="checkbox" id="tuesday" name="tuesday" value="Tuesday"/>Tuesday</label><br>
+    </div>
+    <div class="week-day">
+      <label for="wednesday"><input type="checkbox" id="wednesday" name="wednesday" value="Wednesday"/>Wednesday</label><br>
+    </div>
+    <div class="week-day">
+    <label for="thursday"><input type="checkbox" id="thursday" name="thursday" value="Thursday"/>Thursday</label><br>
+    </div>
+    <div class="week-day">
+      <label for="friday"><input type="checkbox" id="friday" name="friday" value="Friday"/>Friday</label><br>
+    </div>
+    <div class="week-day">
+      <label for="saturday"><input type="checkbox" id="saturday" name="saturday" value="Saturday"/>Saturday</label><br>
+    </div>
+    <div class="week-day">
+        <label for="sunday"><input type="checkbox" id="sunday" name="sunday" value="Sunday"/>Sunday</label><br>
+    </div>
     <label for="referral">How did you hear about Coach Gnitou?</label>
         <select name="selector" id="referral" required>
           <option value="">Select an option</option>
