@@ -19,7 +19,7 @@ header, footer {
     align-items: center;
 }
 header {
-    height: 125px;
+    height: 100px;
     padding-bottom: 10px; 
     position: sticky;
     z-index: 2;
