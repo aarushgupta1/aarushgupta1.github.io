@@ -55,6 +55,10 @@ li > a {
     text-decoration: none;
     color: white;
 }
+.logo-container {
+  display: flex;
+  align-items: center;
+}
 .gnitou-logo {
     width: 60px;
     border-radius: 50px;
@@ -91,6 +95,7 @@ label, #lessons {
     font-size: 12.5px; 
     margin-bottom: 5px;
     color: lightblue;
+    display: inline;
 }
 #help-nav:hover, .msg-gnitou:hover {
     box-shadow: 0px 2.5px 9px green;
@@ -229,18 +234,6 @@ form {
     transition: hover 0.15s, opacity 0.15s;
     height: 50px;
     width: auto;
-}
-.tiktok:hover {
-    box-shadow: 5px 5px 9px white;
-}
-.facebook:hover {
-    box-shadow: 5px 5px 9px blue;
-}
- .youtube:hover {
-     box-shadow: 5px 5px 9px red;
-}
- .instagram:hover {
-     box-shadow: 5px 5px 9px magenta;
 }
 .instagram:active, .facebook:active, .youtube:active, .tiktok:active {
     opacity: 0.6;
