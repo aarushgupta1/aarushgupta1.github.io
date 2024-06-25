@@ -111,6 +111,9 @@ li::marker {
 .last-qualification {
     margin-bottom: 30px;
 }
+.pic-container {
+ vertical-align: middle;
+}
 .gnitou-pic {
     width: 25%;
     padding-bottom: 30px;    
