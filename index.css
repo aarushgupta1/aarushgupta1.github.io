@@ -21,7 +21,7 @@ header {
     height: 150px;
     padding-bottom: 10px; 
     position: sticky;
-    z-index: 1;
+    z-index: 10;
     top: 0;
 }
 footer {
@@ -116,9 +116,11 @@ li::marker {
     width: 25%;
     padding-bottom: 30px;    
     margin-left: 40px;
-    display: flex;
-    align-items: center;
 }  
+.gnitou-pic-section {
+   display: flex;
+   align-items: center;
+}
 #about-gnitou {
     margin-bottom: 40px;
 }
@@ -158,13 +160,11 @@ li::marker {
     transition: 2s;
     width: 100px;
     position: relative;
-    z-index: 0;
 }
 .nav::after,
 .nav::before {
     font-size: 20px;
     color: yellow;
-    z-index: 0;
 }
 /* .swiper-button-next {
     float: right;
@@ -185,8 +185,8 @@ input, select, textarea {
     border-radius: 15px;
 }
 textarea {
-    width:250px;
-    height: 200px;
+    width:280px;
+    height: 180px;
 }
 form {
   border: 2px solid black;
