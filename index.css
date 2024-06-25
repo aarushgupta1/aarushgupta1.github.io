@@ -54,7 +54,7 @@ h2 {
   font-size: 35px;
   color: blue;
 }
-ul, #this-webpage {
+ul, logo-container {
   display: flex;
 }
 ul > li {
@@ -77,7 +77,7 @@ li::marker {
 }
 .gnitou-logo {
     border-radius: 50px;
-    width: 50px;
+    width: 80px;
 }
 * {
     text-align: center;
@@ -166,6 +166,7 @@ label, #lessons {
     position: relative;
     font-size: 20px;
     color: blue;
+    z-index: 1;
 }
 /* .swiper-button-next {
     float: right;
@@ -179,7 +180,7 @@ label, #lessons {
     margin-right: auto;
     margin-left: auto;
 }
-.monday, .tuesday, .wednesday, .thursday, .friday, .saturday, .sunday {
+#monday, #tuesday, #wednesday, #thursday, #friday, #saturday, #sunday {
  text-color: black;
  font-size: 15px;
  display: block;
