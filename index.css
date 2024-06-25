@@ -107,6 +107,7 @@ label, #lessons {
     padding-top: 30px;
     display: inline-block;
     position: relative;
+}
 .swiper-slide {
     display: inline-block;
     border: 1px solid blue;
