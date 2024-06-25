@@ -19,11 +19,12 @@ header, footer {
     align-items: center;
 }
 header {
-    height: 100px;
+    height: 85px;
     padding-bottom: 10px; 
     position: sticky;
     z-index: 2;
     top: 0;
+    border: 2px solid black;
 }
 footer {
     height: 90px;
@@ -43,7 +44,7 @@ section {
     background-image: url(../images/bluecourt.jpg);
 }
 h1 {
-  margin-left: 30px;
+  margin-left: 35px;
   font-size: 40px;
   font-family: Roboto;
   color: white;
@@ -57,7 +58,7 @@ ul {
   display: flex;
 }
 ul > li {
- margin-right: 20px;
+ margin-right: 25px;
 }
 li > a {
     text-decoration: none;
@@ -66,6 +67,7 @@ li > a {
     font-size: 20px; 
     margin-bottom: 5px;
     color: lightblue;
+    padding-top: 10px;
 }
 #help-nav:hover, .msg-gnitou:hover {
     box-shadow: 0px 2.5px 9px green;
