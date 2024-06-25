@@ -54,7 +54,7 @@ h2 {
   font-size: 35px;
   color: blue;
 }
-ul, logo-container {
+ul, #this-webpage {
   display: flex;
 }
 ul > li {
@@ -136,7 +136,7 @@ label, #lessons {
 #about-gnitou {
     margin-bottom: 40px;
 }
-.reviews, .videos {
+.reviews {
     display: inline-block;
     width: 42%;
     height: 100%;
@@ -181,10 +181,14 @@ label, #lessons {
     margin-left: auto;
 }
 #monday, #tuesday, #wednesday, #thursday, #friday, #saturday, #sunday {
- text-color: black;
+ color: black;
  font-size: 15px;
  display: block;
- text-align: left;
+ padding: 0;
+ margin: 0;
+}
+#sunday {
+ margin-bottom: 15px;
 }
 input, select, textarea {
     margin:10px;
