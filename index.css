@@ -24,7 +24,7 @@ header {
     position: sticky;
     z-index: 2;
     top: 0;
-    border: 2px solid black;
+    border: 3px solid black;
 }
 footer {
     height: 90px;
@@ -54,7 +54,7 @@ h2 {
   font-size: 35px;
   color: blue;
 }
-ul {
+ul, #this-webpage {
   display: flex;
 }
 ul > li {
