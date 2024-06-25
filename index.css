@@ -137,6 +137,9 @@ li::marker {
     margin-top: -10px;
     color: lightgreen;
 }
+.stars {
+    letter-spacing: 15px;
+}
 .slide {
     display: inline-block;
     border: 1px solid blue;
@@ -144,10 +147,6 @@ li::marker {
     border-radius: 10px;
     width: 75%;
     justify-content: center;
-    padding: 10px;
-}
-.stars {
-    letter-spacing: 15px;
 }
 .nav {
     height: 30px;
@@ -156,11 +155,9 @@ li::marker {
     transition: 2s;
     width: 100px;
     position: relative;
-}
-.nav::after,
-.nav::before {
     font-size: 20px;
     color: yellow;
+    z-index: 1;
 }
 /* .swiper-button-next {
     float: right;
