@@ -163,16 +163,13 @@ label, #lessons {
 }
 .nav {
     height: 30px;
-    /* border-radius: 50%; */
-    transform: translateY(10px);
+    /* border-radius: 50%;
+    transform: translateY(10px); */
     transition: 2s;
     width: 100px;
     position: relative;
     font-size: 20px;
     color: blue;
-}
-.testi-content {
-   z-index: 1;
 }
 /* .swiper-button-next {
     float: right;
@@ -180,7 +177,7 @@ label, #lessons {
  .swiper-button-prev {
      float: left;
 } */
-#user-name, #user-email, #user-phone, #user-experience, #user-availability, #referral, #additional-comments {
+#user-name, #user-email, #user-phone, #user-level, #user-availability, #referral, #additional-comments {
     margin-bottom: 50px;
     display: block;
     margin-right: auto;
