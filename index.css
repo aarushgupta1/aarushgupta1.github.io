@@ -75,12 +75,7 @@ li > a, #this-webpage {
 li::marker {
     color: black;
 }
-/* .logo-container {
-  display: flex;
-  align-items: center;
-} */
 .gnitou-logo {
-    width: 60px;
     border-radius: 50px;
 }
 * {
