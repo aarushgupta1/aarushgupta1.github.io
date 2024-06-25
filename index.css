@@ -54,7 +54,7 @@ h2 {
   font-size: 35px;
   color: blue;
 }
-ul, #this-webpage {
+ul, logo-container {
   display: flex;
 }
 ul > li {
@@ -85,7 +85,7 @@ li::marker {
 ol {
     list-style-type: none;
 }
-p, label, li {
+p, label, li, .week-day {
     font-size: 25px;
 }
 p, li, label {
@@ -105,16 +105,6 @@ label, #lessons {
     padding-top: 30px;
     display: inline-block;
     position: relative;
-}
-.swiper-slide {
-    display: inline-block;
-    border: 1px solid blue;
-    border-width: medium;
-    position: relative;
-    background: linear-gradient(90deg, rgba(0, 0, 139, 0.75), rgba(173, 216, 230, 0.5));
-    border-radius: 10px;
-    width: 75%;
-    justify-content: center;
 }
 
 #student-demos {
@@ -136,17 +126,20 @@ label, #lessons {
 #about-gnitou {
     margin-bottom: 40px;
 }
-.reviews {
+.testi-content {
     display: inline-block;
     width: 42%;
     height: 100%;
+    background: linear-gradient(90deg, rgba(0, 0, 139, 0.75), rgba(173, 216, 230, 0.5));
+    border-radius: 10px;
+    border-width: medium;
+    border: 1px solid blue;
+    width: 75%;
+    justify-content: center;
+    
     position: relative;
     overflow: hidden;
-}
-.scroll-btns {
- position: relative;
- overflow: hidden;
- width: 50%;
+   
 }
 .slide, .reviewer {
     align-items: center;
@@ -169,12 +162,15 @@ label, #lessons {
     transition: 2s;
     width: 100px;
     position: relative;
+    overflow: hidden;
     font-size: 20px;
     color: blue;
 }
-
-.swiper-button-next, .swiper-button-prev {
-    z-index: 1;
+.swiper-button-prev {
+  float: right;
+}
+.swiper-button-next {
+  float: left;
 }
 #user-name, #user-email, #user-phone, #user-level, #user-availability, #referral, #additional-comments {
     margin-bottom: 50px;
@@ -188,7 +184,6 @@ label, #lessons {
  margin: 0;
 }
 .week-day {
- font-size: 15px;
  vertical-align: middle;
  margin: auto;
  width: 300px;
