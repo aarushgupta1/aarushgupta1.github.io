@@ -60,7 +60,7 @@ ul {
 ul > li {
  margin-right: 25px;
 }
-li > a {
+li > a, #this-webpage {
     text-decoration: none;
 }
 #help-nav {
