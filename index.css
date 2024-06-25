@@ -18,7 +18,7 @@ header, footer {
     align-items: center;
 }
 header {
-    height: 150px;
+    height: 125px;
     padding-bottom: 10px; 
     position: sticky;
     z-index: 2;
@@ -42,13 +42,13 @@ section {
     background-image: url(../images/bluecourt.jpg);
 }
 h1 {
-  font-size: 50px;
+  font-size: 40px;
   font-family: Roboto;
-  color: blue;
+  color: white;
   padding-top: 10px;
 }
 h2 {
-  font-size: 40px;
+  font-size: 35px;
   color: darkgreen;
 }
 li > a {
@@ -56,9 +56,9 @@ li > a {
     color: white;
 }
 .gnitou-logo {
-    width: 80px;
+    width: 60px;
     border-radius: 50px;
-    margin-left: 40px;
+    margin-left: 20px;
 }
 * {
     text-align: center;
@@ -88,7 +88,7 @@ label, #lessons {
     position: relative;
 }
 #help-nav {
-    font-size: 15px; 
+    font-size: 12.5px; 
     margin-bottom: 5px;
     color: lightblue;
 }
