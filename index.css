@@ -26,9 +26,6 @@ header {
     top: 0;
     border: 3px solid black;
 }
-.logo-container {
-    display: flex;
-}
 footer {
     height: 90px;
     bottom: 0; 
@@ -60,8 +57,11 @@ h2 {
   font-size: 35px;
   color: blue;
 }
-ul, logo-container {
+ul, .logo-container {
   display: flex;
+}
+.gnitou-logo {
+ width: 80px;
 }
 ul > li {
  margin-right: 25px;
