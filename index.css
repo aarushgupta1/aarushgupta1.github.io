@@ -73,7 +73,7 @@ li > a {
     padding-top: 10px;
 }
 #help-nav:hover, .msg-gnitou:hover {
-    box-shadow: 0px 2.5px 0px lightblue;
+    box-shadow: 0px 1.5px 0px lightblue;
 }
 li::marker {
     color: black;
@@ -82,7 +82,7 @@ li::marker {
     border-radius: 50px;
     height: 80px;
     width: 80px;
-    margin-top: 20px;
+    margin-top: 15px;
 }
 * {
     text-align: center;
@@ -202,7 +202,7 @@ input[type="text"], input[type="email"], input[type="submit"], select, textarea 
 input[type="text"], input[type="email"], input[type="submit"], select {
     width: 220px;
 }
-input[type="text"], input[type="email"], input[type="checkbox"]:first-of-type, select, textarea {
+input[type="text"], input[type="email"], .week-day:first-of-type, select, textarea {
     margin-top: 15px;
 }
 input[type="submit"] {
