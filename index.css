@@ -57,10 +57,10 @@ h2 {
   font-size: 35px;
   color: blue;
 }
-ul, logo-container {
+ul, .logo-container, .contact-info {
   display: flex;
 }
-ul > li {
+ul > li, .msg-gnitou {
  margin-right: 25px;
 }
 li > a {
@@ -194,7 +194,7 @@ iframe {
  margin-top: 0;
  margin-right: 25px;
 }
-#text {
+#day-of-week {
  font-size: 15px;
 }
 input[type="text"], input[type="email"], input[type="submit"], select, textarea {
@@ -240,12 +240,7 @@ form {
     font-size: 15px;
     text-decoration: none;
 }
-.gnitou-phone-number {
-    display: block;
-}
-.gnitou-email-address {
-    align-items: center;
-}
+
 .facebook, .youtube, .instagram {
     border-radius: 30px;
     margin-right: 30px;
