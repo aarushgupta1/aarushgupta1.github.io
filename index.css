@@ -19,15 +19,12 @@ header, footer {
     align-items: center;
 }
 header {
-    height: 85px;
+    height: 75px;
     padding-bottom: 10px; 
     position: sticky;
     z-index: 2;
     top: 0;
     border-bottom: 5px solid black;
-}
-.logo-container {
-    display: flex;
 }
 footer {
     height: 90px;
@@ -76,7 +73,7 @@ li > a {
     padding-top: 10px;
 }
 #help-nav:hover, .msg-gnitou:hover {
-    box-shadow: 0px 2.5px 2.5px lightblue;
+    box-shadow: 0px 2.5px 0px lightblue;
 }
 li::marker {
     color: black;
@@ -85,7 +82,7 @@ li::marker {
     border-radius: 50px;
     height: 80px;
     width: 80px;
-    margin-top: 15px;
+    margin-top: 20px;
 }
 * {
     text-align: center;
@@ -197,13 +194,15 @@ iframe {
  margin-top: 0;
  margin-right: 25px;
 }
-label {
- margin-bottom: 20px;
-}
 input[type="text"], input[type="email"], input[type="submit"], select, textarea {
     padding:10px;
-    width:220px;
     border-radius: 15px;
+}
+input[type="text"], input[type="email"], input[type="submit"], select {
+    width: 220px;
+}
+input[type="text"], input[type="email"], input[type="checkbox"]:first-of-type, select, textarea {
+    margin-top: 15px;
 }
 input[type="submit"] {
    margin-bottom: 15px;
