@@ -60,17 +60,17 @@ ul, logo-container {
 ul > li {
  margin-right: 25px;
 }
-li > a, #this-webpage {
+li > a {
     text-decoration: none;
 }
 #help-nav {
-    font-size: 10px; 
+    font-size: 20px; 
     margin-bottom: 5px;
     color: lightblue;
     padding-top: 10px;
 }
 #help-nav:hover, .msg-gnitou:hover {
-    box-shadow: 0px 2.5px 9px green;
+    box-shadow: 2.5px 2.5px 2.5px green;
 }
 li::marker {
     color: black;
@@ -136,7 +136,6 @@ label, #lessons {
     border: 1px solid blue;
     width: 75%;
     justify-content: center;
-    
     position: relative;
     overflow: hidden;
    
@@ -178,20 +177,15 @@ label, #lessons {
     margin-right: auto;
     margin-left: auto;
 }
-#monday, #tuesday, #wednesday, #thursday, #friday, #saturday, #sunday {
- display: block;
- padding: 0;
- margin: 0;
-}
-.week-day {
- vertical-align: middle;
- margin: auto;
- width: 300px;
- font-size: 20px;
- display: inline;
-}
 
-input, select, textarea {
+#monday, #tuesday, #wednesday, #thursday, #friday, #saturday, #sunday {
+ display: inline;
+ font-size: 20px;
+ padding: 0;
+ margin-top: 0;
+ margin-right: 20px;
+}
+input[type="text"], input[type="email"], input[type="submit"], select, textarea {
     margin:10px;
     padding:10px;
     width:220px;
