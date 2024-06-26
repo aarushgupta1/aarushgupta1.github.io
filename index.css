@@ -180,6 +180,7 @@ iframe {
 }
 .swiper-pagination {
   margin-top: 20px;
+  z-index: 1;
 }
 #user-name, #user-email, #user-phone, #user-level,  #referral, #additional-comments, #sunday {  
     display: block;
