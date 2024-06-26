@@ -57,7 +57,7 @@ h2 {
   font-size: 35px;
   color: blue;
 }
-ul, #this-webpage, .contact-info {
+ul, .logo-container, .contact-info {
   display: flex;
 }
 ul > li, .msg-gnitou {
@@ -195,7 +195,8 @@ iframe {
  margin-right: 25px;
 }
 #day-of-week {
- font-size: 15px;
+ font-size: 20px;
+ display: inline-block;
 }
 input[type="text"], input[type="email"], input[type="submit"], select, textarea {
     padding:10px;
@@ -241,7 +242,7 @@ form {
     text-decoration: none;
 }
 #gnitou-email_address {
-  margin-left: 30px;
+  margin-left: 75px;
 }
 
 .facebook, .youtube, .instagram {
