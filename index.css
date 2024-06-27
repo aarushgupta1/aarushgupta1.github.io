@@ -24,6 +24,7 @@ header {
     z-index: 2;
     top: 0;
     background: black;
+    border-bottom: 2px solid white;
 }
 iframe {
  border: 2px solid gray;
@@ -31,7 +32,7 @@ iframe {
 footer {
     height: 75px;
     bottom: 0; 
-    background: gray;
+    background: darkgray;
 }
 section {
     background-repeat: no-repeat;
@@ -84,9 +85,9 @@ li::marker {
 }
 .gnitou-logo {
     border-radius: 50px;
-    height: 70px;
-    width: 70px;
-    margin-top: 20px;
+    height: 60px;
+    width: 60px;
+    margin-top: 25px;
 }
 * {
     text-align: center;
@@ -140,13 +141,18 @@ p, li, label {
     border-width: medium;
     border: 2px solid blue;
 }
-.mechanism {
+.mechanism-videos, .mechanism-reviews {
     display: inline-block;
     height: 100%;
-    width: 60%;
     justify-content: center;
     position: relative;
     overflow: hidden;
+}
+.mechanism-videos {
+    width: 40%;
+}
+.mechanism-reviews {
+    width: 60%;
 }
 .slide, .reviewer {
     align-items: center;
@@ -163,7 +169,7 @@ p, li, label {
     letter-spacing: 15px;
 }
 strong {
- font-size: 35px;
+ font-size: 30px;
 }
 .nav {
     height: 30px;
