@@ -224,8 +224,11 @@ input[type="text"], input[type="email"], .week-day:first-of-type, select, textar
   padding: 0;
   height: 45px;
 }
-input[type="submit"], .week-day:last-of-type {
+input[type="submit"] {
    margin-bottom: 25px;
+}
+.week-day:last-of-type {
+   margin-bottom: 50px;
 }
 textarea {
     width:280px;
@@ -258,10 +261,10 @@ form {
     text-decoration: none;
     margin-right: 50px;
 }
-.youtube, .instagram {
+.instagram {
     border-radius: 30px;
 }
-.tiktok, .facebook {
+.tiktok, .facebook, .youtube {
     border-radius: 60px;
 }
 .instagram, .facebook, .youtube, .tiktok {
