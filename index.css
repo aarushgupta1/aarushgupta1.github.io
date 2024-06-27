@@ -100,15 +100,18 @@ p, label, li {
 p, li, label {
     color: white;
 }        
-#lesson-tidbits, #qualifications {
+#lesson-details, #qualifications {
     display: block;
     margin-bottom: 20px;
 }
 .final-lesson-info {
     padding-bottom: 10px;
 }
+
+#lessons, #demos {
+ padding-top: 5px;
+}
 #lessons {
-    padding-top: 15px;
     display: inline-block;
     position: relative;
     margin-bottom: 20px;
@@ -116,7 +119,6 @@ p, li, label {
 
 #demos {
     margin-bottom: 40px;
-    padding-top: 5px;
 }
 .last-qualification {
     margin-bottom: 30px;
@@ -186,6 +188,7 @@ strong {
   color: white;
 }
 .swiper-pagination {
+  position: relative;
   padding-top: 10px;
 }
 .swiper-pagination-bullet {
@@ -221,7 +224,7 @@ input[type="text"], input[type="email"], .week-day:first-of-type, select, textar
   padding: 0;
   height: 45px;
 }
-input[type="submit"] {
+input[type="submit"], #sunday {
    margin-bottom: 25px;
 }
 textarea {
@@ -253,23 +256,18 @@ form {
     color: lightblue;
     font-size: 15px;
     text-decoration: none;
-    margin-right: 30px;
+    margin-right: 50px;
 }
-
-#gnitou-email_address {
-  padding-left: 50px;
-}
-
-.facebook, .youtube, .instagram {
+.facebook, .instagram {
     border-radius: 30px;
-    margin-right: 30px;
 }
-.tiktok {
+.tiktok, .facebook {
     border-radius: 60px;
 }
 .instagram, .facebook, .youtube, .tiktok {
     transition: hover 0.15s, opacity 0.15s;
-    height: 50px;
+    margin-right: 30px;
+    height: 40px;
     width: auto;
 }
 .instagram:active, .facebook:active, .youtube:active, .tiktok:active {
