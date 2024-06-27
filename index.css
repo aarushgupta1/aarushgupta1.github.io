@@ -25,8 +25,11 @@ header {
     z-index: 2;
     top: 0;
 }
-header, iframe {
- border: 5px solid gray;
+header {
+ border-bottom: 1px solid gray;
+}
+iframe {
+ border: 1px solid gray;
 }
 footer {
     height: 90px;
@@ -37,6 +40,7 @@ section {
     background-size: cover;
     margin: 0;
     padding: 15px 0;
+    border-bottom: 1px solid black;
 }
 .lessons-section, .interest-form-section, .bio-section {
     background-image: url(../images/second.jpg);
@@ -58,12 +62,13 @@ h1 {
 h2 {
   font-size: 35px;
   color: lightblue;
+  font-weight: bold;
 }
 ul, .logo-container, .contact-info {
   display: flex;
 }
 ul > li {
- margin-right: 35px;
+ margin-right: 40px;
 }
 li > a {
     text-decoration: none;
@@ -83,7 +88,7 @@ li::marker {
     border-radius: 50px;
     height: 80px;
     width: 80px;
-    margin-top: 25px;
+    margin-top: 20px;
 }
 * {
     text-align: center;
@@ -126,6 +131,7 @@ p, li, label {
     padding-bottom: 30px;    
     margin-left: 40px;
     vertical-align: middle;
+    border: 1px solid black;
 }  
 #about-gnitou {
     margin-bottom: 40px;
@@ -165,7 +171,7 @@ p, li, label {
     position: relative;
     overflow: hidden;
     font-size: 20px;
-    color: lightblue;
+    color: white;
 }
 .swiper-button-prev {
   float: right;
