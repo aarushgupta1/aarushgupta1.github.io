@@ -24,7 +24,6 @@ header {
     z-index: 2;
     top: 0;
     background: black;
-    border-bottom: 2px solid white;
 }
 iframe {
  border: 2px solid gray;
@@ -32,7 +31,7 @@ iframe {
 footer {
     height: 75px;
     bottom: 0; 
-    background: darkgray;
+    background: dimgray;
 }
 section {
     background-repeat: no-repeat;
@@ -45,7 +44,7 @@ section {
     background-image: url(../images/second.jpg);
     
 }
-.working-with-students-section, .testimonial-section {
+.demo-section, .testimonial-section {
     background-image: url(../images/bluecourt.jpg);
 }
 h1 {
@@ -87,7 +86,7 @@ li::marker {
     border-radius: 50px;
     height: 60px;
     width: 60px;
-    margin-top: 25px;
+    margin-top: 30px;
 }
 * {
     text-align: center;
@@ -109,13 +108,13 @@ p, li, label {
     padding-bottom: 10px;
 }
 #lessons {
-    padding-top: 30px;
+    padding-top: 15px;
     display: inline-block;
     position: relative;
     margin-bottom: 20px;
 }
 
-#student-demos {
+#demos {
     margin-bottom: 40px;
     padding-top: 5px;
 }
@@ -148,7 +147,7 @@ p, li, label {
     overflow: hidden;
 }
 .vmechanism {
-    width: 40%;
+    width: 45%;
 }
 .rmechanism {
     width: 60%;
@@ -178,16 +177,18 @@ strong {
     overflow: hidden;
     font-size: 20px;
 }
-.swiper-button-prev {
+.swiper-button-prev::after {
   float: right;
   color: white;
 }
-.swiper-button-next {
+.swiper-button-next::after {
   float: left;
   color: white;
 }
 .swiper-pagination {
-  margin-top: 25px;
+  padding-top: 10px;
+}
+.swiper-pagination-bullet {
   z-index: 1;
 }
 #user-name, #user-email, #user-phone, #user-level,  #referral, #additional-comments, #sunday {  
@@ -218,7 +219,7 @@ input[type="text"], input[type="email"], .week-day:first-of-type, select, textar
 }
 .week-day {
   padding: 0;
-  height: 50%;
+  height: 45px;
 }
 input[type="submit"] {
    margin-bottom: 25px;
