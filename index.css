@@ -130,7 +130,6 @@ p, li, label {
     margin-bottom: 30px;    
     margin-left: 40px;
     vertical-align: middle;
-    border: 2px solid black;
 }  
 #about-gnitou {
     margin-bottom: 40px;
@@ -141,17 +140,17 @@ p, li, label {
     border-width: medium;
     border: 2px solid blue;
 }
-.mechanism-videos, .mechanism-reviews {
+.vmechanism, .rmechanism {
     display: inline-block;
     height: 100%;
     justify-content: center;
     position: relative;
     overflow: hidden;
 }
-.mechanism-videos {
+.vmechanism {
     width: 40%;
 }
-.mechanism-reviews {
+.rmechanism {
     width: 60%;
 }
 .slide, .reviewer {
