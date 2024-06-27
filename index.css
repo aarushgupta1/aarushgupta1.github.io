@@ -13,7 +13,6 @@ html, body {
 }
 header, footer {
     width: 100%;
-    background: black;
     display: flex;
     justify-content: space-evenly;
     align-items: center;
@@ -24,23 +23,22 @@ header {
     position: sticky;
     z-index: 2;
     top: 0;
-}
-header {
- border-bottom: 1px solid gray;
+    background: black;
 }
 iframe {
- border: 1px solid gray;
+ border: 2px solid gray;
 }
 footer {
-    height: 90px;
+    height: 75px;
     bottom: 0; 
+    background: gray;
 }
 section {
     background-repeat: no-repeat;
     background-size: cover;
     margin: 0;
     padding: 15px 0;
-    border-bottom: 1px solid black;
+    border-bottom: 2px solid black;
 }
 .lessons-section, .interest-form-section, .bio-section {
     background-image: url(../images/second.jpg);
@@ -86,8 +84,8 @@ li::marker {
 }
 .gnitou-logo {
     border-radius: 50px;
-    height: 80px;
-    width: 80px;
+    height: 70px;
+    width: 70px;
     margin-top: 20px;
 }
 * {
@@ -128,10 +126,10 @@ p, li, label {
 }
 .gnitou-pic {
     width: 25%;
-    padding-bottom: 30px;    
+    margin-bottom: 30px;    
     margin-left: 40px;
     vertical-align: middle;
-    border: 1px solid black;
+    border: 2px solid black;
 }  
 #about-gnitou {
     margin-bottom: 40px;
@@ -145,7 +143,7 @@ p, li, label {
 .mechanism {
     display: inline-block;
     height: 100%;
-    width: 75%;
+    width: 60%;
     justify-content: center;
     position: relative;
     overflow: hidden;
@@ -164,6 +162,9 @@ p, li, label {
 .stars {
     letter-spacing: 15px;
 }
+strong {
+ font-size: 35px;
+}
 .nav {
     height: 30px;
     transition: 2s;
@@ -171,16 +172,17 @@ p, li, label {
     position: relative;
     overflow: hidden;
     font-size: 20px;
-    color: white;
 }
 .swiper-button-prev {
   float: right;
+  color: white;
 }
 .swiper-button-next {
   float: left;
+  color: white;
 }
 .swiper-pagination {
-  margin-top: 20px;
+  margin-top: 25px;
   z-index: 1;
 }
 #user-name, #user-email, #user-phone, #user-level,  #referral, #additional-comments, #sunday {  
@@ -221,7 +223,7 @@ textarea {
     height: 180px;
 }
 form {
-  border: 2px solid black;
+  border: 3px solid black;
   border-radius: 45px;
   padding-top: 20px;
   width: 66%;
