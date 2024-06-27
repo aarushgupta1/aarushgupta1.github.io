@@ -194,7 +194,7 @@ strong {
 .swiper-pagination-bullet {
   z-index: 1;
 }
-#user-name, #user-email, #user-phone, #user-level,  #referral, #additional-comments, #sunday {  
+#user-name, #user-email, #user-phone, #user-level,  #referral, #additional-comments {  
     display: block;
     margin-right: auto;
     margin-left: auto;
@@ -224,7 +224,7 @@ input[type="text"], input[type="email"], .week-day:first-of-type, select, textar
   padding: 0;
   height: 45px;
 }
-input[type="submit"], #sunday {
+input[type="submit"], .week-day:last-of-type {
    margin-bottom: 25px;
 }
 textarea {
@@ -258,7 +258,7 @@ form {
     text-decoration: none;
     margin-right: 50px;
 }
-.facebook, .instagram {
+.youtube, .instagram {
     border-radius: 30px;
 }
 .tiktok, .facebook {
