@@ -212,11 +212,11 @@ strong {
  font-size: 20px;
  display: inline-block;
 }
-input[type="text"], input[type="email"], input[type="submit"], select, textarea {
+input[type="text"], input[type="email"], .submit, select, textarea {
     padding:10px;
     border-radius: 15px;
 }
-input[type="text"], input[type="email"], input[type="submit"], select {
+input[type="text"], input[type="email"], .submit, select {
     width: 220px;
 }
 input[type="text"], input[type="email"], .week-day:first-of-type, select, textarea {
@@ -226,7 +226,7 @@ input[type="text"], input[type="email"], .week-day:first-of-type, select, textar
   padding: 0;
   height: 45px;
 }
-input[type="submit"] {
+.submit {
    margin-bottom: 25px;
 }
 .week-day:last-of-type {
@@ -246,7 +246,7 @@ form {
   margin-left: auto;
   background: linear-gradient(rgba(20, 20, 20, 0.75), rgba(90, 90, 90, 0.75));
 }
-input[type="submit"] {
+.submit {
     margin-top: 30px;
     border-color: black;
     border-width: medium;
@@ -254,7 +254,7 @@ input[type="submit"] {
     margin-left: auto;
     margin-right: auto;
 }
-input[type="submit"]:hover {
+.submit:hover {
     box-shadow: 5px 5px 9px black;
 }
 .msg-gnitou {
