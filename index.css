@@ -19,7 +19,7 @@ header, footer {
     align-items: center;
 }
 header {
-    height: 85px;
+    height: 75px;
     padding-bottom: 10px; 
     position: sticky;
     z-index: 2;
@@ -60,7 +60,7 @@ h2 {
 ul, .logo-container, .contact-info {
   display: flex;
 }
-ul > li, .msg-gnitou {
+ul > li {
  margin-right: 25px;
 }
 li > a {
@@ -82,7 +82,7 @@ li::marker {
     border-radius: 50px;
     height: 80px;
     width: 80px;
-    margin-top: 15px;
+    margin-top: 20px;
 }
 * {
     text-align: center;
@@ -210,9 +210,10 @@ input[type="text"], input[type="email"], .week-day:first-of-type, select, textar
 }
 .week-day {
   padding: 0;
+  height: 50%;
 }
 input[type="submit"] {
-   margin-bottom: 15px;
+   margin-bottom: 25px;
 }
 textarea {
     width:280px;
@@ -243,7 +244,9 @@ form {
     color: lightblue;
     font-size: 15px;
     text-decoration: none;
+    margin-right: 30px;
 }
+
 #gnitou-email_address {
   padding-left: 50px;
 }
