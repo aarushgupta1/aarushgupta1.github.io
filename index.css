@@ -221,6 +221,9 @@ input[type="text"], input[type="email"], .submit, select {
 input[type="text"], input[type="email"], .week-day:first-of-type, select, textarea {
     margin-top: 15px;
 }
+select, input[type="checkbox"], .submit {
+ cursor: pointer;
+}
 .week-day {
   padding: 0;
   height: 45px;
