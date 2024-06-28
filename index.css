@@ -39,11 +39,11 @@ section {
     margin: 0;
     padding: 15px 0;
 }
-.lessons-section, .interest-form-section, .bio-section {
+#lessons-section, #interest-form-section, #bio-section {
     background-image: url(../images/second.jpg);
     
 }
-.demo-section, .testimonial-section {
+#demo-section, #testimonial-section {
     background-image: url(../images/bluecourt.jpg);
 }
 h1 {
@@ -75,11 +75,8 @@ li > a {
     color: lightblue;
     padding-top: 10px;
 }
-.msg-gnitou:hover {
+.msg-gnitou:hover, #h2-nav:hover {
     box-shadow: 0px 1px 0px lightblue;
-}
-li:hover {
- border: 2px solid lightblue;
 }
 li::marker {
     color: black;
@@ -192,7 +189,8 @@ strong {
   z-index: 1;
 }
 .swiper-button-next::after:hover, .swiper-button-prev::after:hover, .instagram:hover, .facebook:hover, .youtube:hover, .tiktok:hover {
-  transform: scale(1.2);
+  transform: scale(1.5);
+  cursor: not-allowed;
 }
 .swiper-pagination {
   position: relative;
@@ -261,7 +259,7 @@ form {
     border-color: black;
 }
 .msg-gnitou {
-    color: black;
+    color: lightblue;
     font-size: 15px;
     text-decoration: none;
     margin-right: 50px;
@@ -280,7 +278,7 @@ form {
     margin-right: 20px;
     height: 40px;
     width: auto;
-    filter: grayscale();
+    
 }
 .instagram:active, .facebook:active, .youtube:active, .tiktok:active {
     opacity: 0.6;
