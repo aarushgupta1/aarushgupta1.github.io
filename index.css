@@ -249,7 +249,8 @@ form {
     font-weight: bold;
 }
 .submit:hover {
-    box-shadow: 5px 5px 9px black;
+    color: #f0f0f0;
+    background-color: black;
 }
 .msg-gnitou {
     color: lightblue;
