@@ -39,19 +39,19 @@ section {
     padding: 15px 0;
 }
 #lessons-section {
-    background-image: url(../images/clay-background.jpg);  
+    background-image: url(../images/racket-background.jpg);  
 }
 #demo-section {
-    background-image: url(../images/hawk-eye-background.jpg);
+    background-image: url(../images/pavement-background.jpg);
 }
 #bio-section {
-    background-image: url(../images/grass-court-background.jpg);
+    background-image: url(../images/clay-net-background.jpg);
 }
 #testimonial-section {
     background-image: url(../images/blue-court-background.jpg);
 }
 #interest-form-section {
-    background-image: url(../images/racket-background.jpg);
+    background-image: url(../images/tennis-ball-background.jpg);
 }
 h1 {
   font-size: 3vw;
