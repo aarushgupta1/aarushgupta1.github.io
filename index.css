@@ -63,7 +63,7 @@ h1 {
   color: white;
   padding-top: 0.75vw;
 }
-#this-page {
+#this-page, li > a {
     text-decoration: none;
 }
 h2 {
@@ -76,9 +76,6 @@ ul, .icon-container, .contact-info {
 }
 ul > li {
  margin-right: 2.25vw;
-}
-li > a {
-    text-decoration: none;
 }
 #h2-nav {
     font-size: 1.25vw; 
