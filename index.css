@@ -192,12 +192,6 @@ strong {
     overflow: hidden;
     font-size: 1.25vw;
 }
-/* .swiper-button-prev.nav {
-  float: right;
-}
-.swiper-button-next.nav {
-  float: left;
- } */
 .swiper-button-next.nav, .swiper-button-prev.nav {
   z-index: 1;
   height: 3vw;
@@ -205,7 +199,7 @@ strong {
   color: white;
 }
 .swiper-button-next.nav:hover, .swiper-button-prev.nav:hover {
-  transform: scale(2);
+  transform: scale(1.1);
 }
 .swiper-pagination {
   position: relative;
@@ -308,6 +302,6 @@ font-size: 0.25vw;
     transform: scale(1.1);
 }
 
-.instagram-icon:active, .facebook-icon:active, .youtube-icon:active, .tiktok-icon:active {
+.instagram-icon:active, .facebook-icon:active, .youtube-icon:active, .tiktok-icon:active, .submit:active {
     opacity: 0.6;
 }
