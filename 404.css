@@ -73,8 +73,10 @@ li::marker {
 }
 p {
     padding-top: 2vw;
-    font-size: 3.5vw;
     color: black;
+}
+strong {
+ font-size: 2.75vw;
 }
 .msg-gnitou {
     color: lightblue;
