@@ -28,10 +28,9 @@ html, body {
     padding: 0;
     overflow-x: hidden;
 }   
-#error-section {
-    background-image: url(../images/racket-background.jpg);
-    background-repeat: no-repeat;
-    background-size: cover;
+section {
+    /* background-repeat: no-repeat;
+    background-size: cover; */
     margin: 0;
     padding: 15px 0;
 }
