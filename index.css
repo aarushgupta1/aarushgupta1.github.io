@@ -128,12 +128,6 @@ p, li, label {
 #demos {
     margin-bottom: 2.25vw;
 }
-.ytp-large-play-button.ytp-button.ytp-large-play-button-red-bg {
-    height: 0.75vw;
-}
-.ytp-large-play-button-bg {
-    height: 0.5vw;
-}
 #qualification:last-of-type {
     margin-bottom: 1.75vw;
 }
@@ -146,6 +140,7 @@ p, li, label {
     margin-left: 2.25vw;
     vertical-align: middle;
     font-size: 1.5vw;
+    filter: grayscale(0);
 }  
 #about-gnitou {
     margin-bottom: 2.25vw;
