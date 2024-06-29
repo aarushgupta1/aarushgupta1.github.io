@@ -191,16 +191,19 @@ strong {
 .swiper-button-prev {
   float: right;
 }
-.swiper-button-next {
+.swiper-button-next.nav {
   float: left;
  }
-.swiper-button-next::after, .swiper-button-prev::after {
-  color: white;
+.swiper-button-next.nav, .swiper-button-prev.nav {
   z-index: -1;
   height: 2.75vw;
   width: 5.25vw;
+  color: white;
 }
-.swiper-button-next::after:hover, .swiper-button-prev::after:hover {
+/* .swiper-button-next::after, .swiper-button-prev::after {
+  color: white;
+} */
+.swiper-button-next.nav:hover, .swiper-button-prev.nav:hover {
   transform: scale(1.1);
 }
 .swiper-pagination {
