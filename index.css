@@ -39,22 +39,22 @@ section {
     padding: 15px 0;
 }
 #lessons-section {
-    background-image: url(../images/racket-background.jpg);  
+    background-image: url(../images/clay-net-background.jpg);  
+    filter: grayscale(0.5);
 }
 #demo-section {
-    background-image: url(../images/pavement-background.jpg);
-    filter: grayscale(0.25);
+    background-image: url(../images/tennis-ball-background.jpg);
+    filter: grayscale(0.5);
 }
 #bio-section {
-    background-image: url(../images/clay-net-background.jpg);
-    filter: grayscale(0.5);
+    background-image: url(../images/racket-background.jpg);
 }
 #testimonial-section {
     background-image: url(../images/blue-court-background.jpg);
 }
 #interest-form-section {
-    background-image: url(../images/tennis-ball-background.jpg);
-    filter: grayscale(0.5);
+    background-image: url(../images/pavement-background.jpg);
+    filter: grayscale(0.25);
 }
 h1 {
   font-size: 3vw;
@@ -137,7 +137,6 @@ p, li, label {
     margin-left: 2.25vw;
     vertical-align: middle;
     font-size: 1.5vw;
-    filter: grayscale(0);
 }  
 #about-gnitou {
     margin-bottom: 2.25vw;
@@ -229,7 +228,7 @@ input[type="checkbox"] {
 input[type="text"], input[type="email"], select {
     border: 0;
     border-radius: 0.75vw;
-    height: 3vw;
+    height: 2.75 vw;
     width: 17.5vw;
 }
 input[type="text"], input[type="email"], textarea {
@@ -239,7 +238,7 @@ input[type="text"], input[type="email"], textarea {
     text-align: left;
 }
 input[type="text"]:focus, input[type="email"]:focus, select:focus, textarea:focus {
-    outline: solid 0.1vw blue;
+    outline: solid 0.2vw blue;
 }
 .week-day:first-of-type, select  {
     margin-top: 1vw;
@@ -296,7 +295,6 @@ font-size: 0.25vw;
 }
 .instagram-icon:hover, .facebook-icon:hover, .youtube-icon:hover, .tiktok-icon:hover {
     transform: scale(1.1);
-    cursor: not-allowed;
 }
 
 .instagram-icon:active, .facebook-icon:active, .youtube-icon:active, .tiktok-icon:active {
