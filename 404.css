@@ -73,12 +73,9 @@ ol {
     width: 4vw;
     margin-top: 2.75vw;
 }
-p, li {
-    color: white;
-    font-size: 1.75vw;
-}
 p {
     padding-top: 2vw;
+    font-size: 3.5vw;
 }
 .msg-gnitou {
     color: lightblue;
