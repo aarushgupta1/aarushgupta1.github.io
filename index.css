@@ -199,6 +199,7 @@ strong {
   color: white;
 }
 .swiper-button-next.nav:hover, .swiper-button-prev.nav:hover {
+  transition: transform 0.25s;
   transform: scale(1.5);
 }
 .swiper-pagination {
