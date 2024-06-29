@@ -117,7 +117,6 @@ p, li, label {
 #lesson-detail:last-of-type {
     padding-bottom: 0.75vw;
 }
-
 #lessons, #demos {
  padding-top: 0.5vw;
 }
@@ -126,9 +125,14 @@ p, li, label {
     position: relative;
     margin-bottom: 1.25vw;
 }
-
 #demos {
     margin-bottom: 2.25vw;
+}
+.ytp-large-play-button.ytp-button.ytp-large-play-button-red-bg {
+    height: 0.75vw;
+}
+.ytp-large-play-button-bg {
+    height: 0.5vw;
 }
 #qualification:last-of-type {
     margin-bottom: 1.75vw;
@@ -188,29 +192,28 @@ strong {
     overflow: hidden;
     font-size: 1.25vw;
 }
-.swiper-button-prev {
+/* .swiper-button-prev.nav {
   float: right;
 }
 .swiper-button-next.nav {
   float: left;
- }
+ } */
 .swiper-button-next.nav, .swiper-button-prev.nav {
-  z-index: -1;
-  height: 2.75vw;
+  z-index: 1;
+  height: 3vw;
   width: 5.25vw;
   color: white;
 }
-/* .swiper-button-next::after, .swiper-button-prev::after {
-  color: white;
-} */
 .swiper-button-next.nav:hover, .swiper-button-prev.nav:hover {
-  transform: scale(1.1);
+  transform: scale(2);
 }
 .swiper-pagination {
   position: relative;
   padding-top: 0.75vw;
-  height: 1vw;
   z-index: -1;
+}
+.swiper-pagination-bullet.swiper-pagination-bullet-active {
+  height: 0.25vw;
 }
 input[type="text"], input[type="email"], select, textarea {  
     display: block;
