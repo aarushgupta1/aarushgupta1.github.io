@@ -40,11 +40,11 @@ section {
     padding: 15px 0;
 }
 #lessons-section, #interest-form-section, #bio-section {
-    background-image: url(../images/second.jpg);
+    background-image: url(../images/racket-background.jpg);
     
 }
 #demo-section, #testimonial-section {
-    background-image: url(../images/bluecourt.jpg);
+    background-image: url(../images/blue-court-background.jpg);
 }
 h1 {
   font-size: 3vw;
