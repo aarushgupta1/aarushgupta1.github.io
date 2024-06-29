@@ -87,9 +87,10 @@ p {
 }
 .instagram-icon, .facebook-icon, .youtube-icon, .tiktok-icon {
     transition: hover 0.15s, opacity 0.15s;
-    margin-right: 3vw;   border-radius: 50%;
+    margin-right: 3vw;   
+    border-radius: 50%;
     height: 2.5vw;
-font-size: 0.25vw;  
+    font-size: 0.25vw;  
 }
 .instagram-icon:hover, .facebook-icon:hover, .youtube-icon:hover, .tiktok-icon:hover {
     transform: scale(1.1);
