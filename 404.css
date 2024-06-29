@@ -8,7 +8,7 @@ h1 {
   color: white;
   padding-top: 10px;
 }
-header, .logo-container {
+header, .icon-container {
     display: flex;
 }
 #this-page {
@@ -25,7 +25,7 @@ header {
     justify-content: space-evenly;
     align-items: center;
 }
-.gnitou-logo {
+.gnitou-icon {
     height: 60px;
     width: 60px;
     border-radius: 50px;
@@ -39,7 +39,7 @@ html, body {
     overflow-x: hidden;
 }   
 body {
-    background-image: url(../images/second.jpg);
+    background-image: url(../images/racket-background.jpg);
     background-repeat: no-repeat;
     background-size: cover;
   }
