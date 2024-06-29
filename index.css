@@ -177,17 +177,19 @@ strong {
     overflow: hidden;
     font-size: 1.25vw;
 }
-.swiper-button-prev::after {
+.swiper-button-prev {
   float: right;
 }
-.swiper-button-next::after {
+.swiper-button-next {
   float: left;
  }
-.swiper-button-next::after, .swiper-button-prev::after {
+.swiper-button-next, .swiper-button-prev {
   color: white;
   z-index: -1;
-  height: 2.25vw;
+  height: 2.75vw;
   width: 5.25vw;
+}
+.swiper-button-next:hover, .swiper-button-prev:hover {
   transform: scale(1.1);
 }
 .swiper-pagination {
@@ -253,7 +255,7 @@ textarea {
 .submit {
     margin: 1.25vw auto 1vw auto;
     font-weight: bold;
-    font-size: 1.5vw;
+    font-size: 1.25vw;
     border-radius: 0.75vw;
     border: 0.2vw solid gray;
     height: 3vw;
