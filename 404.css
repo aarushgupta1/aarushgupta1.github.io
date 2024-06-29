@@ -1,35 +1,24 @@
-* {
-    text-align: center;
+@media (prefers-reduced-motion: no-preference) {
+  * {
+    scroll-behavior: smooth;
   }
-h1 {
-  margin-left: 60px;
-  font-size: 40px;
-  font-family: Roboto;
-  color: white;
-  padding-top: 10px;
 }
-header, .icon-container {
+header, footer {
+    width: 100%;
+    height: 5vw;
     display: flex;
-}
-#this-page {
-    text-decoration: none;
-}
+    justify-content: space-evenly;
+    align-items: center;
 header {
-    height: 75px;
-    padding-bottom: 10px;
+    padding-bottom: 1.26vw; 
     position: sticky;
     z-index: 2;
     top: 0;
     background: black;
-    width: 100%;
-    justify-content: space-evenly;
-    align-items: center;
 }
-.gnitou-icon {
-    height: 60px;
-    width: 60px;
-    border-radius: 50px;
-    margin-top: 30px;
+footer {
+    bottom: 0;
+    background: dimgray;
 }
 html, body {
     width: 100%;
@@ -42,9 +31,69 @@ body {
     background-image: url(../images/racket-background.jpg);
     background-repeat: no-repeat;
     background-size: cover;
+}
+* {
+    text-align: center;
   }
-p {
+h1 {
+  font-size: 3vw;
+  margin-left: 3.25vw;
+  font-family: Roboto;
+  color: white;
+  padding-top: 0.75vw;
+}
+ul, .icon-container, .contact-info {
+    display: flex;
+}
+ul > li {
+    margin-right: 2.25vw;
+}
+#h2-nav {
+    font-size: 1.25vw;
+    color: lightblue;
+    padding-top: 1vw;
+}
+.msg-gnitou:hover, #h2-nav:hover {
+    box-shadow: 0 0.1vw 0 lightblue;
+}
+li::marker {
+    color: black;
+}
+ol {
+    list-style-type: none;
+}
+#this-page, li > a {
+    text-decoration: none;
+}
+.gnitou-icon {
+    font-size: 0.5vw;
+    border-radius: 50%;
+    height: 4vw;
+    width: 4vw;
+    margin-top: 2.75vw;
+}
+p, li {
     color: white;
-    font-size: 35px;
-    padding-top: 40px;
+    font-size: 1.75vw;
+}
+p {
+    padding-top: 2vw;
+}
+.msg-gnitou {
+    color: lightblue;
+    font-size: 1vw;
+    text-decoration: none;
+    margin-right: 3.5vw;
+}
+.instagram-icon, .facebook-icon, .youtube-icon, .tiktok-icon {
+    transition: hover 0.15s, opacity 0.15s;
+    margin-right: 3vw;   border-radius: 50%;
+    height: 2.5vw;
+font-size: 0.25vw;  
+}
+.instagram-icon:hover, .facebook-icon:hover, .youtube-icon:hover, .tiktok-icon:hover {
+    transform: scale(1.1);
+}
+.instagram-icon:active, .facebook-icon:active, .youtube-icon:active, .tiktok-icon:active {
+    opacity: 0.6;
 }
