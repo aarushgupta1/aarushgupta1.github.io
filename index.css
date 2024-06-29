@@ -38,12 +38,20 @@ section {
     margin: 0;
     padding: 15px 0;
 }
-#lessons-section, #interest-form-section, #bio-section {
-    background-image: url(../images/racket-background.jpg);
-    
+#lessons-section {
+    background-image: url(../images/blue-net-background.jpg);  
 }
-#demo-section, #testimonial-section {
+#demo-section {
+    background-image: url(../images/clay-court-background.jpg);
+}
+#bio-section {
+    background-image: url(../images/gray-court-background.jpg);
+}
+#testimonial-section {
     background-image: url(../images/blue-court-background.jpg);
+}
+#interest-form-section {
+    background-image: url(../images/racket-background.jpg);
 }
 h1 {
   font-size: 3vw;
