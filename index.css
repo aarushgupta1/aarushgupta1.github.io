@@ -275,6 +275,9 @@ textarea {
 .submit:hover {
     border: 0.2vw solid black; 
 }
+.submit:active {
+    opacity: 0.8;
+}
 form {
   border: 0.2vw solid black;
   border-radius: 5vw;
@@ -302,6 +305,7 @@ font-size: 0.25vw;
     transform: scale(1.1);
 }
 
-.instagram-icon:active, .facebook-icon:active, .youtube-icon:active, .tiktok-icon:active, .submit:active {
+.instagram-icon:active, .facebook-icon:active, .youtube-icon:active, .tiktok-icon:active {
     opacity: 0.6;
 }
+
