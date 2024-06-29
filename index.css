@@ -43,12 +43,15 @@ section {
 }
 #demo-section {
     background-image: url(../images/pavement-background.jpg);
+    filter: grayscale(0.25);
 }
 #bio-section {
     background-image: url(../images/clay-net-background.jpg);
+    filter: grayscale(0.5);
 }
 #testimonial-section {
     background-image: url(../images/blue-court-background.jpg);
+    filter: grayscale(0.5);
 }
 #interest-form-section {
     background-image: url(../images/tennis-ball-background.jpg);
