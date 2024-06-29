@@ -9,6 +9,7 @@ header, footer {
     display: flex;
     justify-content: space-evenly;
     align-items: center;
+}
 header {
     padding-bottom: 1.26vw; 
     position: sticky;
