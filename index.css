@@ -5,12 +5,12 @@
 }
 header, footer {
     width: 100%;
+    height: 5vw;
     display: flex;
                     justify-content: space-evenly;
     align-items: center;
 }
 header {
-    height: 5vw;
     padding-bottom: 1.26vw; 
     position: sticky;
     z-index: 2;
@@ -22,7 +22,6 @@ iframe {
  height: 20vw;
 }
 footer {
-    height: 6vw;
     bottom: 0; 
     background: dimgray;
 }
@@ -71,7 +70,7 @@ li > a {
     text-decoration: none;
 }
 #h2-nav {
-    font-size: 1.5vw; 
+    font-size: 1.25vw; 
     color: lightblue;
     padding-top: 1vw;
 }
@@ -138,7 +137,7 @@ p, li, label {
 }
 .reviews {
     background: linear-gradient(90deg, rgba(0, 0, 139, 0.75), rgba(173, 216, 230, 0.5));
-    border-radius: 2vw;
+    border-radius: 1.75vw;
     border: 0.20vw solid blue;
 }
 .vmechanism, .rmechanism {
@@ -186,29 +185,36 @@ strong {
  }
 .swiper-button-next::after, .swiper-button-prev::after {
   color: white;
-  z-index: 1;
-  height: 1.75vw;
+  z-index: -1;
+  height: 2.25vw;
   width: 5.25vw;
+  transform: scale(1.1);
 }
 .swiper-pagination {
   position: relative;
   padding-top: 0.75vw;
   height: 1vw;
+  z-index: -1;
 }
-.swiper-pagination-bullet {
-  z-index: 1;
-}
-#user-name, #user-email, #user-phone, select,  #referral, #additional-comments {  
+input[type="text"], input[type="email"], select, textarea {  
     display: block;
     margin-right: auto;
     margin-left: auto;
     margin-bottom: 2.75vw;
 }
-#monday, #tuesday, #wednesday, #thursday, #friday, #saturday, #sunday {
- display: inline;
- padding: 0;
- margin-top: 0;
- margin-right: 2vw;
+.week-day {
+    text-align: left;
+    margin-left: 25vw;
+    height: 2.5vw;
+}
+.week-day:last-of-type {
+   margin-bottom: 2.75vw;
+}
+input[type="checkbox"] {
+ height: 1.25vw;
+ width: 6vw;
+ margin-right: 1vw;
+ border: 0;
 }
 #day-of-week {
  font-size: 1.5vw;
@@ -222,34 +228,27 @@ input[type="text"], input[type="email"], select {
 }
 input[type="text"], input[type="email"], textarea {
     padding-left: 1vw;
-    text-align: left;
     font-size: 1vw;
+    margin-top: 1vw;
+    text-align: left;
 }
-input[type="text"], input[type="email"], .week-day:first-of-type, select, textarea {
+input[type="text"]:focus, input[type="email"]:focus, select:focus, textarea:focus {
+    outline: solid 0.075vw blue;
+}
+.week-day:first-of-type, select  {
     margin-top: 1vw;
 }
 select, input[type="checkbox"], .submit {
- cursor: pointer;
-}
-input[type="checkbox"] {
-    height: 1.25vw;
-    width: 6vw;
+    cursor: pointer;
 }
 select {
     font-size: 1vw;
-}
-.week-day {
-  padding: 0;
-  height: 2.5vw;
-}
-.week-day:last-of-type {
-   margin-bottom: 2.75vw;
 }
 textarea {
     height: 7vw;
     width: 25vw;
     border-radius: 0.5vw;
-    border-style: solid;
+    border: 0;
 }
 .submit {
     margin: 1.25vw auto 1vw auto;
@@ -261,8 +260,7 @@ textarea {
     width: 17.5vw;
 }
 .submit:hover {
-    border: 0.2vw solid black;
-    
+    border: 0.2vw solid black; 
 }
 form {
   border: 0.2vw solid black;
@@ -276,7 +274,7 @@ form {
 }
 .msg-gnitou {
     color: lightblue;
-    font-size: 1.25vw;
+    font-size: 1vw;
     text-decoration: none;
     margin-right: 3.5vw;
 }
@@ -287,6 +285,10 @@ form {
 font-size: 0.25vw;
     
 }
+.instagram-icon:hover, .facebook-icon:hover, .youtube-icon:hover, .tiktok-icon:hover {
+    transform: scale(1.1);
+}
+
 .instagram-icon:active, .facebook-icon:active, .youtube-icon:active, .tiktok-icon:active {
     opacity: 0.6;
 }
