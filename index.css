@@ -51,10 +51,10 @@ section {
 }
 #testimonial-section {
     background-image: url(../images/blue-court-background.jpg);
-    filter: grayscale(0.5);
 }
 #interest-form-section {
     background-image: url(../images/tennis-ball-background.jpg);
+    filter: grayscale(0.5);
 }
 h1 {
   font-size: 3vw;
