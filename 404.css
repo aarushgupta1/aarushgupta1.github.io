@@ -29,8 +29,8 @@ html, body {
     overflow-x: hidden;
 }   
 section {
-    /* background-repeat: no-repeat;
-    background-size: cover; */
+    background-repeat: no-repeat;
+    background-size: cover;
     margin: 0;
     padding: 15px 0;
 }
