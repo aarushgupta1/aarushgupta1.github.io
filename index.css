@@ -183,13 +183,13 @@ strong {
 .swiper-button-next {
   float: left;
  }
-.swiper-button-next, .swiper-button-prev {
+.swiper-button-next::after, .swiper-button-prev::after {
   color: white;
   z-index: -1;
   height: 2.75vw;
   width: 5.25vw;
 }
-.swiper-button-next:hover, .swiper-button-prev:hover {
+.swiper-button-next::after:hover, .swiper-button-prev::after:hover {
   transform: scale(1.1);
 }
 .swiper-pagination {
