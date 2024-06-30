@@ -5,7 +5,7 @@
 }
 header, footer {
     width: 100%;
-    height: 5vw;
+    height: 4.5vw;
     display: flex;
     justify-content: space-evenly;
     align-items: center;
@@ -15,7 +15,7 @@ header {
     position: sticky;
     z-index: 2;
     top: 0;
-    background: black;
+    background: white;
 }
 img {
  user-drag: none;
@@ -26,7 +26,7 @@ iframe {
 }
 footer {
     bottom: 0; 
-    background: dimgray;
+    background: white;
 }
 html, body {
     width: 100%;
@@ -36,34 +36,31 @@ html, body {
     overflow-x: hidden;
 }
 section {
-    background-repeat: no-repeat;
-    background-size: cover;
     margin: 0;
     padding: 15px 0;
 }
 #lessons-section {
-    background-image: url(../images/clay-net-background.jpg);  
-    filter: grayscale(0.5);
+  background: rgb(0, 0, 0);
+
 }
 #demo-section {
-    background-image: url(../images/tennis-ball-background.jpg);
-    filter: grayscale(0.5);
+  background: rgb(232, 232, 232);
 }
 #bio-section {
-    background-image: url(../images/racket-background.jpg);
+  background: rgb(0, 0, 0);
 }
 #testimonial-section {
-    background-image: url(../images/blue-court-background.jpg);
+  background: rgb(232, 232, 232);
 }
 #interest-form-section {
-    background-image: url(../images/pavement-background.jpg);
-    filter: grayscale(0.25);
+  background: rgb(0, 0, 0);
 }
+
 h1 {
   font-size: 3vw;
   margin-left: 3.25vw;
   font-family: Roboto;
-  color: white;
+  color: black;
   padding-top: 0.75vw;
 }
 #this-page, li > a {
@@ -71,7 +68,6 @@ h1 {
 }
 h2 {
   font-size: 2.75vw;
-  color: lightblue;
   font-weight: bold;
 }
 ul, .icon-container, .contact-info {
@@ -80,17 +76,17 @@ ul, .icon-container, .contact-info {
 ul > li {
  margin-right: 2.25vw;
 }
+h2, #h2-nav {
+  color: #32de84;
+}
 #h2-nav {
     font-size: 1.25vw; 
-    color: lightblue;
     padding-top: 1vw;
 }
 .msg-gnitou:hover, #h2-nav:hover {
-    box-shadow: 0 0.1vw 0 lightblue;
+    box-shadow: 0 0.1vw 0 lightgreen;
 }
-li::marker {
-    color: black;
-}
+
 .gnitou-icon {
     font-size: 0.5vw;
     border-radius: 50%;
@@ -101,7 +97,7 @@ li::marker {
 * {
     text-align: center;
 }
-ol {
+ul {
     list-style-type: none;
 }
 p, label, li {
@@ -231,7 +227,7 @@ input[type="checkbox"] {
 input[type="text"], input[type="email"], select {
     border: 0;
     border-radius: 0.75vw;
-    height: 2.75 vw;
+    height: 3vw;
     width: 17.5vw;
 }
 input[type="text"], input[type="email"], textarea {
@@ -284,7 +280,7 @@ form {
   background: linear-gradient(rgba(20, 20, 20, 0.75), rgba(90, 90, 90, 0.75));
 }
 .msg-gnitou {
-    color: lightblue;
+    color: lightgreen;
     font-size: 1vw;
     text-decoration: none;
     margin-right: 3.5vw;
@@ -303,4 +299,3 @@ font-size: 0.25vw;
 .instagram-icon:active, .facebook-icon:active, .youtube-icon:active, .tiktok-icon:active {
     opacity: 0.6;
 }
-
