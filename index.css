@@ -5,7 +5,7 @@
 }
 header, footer {
     width: 100%;
-    height: 4.5vw;
+    height: 3.5vw;
     display: flex;
     justify-content: space-evenly;
     align-items: center;
@@ -15,10 +15,10 @@ header {
     position: sticky;
     z-index: 2;
     top: 0;
-    background: white;
+    background: rgb(245, 245, 245);
 }
 img {
- user-drag: none;
+     user-drag: none;
 }
 iframe {
  width: 25vw;
@@ -26,7 +26,7 @@ iframe {
 }
 footer {
     bottom: 0; 
-    background: white;
+    background: rgb(245, 245, 245);
 }
 html, body {
     width: 100%;
@@ -39,35 +39,31 @@ section {
     margin: 0;
     padding: 15px 0;
 }
-#lessons-section {
+#lessons-section, #bio-section, #interest-form-section {
   background: rgb(0, 0, 0);
-
 }
-#demo-section {
+#demo-section, #testimonial-section {
   background: rgb(232, 232, 232);
 }
-#bio-section {
-  background: rgb(0, 0, 0);
-}
-#testimonial-section {
-  background: rgb(232, 232, 232);
-}
-#interest-form-section {
-  background: rgb(0, 0, 0);
-}
-
 h1 {
-  font-size: 3vw;
+  font-size: 2.5vw;
   margin-left: 3.25vw;
   font-family: Roboto;
   color: black;
   padding-top: 0.75vw;
 }
+.gnitou-icon {
+    font-size: 0.5vw;
+    border-radius: 50%;
+    height: 4vw;
+    width: 4vw;
+    margin-top: 2vw;
+}
 #this-page, li > a {
     text-decoration: none;
 }
 h2 {
-  font-size: 2.75vw;
+  font-size: 2.5vw;
   font-weight: bold;
 }
 ul, .icon-container, .contact-info {
@@ -77,23 +73,22 @@ ul > li {
  margin-right: 2.25vw;
 }
 h2, #h2-nav {
-  color: #32de84;
+  color: #32de11;
 }
 #h2-nav {
     font-size: 1.25vw; 
     padding-top: 1vw;
 }
-.msg-gnitou:hover, #h2-nav:hover {
-    box-shadow: 0 0.1vw 0 lightgreen;
+.msg-gnitou:hover {
+    box-shadow: 0 0.1vw 0 #32de11;
 }
 
-.gnitou-icon {
-    font-size: 0.5vw;
-    border-radius: 50%;
-    height: 4vw;
-    width: 4vw;
-    margin-top: 2.75vw;
+#h2-nav:hover {
+    transition: 0.4s;
+    color: #34ef9f;
 }
+
+
 * {
     text-align: center;
 }
@@ -101,7 +96,7 @@ ul {
     list-style-type: none;
 }
 p, label, li {
-    font-size: 1.75vw;
+    font-size: 1.5vw;
 }
 p, li, label {
     color: white;
@@ -167,7 +162,7 @@ p, li, label {
     letter-spacing: 0.075vw;
     font-size: 1.5vw;
     margin-top: -0.75vw;
-    color: lightgreen;
+    color: rgb(238, 75, 43);
 }
 .stars {
     letter-spacing: 1.25vw;
@@ -186,7 +181,7 @@ strong {
   z-index: 1;
   height: 3vw;
   width: 5.25vw;
-  color: white;
+  color: yellow;
 }
 .swiper-button-next.nav:hover, .swiper-button-prev.nav:hover {
   transition: transform 0.75s;
@@ -280,7 +275,7 @@ form {
   background: linear-gradient(rgba(20, 20, 20, 0.75), rgba(90, 90, 90, 0.75));
 }
 .msg-gnitou {
-    color: lightgreen;
+    color: #32de11;
     font-size: 1vw;
     text-decoration: none;
     margin-right: 3.5vw;
@@ -290,6 +285,7 @@ form {
     margin-right: 3vw;   border-radius: 50%;
     height: 2.5vw;
 font-size: 0.25vw;
+margin-top: 0.5vw;
     
 }
 .instagram-icon:hover, .facebook-icon:hover, .youtube-icon:hover, .tiktok-icon:hover {
