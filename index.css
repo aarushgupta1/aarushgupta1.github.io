@@ -3,47 +3,40 @@
     scroll-behavior: smooth;
   }
 }
-header, footer {
-    width: 100%;
-    height: 3.25vw;
-    display: flex;
-    justify-content: space-evenly;
-    align-items: center;
-}
-header {
-    padding-bottom: 1.26vw; 
-    position: sticky;
-    z-index: 2;
-    top: 0;
-    background: rgb(245, 245, 245);
-}
-img {
-     user-drag: none;
-}
-iframe {
- width: 25vw;
- height: 20vw;
-}
-footer {
-    bottom: 0; 
-    background: rgb(232, 232, 232);
-}
 html, body {
-    width: 100%;
-    height: 100%;
     margin: 0;
     padding: 0;
     overflow-x: hidden;
 }
+/* header */
+header {
+    background: rgb(245, 245, 245);
+    padding-bottom: 1.26vw; 
+    position: sticky;
+    top: 0;
+    z-index: 1;
+}
+header, footer {
+    height: 3.15vw;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
 section {
-    margin: 0;
     padding: 15px 0;
 }
-.first-section {
+.section-a {
   background: rgb(0, 0, 0);
 }
-.second-section {
+.section-b {
   background: rgb(232, 232, 232);
+}
+.gta-icon {
+    font-size: 0.5vw;
+    border-radius: 50%;
+    height: 4vw;
+    width: 4vw;
+    margin-top: 1.5vw;
 }
 h1 {
   font-size: 2vw;
@@ -51,68 +44,21 @@ h1 {
   font-family: Roboto;
   color: black;
   padding-top: 0.75vw;
-  font-weight: bold;
-}
-.gnitou-icon {
-    font-size: 0.5vw;
-    border-radius: 50%;
-    height: 4vw;
-    width: 4vw;
-    margin-top: 1.5vw;
-}
-#current-page, li > a {
-    text-decoration: none;
 }
 h2 {
   font-size: 2.6vw;
-  font-weight: bold;
-  scroll-margin-top: 7.5vw;
 }
-p {
-    font-weight: 100;
+h2:not(#lessons) {
+    scroll-margin-top: 7.5vw;
 }
-ul, .icon-container, .contact-info {
-  display: flex;
-}
-ul > li {
- margin-right: 2.25vw;
- font-family: times new roman;
-}
-.first-h2 {
+.h2-a {
     color: white;
 }
-.second-h2 {
+.h2-b {
     color: black;
 }
-#h2-nav {
-  color: rgb(105, 105, 105);
-  font-size: 1.2vw;
-  padding-top: 1vw;
-}
-* {
-    text-align: center;
-}
-ul {
-    padding-top: 0.5vw;
-    list-style-type: none;
-}
-p, label, li {
-    font-size: 1.5vw;
-}
-p, li, label {
-    color: white;
-}        
-#lesson-detail, #qualification {
-    display: block;
-    margin-bottom: 1.25vw;
-}
-#lesson-detail:last-of-type {
-    padding-bottom: 0.75vw;
-}
-#lessons, #demos {
- padding-top: 0.5vw;
-}
 #lessons {
+    scroll-margin-top: 15vw;
     display: inline-block;
     position: relative;
     margin-bottom: 1.25vw;
@@ -121,10 +67,63 @@ p, li, label {
 #demos {
     margin-bottom: 2.25vw;
 }
-#qualification:last-of-type {
+#lessons, #demos {
+ padding-top: 0.5vw;
+}
+#bio {
+    margin-bottom: 2.25vw;
+}
+a {
+    text-decoration: none;
+}
+ul, .gta-container, .contact-gnitou {
+  display: flex;
+}
+ul > li {
+ margin-right: 2.25vw;
+ font-family: times new roman;
+}
+ul {
+    padding-top: 0.5vw;
+    list-style-type: none;
+}
+.nav-to-section {
+  color: rgb(105, 105, 105);
+  font-size: 1.2vw;
+  margin-top: 1vw;
+  transition: 0.25s;
+}
+.nav-to-section:hover {
+    color: black;   
+}
+* {
+    text-align: center;
+}
+img {
+     user-drag: none;
+}  
+/* lessons-section */
+p, label, li {
+    font-size: 1.5vw;
+    color: white;
+}       
+.lesson-detail, .bio-fact {
+    display: block;
+    margin-bottom: 1.25vw;
+}
+.lesson-detail:last-of-type {
+    padding-bottom: 0.75vw;
+}
+/* demos-section */
+iframe {
+ width: 25vw;
+ height: 20vw;
+}
+/* bio-section */
+.bio-fact:last-of-type {
     margin-bottom: 1.75vw;
 }
-.pic-container {
+#bio-pics-container {
  display: inline;
 }
 .gnitou-pic {
@@ -133,26 +132,24 @@ p, li, label {
     margin-left: 2.25vw;
     vertical-align: middle;
     font-size: 1.5vw;
-}  
-#about-gnitou {
-    margin-bottom: 2.25vw;
 }
-.reviews {
+/* testimonials-section */
+.testimonials {
     background: linear-gradient(90deg, rgba(0, 0, 139, 0.75), rgba(173, 216, 230, 0.5));
     border-radius: 1.75vw;
     border: 0.20vw solid blue;
 }
-.vmechanism, .rmechanism {
+.swipe-container {
     display: inline-block;
     height: 100%;
     justify-content: center;
     position: relative;
     overflow: hidden;
 }
-.vmechanism {
+#videos-container {
     width: 45vw;
 }
-.rmechanism {
+#testimonials-container {
     width: 60vw;
 }
 .slide, .reviewer {
@@ -164,17 +161,13 @@ p, li, label {
     letter-spacing: 0.075vw;
     font-size: 1.5vw;
     margin-top: -0.75vw;
+    color: lightgreen;
 }
-.stars {
+.star-rating {
     letter-spacing: 1.25vw;
 }
-
-strong {
+.quotes {
  font-size: 2vw;
- color: white;
-}
-.reviewer {
-    color: lightgreen;
 }
 .nav {
     transition: 0.25s;
@@ -204,54 +197,40 @@ strong {
   z-index: 1;
   height: 0.25vw;
 }
-input[type="text"], input[type="email"], select, textarea {  
-    display: block;
-    margin-right: auto;
-    margin-left: auto;
-    margin-bottom: 2.75vw;
+/* interest-form-section */
+form {
+  border: 0.2vw solid black;
+  border-radius: 5vw;
+  padding-top: 1.25vw;
+  width: 66vw;
+  text-align: center;
+  margin-right: auto;
+  margin-left: auto;
+  background: linear-gradient(rgba(20, 20, 20, 0.75), rgba(90, 90, 90, 0.75));
 }
-.week-day {
+.user-info {
+    padding-left: 1vw;
+    margin: 1vw auto 2.75vw;
+    font-size: 1vw;
     text-align: left;
-    margin-left: 25vw;
-    height: 2.5vw;
+    display: block;
 }
-.week-day:last-of-type {
-   margin-bottom: 2.75vw;
+.user-info:focus {
+    outline: none;
+    box-shadow: 0 0.25vw rgb(15, 82, 186);
 }
-input[type="checkbox"] {
- height: 1.25vw;
- width: 6vw;
- margin-right: 1vw;
- border: 0;
-}
-#day-of-week {
- font-size: 1.5vw;
- display: inline-block;
-}
-input[type="text"], input[type="email"], select {
+.user-info:not(#additional-user-inquiries) {
     border: 0;
     border-radius: 0.75vw;
     height: 3vw;
     width: 17.5vw;
 }
-input[type="text"], input[type="email"], textarea {
-    padding-left: 1vw;
-    font-size: 1vw;
-    margin-top: 1vw;
-    text-align: left;
-}
-input[type="text"]:focus, input[type="email"]:focus, select:focus, textarea:focus {
-    outline: none;
-    box-shadow: 0 0.25vw rgb(15, 82, 186);
-}
-.week-day:first-of-type, select  {
-    margin-top: 1vw;
-}
-select, input[type="checkbox"], .submit {
+.point-element {
     cursor: pointer;
 }
 select {
     font-size: 1vw;
+    margin-top: 1vw;
 }
 textarea {
     height: 7vw;
@@ -275,17 +254,28 @@ textarea {
 .submit:active {
     opacity: 0.8;
 }
-form {
-  border: 0.2vw solid black;
-  border-radius: 5vw;
-  padding-top: 1.25vw;
-  width: 66vw;
-  text-align: center;
-  margin-right: auto;
-  margin-left: auto;
-  background: linear-gradient(rgba(20, 20, 20, 0.75), rgba(90, 90, 90, 0.75));
+/* footer */
+footer {
+    background: rgb(232, 232, 232);
 }
-.msg-gnitou {
+.social-icon {
+    transition: hover 0.15s, opacity 0.15s;
+    margin-right: 3vw;   
+    border-radius: 50%;
+    height: 2.5vw;
+    font-size: 0.25vw;
+    margin-top: 0.4vw;
+    filter: grayscale(0.5);
+    
+}
+.social-icon:hover {
+    transform: scale(1.1);
+}
+
+.social-icon:active {
+    opacity: 0.6;
+}
+.contact-location {
     position: relative;
     color: black;
     font-size: 1vw;
@@ -293,7 +283,7 @@ form {
     text-decoration: none;
     
 }
-.msg-gnitou::after {
+.contact-location::after {
     content: '';
   position: absolute;
   width: 100%;
@@ -305,29 +295,8 @@ form {
   transform-origin: bottom right;
   transition: transform 0.25s ease-out;
 }
-.msg-gnitou:hover::after {
+.contact-location:hover::after {
     color: black;
     transform: scaleX(1);
     transform-origin: bottom left;
-}
-#h2-nav:hover {
-    color: black;
-    transition: 0.25s;
-}
-.instagram-icon, .facebook-icon, .youtube-icon, .tiktok-icon {
-    transition: hover 0.15s, opacity 0.15s;
-    margin-right: 3vw;   
-    border-radius: 50%;
-    height: 2.5vw;
-    font-size: 0.25vw;
-    margin-top: 0.5vw;
-    filter: grayscale(0.5);
-    
-}
-.instagram-icon:hover, .facebook-icon:hover, .youtube-icon:hover, .tiktok-icon:hover {
-    transform: scale(1.1);
-}
-
-.instagram-icon:active, .facebook-icon:active, .youtube-icon:active, .tiktok-icon:active {
-    opacity: 0.6;
 }
