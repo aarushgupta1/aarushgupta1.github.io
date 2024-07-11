@@ -3,84 +3,111 @@
     scroll-behavior: smooth;
   }
 }
-header, footer {
-    width: 100%;
-    height: 3.25vw;
-    display: flex;
-    justify-content: space-evenly;
-    align-items: center;
-}
-header {
-    padding-bottom: 1.26vw; 
-    position: sticky;
-    z-index: 2;
-    top: 0;
-    background: white;
-}
-footer {
-    bottom: 0;
-    background: rgb(232, 232, 232);
-}
 html, body {
-    width: 100%;
-    height: 100%;
     margin: 0;
     padding: 0;
     overflow-x: hidden;
 }  
-img {
- user-drag: none;
+/* header */
+header {
+    background: white;
+    padding-bottom: 1.26vw; 
+    position: sticky;
+    top: 0;
+    z-index: 1;
+}
+header, footer {
+    height: 3.15vw;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
 }
 section {
     display: flex;
     justify-content: center;
     align-items: center;
-    margin: 0;
     padding: 15px 0;
     background: white;
     height: 100%;
 }
-* {
-    text-align: center;
-  }
-  ul {
-      padding-top: 0.5vw;
-      list-style-type: none;
-  }
+.gta-icon {
+    font-size: 0.5vw;
+    border-radius: 50%;
+    height: 4vw;
+    width: 4vw;
+    margin-top: 1.5vw;
+}
 h1 {
   font-size: 2vw;
   margin-left: 3.25vw;
   font-family: Roboto;
   color: black;
   padding-top: 0.75vw;
-font-weight: bold;
 }
-ul, .icon-container, .contact-info {
+a {
+   text-decoration: none;
+}
+ul, .gta-container, .contact-gnitou {
     display: flex;
 }
 ul > li {
     margin-right: 2.25vw;
 font-family: times new roman;
 }
-#h2-nav {
-    font-size: 1.2vw;
-    color: rgb(105, 105, 105);
-    padding-top: 1vw;
+ul {
+    padding-top: 0.5vw;
+    list-style-type: none;
 }
-#h2-nav:hover {
-    color: black;
+.nav-to-section {
+    color: rgb(105, 105, 105);
+    font-size: 1.2vw;
+    margin-top: 1vw;
     transition: 0.25s;
 }
-.msg-gnitou {
+.nav-to-section:hover {
+    color: black;
+}
+* {
+    text-align: center;
+}
+img {
+    user-drag: none;
+}
+p {
+  padding-top: 2vw;
+}
+strong {
+ font-size: 2.75vw;
+ color: black;
+}
+/* footer */
+footer {
+    background: rgb(232, 232, 232);
+}
+.social-icon {
+    transition: hover 0.15s, opacity 0.15s;
+    margin-right: 3vw;   
+    border-radius: 50%;
+    height: 2.5vw;
+    font-size: 0.25vw;  
+    margin-top: 0.4vw;
+    filter: grayscale(0.5);
+}
+.social-icon:hover {
+    transform: scale(1.1);
+}
+.social-icon:active {
+    opacity: 0.6;
+}
+.contact-location {
     position: relative;
     color: black;
     font-size: 1vw;
     margin-right: 3.5vw;
     text-decoration: none;
-    
 }
-.msg-gnitou::after {
-    content: '';
+.contact-location::after {
+  content: '';
   position: absolute;
   width: 100%;
   transform: scaleX(0);
@@ -91,49 +118,8 @@ font-family: times new roman;
   transform-origin: bottom right;
   transition: transform 0.25s ease-out;
 }
-.msg-gnitou:hover::after {
+.contact-location:hover::after {
     color: black;
     transform: scaleX(1);
     transform-origin: bottom left;
-}
-
-li::marker {
-    color: black;
-}
-#this-page, li > a {
-    text-decoration: none;
-}
-.gnitou-icon {
-    font-size: 0.5vw;
-    border-radius: 50%;
-    height: 4vw;
-    width: 4vw;
-    margin-top: 1.5vw;
-}
-p {
-  padding-top: 2vw;
-}
-strong {
- font-size: 2.75vw;
- color: black;
-}
-.msg-gnitou {
-    color: black;
-    font-size: 1vw;
-    text-decoration: none;
-    margin-right: 3.5vw;
-}
-.instagram-icon, .facebook-icon, .youtube-icon, .tiktok-icon {
-    transition: hover 0.15s, opacity 0.15s;
-    margin-right: 3vw;   
-    border-radius: 50%;
-    height: 2.5vw;
-    font-size: 0.25vw;  
-    filter: grayscale(0.5);
-}
-.instagram-icon:hover, .facebook-icon:hover, .youtube-icon:hover, .tiktok-icon:hover {
-    transform: scale(1.1);
-}
-.instagram-icon:active, .facebook-icon:active, .youtube-icon:active, .tiktok-icon:active {
-    opacity: 0.6;
 }
