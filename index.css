@@ -26,7 +26,7 @@ iframe {
 }
 footer {
     bottom: 0; 
-    background: rgb(245, 245, 245);
+    background: rgb(211, 211, 211);
 }
 html, body {
     width: 100%;
@@ -59,12 +59,15 @@ h1 {
     width: 4vw;
     margin-top: 2vw;
 }
-#this-page, li > a {
+#current-page, li > a {
     text-decoration: none;
 }
 h2 {
   font-size: 2.5vw;
   font-weight: bold;
+}
+p {
+    font-weight: 100;
 }
 ul, .icon-container, .contact-info {
   display: flex;
@@ -73,21 +76,15 @@ ul > li {
  margin-right: 2.25vw;
 }
 h2, #h2-nav {
-  color: #32de11;
+  color: black;
 }
 #h2-nav {
     font-size: 1.25vw; 
     padding-top: 1vw;
 }
-.msg-gnitou:hover {
-    box-shadow: 0 0.1vw 0 #32de11;
+.msg-gnitou:hover, #h2-nav:hover {
+    box-shadow: 0 0.1vw 0 black;
 }
-
-#h2-nav:hover {
-    transition: 0.4s;
-    color: #34ef9f;
-}
-
 
 * {
     text-align: center;
@@ -107,6 +104,12 @@ p, li, label {
 }
 #lesson-detail:last-of-type {
     padding-bottom: 0.75vw;
+}
+.first-h2 {
+    color: white;
+}
+.second-h2 {
+    color: black;
 }
 #lessons, #demos {
  padding-top: 0.5vw;
@@ -162,14 +165,17 @@ p, li, label {
     letter-spacing: 0.075vw;
     font-size: 1.5vw;
     margin-top: -0.75vw;
-    color: rgb(238, 75, 43);
 }
 .stars {
     letter-spacing: 1.25vw;
 }
+
 strong {
  font-size: 2vw;
- color: lightblue;
+ color: white;
+}
+.reviewer {
+    color: lightgreen;
 }
 .nav {
     transition: 2s;
@@ -179,9 +185,9 @@ strong {
 }
 .swiper-button-next.nav, .swiper-button-prev.nav {
   z-index: 1;
-  height: 3vw;
+  height: 2.5vw;
   width: 5.25vw;
-  color: yellow;
+  color: green;
 }
 .swiper-button-next.nav:hover, .swiper-button-prev.nav:hover {
   transition: transform 0.75s;
@@ -232,7 +238,7 @@ input[type="text"], input[type="email"], textarea {
     text-align: left;
 }
 input[type="text"]:focus, input[type="email"]:focus, select:focus, textarea:focus {
-    outline: solid 0.2vw blue;
+    outline: solid 0.2vw rgb(0, 71, 171);
 }
 .week-day:first-of-type, select  {
     margin-top: 1vw;
@@ -275,7 +281,7 @@ form {
   background: linear-gradient(rgba(20, 20, 20, 0.75), rgba(90, 90, 90, 0.75));
 }
 .msg-gnitou {
-    color: #32de11;
+    color: black;
     font-size: 1vw;
     text-decoration: none;
     margin-right: 3.5vw;
