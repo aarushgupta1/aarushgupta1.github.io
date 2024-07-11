@@ -312,7 +312,7 @@ form {
     color: black;
     transition: 0.25s;
 }
-#instagram-icon, #facebook-icon, #youtube-icon, #tiktok-icon {
+.instagram-icon, .facebook-icon, .youtube-icon, .tiktok-icon {
     transition: hover 0.15s, opacity 0.15s;
     margin-right: 3vw;   
     border-radius: 50%;
@@ -322,10 +322,10 @@ form {
     filter: grayscale(0.5);
     
 }
-#instagram-icon:hover, #facebook-icon:hover, #youtube-icon:hover, #tiktok-icon:hover {
+.instagram-icon:hover, .facebook-icon:hover, .youtube-icon:hover, .tiktok-icon:hover {
     transform: scale(1.1);
 }
 
-#instagram-icon:active, #facebook-icon:active, #youtube-icon:active, #tiktok-icon:active {
+.instagram-icon:active, .facebook-icon:active, .youtube-icon:active, .tiktok-icon:active {
     opacity: 0.6;
 }
