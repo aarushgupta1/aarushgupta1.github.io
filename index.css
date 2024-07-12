@@ -177,7 +177,7 @@ iframe {
     font-size: 1.25vw;
 }
 .swiper-button-next.nav, .swiper-button-prev.nav {
-  z-index: 1;
+  z-index: 0;
   height: 2.5vw;
   width: 5.25vw;
   color: lightgreen;
@@ -190,12 +190,12 @@ iframe {
   position: relative;
   overflow: hidden;
   padding-top: 0.75vw;
-  z-index: 1;
+  z-index: 0;
 }
 .swiper-pagination-bullet.swiper-pagination-bullet-active {
   position: relative;
   overflow: hidden;
-  z-index: 1;
+  z-index: 0;
   height: 0.25vw;
 }
 /* interest-form-section */
