@@ -8,7 +8,14 @@ html, body {
     padding: 0;
     overflow-x: hidden;
     height: 100%;
+    background-size: cover;
 }  
+* {
+    text-align: center;
+}
+img {
+    user-drag: none;
+}
 /* header */
 header {
     background: white;
@@ -30,6 +37,7 @@ section {
     padding: 15px 0;
     background: white;
     height: 100%;
+    background-size: cover;
 }
 .gta-icon {
     font-size: 0.5vw;
@@ -48,16 +56,16 @@ h1 {
 a {
    text-decoration: none;
 }
-ul, .gta-container, .contact-gnitou {
+.flex-element {
     display: flex;
-}
-ul > li {
-    margin-right: 2.25vw;
-font-family: times new roman;
 }
 ul {
     padding-top: 0.5vw;
     list-style-type: none;
+}
+ul > li {
+    margin-right: 2.25vw;
+font-family: times new roman;
 }
 .nav-to-section {
     color: rgb(105, 105, 105);
@@ -67,12 +75,6 @@ ul {
 }
 .nav-to-section:hover {
     color: black;
-}
-* {
-    text-align: center;
-}
-img {
-    user-drag: none;
 }
 p {
   padding-top: 2vw;
