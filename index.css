@@ -9,6 +9,12 @@ html, body {
     overflow-x: hidden;
     height: 100%;
 }
+* {
+    text-align: center;
+}
+img {
+     user-drag: none;
+}
 /* header */
 header {
     background: rgb(245, 245, 245);
@@ -77,31 +83,24 @@ h2:not(#lessons) {
 a {
     text-decoration: none;
 }
-ul, .gta-container, .contact-gnitou {
+.flex-element {
   display: flex;
-}
-ul > li {
- margin-right: 2.25vw;
- font-family: times new roman;
 }
 ul {
     padding-top: 0.5vw;
     list-style-type: none;
 }
 .nav-to-section {
+    margin-right: 2.25vw;
+ font-family: times new roman;
   color: rgb(105, 105, 105);
   font-size: 1.2vw;
   margin-top: 1vw;
   transition: 0.25s;
+  transition-property: color;
 }
 .nav-to-section:hover {
-    color: black;   
-}
-* {
-    text-align: center;
-}
-img {
-     user-drag: none;
+    color: black;  
 }  
 /* lessons-section */
 p, label, li {
@@ -172,6 +171,7 @@ iframe {
 }
 .nav {
     transition: 0.25s;
+    transition-property: transform;
     position: relative;
     overflow: hidden;
     font-size: 1.25vw;
@@ -183,7 +183,7 @@ iframe {
   color: lightgreen;
 }
 .swiper-button-next.nav:hover, .swiper-button-prev.nav:hover {
-  transition: transform 0.2s;
+  transition: transform 0.25s;
   transform: scale(1.25);
 }
 .swiper-pagination {
@@ -216,6 +216,9 @@ form {
     text-align: left;
     display: block;
 }
+.user-info:active {
+    font-size: 1vw;
+}
 .user-info:focus {
     outline: none;
     box-shadow: 0 0.25vw rgb(15, 82, 186);
@@ -226,12 +229,11 @@ form {
     height: 3vw;
     width: 17.5vw;
 }
-.point-element {
+.pointer-element {
     cursor: pointer;
 }
-select {
-    font-size: 1vw;
-    margin-top: 1vw;
+select { 
+    margin-top: 1vw; 
 }
 textarea {
     height: 7vw;
