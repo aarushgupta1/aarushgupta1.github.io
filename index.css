@@ -45,7 +45,7 @@ section {
     border-radius: 50%;
     height: max(3vw, 10px);
     width: max(3vw, 10px);
-    margin-top: min(1.25vw, 7px);
+    margin-top: max(0.25vw, 7.5px);
 }
 h1 {
   font-size: max(1.7vw, 11px);
@@ -88,15 +88,14 @@ a {
 .flex-element {
   display: flex;
 }
-ul {
-    padding-top: min(1px, 0.5vw);
+ul { 
     list-style-type: none;
 }
 .nav-to-section {
     margin-right: max(10px, 2.25vw);
     font-family: times new roman;
     color: rgb(105, 105, 105);
-    font-size: max(7.5px, 1.2vw);
+    font-size: max(8px, 1.2vw);
     transition: 0.25s;
     transition-property: color;
 }
@@ -135,6 +134,9 @@ iframe {
     margin-left: 2.25vw;
     vertical-align: middle;
     font-size: 1.5vw;
+}
+#top-img {
+    margin-bottom: max(1.75vw, 10px);
 }
 /* testimonials-section */
 .testimonials {
