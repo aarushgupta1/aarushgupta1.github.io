@@ -18,19 +18,21 @@ img {
 /* header */
 header {
     background: rgb(245, 245, 245);
-    padding-bottom: 1.26vw; 
+    padding-bottom: min(3px, 1.26vw); 
     position: sticky;
     top: 0;
     z-index: 1;
 }
 header, footer {
     height: 3.15vw;
+    min-height: 32.5px;
     display: flex;
     justify-content: space-evenly;
     align-items: center;
 }
 section {
     padding: 15px 0;
+    min-height: 375px;
 }
 .section-a {
   background: rgb(0, 0, 0);
@@ -41,19 +43,19 @@ section {
 .gta-icon {
     font-size: 0.5vw;
     border-radius: 50%;
-    height: 4vw;
-    width: 4vw;
-    margin-top: 1.5vw;
+    height: max(4vw, 10px);
+    width: max(4vw, 10px);
+    margin-top: max(1.5vw, 7.5px);
 }
 h1 {
-  font-size: 2vw;
+  font-size: max(2vw, 11px);
   margin-left: 3.25vw;
   font-family: Roboto;
   color: black;
   padding-top: 0.75vw;
 }
 h2 {
-  font-size: 2.6vw;
+  font-size: max(18px, 2.6vw);
 }
 h2:not(#lessons) {
     scroll-margin-top: 7.5vw;
@@ -72,13 +74,13 @@ h2:not(#lessons) {
     text-align: left;
 }
 #demos {
-    margin-bottom: 2.25vw;
+    margin-bottom: max(10px, 2.25vw);
 }
 #lessons, #demos {
  padding-top: 0.5vw;
 }
 #bio {
-    margin-bottom: 2.25vw;
+    margin-bottom: max(10px, 2.25vw);
 }
 a {
     text-decoration: none;
@@ -92,19 +94,18 @@ ul {
 }
 .nav-to-section {
     margin-right: 2.25vw;
- font-family: times new roman;
-  color: rgb(105, 105, 105);
-  font-size: 1.2vw;
-  margin-top: 1vw;
-  transition: 0.25s;
-  transition-property: color;
+    font-family: times new roman;
+    color: rgb(105, 105, 105);
+    font-size: max(6.5px, 1.2vw);
+    transition: 0.25s;
+    transition-property: color;
 }
 .nav-to-section:hover {
     color: black;  
 }  
 /* lessons-section */
 p, label, li {
-    font-size: 1.5vw;
+    font-size: max(1.5vw, 12px);
     color: white;
 }       
 .lesson-detail, .bio-fact {
@@ -117,6 +118,8 @@ p, label, li {
 /* demos-section */
 iframe {
  width: 25vw;
+ min-width: 150px;
+ min-height: 175px;
  height: 20vw;
 }
 /* bio-section */
@@ -127,7 +130,7 @@ iframe {
  display: inline;
 }
 .gnitou-pic {
-    width: 20vw;
+    width: max(200px, 20vw);
     margin-bottom: 1.75vw;    
     margin-left: 2.25vw;
     vertical-align: middle;
@@ -159,15 +162,15 @@ iframe {
 .reviewer {
     display: flex;
     letter-spacing: 0.075vw;
-    font-size: 1.5vw;
+    font-size: max(1.5vw, 8px);
     margin-top: -0.75vw;
     color: lightgreen;
 }
 .star-rating {
-    letter-spacing: 1.25vw;
+    letter-spacing: max(7.5px, 1.25vw);
 }
 .quotes {
- font-size: 2vw;
+ font-size: max(2vw, 10px);
 }
 .nav {
     transition: 0.25s;
@@ -201,9 +204,10 @@ iframe {
 /* interest-form-section */
 form {
   border: 0.2vw solid black;
-  border-radius: 5vw;
+  border-radius: min(20px, 5vw);
   padding-top: 1.25vw;
   width: 66vw;
+  min-height: 375px;
   text-align: center;
   margin-right: auto;
   margin-left: auto;
@@ -211,10 +215,11 @@ form {
 }
 .user-info {
     padding-left: 1vw;
-    margin: 1vw auto 2.75vw;
+    margin: max(7.5px, 1vw) auto max(15px, 2.75vw);
     font-size: 1vw;
     text-align: left;
     display: block;
+    min-height: 10px;
 }
 .user-info:active {
     font-size: 1vw;
@@ -236,23 +241,23 @@ select {
     margin-top: 1vw; 
 }
 textarea {
-    height: 7vw;
-    width: 25vw;
-    border-radius: 0.5vw;
+    height: max(50px, 7vw);
+    min-width: 125px;
+    border-radius: max(4px, 0.5vw);
     border: 0;
 }
 .submit {
-    margin: 1.25vw auto 1vw auto;
+    margin: max(12.5px, 1.25vw) auto 1vw auto;
     font-weight: bold;
-    font-size: 1.25vw;
+    font-size: max(7.5px, 1.25vw);
     border-radius: 0.75vw;
     border: none;
-    height: 3vw;
-    width: 17.5vw;
+    height: max(15px, 3vw);
+    width: max(65px, 17.5vw);
 
 }
 .submit:hover {
-    outline: black solid 0.2vw;
+    outline: black solid max(1.25px, 0.2vw);
 }
 .submit:active {
     opacity: 0.8;
@@ -263,11 +268,11 @@ footer {
 }
 .social-icon {
     transition: hover 0.15s, opacity 0.15s;
-    margin-right: 3vw;   
+    margin-right: max(12.5px, 3vw);   
     border-radius: 50%;
-    height: 2.5vw;
+    height: max(10px, 2.5vw);
     font-size: 0.25vw;
-    margin-top: 0.4vw;
+    margin-top: max(2.5px, 0.4vw);
     filter: grayscale(0.5);
     
 }
@@ -281,8 +286,8 @@ footer {
 .contact-location {
     position: relative;
     color: black;
-    font-size: 1vw;
-    margin-right: 3.5vw;
+    font-size: max(7px, 1vw);
+    margin-right: max(5px, 3.5vw);
     text-decoration: none;
     
 }
