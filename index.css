@@ -114,6 +114,9 @@ p, label, li {
 .lesson-detail:last-of-type {
     padding-bottom: 0.75vw;
 }
+ol {
+    line-height: 1.5;
+}
 /* demos-section */
 iframe {
  width: 25vw;
@@ -153,12 +156,14 @@ iframe {
 #videos-container {
     margin-top: max(30px, 2.5vw);
     width: max(100px, 45vw);
+    z-index: 0;
 }
 #testimonials-container {
     margin-top: max(75px, 10vw);
     margin-bottom: max(50px, 10vw);
     width: max(400px, 60vw);
     height: max(125px, 20vw);
+    z-index: 0;
 }
 .slide, .reviewer {
     align-items: center;
@@ -172,11 +177,11 @@ iframe {
     letter-spacing: 0.075vw;
     font-size: max(1.5vw, 10px);
     margin-top: max(12.5px, 5vw);
-    margin-bottom: max(7.5px, 3vw);
+    margin-bottom: max(3px, 1.5vw);
     color: lightgreen;
 }
 .star-rating {
-    margin-top: max(5px, 2vw);
+    margin-top: max(3px, 1.5vw);
     letter-spacing: max(7.5px, 1.25vw);
 }
 .quotes {
@@ -191,6 +196,7 @@ iframe {
 }
 .swiper-button-next.nav, .swiper-button-prev.nav {
   z-index: 0;
+  margin-top: max(10px, 2vw);
   height: max(15px, 2.5vw);
   width: max(30px, 5.25vw);
   color: lightgreen;
