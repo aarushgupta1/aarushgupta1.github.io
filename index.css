@@ -164,6 +164,9 @@ iframe {
     align-items: center;
     flex-direction: column;
 }
+.review {
+    line-height: 1.5;
+}
 .reviewer {
     display: flex;
     letter-spacing: 0.075vw;
@@ -173,7 +176,7 @@ iframe {
     color: lightgreen;
 }
 .star-rating {
-    margin-top: max(7.5px, 2.5vw);
+    margin-top: max(5px, 2vw);
     letter-spacing: max(7.5px, 1.25vw);
 }
 .quotes {
